@@ -1,501 +1,248 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
 import { services } from '../../data/services.js';
 import { locations } from '../../data/location.js';
-import { locationContent } from '../../data/locationContent.js';
 
-// This function tells Astro which pages to generate
-export function getStaticPaths() {
-  const paths: { params: { service: string; location: string; }; props: { service: { name: string; slug: string; shortDescription: string; description: string; features: string[]; benefits: string[]; useCases: string[]; }; location: { city: string; state: string; slug: string; zip: string; distance: string; population: string; majorRoutes: string[]; neighborhoods: string[]; landmarks: string[]; industries: string[]; businessChallenges: string[]; }; content: { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; }; }; }[] = [];
+// This function tells Astro to generate a page for every service × location combination
+export async function getStaticPaths() {
+  const paths = [];
 
-  // Loop through all services
-  services.forEach(service => {
-    // Loop through all locations
-    locations.forEach(location => {
-      // Create a path for each combination
+  // Loop through every service
+  for (const service of services) {
+    // Loop through every location
+    for (const location of locations) {
       paths.push({
         params: {
           service: service.slug,
-          location: location.slug
+          location: location.slug,
         },
         props: {
-          service: service,
-          location: location,
-          content: locationContent[location.slug as keyof typeof locationContent]
-        }
+          service,
+          location,
+        },
       });
-    });
-  });
+    }
+  }
 
   return paths;
 }
 
-// Get the data for this specific page
-const { service, location, content } = Astro.props;
+const { service, location } = Astro.props;
 
-// Create SEO-optimized title and description
-const pageTitle = `${service.name} in ${location.city}, ${location.state}`;
-const pageDescription = `${service.shortDescription} for ${location.city} businesses. Binary Ideas AI provides ${service.name.toLowerCase()} services throughout ${location.city} and Northern Virginia.`;
+// Create page title and description with fallback values
+const title = `${service.name} in ${location.city}, ${location.state}`;
+const description = `${service.shortDescription || service.description} for businesses in ${location.city}, VA. Binary Ideas AI provides ${service.name} services. Call (703) 690-9726.`;
 
-// Schema markup for this page
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": service.name,
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Binary Ideas AI",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "9525 4th Place",
-      "addressLocality": "Lorton",
-      "addressRegion": "VA",
-      "postalCode": "22079"
-    },
-    "telephone": "(703) 690-9726"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": location.city
-  },
-  "description": pageDescription
-};
+// Create a default location description if not provided
+const locationDescription = `Binary Ideas AI provides ${service.name} services to businesses in ${location.city}, Virginia. We serve ${location.city} from our Lorton office (${location.distance}). Whether you're in ${location.neighborhoods?.slice(0, 3).join(', ') || location.city}, we're here to help transform your business with AI automation.`;
 ---
 
-<BaseLayout title={pageTitle} description={pageDescription}>
-  <!-- Schema Markup -->
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<BaseLayout title={title} description={description}>
+  <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
+    <Header />
 
-  <!-- Breadcrumbs -->
-  <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <ol>
-      <li><a href="/">Home</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href={`/services/${service.slug}`}>{service.name}</a></li>
-      <li aria-current="page">{location.city}, VA</li>
-    </ol>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>{service.name} in {location.city}, Virginia</h1>
-      <p class="subtitle">{service.shortDescription} for {location.city} businesses</p>
-      <div class="cta-buttons">
-        <a href="/contact" class="button primary">Get Started</a>
-        <a href="tel:7036909726" class="button secondary">Call (703) 690-9726</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Introduction -->
-  <section class="content-section">
-    <div class="container">
-      <div class="content" set:html={content.introduction} />
-    </div>
-  </section>
-
-  <!-- Why Choose Us -->
-  <section class="content-section bg-light">
-    <div class="container">
-      <h2>Why {location.city} Businesses Choose Binary Ideas AI</h2>
-      <div class="content" set:html={content.whyChooseUs} />
-    </div>
-  </section>
-
-  <!-- Service Area -->
-  <section class="content-section">
-    <div class="container">
-      <h2>Service Area Coverage in {location.city}</h2>
-
-      <div class="service-area-grid">
-        <div class="area-card">
-          <h3>Major Routes We Cover</h3>
-          <ul>
-            {location.majorRoutes.map(route => (
-              <li>{route}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div class="area-card">
-          <h3>Neighborhoods We Serve</h3>
-          <ul class="neighborhoods">
-            {location.neighborhoods.map(neighborhood => (
-              <li>{neighborhood}</li>
-            ))}
-          </ul>
-        </div>
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
+      <!-- Background gradient bubbles -->
+      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-50 pointer-events-none">
+        <div class="absolute top-0 left-[25%] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[25%] bottom-0 bg-[#ac46ff] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 bg-[#f6329a] w-96 h-96 rounded-[33554400px] blur-3xl" />
       </div>
 
-      <div class="content" set:html={content.serviceArea.description} />
-    </div>
-  </section>
+      <div class="absolute top-[1200px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-10 left-[20%] w-80 h-80 bg-[#ac46ff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[22%] top-1/2 bg-[#2b7fff] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute left-1/2 bottom-10 -translate-x-1/2 bg-[#f6329a] w-80 h-80 rounded-[33554400px] blur-3xl" />
+      </div>
 
-  <!-- Industries We Serve -->
-  <section class="content-section bg-light">
-    <div class="container">
-      <h2>{service.name} for {location.city} Industries</h2>
+      <!-- Hero Section -->
+      <section class="relative w-full px-4 md:px-8 py-20 md:py-32 flex items-center justify-center bg-[url(/img/mask-group.svg)] bg-cover bg-[50%_50%]">
+        <div class="max-w-7xl mx-auto w-full flex flex-col items-center gap-8 text-center relative z-10">
+          <!-- Breadcrumb -->
+          <nav class="mb-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-sm text-[#99a1ae]">
+            <a href="/" class="hover:text-white transition-colors">Home</a>
+            <span class="mx-2">›</span>
+            <a href={`/services/${service.slug}`} class="hover:text-white transition-colors">{service.name}</a>
+            <span class="mx-2">›</span>
+            <span class="text-white">{location.city}, {location.state}</span>
+          </nav>
 
-      <div class="industries-grid">
-        {content.industries.map(industry => (
-          <div class="industry-card">
-            <h3>{industry.name}</h3>
-            <p>{industry.description}</p>
-            <h4>AI Solutions:</h4>
-            <ul>
-              {industry.solutions.map(solution => (
-                <li>{solution}</li>
-              ))}
-            </ul>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] px-4">
+            <span class="text-white">{service.name} in </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{location.city}, {location.state}</span>
+          </h1>
+
+          <p class="text-base md:text-xl lg:text-2xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-center leading-relaxed max-w-4xl px-4">
+            {service.shortDescription}
+          </p>
+
+          <div class="flex flex-wrap items-center justify-center gap-4 text-sm [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-[#99a1ae]">
+            <span>📍 Serving {location.city} from our Lorton office ({location.distance})</span>
+            <span>📞 <a href="tel:7036909726" class="text-white hover:text-blue-400 transition-colors">(703) 690-9726</a></span>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
 
-  <!-- Business Challenges -->
-  <section class="content-section">
-    <div class="container">
-      <h2>Common Business Challenges in {location.city}</h2>
+          <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
+            <a
+              href="#get-started"
+              class="px-8 py-4 rounded-[10px] overflow-hidden bg-[linear-gradient(90deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)] cursor-pointer transition-opacity hover:opacity-90 flex items-center justify-center gap-2"
+            >
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-base tracking-[0] leading-6 whitespace-nowrap">
+                Get Started in {location.city}
+              </span>
+              <img class="w-5 h-5" alt="" src="/img/vector-4.svg" aria-hidden="true" />
+            </a>
 
-      {content.challenges.map(item => (
-        <div class="challenge-block">
-          <h3>Challenge: {item.challenge}</h3>
-          <div class="solution">
-            <h4>How AI Automation Helps:</h4>
-            <p>{item.solution}</p>
+            <a
+              href="tel:7036909726"
+              class="px-8 py-4 rounded-[10px] border-2 border-solid border-[#2b7fff80] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] flex items-center justify-center gap-2 cursor-pointer transition-all hover:border-[#2b7fff] hover:bg-[#2b7fff1a]"
+            >
+              <img class="w-5 h-5" alt="" src="/img/vector-21.svg" aria-hidden="true" />
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-base tracking-[0] leading-6 whitespace-nowrap">
+                Call (703) 690-9726
+              </span>
+            </a>
           </div>
         </div>
-      ))}
-    </div>
-  </section>
+      </section>
 
-  <!-- Case Study -->
-  <section class="content-section bg-light">
-    <div class="container">
-      <h2>Success Story: {location.city} {content.caseStudy.businessType}</h2>
-
-      <div class="case-study">
-        <div class="case-study-section">
-          <h3>The Challenge</h3>
-          <p>{content.caseStudy.problem}</p>
-        </div>
-
-        <div class="case-study-section">
-          <h3>Our Solution</h3>
-          <p>{content.caseStudy.solution}</p>
-        </div>
-
-        <div class="case-study-section">
-          <h3>The Results</h3>
-          <ul>
-            {content.caseStudy.results.map(result => (
-              <li>{result}</li>
+      <!-- Service Description -->
+      <section class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32">
+        <div class="max-w-4xl mx-auto relative z-10">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <span class="text-white">About </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{service.name}</span>
+          </h2>
+          <div class="prose prose-invert max-w-none">
+            {service.description.split('\n\n').map((paragraph: string) => (
+              <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-base md:text-lg tracking-[0] leading-relaxed mb-6">
+                {paragraph}
+              </p>
             ))}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Service Details -->
-  <section class="content-section">
-    <div class="container">
-      <h2>About {service.name}</h2>
-      <p class="lead">{service.description}</p>
-
-      <div class="service-details-grid">
-        <div class="detail-card">
-          <h3>Key Features</h3>
-          <ul>
-            {service.features.map(feature => (
-              <li>{feature}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div class="detail-card">
-          <h3>Benefits</h3>
-          <ul>
-            {service.benefits.map(benefit => (
-              <li>{benefit}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div class="detail-card">
-          <h3>Use Cases</h3>
-          <ul>
-            {service.useCases.map(useCase => (
-              <li>{useCase}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- All Services Overview -->
-  <section class="content-section bg-light">
-    <div class="container">
-      <h2>All AI Services Available in {location.city}</h2>
-      <div class="content" set:html={content.servicesOverview} />
-
-      <div class="services-grid">
-        {services.map(s => (
-          <a href={`/services/${s.slug}-${location.slug}`} class="service-card">
-            <h3>{s.name}</h3>
-            <p>{s.shortDescription}</p>
-            <span class="learn-more">Learn More →</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQs -->
-  <section class="content-section">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
-
-      <div class="faqs">
-        {content.faqs.map(faq => (
-          <div class="faq-item">
-            <h3>{faq.question}</h3>
-            <p>{faq.answer}</p>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
+        </div>
+      </section>
 
-  <!-- Getting Started / CTA -->
-  <section class="content-section cta-section">
-    <div class="container">
-      <h2>Ready to Transform Your {location.city} Business with AI?</h2>
-      <div class="content" set:html={content.gettingStarted} />
+      <!-- Location-Specific Content -->
+      <section class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32">
+        <div class="max-w-4xl mx-auto relative z-10">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <span class="text-white">{service.name} for </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{location.city} Businesses</span>
+          </h2>
+          <div class="bg-[#fffefe0d] rounded-2xl border-[#fffefe1a] border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] p-8">
+            <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#d0d5db] text-base md:text-lg tracking-[0] leading-relaxed mb-6">
+              {locationDescription}
+            </p>
+            {location.industries && (
+              <div class="mt-8">
+                <h3 class="text-xl md:text-2xl font-normal mb-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-white">
+                  Key Industries in {location.city}
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                  {location.industries.slice(0, 6).map((industry: string) => (
+                    <span class="px-4 py-2 rounded-full border-[#2b7fff4c] bg-[linear-gradient(90deg,rgba(43,127,255,0.2)_0%,rgba(173,70,255,0.2)_100%)] border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#8dc5ff] text-xs tracking-[0] leading-4">
+                      {industry}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
 
-      <div class="cta-buttons">
-        <a href="/contact" class="button primary large">Schedule Free Consultation</a>
-        <a href="tel:7036909726" class="button secondary large">Call (703) 690-9726</a>
-      </div>
+      <!-- Benefits -->
+      <section class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32">
+        <div class="max-w-7xl mx-auto relative z-10">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <span class="text-white">Benefits of {service.name} for </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{location.city} Businesses</span>
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {service.benefits.map((benefit: string) => (
+              <div class="bg-[#fffefe0d] rounded-2xl border-[#fffefe1a] border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] p-6 flex items-start gap-4">
+                <div class="w-8 h-8 flex items-center justify-center rounded-full bg-[linear-gradient(145deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)] flex-shrink-0">
+                  <span class="text-white text-lg font-bold">✓</span>
+                </div>
+                <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#d0d5db] text-base tracking-[0] leading-relaxed m-0">
+                  {benefit}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      <p class="cta-subtext">
-        Serving {location.city} from our Lorton, VA office •
-        {location.distance} response time •
-        Free initial consultation
-      </p>
-    </div>
-  </section>
+      <!-- Use Cases -->
+      <section class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32">
+        <div class="max-w-4xl mx-auto relative z-10">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-12 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <span class="text-white">Common Use Cases in </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{location.city}</span>
+          </h2>
+          <div class="space-y-4">
+            {service.useCases.map((useCase: string) => (
+              <div class="bg-[#fffefe0d] rounded-2xl border-[#fffefe1a] border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] p-6 flex items-center gap-4">
+                <div class="w-6 h-6 flex items-center justify-center flex-shrink-0">
+                  <span class="text-[#2b7fff] text-xl">→</span>
+                </div>
+                <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#d0d5db] text-base tracking-[0] leading-relaxed m-0">
+                  {useCase}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section id="get-started" class="relative w-full px-4 md:px-8 py-20 md:py-32 bg-[linear-gradient(90deg,rgba(43,127,255,0.1)_0%,rgba(173,70,255,0.1)_50%,rgba(246,51,154,0.1)_100%)]">
+        <div class="max-w-4xl mx-auto flex flex-col items-center text-center relative z-10">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <span class="text-white">Ready to Get Started in </span>
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{location.city}?</span>
+          </h2>
+
+          <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-base md:text-lg text-center tracking-[0] leading-relaxed mb-12">
+            Join businesses across {location.city} that are already using {service.name} to save time and money.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center gap-4 mb-12">
+            <a
+              href="#get-started"
+              class="w-full sm:w-auto px-10 py-5 rounded-[10px] overflow-hidden bg-[linear-gradient(90deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)] cursor-pointer hover:opacity-90 transition-opacity flex items-center justify-center gap-3"
+            >
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-lg text-center tracking-[0] leading-7 whitespace-nowrap">
+                Book a Free Consultation
+              </span>
+              <div class="w-5 h-5 relative">
+                <img class="absolute w-[58.33%] h-0 top-[50.00%] left-[20.83%]" alt="" src="/img/vector-19.svg" />
+                <img class="absolute w-[29.17%] h-[58.33%] top-[20.83%] left-[50.00%]" alt="" src="/img/vector-20.svg" />
+              </div>
+            </a>
+
+            <a
+              href="tel:7036909726"
+              class="w-full sm:w-auto px-10 py-5 rounded-[10px] border-2 border-solid border-[#2b7fff80] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] cursor-pointer hover:bg-[rgba(43,127,255,0.1)] transition-colors flex items-center justify-center gap-3"
+            >
+              <div class="w-5 h-5 relative">
+                <img class="absolute w-[83.33%] h-[83.33%] top-[8.33%] left-[8.33%]" alt="" src="/img/vector-21.svg" />
+              </div>
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-lg text-center tracking-[0] leading-7 whitespace-nowrap">
+                Call (703) 690-9726
+              </span>
+            </a>
+          </div>
+
+          <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#697282] text-sm text-center tracking-[0] leading-5">
+            Serving {location.city} from our Lorton, VA office • Fast response times • Local expertise
+          </p>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  </div>
 </BaseLayout>
-
-<style>
-  /* Breadcrumbs */
-  .breadcrumbs {
-    padding: 1rem 0;
-    background: #f5f5f5;
-  }
-
-  .breadcrumbs ol {
-    display: flex;
-    list-style: none;
-    gap: 0.5rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-
-  .breadcrumbs li:not(:last-child)::after {
-    content: "›";
-    margin-left: 0.5rem;
-  }
-
-  .breadcrumbs a {
-    color: #667eea;
-    text-decoration: none;
-  }
-
-  /* Hero */
-  .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 4rem 2rem;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-  }
-
-  .cta-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .button {
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: transform 0.3s;
-  }
-
-  .button:hover {
-    transform: translateY(-2px);
-  }
-
-  .button.primary {
-    background: white;
-    color: #667eea;
-  }
-
-  .button.secondary {
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-  }
-
-  .button.large {
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-  }
-
-  /* Content Sections */
-  .content-section {
-    padding: 4rem 2rem;
-  }
-
-  .content-section.bg-light {
-    background: #f9f9f9;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .content {
-    line-height: 1.8;
-  }
-
-  /* Grids */
-  .service-area-grid,
-  .service-details-grid,
-  .industries-grid,
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  /* Cards */
-  .area-card,
-  .detail-card,
-  .industry-card,
-  .service-card {
-    border: 1px solid #ddd;
-    padding: 1.5rem;
-    border-radius: 8px;
-    background: white;
-  }
-
-  .service-card {
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-
-  .service-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  }
-
-  .neighborhoods {
-    columns: 2;
-    column-gap: 1rem;
-  }
-
-  /* Challenge Blocks */
-  .challenge-block {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: white;
-    border-left: 4px solid #667eea;
-    border-radius: 4px;
-  }
-
-  /* Case Study */
-  .case-study {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .case-study-section {
-    padding: 1.5rem;
-    background: white;
-    border-radius: 8px;
-  }
-
-  /* FAQs */
-  .faqs {
-    max-width: 800px;
-    margin: 2rem auto;
-  }
-
-  .faq-item {
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .faq-item h3 {
-    color: #667eea;
-    margin-bottom: 0.5rem;
-  }
-
-  /* CTA Section */
-  .cta-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-align: center;
-  }
-
-  .cta-section h2 {
-    color: white;
-  }
-
-  .cta-subtext {
-    margin-top: 1rem;
-    opacity: 0.9;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .hero h1 {
-      font-size: 1.75rem;
-    }
-
-    .neighborhoods {
-      columns: 1;
-    }
-
-    .service-area-grid,
-    .service-details-grid,
-    .industries-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
