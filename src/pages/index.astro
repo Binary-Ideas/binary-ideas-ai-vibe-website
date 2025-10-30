@@ -22,10 +22,35 @@ import Footer from '../components/Footer.astro';
     <Header />
 
     <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
-      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-30 pointer-events-none">
+      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-50 pointer-events-none">
         <div class="absolute top-0 left-[25%] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
         <div class="absolute right-[25%] bottom-0 bg-[#ac46ff] w-96 h-96 rounded-[33554400px] blur-3xl" />
         <div class="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 bg-[#f6329a] w-96 h-96 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      {/** Additional background glows to better match React design */}
+      <div class="absolute top-[1200px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-10 left-[20%] w-80 h-80 bg-[#ac46ff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[22%] top-1/2 bg-[#2b7fff] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute left-1/2 bottom-10 -translate-x-1/2 bg-[#f6329a] w-80 h-80 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      <div class="absolute top-[2400px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[15%] left-[28%] w-72 h-72 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[28%] top-[55%] bg-[#ac46ff] w-80 h-80 rounded-[33554400px] blur-3xl" />
+        <div class="absolute left-[10%] bottom-[10%] bg-[#f6329a] w-72 h-72 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      <div class="absolute top-[3600px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-[20%] right-[15%] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute left-[18%] top-[60%] bg-[#ac46ff] w-80 h-80 rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[35%] bottom-[5%] bg-[#f6329a] w-72 h-72 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      <div class="absolute top-[4800px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[10%] left-[22%] w-80 h-80 bg-[#ac46ff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[20%] top-[50%] bg-[#2b7fff] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute left-[45%] bottom-[15%] bg-[#f6329a] w-72 h-72 rounded-[33554400px] blur-3xl" />
       </div>
 
       <Hero />
