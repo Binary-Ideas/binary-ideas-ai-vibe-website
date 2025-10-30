@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import BenefitsCards from '../components/BenefitsCards.astro';
+import ServicesGrid from '../components/ServicesGrid.astro';
+import FeaturesSection from '../components/FeaturesSection.astro';
+import ProcessSteps from '../components/ProcessSteps.astro';
+import WhyChooseUs from '../components/WhyChooseUs.astro';
+import ServiceArea from '../components/ServiceArea.astro';
+import CTASection from '../components/CTASection.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Binary Ideas AI - AI Automation Services Virginia"
+  description="Transform your Northern Virginia business with custom AI agents that save time, cut costs, and boost revenue. Expert AI automation for Voice AI, Lead Generation, Chatbots & More."
+>
+  <div
+    class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden"
+  >
+    <Header />
+
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f]">
+      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-30 pointer-events-none">
+        <div class="absolute top-0 left-[25%] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
+        <div class="absolute right-[25%] bottom-0 bg-[#ac46ff] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 bg-[#f6329a] w-96 h-96 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      <Hero />
+      <BenefitsCards />
+      <ServicesGrid />
+      <FeaturesSection />
+      <ProcessSteps />
+      <WhyChooseUs />
+      <ServiceArea />
+      <CTASection />
+      <Footer />
+    </main>
+  </div>
+</BaseLayout>

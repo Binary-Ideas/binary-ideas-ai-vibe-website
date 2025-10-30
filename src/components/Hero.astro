@@ -1,0 +1,78 @@
+---
+interface Props {
+  badge?: string;
+  heading?: string;
+  subheading?: string;
+  ctaText?: string;
+  ctaLink?: string;
+  phoneText?: string;
+  phoneNumber?: string;
+}
+
+const {
+  badge = "AI Automation Services Virginia",
+  heading = "AI Automation That Actually Works",
+  subheading = "Transform your Northern Virginia business with custom AI agents that save time, cut costs, and boost revenue",
+  ctaText = "Get Free Consultation",
+  ctaLink = "#consultation",
+  phoneText = "Call (703) 690-9726",
+  phoneNumber = "+17036909726"
+} = Astro.props;
+---
+
+<section class="relative w-full min-h-screen flex items-center justify-center bg-[url(/img/mask-group.svg)] bg-cover bg-[50%_50%] px-4 md:px-8 py-20">
+  <div class="w-full max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-12">
+    <div class="relative inline-flex items-center gap-2 px-6 py-2 bg-[#2b7fff1a] rounded-full border border-solid border-[#2b7fff4c] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)]">
+      <div class="w-4 h-4 relative flex-shrink-0" aria-hidden="true">
+        <img
+          class="absolute w-[83.35%] h-[83.35%] top-[8.32%] left-[8.32%]"
+          alt=""
+          src="/img/vector.svg"
+        />
+      </div>
+      <span class="bg-[linear-gradient(90deg,rgba(81,162,255,1)_0%,rgba(194,122,255,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-transparent text-sm text-center tracking-[0] leading-5 whitespace-nowrap">
+        {badge}
+      </span>
+    </div>
+
+    <h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl leading-tight text-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] px-4 max-w-6xl" style="opacity: 1; transform: none;">
+      <span class="text-white">AI Automation That </span><span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient">Actually Works</span>
+    </h1>
+
+    <p class="text-base md:text-xl lg:text-2xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-center leading-relaxed max-w-4xl px-4" set:html={subheading.replace(/\n/g, '<br />')} />
+
+    <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
+      <button
+        class="w-full sm:w-auto px-8 py-4 rounded-[10px] overflow-hidden bg-[linear-gradient(90deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)] cursor-pointer transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[#2b7fff] focus:ring-offset-2 focus:ring-offset-[#000000] flex items-center justify-center gap-2"
+        type="button"
+        aria-label={ctaText}
+      >
+        <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-base text-center tracking-[0] leading-6 whitespace-nowrap">
+          {ctaText}
+        </span>
+        <img
+          class="w-5 h-5"
+          alt=""
+          src="/img/vector-4.svg"
+          aria-hidden="true"
+        />
+      </button>
+
+      <a
+        href={`tel:${phoneNumber.replace(/\D/g, '')}`}
+        class="w-full sm:w-auto px-8 py-4 rounded-[10px] border-2 border-solid border-[#2b7fff80] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] flex items-center justify-center gap-2 cursor-pointer transition-all hover:border-[#2b7fff] hover:bg-[#2b7fff1a] focus:outline-none focus:ring-2 focus:ring-[#2b7fff] focus:ring-offset-2 focus:ring-offset-[#000000]"
+        aria-label={phoneText}
+      >
+        <img
+          class="w-5 h-5"
+          alt=""
+          src="/img/vector-21.svg"
+          aria-hidden="true"
+        />
+        <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-base text-center tracking-[0] leading-6 whitespace-nowrap">
+          {phoneText}
+        </span>
+      </a>
+    </div>
+  </div>
+</section>

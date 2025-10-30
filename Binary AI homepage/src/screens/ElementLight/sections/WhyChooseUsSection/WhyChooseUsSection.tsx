@@ -1,0 +1,76 @@
+import React from "react";
+
+export const WhyChooseUsSection = (): JSX.Element => {
+  const locationData = {
+    label: "Based in",
+    city: "Lorton",
+    region: "Northern VA",
+  };
+
+  const contentText = [
+    "As a local Lorton-based agency, we bring deep understanding of",
+    "Northern Virginia's business landscape. Our custom solutions are",
+    "built specifically for your needs, not one-size-fits-all templates. We've",
+    "helped dozens of local businesses increase efficiency by 40% and",
+    "reduce costs by 30% on average. Our proven track record includes",
+    "successful implementations for healthcare practices, law firms,",
+    "restaurants, and retail businesses across the region. Plus, with our",
+    "local presence, you get fast response times and personal attention",
+    "that national competitors can't match.",
+  ];
+
+  return (
+    <section
+      className="absolute w-[calc(100%_-_640px)] top-[4768px] left-80 h-[562px]"
+      aria-labelledby="why-choose-us-heading"
+    >
+      <div
+        className="absolute w-[calc(100%_-_632px)] h-[calc(100%_-_64px)] top-20 -left-4 rounded-3xl blur-[20px] bg-[linear-gradient(154deg,rgba(173,70,255,0.2)_0%,rgba(43,127,255,0.2)_100%)]"
+        aria-hidden="true"
+      />
+
+      <div className="absolute w-[calc(100%_-_664px)] top-24 left-0 h-[466px] flex rounded-2xl overflow-hidden border border-solid border-[#fffefe1a] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] bg-[linear-gradient(155deg,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0.02)_100%)]">
+        <div className="mt-[9px] h-[448.5px] ml-[9px] mr-[9px] flex-1 flex rounded-[14px] overflow-hidden bg-[url(/img/modern-ai-technology-workspace.png)] bg-cover bg-[50%_50%]">
+          <div
+            className="flex-1 w-[598px] bg-[linear-gradient(25deg,rgba(173,70,255,0.2)_0%,rgba(173,70,255,0)_50%,rgba(43,127,255,0.2)_100%)]"
+            aria-hidden="true"
+          />
+        </div>
+      </div>
+
+      <div
+        className="absolute right-[648px] -bottom-4 w-[118px] h-[94px] flex flex-col rounded-[14px] border border-solid border-[#fffefe33] shadow-[0px_0px_30px_#9333ea66] backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] bg-[linear-gradient(153deg,rgba(173,70,255,1)_0%,rgba(21,93,252,1)_100%)]"
+        role="complementary"
+        aria-label="Location information"
+      >
+        <div className="flex items-center justify-center ml-[25px] w-[54.68px] h-5 mt-[13px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#fffefecc] text-sm tracking-[0] leading-5 whitespace-nowrap">
+          {locationData.label}
+        </div>
+
+        <div className="ml-[25px] w-[68.37px] h-8 text-[23.6px] leading-8 flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white tracking-[0] whitespace-nowrap">
+          {locationData.city}
+        </div>
+
+        <div className="flex items-center justify-center ml-[25px] w-[65.7px] h-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#fffefeb2] text-[11.8px] tracking-[0] leading-4 whitespace-nowrap">
+          {locationData.region}
+        </div>
+      </div>
+
+      <article className="w-[calc(100%_-_664px)] top-[165px] left-[664px] h-[329px] bg-[#fffefe0d] rounded-2xl border-[#fffefe1a] absolute border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)]">
+        <div
+          className="absolute w-[calc(100%_-_2px)] h-[calc(100%_-_2px)] top-px left-px rounded-2xl bg-[linear-gradient(163deg,rgba(43,127,255,0.05)_0%,rgba(173,70,255,0.05)_100%)]"
+          aria-hidden="true"
+        />
+
+        <p className="absolute top-[38px] left-[33px] w-[545px] h-[252px] flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#d0d5db] text-[17.7px] tracking-[0] leading-[29.2px]">
+          {contentText.map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              {index < contentText.length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </p>
+      </article>
+    </section>
+  );
+};

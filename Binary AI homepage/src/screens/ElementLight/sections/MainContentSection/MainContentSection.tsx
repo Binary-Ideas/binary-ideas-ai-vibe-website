@@ -1,0 +1,187 @@
+import React from "react";
+
+interface BenefitCard {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  statistic: string;
+  statisticLabel: string;
+  gradientBorder: string;
+  gradientBg: string;
+  gradientOverlay: string;
+  iconBg: string;
+  statisticGradient: string;
+  leftPosition: string;
+}
+
+export const MainContentSection = (): JSX.Element => {
+  const benefitCards: BenefitCard[] = [
+    {
+      id: "save-time",
+      icon: "/img/vector-6.svg",
+      title: "Save Time",
+      description:
+        "Automate repetitive tasks and free your team to\nfocus on high-value work that drives growth",
+      statistic: "40%",
+      statisticLabel: "more efficient",
+      gradientBorder: "border-[#2b7fff33]",
+      gradientBg:
+        "bg-[linear-gradient(155deg,rgba(43,127,255,0.1)_0%,rgba(43,127,255,0)_100%)]",
+      gradientOverlay:
+        "bg-[linear-gradient(155deg,rgba(43,127,255,0)_0%,rgba(43,127,255,0.05)_100%)]",
+      iconBg:
+        "bg-[linear-gradient(145deg,rgba(43,127,255,1)_0%,rgba(0,184,219,1)_100%)]",
+      statisticGradient:
+        "bg-[linear-gradient(90deg,rgba(81,162,255,1)_0%,rgba(0,211,242,1)_100%)]",
+      leftPosition: "left-0",
+    },
+    {
+      id: "cut-costs",
+      icon: "/img/background-shadow.svg",
+      title: "Cut Costs",
+      description:
+        "Reduce operational expenses with intelligent\nautomation that works 24/7 without breaks",
+      statistic: "30%",
+      statisticLabel: "cost reduction",
+      gradientBorder: "border-[#ac46ff33]",
+      gradientBg:
+        "bg-[linear-gradient(155deg,rgba(173,70,255,0.1)_0%,rgba(173,70,255,0)_100%)]",
+      gradientOverlay:
+        "bg-[linear-gradient(155deg,rgba(173,70,255,0)_0%,rgba(173,70,255,0.05)_100%)]",
+      iconBg: "",
+      statisticGradient:
+        "bg-[linear-gradient(90deg,rgba(194,122,255,1)_0%,rgba(251,100,182,1)_100%)]",
+      leftPosition: "left-[435px]",
+    },
+    {
+      id: "boost-revenue",
+      icon: "/img/background-shadow-1.svg",
+      title: "Boost Revenue",
+      description:
+        "Capture more leads, improve customer\nsatisfaction, and increase conversion rates",
+      statistic: "3x",
+      statisticLabel: "lead volume",
+      gradientBorder: "border-[#f6329a33]",
+      gradientBg:
+        "bg-[linear-gradient(155deg,rgba(246,51,154,0.1)_0%,rgba(246,51,154,0)_100%)]",
+      gradientOverlay:
+        "bg-[linear-gradient(155deg,rgba(246,51,154,0)_0%,rgba(246,51,154,0.05)_100%)]",
+      iconBg: "",
+      statisticGradient:
+        "bg-[linear-gradient(90deg,rgba(251,100,182,1)_0%,rgba(255,99,126,1)_100%)]",
+      leftPosition: "left-[869px]",
+    },
+  ];
+
+  return (
+    <section className="absolute w-[calc(100%_-_640px)] top-[1280px] left-80 h-[610px]">
+      <p className="absolute top-[76px] left-[calc(50.00%_-_381px)] w-[762px] h-40 flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-xl text-center tracking-[0] leading-7">
+        In today&#39;s competitive market, manual processes are costing you time
+        and money. Our
+        <br />
+        AI solutions automate repetitive tasks, reduce errors, and free your
+        team to focus on
+        <br />
+        what matters most. Unlike generic AI tools, we build custom solutions
+        tailored to your
+        <br />
+        specific business needs. As a local Lorton-based agency, we understand
+        the unique
+        <br />
+        challenges facing Northern Virginia businesses and provide the personal
+        attention and
+        <br />
+        quick response times you deserve.
+      </p>
+
+      {benefitCards.map((card) => (
+        <article
+          key={card.id}
+          className={`w-[calc(100%_-_869px)] h-[calc(100%_-_304px)] top-[304px] ${card.leftPosition} rounded-2xl overflow-hidden ${card.gradientBorder} ${card.gradientBg} absolute border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)]`}
+        >
+          <div
+            className={`absolute w-[calc(100%_-_2px)] h-[calc(100%_-_2px)] top-px left-px ${card.gradientOverlay}`}
+          />
+
+          {card.id === "save-time" ? (
+            <div
+              className={`absolute top-[33px] left-[33px] w-16 h-16 flex items-center justify-center rounded-[14px] overflow-hidden shadow-[0px_4px_6px_-4px_#0000001a,0px_10px_15px_-3px_#0000001a] ${card.iconBg}`}
+            >
+              <div className="h-8 w-8 relative">
+                <img
+                  className="absolute w-[75.03%] h-[83.36%] top-[8.32%] left-[12.49%]"
+                  alt={card.title}
+                  src={card.icon}
+                />
+              </div>
+            </div>
+          ) : (
+            <img
+              className="absolute top-[33px] left-[33px] w-16 h-16"
+              alt={card.title}
+              src={card.icon}
+            />
+          )}
+
+          <h3 className="absolute top-[121px] left-[33px] h-8 flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-2xl tracking-[0] leading-8 whitespace-nowrap">
+            {card.title}
+          </h3>
+
+          <p
+            className="absolute top-[170px] left-[33px] h-[42px] flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] tracking-[0] leading-[26px]"
+            style={{
+              fontSize:
+                card.id === "save-time"
+                  ? "15.6px"
+                  : card.id === "cut-costs"
+                    ? "15.9px"
+                    : "16px",
+              width:
+                card.id === "save-time"
+                  ? "334px"
+                  : card.id === "cut-costs"
+                    ? "315px"
+                    : "301px",
+            }}
+          >
+            {card.description.split("\n").map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                {index < card.description.split("\n").length - 1 && <br />}
+              </React.Fragment>
+            ))}
+          </p>
+
+          <div
+            className={`absolute top-[233px] left-[33px] h-10 flex items-center justify-center ${card.statisticGradient} [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-transparent text-4xl tracking-[0] leading-10 whitespace-nowrap`}
+            style={{ width: card.statistic === "3x" ? "38px" : "72px" }}
+          >
+            {card.statistic}
+          </div>
+
+          <div
+            className="absolute top-[245px] h-6 flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#697282] tracking-[0] leading-6 whitespace-nowrap"
+            style={{
+              left: card.statistic === "3x" ? "79px" : "113px",
+              width:
+                card.id === "save-time"
+                  ? "96px"
+                  : card.id === "cut-costs"
+                    ? "100px"
+                    : "86px",
+              fontSize:
+                card.id === "save-time"
+                  ? "15.6px"
+                  : card.id === "cut-costs"
+                    ? "15.8px"
+                    : "15.9px",
+            }}
+          >
+            {card.statisticLabel}
+          </div>
+        </article>
+      ))}
+    </section>
+  );
+};

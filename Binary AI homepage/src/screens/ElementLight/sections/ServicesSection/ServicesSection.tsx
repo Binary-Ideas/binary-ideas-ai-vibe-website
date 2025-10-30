@@ -1,0 +1,276 @@
+import React from "react";
+
+interface Service {
+  icon: {
+    type: "gradient" | "image";
+    gradient?: string;
+    images?: { src: string; alt: string; className: string }[];
+    imageSrc?: string;
+  };
+  title: string;
+  description: string;
+  learnMoreGradient: string;
+}
+
+export const ServicesSection = (): JSX.Element => {
+  const services: Service[] = [
+    {
+      icon: {
+        type: "gradient",
+        gradient:
+          "linear-gradient(145deg,rgba(43,127,255,1)_0%,rgba(0,184,219,1)_100%)",
+        images: [
+          {
+            src: "/img/vector-7.svg",
+            alt: "Vector",
+            className: "absolute w-0 h-[12.50%] top-[79.17%] left-[50.00%]",
+          },
+          {
+            src: "/img/vector-8.svg",
+            alt: "Vector",
+            className:
+              "absolute w-[58.33%] h-[37.50%] top-[41.67%] left-[20.83%]",
+          },
+          {
+            src: "/img/vector-9.svg",
+            alt: "Vector",
+            className:
+              "absolute w-[25.00%] h-[54.17%] top-[8.33%] left-[37.50%]",
+          },
+        ],
+      },
+      title: "Voice AI Agents",
+      description:
+        "Never miss another call with AI that sounds\nhuman. Handle appointment scheduling,\ncustomer inquiries, and lead qualification 24/7.\nReduce staffing costs by 60% while improving\ncustomer satisfaction.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(43,127,255,1)_0%,rgba(0,184,219,1)_100%)",
+    },
+    {
+      icon: {
+        type: "image",
+        imageSrc: "/img/background-shadow-2.svg",
+      },
+      title: "Lead Generation AI",
+      description:
+        "Turn your website into a lead magnet. Our AI\nidentifies, captures, and qualifies prospects\nautomatically, increasing lead volume by 300%\nwhile improving quality and reducing cost per\nlead.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(173,70,255,1)_0%,rgba(246,51,154,1)_100%)",
+    },
+    {
+      icon: {
+        type: "gradient",
+        gradient:
+          "linear-gradient(145deg,rgba(246,51,154,1)_0%,rgba(255,32,86,1)_100%)",
+        images: [
+          {
+            src: "/img/vector-12.svg",
+            alt: "Vector",
+            className:
+              "absolute w-[83.33%] h-[24.99%] top-[29.17%] left-[8.33%]",
+          },
+          {
+            src: "/img/vector-13.svg",
+            alt: "Vector",
+            className:
+              "absolute w-[83.33%] h-[66.67%] top-[16.67%] left-[8.33%]",
+          },
+        ],
+      },
+      title: "Email Marketing AI",
+      description:
+        "Personalized campaigns that actually get\nopened. Our AI optimizes send times,\npersonalizes content, and increases open rates\nby 40% while saving you 10+ hours per week.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(246,51,154,1)_0%,rgba(255,32,86,1)_100%)",
+    },
+    {
+      icon: {
+        type: "gradient",
+        gradient:
+          "linear-gradient(145deg,rgba(0,184,219,1)_0%,rgba(43,127,255,1)_100%)",
+        images: [
+          {
+            src: "/img/vector-15.svg",
+            alt: "Vector",
+            className:
+              "absolute w-[83.33%] h-[83.33%] top-[8.33%] left-[8.33%]",
+          },
+        ],
+      },
+      title: "Chatbot AI",
+      description:
+        "Instant customer support that never sleeps.\nReduce support tickets by 70% with AI that\nprovides instant responses, answers FAQs, and\nescalates complex issues to your team.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(0,184,219,1)_0%,rgba(43,127,255,1)_100%)",
+    },
+    {
+      icon: {
+        type: "image",
+        imageSrc: "/img/background-shadow-3.svg",
+      },
+      title: "Social Media AI",
+      description:
+        "Consistent, engaging content across all\nplatforms. Save 15+ hours per week with AI that\ncreates, schedules, and optimizes posts,\nincreasing engagement by 50%.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(142,81,255,1)_0%,rgba(173,70,255,1)_100%)",
+    },
+    {
+      icon: {
+        type: "image",
+        imageSrc: "/img/background-shadow-4.svg",
+      },
+      title: "Training Agents",
+      description:
+        "Custom AI solutions for your unique workflows.\nWe build and train AI agents specifically for your\nbusiness processes, giving you a competitive\nadvantage in your industry.",
+      learnMoreGradient:
+        "linear-gradient(90deg,rgba(225,42,251,1)_0%,rgba(246,51,154,1)_100%)",
+    },
+  ];
+
+  const topRowServices = services.slice(0, 3);
+  const bottomRowServices = services.slice(3, 6);
+
+  return (
+    <section className="absolute w-[calc(100%_-_640px)] top-[2146px] left-80 h-[934px]">
+      <p className="absolute top-[84px] left-[calc(50.00%_-_359px)] w-[719px] h-7 flex items-center justify-center [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-xl text-center tracking-[0] leading-7 whitespace-nowrap">
+        Each service is designed to deliver measurable results and ROI for your
+        business
+      </p>
+
+      {topRowServices.map((service, index) => (
+        <article
+          key={`top-${index}`}
+          className="w-[calc(100%_-_869px)] top-48 h-[372px] flex flex-col bg-[#fffefe0d] rounded-2xl overflow-hidden border-[#fffefe1a] absolute border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)]"
+          style={{ left: `${index * 435}px` }}
+        >
+          {service.icon.type === "gradient" ? (
+            <div
+              className="ml-[33px] w-14 h-14 mt-[33px] flex items-center justify-center rounded-[14px] overflow-hidden shadow-[0px_4px_6px_-4px_#0000001a,0px_10px_15px_-3px_#0000001a]"
+              style={{ background: service.icon.gradient }}
+            >
+              <div className="h-8 w-8 relative">
+                {service.icon.images?.map((img, imgIndex) => (
+                  <img
+                    key={imgIndex}
+                    className={img.className}
+                    alt={img.alt}
+                    src={img.src}
+                  />
+                ))}
+              </div>
+            </div>
+          ) : (
+            <img
+              className="ml-[33px] w-14 h-14 mt-[33px]"
+              alt="Background shadow"
+              src={service.icon.imageSrc}
+            />
+          )}
+
+          <h3 className="flex items-center justify-center ml-[33px] h-8 mt-6 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-2xl tracking-[0] leading-8 whitespace-nowrap">
+            {service.title}
+          </h3>
+
+          <p className="flex items-center justify-center ml-[33px] mt-[21px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-base tracking-[0] leading-[26px]">
+            {service.description.split("\n").map((line, lineIndex) => (
+              <React.Fragment key={lineIndex}>
+                {line}
+                {lineIndex < service.description.split("\n").length - 1 && (
+                  <br />
+                )}
+              </React.Fragment>
+            ))}
+          </p>
+
+          <a
+            href="#"
+            className="ml-[33px] w-[95.19px] h-5 mt-8 flex items-center gap-[7.8px]"
+            aria-label={`Learn more about ${service.title}`}
+          >
+            <span
+              className="flex items-center justify-center h-3.5 w-[71.39px] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-transparent text-sm tracking-[0] leading-5 whitespace-nowrap"
+              style={{ background: service.learnMoreGradient }}
+            >
+              Learn More
+            </span>
+
+            <div className="h-4 w-4 relative">
+              <img
+                className="absolute w-[25.00%] h-[50.00%] top-[25.00%] left-[37.50%]"
+                alt="Arrow"
+                src="/img/vector-18.svg"
+              />
+            </div>
+          </a>
+        </article>
+      ))}
+
+      {bottomRowServices.map((service, index) => (
+        <article
+          key={`bottom-${index}`}
+          className="w-[calc(100%_-_869px)] top-[588px] h-[346px] flex flex-col bg-[#fffefe0d] rounded-2xl overflow-hidden border-[#fffefe1a] absolute border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)]"
+          style={{ left: `${index * 435}px` }}
+        >
+          {service.icon.type === "gradient" ? (
+            <div
+              className="ml-[33px] w-14 h-14 mt-[33px] flex items-center justify-center rounded-[14px] overflow-hidden shadow-[0px_4px_6px_-4px_#0000001a,0px_10px_15px_-3px_#0000001a]"
+              style={{ background: service.icon.gradient }}
+            >
+              <div className="h-8 w-8 relative">
+                {service.icon.images?.map((img, imgIndex) => (
+                  <img
+                    key={imgIndex}
+                    className={img.className}
+                    alt={img.alt}
+                    src={img.src}
+                  />
+                ))}
+              </div>
+            </div>
+          ) : (
+            <img
+              className="ml-[33px] w-14 h-14 mt-[33px]"
+              alt="Background shadow"
+              src={service.icon.imageSrc}
+            />
+          )}
+
+          <h3 className="flex items-center justify-center ml-[33px] h-8 mt-6 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white text-2xl tracking-[0] leading-8 whitespace-nowrap">
+            {service.title}
+          </h3>
+
+          <p className="flex items-center justify-center ml-[33px] mt-[21px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-base tracking-[0] leading-[26px]">
+            {service.description.split("\n").map((line, lineIndex) => (
+              <React.Fragment key={lineIndex}>
+                {line}
+                {lineIndex < service.description.split("\n").length - 1 && (
+                  <br />
+                )}
+              </React.Fragment>
+            ))}
+          </p>
+
+          <a
+            href="#"
+            className="ml-[33px] w-[95.19px] h-5 mt-8 flex items-center gap-[7.8px]"
+            aria-label={`Learn more about ${service.title}`}
+          >
+            <span
+              className="flex items-center justify-center h-3.5 w-[71.39px] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-transparent text-sm tracking-[0] leading-5 whitespace-nowrap"
+              style={{ background: service.learnMoreGradient }}
+            >
+              Learn More
+            </span>
+
+            <div className="h-4 w-4 relative">
+              <img
+                className="absolute w-[25.00%] h-[50.00%] top-[25.00%] left-[37.50%]"
+                alt="Arrow"
+                src="/img/vector-18.svg"
+              />
+            </div>
+          </a>
+        </article>
+      ))}
+    </section>
+  );
+};

@@ -1,0 +1,501 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { services } from '../../data/services.js';
+import { locations } from '../../data/location.js';
+import { locationContent } from '../../data/locationContent.js';
+
+// This function tells Astro which pages to generate
+export function getStaticPaths() {
+  const paths: { params: { service: string; location: string; }; props: { service: { name: string; slug: string; shortDescription: string; description: string; features: string[]; benefits: string[]; useCases: string[]; }; location: { city: string; state: string; slug: string; zip: string; distance: string; population: string; majorRoutes: string[]; neighborhoods: string[]; landmarks: string[]; industries: string[]; businessChallenges: string[]; }; content: { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; } | { introduction: string; whyChooseUs: string; serviceArea: { description: string; }; industries: { name: string; description: string; solutions: string[]; }[]; challenges: { challenge: string; solution: string; }[]; caseStudy: { businessType: string; problem: string; solution: string; results: string[]; }; servicesOverview: string; gettingStarted: string; faqs: { question: string; answer: string; }[]; }; }; }[] = [];
+
+  // Loop through all services
+  services.forEach(service => {
+    // Loop through all locations
+    locations.forEach(location => {
+      // Create a path for each combination
+      paths.push({
+        params: {
+          service: service.slug,
+          location: location.slug
+        },
+        props: {
+          service: service,
+          location: location,
+          content: locationContent[location.slug as keyof typeof locationContent]
+        }
+      });
+    });
+  });
+
+  return paths;
+}
+
+// Get the data for this specific page
+const { service, location, content } = Astro.props;
+
+// Create SEO-optimized title and description
+const pageTitle = `${service.name} in ${location.city}, ${location.state}`;
+const pageDescription = `${service.shortDescription} for ${location.city} businesses. Binary Ideas AI provides ${service.name.toLowerCase()} services throughout ${location.city} and Northern Virginia.`;
+
+// Schema markup for this page
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": service.name,
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Binary Ideas AI",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "9525 4th Place",
+      "addressLocality": "Lorton",
+      "addressRegion": "VA",
+      "postalCode": "22079"
+    },
+    "telephone": "(703) 690-9726"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": location.city
+  },
+  "description": pageDescription
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <!-- Breadcrumbs -->
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href={`/services/${service.slug}`}>{service.name}</a></li>
+      <li aria-current="page">{location.city}, VA</li>
+    </ol>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>{service.name} in {location.city}, Virginia</h1>
+      <p class="subtitle">{service.shortDescription} for {location.city} businesses</p>
+      <div class="cta-buttons">
+        <a href="/contact" class="button primary">Get Started</a>
+        <a href="tel:7036909726" class="button secondary">Call (703) 690-9726</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="content-section">
+    <div class="container">
+      <div class="content" set:html={content.introduction} />
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="content-section bg-light">
+    <div class="container">
+      <h2>Why {location.city} Businesses Choose Binary Ideas AI</h2>
+      <div class="content" set:html={content.whyChooseUs} />
+    </div>
+  </section>
+
+  <!-- Service Area -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Service Area Coverage in {location.city}</h2>
+
+      <div class="service-area-grid">
+        <div class="area-card">
+          <h3>Major Routes We Cover</h3>
+          <ul>
+            {location.majorRoutes.map(route => (
+              <li>{route}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="area-card">
+          <h3>Neighborhoods We Serve</h3>
+          <ul class="neighborhoods">
+            {location.neighborhoods.map(neighborhood => (
+              <li>{neighborhood}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div class="content" set:html={content.serviceArea.description} />
+    </div>
+  </section>
+
+  <!-- Industries We Serve -->
+  <section class="content-section bg-light">
+    <div class="container">
+      <h2>{service.name} for {location.city} Industries</h2>
+
+      <div class="industries-grid">
+        {content.industries.map(industry => (
+          <div class="industry-card">
+            <h3>{industry.name}</h3>
+            <p>{industry.description}</p>
+            <h4>AI Solutions:</h4>
+            <ul>
+              {industry.solutions.map(solution => (
+                <li>{solution}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Challenges -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Common Business Challenges in {location.city}</h2>
+
+      {content.challenges.map(item => (
+        <div class="challenge-block">
+          <h3>Challenge: {item.challenge}</h3>
+          <div class="solution">
+            <h4>How AI Automation Helps:</h4>
+            <p>{item.solution}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Case Study -->
+  <section class="content-section bg-light">
+    <div class="container">
+      <h2>Success Story: {location.city} {content.caseStudy.businessType}</h2>
+
+      <div class="case-study">
+        <div class="case-study-section">
+          <h3>The Challenge</h3>
+          <p>{content.caseStudy.problem}</p>
+        </div>
+
+        <div class="case-study-section">
+          <h3>Our Solution</h3>
+          <p>{content.caseStudy.solution}</p>
+        </div>
+
+        <div class="case-study-section">
+          <h3>The Results</h3>
+          <ul>
+            {content.caseStudy.results.map(result => (
+              <li>{result}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Details -->
+  <section class="content-section">
+    <div class="container">
+      <h2>About {service.name}</h2>
+      <p class="lead">{service.description}</p>
+
+      <div class="service-details-grid">
+        <div class="detail-card">
+          <h3>Key Features</h3>
+          <ul>
+            {service.features.map(feature => (
+              <li>{feature}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>Benefits</h3>
+          <ul>
+            {service.benefits.map(benefit => (
+              <li>{benefit}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>Use Cases</h3>
+          <ul>
+            {service.useCases.map(useCase => (
+              <li>{useCase}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Services Overview -->
+  <section class="content-section bg-light">
+    <div class="container">
+      <h2>All AI Services Available in {location.city}</h2>
+      <div class="content" set:html={content.servicesOverview} />
+
+      <div class="services-grid">
+        {services.map(s => (
+          <a href={`/services/${s.slug}-${location.slug}`} class="service-card">
+            <h3>{s.name}</h3>
+            <p>{s.shortDescription}</p>
+            <span class="learn-more">Learn More →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faqs">
+        {content.faqs.map(faq => (
+          <div class="faq-item">
+            <h3>{faq.question}</h3>
+            <p>{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Getting Started / CTA -->
+  <section class="content-section cta-section">
+    <div class="container">
+      <h2>Ready to Transform Your {location.city} Business with AI?</h2>
+      <div class="content" set:html={content.gettingStarted} />
+
+      <div class="cta-buttons">
+        <a href="/contact" class="button primary large">Schedule Free Consultation</a>
+        <a href="tel:7036909726" class="button secondary large">Call (703) 690-9726</a>
+      </div>
+
+      <p class="cta-subtext">
+        Serving {location.city} from our Lorton, VA office •
+        {location.distance} response time •
+        Free initial consultation
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Breadcrumbs */
+  .breadcrumbs {
+    padding: 1rem 0;
+    background: #f5f5f5;
+  }
+
+  .breadcrumbs ol {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .breadcrumbs li:not(:last-child)::after {
+    content: "›";
+    margin-left: 0.5rem;
+  }
+
+  .breadcrumbs a {
+    color: #667eea;
+    text-decoration: none;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+
+  .button:hover {
+    transform: translateY(-2px);
+  }
+
+  .button.primary {
+    background: white;
+    color: #667eea;
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .button.large {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+
+  /* Content Sections */
+  .content-section {
+    padding: 4rem 2rem;
+  }
+
+  .content-section.bg-light {
+    background: #f9f9f9;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .content {
+    line-height: 1.8;
+  }
+
+  /* Grids */
+  .service-area-grid,
+  .service-details-grid,
+  .industries-grid,
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* Cards */
+  .area-card,
+  .detail-card,
+  .industry-card,
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: white;
+  }
+
+  .service-card {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .neighborhoods {
+    columns: 2;
+    column-gap: 1rem;
+  }
+
+  /* Challenge Blocks */
+  .challenge-block {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+  }
+
+  /* Case Study */
+  .case-study {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .case-study-section {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+  }
+
+  /* FAQs */
+  .faqs {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+
+  .faq-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .faq-item h3 {
+    color: #667eea;
+    margin-bottom: 0.5rem;
+  }
+
+  /* CTA Section */
+  .cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    color: white;
+  }
+
+  .cta-subtext {
+    margin-top: 1rem;
+    opacity: 0.9;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 1.75rem;
+    }
+
+    .neighborhoods {
+      columns: 1;
+    }
+
+    .service-area-grid,
+    .service-details-grid,
+    .industries-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

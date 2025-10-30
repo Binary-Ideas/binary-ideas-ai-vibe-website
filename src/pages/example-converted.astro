@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import BenefitsCards from '../components/BenefitsCards.astro';
+import ServicesGrid from '../components/ServicesGrid.astro';
+import FeaturesSection from '../components/FeaturesSection.astro';
+import ProcessSteps from '../components/ProcessSteps.astro';
+import WhyChooseUs from '../components/WhyChooseUs.astro';
+import ServiceArea from '../components/ServiceArea.astro';
+import CTASection from '../components/CTASection.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Binary Ideas AI - AI Automation Services Virginia";
+---
+
+<BaseLayout title={pageTitle}>
+  <div
+    class="bg-white w-full min-w-[1920px] min-h-[6811px] flex flex-col relative"
+  >
+    <Header />
+
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f]">
+      <div class="absolute top-0 left-0 w-[1920px] h-[1200px] opacity-30 pointer-events-none">
+        <div class="absolute top-0 left-[480px] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
+        <div class="right-[480px] bottom-0 bg-[#ac46ff] absolute w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="top-[50.00%] left-[50.00%] bg-[#f6329a] absolute w-96 h-96 rounded-[33554400px] blur-3xl" />
+      </div>
+
+      <Hero />
+      <BenefitsCards />
+      <ServicesGrid />
+      <FeaturesSection />
+      <ProcessSteps />
+      <WhyChooseUs />
+      <ServiceArea />
+      <CTASection />
+      <Footer />
+    </main>
+  </div>
+</BaseLayout>

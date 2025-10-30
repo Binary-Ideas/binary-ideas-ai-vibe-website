@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="AI Automation Services Virginia"
+  description="Binary Ideas AI provides AI automation services across Northern Virginia. Voice AI, chatbots, lead generation, and more."
+>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>AI Automation Services for Virginia Businesses</h1>
+      <p class="subtitle">Transform your business with custom AI agents and automation solutions</p>
+      <div class="cta-buttons">
+        <a href="/contact" class="button primary">Get Started</a>
+        <a href="tel:7036909726" class="button secondary">Call (703) 690-9726</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Our AI Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Voice AI Agents</h3>
+          <p>Automated phone systems that sound human and handle calls 24/7</p>
+          <a href="/services/voice-ai-agents" class="learn-more">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <h3>Lead Generation AI</h3>
+          <p>Intelligent lead capture and qualification that works while you sleep</p>
+          <a href="/services/lead-generation-ai" class="learn-more">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <h3>Chatbot AI</h3>
+          <p>24/7 customer support automation that improves satisfaction</p>
+          <a href="/services/chatbot-ai" class="learn-more">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <h3>Email Marketing AI</h3>
+          <p>Personalized email campaigns at scale with better results</p>
+          <a href="/services/email-marketing-ai" class="learn-more">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <h3>Social Media AI</h3>
+          <p>Automated social media management across all platforms</p>
+          <a href="/services/social-media-ai" class="learn-more">Learn More →</a>
+        </div>
+        <div class="service-card">
+          <h3>Training Agents</h3>
+          <p>Custom AI agent development tailored to your business</p>
+          <a href="/services/training-agents" class="learn-more">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area Section -->
+  <section class="service-area">
+    <div class="container">
+      <h2>Serving Northern Virginia</h2>
+      <p>We provide AI automation services across 12 cities in Northern Virginia</p>
+      <div class="locations-grid">
+        <span>Fairfax</span>
+        <span>Arlington</span>
+        <span>Alexandria</span>
+        <span>Burke</span>
+        <span>Woodbridge</span>
+        <span>Fairfax Station</span>
+        <span>Manassas</span>
+        <span>Fredericksburg</span>
+        <span>Springfield</span>
+        <span>Reston</span>
+        <span>Tysons</span>
+        <span>Herndon</span>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .button.primary {
+    background: white;
+    color: #667eea;
+  }
+
+  .button.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .services,
+  .service-area {
+    padding: 4rem 2rem;
+  }
+
+  .service-area {
+    background: #f9f9f9;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+  }
+
+  .services p,
+  .service-area > p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 8px;
+    background: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .service-card h3 {
+    margin-bottom: 1rem;
+    color: #667eea;
+    font-size: 1.5rem;
+  }
+
+  .service-card p {
+    color: #666;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .learn-more {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .locations-grid span {
+    background: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+</style>
