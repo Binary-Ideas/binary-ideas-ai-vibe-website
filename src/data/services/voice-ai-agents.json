@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "title": "Voice AI Phone Agents | Binary Ideas AI Northern Virginia",
+    "description": "Automate customer calls with natural-sounding AI agents available 24/7. Reduce staffing costs by up to 60% and never miss another call. Serving Northern Virginia businesses. Schedule your free consultation.",
+    "slug": "voice-ai-agents"
+  },
+  "hero": {
+    "titleLeading": "Voice AI Agents",
+    "titleTrailing": "Virginia",
+    "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
+    "description": "Transform your phone system with AI that sounds completely human and handles calls 24/7. Never miss another customer call while reducing staffing costs by up to 60%.",
+    "ctaText": "Get Free Consultation",
+    "ctaAriaLabel": "Get Free Consultation",
+    "ctaIconSrc": "/img/vector-36.svg",
+    "ctaIconAlt": ""
+  },
+  "introduction": {
+    "featureImage": {
+      "src": "/img/Voice AI.png",
+      "alt": "Voice AI"
+    },
+    "titleLeading": "What is",
+    "titleHighlight": "Voice AI Agents?",
+    "descriptionParagraphs": [
+      "Voice AI Agents are intelligent phone systems that use advanced artificial intelligence to handle customer calls with natural, human-like conversations. Unlike traditional automated phone systems that frustrate customers with robotic responses, our Voice AI Agents understand context, respond appropriately, and can handle complex inquiries just like a trained human representative.",
+      "These systems are perfect for small and medium businesses in Northern Virginia who want to provide professional customer service around the clock without the overhead of hiring additional staff. Whether you're a medical practice needing appointment scheduling, a restaurant managing reservations, or any business handling customer inquiries, Voice AI Agents ensure every caller gets the attention they deserve."
+    ]
+  },
+  "keyFeatures": {
+    "titleLeading": "Key",
+    "titleHighlight": "Features",
+    "subtitle": "Each service is designed to deliver measurable results and ROI for your business",
+    "features": [
+      {
+        "id": "nlp",
+        "icon": "message",
+        "title": "Natural Language Processing",
+        "description": "Our AI understands context, tone, and intent, allowing for fluid conversations that feel completely natural. Customers won't realize they're speaking with an AI agent."
+      },
+      {
+        "id": "availability",
+        "icon": "clock",
+        "title": "24/7 Availability",
+        "description": "Never miss a call again. Your Voice AI Agent works around the clock, handling customer inquiries even when your office is closed, ensuring you capture every opportunity."
+      },
+      {
+        "id": "scheduling",
+        "icon": "calendar",
+        "title": "Appointment Scheduling",
+        "description": "Seamlessly schedule appointments by checking your calendar in real time, sending confirmations, and even handling rescheduling requests without human intervention."
+      },
+      {
+        "id": "routing",
+        "icon": "phone",
+        "title": "Call Routing and Transfers",
+        "description": "Intelligently route calls to the right department or person, and transfer complex inquiries to human staff when needed, ensuring customers always reach the right solution."
+      },
+      {
+        "id": "multilang",
+        "icon": "globe",
+        "title": "Multi-Language Support",
+        "description": "Serve your diverse Northern Virginia community with support for multiple languages, breaking down communication barriers and expanding your customer base."
+      },
+      {
+        "id": "crm",
+        "icon": "database",
+        "title": "CRM Integration",
+        "description": "Automatically log all interactions, update customer records, and sync data with your existing CRM system, keeping your customer information organized and accessible."
+      }
+    ]
+  },
+  "benefits": {
+    "titleLeading": "Benefits for",
+    "titleHighlight": "Your Business",
+    "items": [
+      {
+        "id": "reduce-costs",
+        "title": "Reduce Staffing Costs by 60%",
+        "description": "Eliminate the need for additional phone staff while maintaining or improving customer service quality. One Voice AI Agent can handle hundreds of calls simultaneously.",
+        "iconType": "image",
+        "iconSrc": "/img/voice-ai-benefit-reduce-costs.svg",
+        "iconGradient": "",
+        "iconImages": []
+      },
+      {
+        "id": "never-miss",
+        "title": "Never Miss a Customer Call",
+        "description": "Every call is answered immediately, even during peak hours or after business hours. Capture every lead and opportunity that comes your way.",
+        "iconType": "image",
+        "iconSrc": "/img/voice-ai-benefit-never-miss-call.svg",
+        "iconGradient": "",
+        "iconImages": []
+      },
+      {
+        "id": "multiple-calls",
+        "title": "Handle Multiple Calls Simultaneously",
+        "description": "Scale your customer service without scaling your staff. Your AI agent can handle unlimited concurrent calls without any degradation in service quality.",
+        "iconGradient": "",
+        "iconImages": [],
+        "iconType": "image",
+        "iconSrc": "/img/voice-ai-benefit-multiple-calls.svg"
+      },
+      {
+        "id": "customer-satisfaction",
+        "title": "Improve Customer Satisfaction",
+        "description": "Provide instant, accurate responses to customer inquiries, leading to higher satisfaction scores and increased customer loyalty.",
+        "iconType": "image",
+        "iconSrc": "/img/voice-ai-benefit-customer-satisfaction.svg",
+        "iconGradient": "",
+        "iconImages": []
+      }
+    ]
+  },
+  "process": {
+    "titleLeading": "How It Works",
+    "titleHighlight": "Our Process",
+    "subtitle": "From consultation to implementation, we guide you every step of the way",
+    "steps": [
+      {
+        "id": 1,
+        "stepNumber": "Step 1",
+        "title": "Discovery Call",
+        "description": "We begin with a comprehensive consultation to understand your phone system, call volume, and goals so we can design the perfect Voice AI solution for your business.",
+        "icon": "phone",
+        "gradient": "bg-[linear-gradient(135deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)]"
+      },
+      {
+        "id": 2,
+        "stepNumber": "Step 2",
+        "title": "Custom Solution Design",
+        "description": "We craft a tailored Voice AI Agent that mirrors your brand voice, handles your specific use cases, and integrates seamlessly with existing systems and workflows.",
+        "icon": "tool",
+        "gradient": "bg-[linear-gradient(135deg,rgba(173,70,255,1)_0%,rgba(246,51,154,1)_100%)]"
+      },
+      {
+        "id": 3,
+        "stepNumber": "Step 3",
+        "title": "Implementation & Integration",
+        "description": "Our team manages the full technical setup — phone routing, CRM connections, testing, and launch — to ensure everything works perfectly from day one.",
+        "icon": "bolt",
+        "gradient": "bg-[linear-gradient(135deg,rgba(96,165,250,1)_0%,rgba(167,139,250,1)_100%)]"
+      },
+      {
+        "id": 4,
+        "stepNumber": "Step 4",
+        "title": "Training & Ongoing Support",
+        "description": "We train your team, monitor performance, and provide continuous optimization and support so your Voice AI Agent keeps delivering results.",
+        "icon": "headset",
+        "gradient": "bg-[linear-gradient(135deg,rgba(142,81,255,1)_0%,rgba(59,130,246,1)_100%)]"
+      }
+    ]
+  },
+  "useCases": {
+    "headingLeading": "Use",
+    "headingHighlight": "Cases",
+    "items": [
+      {
+        "id": "medical",
+        "icon": "stethoscope",
+        "title": "Medical Appointment Scheduling",
+        "description": "Perfect for Northern Virginia medical practices, our Voice AI Agents can handle appointment scheduling, insurance verification, and patient inquiries while maintaining HIPAA compliance.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(11,123,178,0.9)_0%,rgba(9,24,46,0.95)_100%)]"
+      },
+      {
+        "id": "restaurant",
+        "icon": "utensils",
+        "title": "Restaurant Reservations",
+        "description": "Manage table reservations, special requests, and customer inquiries efficiently. Your AI agent can check availability, take reservations, and even handle cancellations or modifications.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(107,29,147,0.9)_0%,rgba(46,12,60,0.95)_100%)]"
+      },
+      {
+        "id": "customer-service",
+        "icon": "headphones",
+        "title": "Customer Service Inquiries",
+        "description": "Handle product questions, order status inquiries, and general customer service requests with intelligent responses that resolve issues quickly and professionally.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(117,22,70,0.92)_0%,rgba(40,9,28,0.95)_100%)]"
+      },
+      {
+        "id": "lead-qualification",
+        "icon": "target",
+        "title": "Lead Qualification Calls",
+        "description": "Qualify potential customers by asking the right questions, gathering contact information, and determining their level of interest before transferring to your sales team.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(69,36,144,0.92)_0%,rgba(22,33,68,0.95)_100%)]"
+      }
+    ]
+  },
+  "whyChoose": {
+    "titleLeading": "Why Choose",
+    "titleHighlight": "Binary Ideas AI",
+    "location": {
+      "basedIn": "Based in",
+      "city": "Lorton",
+      "region": "Northern VA"
+    },
+    "content": {
+      "description": "As a local Northern Virginia agency based in Lorton, we understand the unique needs of businesses in our region. We don't offer one-size-fits-all solutions – every Voice AI Agent we create is custom-built for your specific business requirements.",
+      "additionalInfo": "Our ongoing support and optimization ensure your system continues to improve over time, and our proven track record with local businesses means you can trust us to deliver results that matter to your bottom line."
+    },
+    "logo": {
+      "src": "/img/bi-ai-logo-portrait-white-2x-1-new.png",
+      "alt": "Binary Ideas AI symbol"
+    }
+  },
+  "faq": {
+    "titleLeading": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Get answers to common questions about Voice AI Agents",
+    "items": [
+      {
+        "question": "How long does implementation take?",
+        "answer": "Most Voice AI Agent implementations are completed within 2-4 weeks, depending on the complexity of your requirements and integrations needed."
+      },
+      {
+        "question": "What systems does it integrate with?",
+        "answer": "Our Voice AI Agents integrate with most major CRM systems, calendar applications, and phone systems commonly used by Northern Virginia businesses."
+      },
+      {
+        "question": "Do we need technical expertise?",
+        "answer": "No technical expertise required on your end. We handle all setup, training, and ongoing maintenance, so you can focus on running your business."
+      },
+      {
+        "question": "What kind of results can we expect?",
+        "answer": "Most clients see immediate improvements in call handling efficiency and customer satisfaction, with measurable cost savings within the first month."
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "Pricing varies based on your specific needs and call volume. Contact us for a customized quote that fits your budget and requirements."
+      }
+    ]
+  },
+  "cta": {
+    "headlineLeading": "Ready to Transform Your",
+    "headlineHighlight": "Phone System?",
+    "introText": "Join other Northern Virginia businesses who are already saving time and money with Voice AI Agents.",
+    "features": [
+      { "text": "Free Consultation" },
+      { "text": "No Commitment" },
+      { "text": "Same-Day Response" }
+    ],
+    "primaryButton": {
+      "label": "CALL (703) 123-4567",
+      "ariaLabel": "Call us at 703-123-4567",
+      "iconSrc": "/img/vector.svg",
+      "iconAlt": "",
+      "phoneNumber": "7031234567"
+    },
+    "secondaryButton": {
+      "label": "Email Us",
+      "ariaLabel": "Email us",
+      "emailAddress": "contact@example.com"
+    },
+    "backgroundClass": "bg-[linear-gradient(120deg,#06152d_0%,#1a021f_100%)]"
+  }
+}
+

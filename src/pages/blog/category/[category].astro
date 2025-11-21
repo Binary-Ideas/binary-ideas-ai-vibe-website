@@ -1,0 +1,301 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { blogPostsContent } from '../../../data/blogs/content';
+
+const toCategorySlug = (value: string) =>
+  value
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+type CategoryEntry = {
+  name: string;
+  posts: typeof blogPostsContent[number][];
+};
+
+function buildCategoriesMap() {
+  const map = new Map<string, CategoryEntry>();
+
+  for (const post of blogPostsContent) {
+    for (const category of post.categories ?? []) {
+      if (!category) continue;
+      const slug = toCategorySlug(category);
+      const existing = map.get(slug);
+      if (existing) {
+        existing.posts.push(post);
+      } else {
+        map.set(slug, {
+          name: category,
+          posts: [post]
+        });
+      }
+    }
+  }
+
+  return map;
+}
+
+export async function getStaticPaths() {
+  const slugify = (value: string) =>
+    value
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+
+  const slugs = new Set<string>();
+
+  for (const post of blogPostsContent) {
+    for (const category of post.categories ?? []) {
+      if (!category) continue;
+      slugs.add(slugify(category));
+    }
+  }
+
+  return Array.from(slugs).map((slug) => ({
+    params: { category: slug }
+  }));
+}
+
+const categorySlug = Astro.params.category;
+const categoriesMap = buildCategoriesMap();
+const categoryEntry = categoriesMap.get(categorySlug);
+
+if (!categoryEntry) {
+  throw new Error(`Category page not found for slug: ${categorySlug}`);
+}
+
+const categoryName = categoryEntry.name;
+const postsForCategory = categoryEntry.posts
+  .slice()
+  .sort(
+    (a, b) =>
+      Date.parse(b.meta.publishDate ?? '') - Date.parse(a.meta.publishDate ?? '')
+  );
+
+const dateFormatter = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+const getExcerpt = (rawText: string | undefined) => {
+  const text = (rawText ?? '').replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return '';
+  }
+  const words = text.split(' ');
+  const truncated = words.slice(0, 20).join(' ');
+  return words.length > 20 ? `${truncated}…` : truncated;
+};
+---
+
+<BaseLayout title={`${categoryName} Blog Articles | Binary Ideas AI`} description={`Browse Binary Ideas blog posts tagged under ${categoryName}.`}>
+  <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
+    <Header />
+
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
+      <div class="absolute inset-0 opacity-50 pointer-events-none overflow-hidden">
+        <div class="absolute top-0 left-[25%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--1 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[8%] right-[25%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--2 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[22%] left-1/2 w-96 h-96 -translate-x-1/2">
+          <div class="glow-sphere glow-sphere--3 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+
+        <div class="absolute top-[45%] left-[20%] w-80 h-80 opacity-80">
+          <div class="glow-sphere glow-sphere--4 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[50%] right-[22%] w-96 h-96 opacity-80">
+          <div class="glow-sphere glow-sphere--5 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[58%] left-1/2 w-80 h-80 -translate-x-1/2 opacity-80">
+          <div class="glow-sphere glow-sphere--6 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+
+        <div class="absolute bottom-[18%] left-[18%] w-72 h-72 opacity-70">
+          <div class="glow-sphere glow-sphere--7 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute bottom-[12%] right-[24%] w-80 h-80 opacity-70">
+          <div class="glow-sphere glow-sphere--8 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute bottom-[6%] left-[10%] w-72 h-72 opacity-70">
+          <div class="glow-sphere glow-sphere--9 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="relative z-[1] py-20">
+        <div class="mx-auto w-full max-w-6xl px-4 md:px-8 lg:px-20">
+          <header class="mb-12 flex flex-col gap-5 text-center lg:text-left">
+            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-[#8dc5ff]">
+              Binary Ideas Blog Archive
+            </p>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-normal text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {categoryName}
+            </h1>
+            <p class="text-base md:text-lg text-[#cbd4e6] leading-relaxed [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {postsForCategory.length} {postsForCategory.length === 1 ? 'article' : 'articles'} covering
+              the {categoryName.toLowerCase()} category.
+            </p>
+          </header>
+
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {postsForCategory.map((post) => {
+              const href = `/blog/${post.slugSegments.join('/')}/`;
+              const heroSrc = post.meta.heroImage?.src ?? '/img/blog/default.jpg';
+              const heroAlt = post.meta.heroImage?.alt ?? post.meta.title;
+              const categories = post.categories ?? [];
+              const excerpt = getExcerpt(post.excerpt ?? post.meta.description);
+
+              return (
+                <article class="blog-card overflow-hidden rounded-[28px] border border-[#fffefe1a] bg-[#0f1524]/70 backdrop-blur-md flex flex-col h-full">
+                  <a href={href} class="block relative h-56 overflow-hidden">
+                    <img
+                      src={heroSrc}
+                      alt={heroAlt}
+                      loading="lazy"
+                      class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    />
+                  </a>
+                  <div class="flex flex-col gap-4 p-6 flex-1">
+                    <div class="flex flex-wrap gap-2 items-center text-[13px] uppercase tracking-wide text-[#94a3b8] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                      <time dateTime={post.meta.publishDate}>{dateFormatter.format(new Date(post.meta.publishDate))}</time>
+                      {categories.length > 0 && <span class="opacity-60">•</span>}
+                      {categories.length > 0 && (
+                        <ul class="flex flex-wrap gap-2">
+                          {categories.map((category) => (
+                            <li>
+                              <a
+                                href={`/blog/category/${toCategorySlug(category)}/`}
+                                class="text-[#94a3b8] hover:text-[#8dc5ff] transition-colors duration-150"
+                              >
+                                {category}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                    <h2 class="text-xl md:text-2xl font-semibold text-white leading-snug [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                      <a href={href} class="hover:text-[#8dc5ff] transition-colors duration-200">
+                        {post.meta.title}
+                      </a>
+                    </h2>
+                    <p class="text-sm md:text-base text-[#c7d2fe] leading-relaxed flex-1 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                      {excerpt}
+                    </p>
+                    <div class="pt-2">
+                      <a
+                        href={href}
+                        class="inline-flex items-center gap-2 text-sm font-semibold text-white rounded-full border border-white/20 px-4 py-2 transition-colors duration-200 hover:bg-white hover:text-[#0a0a0f]"
+                      >
+                        Read more
+                        <span aria-hidden="true">→</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+    </main>
+  </div>
+</BaseLayout>
+
+<style is:inline>
+  .glow-sphere {
+    animation: glowFloat 20s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+  }
+
+  .glow-sphere--1 {
+    animation-duration: 18s;
+    animation-delay: -3s;
+  }
+
+  .glow-sphere--2 {
+    animation-duration: 22s;
+    animation-delay: -7s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--3 {
+    animation-duration: 19s;
+    animation-delay: -4s;
+  }
+
+  .glow-sphere--4 {
+    animation-duration: 17s;
+    animation-delay: -9s;
+  }
+
+  .glow-sphere--5 {
+    animation-duration: 23s;
+    animation-delay: -13s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--6 {
+    animation-duration: 16s;
+    animation-delay: -6s;
+  }
+
+  .glow-sphere--7 {
+    animation-duration: 21s;
+    animation-delay: -10s;
+  }
+
+  .glow-sphere--8 {
+    animation-duration: 24s;
+    animation-delay: -15s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--9 {
+    animation-duration: 17s;
+    animation-delay: -8s;
+  }
+
+  @keyframes glowFloat {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+      opacity: 0.92;
+    }
+
+    20% {
+      transform: translate3d(70px, -55px, 0) scale(1.08) rotate(2deg);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translate3d(-60px, 45px, 0) scale(0.94) rotate(-2deg);
+      opacity: 0.85;
+    }
+
+    60% {
+      transform: translate3d(80px, 55px, 0) scale(1.12) rotate(3deg);
+      opacity: 0.98;
+    }
+
+    80% {
+      transform: translate3d(-75px, -45px, 0) scale(0.96) rotate(-3deg);
+      opacity: 0.88;
+    }
+
+    100% {
+      transform: translate3d(60px, 35px, 0) scale(1.05) rotate(1deg);
+      opacity: 0.95;
+    }
+  }
+</style>
+

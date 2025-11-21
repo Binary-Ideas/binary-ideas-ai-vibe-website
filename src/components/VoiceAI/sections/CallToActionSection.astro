@@ -1,0 +1,159 @@
+---
+interface Feature {
+  text: string;
+}
+
+interface PrimaryButtonConfig {
+  label: string;
+  ariaLabel: string;
+  iconSrc: string;
+  iconAlt?: string;
+  phoneNumber?: string;
+  href?: string;
+}
+
+interface SecondaryButtonConfig {
+  label: string;
+  ariaLabel: string;
+  emailAddress?: string;
+  href?: string;
+}
+
+interface Props {
+  headlineLeading?: string;
+  headlineHighlight?: string;
+  introText?: string;
+  features?: Feature[];
+  primaryButton?: PrimaryButtonConfig;
+  secondaryButton?: SecondaryButtonConfig;
+  backgroundClass?: string;
+}
+
+const defaultFeatures: Feature[] = [
+  { text: "Free Consultation" },
+  { text: "No Commitment" },
+  { text: "Same-Day Response" }
+];
+
+const defaultPrimaryButton: PrimaryButtonConfig = {
+  label: "CALL (703) 123-4567",
+  ariaLabel: "Call us at 703-123-4567",
+  iconSrc: "/img/vector.svg",
+  iconAlt: "",
+  phoneNumber: "7031234567"
+};
+
+const defaultSecondaryButton: SecondaryButtonConfig = {
+  label: "Email Us",
+  ariaLabel: "Email us",
+  emailAddress: "contact@example.com"
+};
+
+const {
+  headlineLeading = "Ready to Transform Your",
+  headlineHighlight = "Phone System?",
+  introText = "Join other Northern Virginia businesses who are already saving time and money with Voice AI Agents.",
+  features = defaultFeatures,
+  primaryButton = defaultPrimaryButton,
+  secondaryButton = defaultSecondaryButton,
+  backgroundClass = "bg-[linear-gradient(120deg,#06152d_0%,#1a021f_100%)]"
+} = Astro.props as Props;
+
+const sanitizePhoneNumber = (value?: string) =>
+  value ? value.replace(/[^\d+]/g, "") : undefined;
+
+const primaryHref =
+  primaryButton.href ??
+  (primaryButton.phoneNumber ? `tel:${sanitizePhoneNumber(primaryButton.phoneNumber)}` : undefined);
+
+const secondaryHref =
+  secondaryButton.href ??
+  (secondaryButton.emailAddress ? `mailto:${secondaryButton.emailAddress}` : undefined);
+
+const primaryOnClick = primaryHref ? `window.location.href='${primaryHref}'` : undefined;
+const secondaryOnClick = secondaryHref ? `window.location.href='${secondaryHref}'` : undefined;
+---
+
+<section class={`relative isolate overflow-hidden px-6 py-28 text-center text-white ${backgroundClass}`}>
+  <div
+    class="pointer-events-none absolute left-1/2 top-[-240px] h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(124,58,237,0.45)_0%,rgba(124,58,237,0)_70%)] blur-[140px] opacity-80"
+    aria-hidden="true"
+  />
+  <div
+    class="pointer-events-none absolute right-[-220px] top-[160px] h-[540px] w-[540px] rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.35)_0%,rgba(59,130,246,0)_70%)] blur-[150px] opacity-75"
+    aria-hidden="true"
+  />
+  <div
+    class="pointer-events-none absolute left-[-260px] bottom-[-260px] h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(168,85,247,0.3)_0%,rgba(168,85,247,0)_70%)] blur-[160px] opacity-70"
+    aria-hidden="true"
+  />
+
+  <div class="relative mx-auto flex max-w-4xl flex-col items-center gap-12">
+    <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl font-semibold leading-snug sm:text-4xl md:text-[56px] md:leading-[66px]">
+      <span>{headlineLeading} </span>
+      <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#7366ff_0%,#f472d0_100%)]">
+        {headlineHighlight}
+      </span>
+    </h2>
+
+    <p class="max-w-[720px] text-base leading-7 text-[#b5bed0] sm:text-lg sm:leading-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      {introText}
+    </p>
+
+    <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+      <button
+        type="button"
+        class="relative inline-flex items-center gap-3 rounded-[26px] bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] px-12 py-5 text-lg font-semibold tracking-wide text-white shadow-[0_22px_55px_rgba(94,117,255,0.45)] transition-transform duration-200 hover:scale-[1.04] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/35"
+        aria-label={primaryButton.ariaLabel}
+        onclick={primaryOnClick}
+      >
+        <span class="flex h-8 w-8 items-center justify-center">
+          {primaryButton.iconSrc ? (
+            <img
+              src={primaryButton.iconSrc}
+              alt={primaryButton.iconAlt ?? ""}
+              class="h-6 w-6 object-contain"
+              loading="lazy"
+            />
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6"
+            >
+              <path d="M22 16.92a16 16 0 0 1-6.92 6.92 16 16 0 0 1-9.58-16.84l1.13-3.4a2 2 0 0 1 2.35-1.31l3.12.78a2 2 0 0 1 1.47 2.45l-.56 2.06a2 2 0 0 0 .51 1.94l2.97 2.97a2 2 0 0 0 1.94.51l2.06-.56a2 2 0 0 1 2.45 1.47l.78 3.12a2 2 0 0 1-1.31 2.35z" />
+            </svg>
+          )}
+        </span>
+        {primaryButton.label}
+      </button>
+
+      <button
+        type="button"
+        class="inline-flex items-center justify-center rounded-[26px] border border-white/20 bg-white/5 px-10 py-5 text-lg font-semibold text-white transition-colors duration-200 hover:bg-white/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/25"
+        aria-label={secondaryButton.ariaLabel}
+        onclick={secondaryOnClick}
+      >
+        {secondaryButton.label}
+      </button>
+    </div>
+
+    <ul class="mt-4 flex flex-wrap items-center justify-center gap-x-12 gap-y-4 text-sm [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      {features.map((feature) => (
+        <li class="flex items-center gap-3 text-[#c5cad9]">
+          <span class="flex h-4 w-4 items-center justify-center text-[#34d399]">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+              <path d="m3 8 3 3 7-7" />
+            </svg>
+          </span>
+          {feature.text}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

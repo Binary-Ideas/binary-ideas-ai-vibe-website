@@ -1,0 +1,47 @@
+---
+const {
+  titleLeading = 'What are',
+  titleTrailing = 'AI Agents',
+  titleGradientClass = "bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]"
+} = Astro.props as {
+  titleLeading?: string;
+  titleTrailing?: string;
+  titleGradientClass?: string;
+};
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
+  <div class="mx-auto flex max-w-4xl flex-col items-center gap-8 text-center">
+    <div class="flex flex-col gap-4">
+      <h1 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-[46px] font-semibold leading-[68px] sm:text-[64px] sm:leading-[84px] md:text-[70px] md:leading-[94px]">
+        <span class={`inline-block text-transparent bg-clip-text ${titleGradientClass}`}>
+          {titleLeading}
+        </span>
+        {titleTrailing && (
+          <span class="text-white">
+            {" "}
+            {titleTrailing}
+          </span>
+        )}
+      </h1>
+      <h2 class="text-xl md:text-2xl text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica] leading-relaxed">
+        Tired of chasing leads, missing messages, and juggling it all?
+      </h2>
+      <p class="text-base md:text-lg text-[#cbd4e6] leading-relaxed [font-family:'Segoe_UI_Symbol-Regular',Helvetica] max-w-2xl">
+        Let Binary Ideas in Lorton build you an AI agent that never takes a break – and never drops the ball.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-center gap-4">
+      <a
+        href="https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center justify-center rounded-[26px] bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] px-10 py-4 text-base font-semibold tracking-wide text-white shadow-[0_22px_55px_rgba(94,117,255,0.45)] transition-transform duration-200 hover:scale-[1.04] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/35 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]"
+      >
+        Book a Free Demo Today
+      </a>
+    </div>
+  </div>
+</section>
+

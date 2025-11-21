@@ -1,0 +1,52 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="benefit_customer_satisfaction_bg" x1="10" y1="8" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="benefit_customer_satisfaction_face" x1="20" y1="18" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFE4E6" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="48" height="48" rx="14" fill="url(#benefit_customer_satisfaction_bg)"/>
+  <circle cx="28" cy="28" r="12" fill="url(#benefit_customer_satisfaction_face)"/>
+  <path
+    d="M23.5 30C24.25 31.8 26 33 28 33C30 33 31.75 31.8 32.5 30"
+    stroke="#F59E0B"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <circle cx="24.5" cy="26" r="1.75" fill="#F97316"/>
+  <circle cx="31.5" cy="26" r="1.75" fill="#F97316"/>
+  <path
+    d="M20 20L23 22L20.5 25.5"
+    stroke="white"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.75"
+  />
+  <path
+    d="M36 20L33 22L35.5 25.5"
+    stroke="white"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.75"
+  />
+  <path
+    d="M24 38L28 42L32 38"
+    stroke="white"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.75"
+  />
+  <path
+    d="M28 12L30 17.5L35.5 18L31.5 21.5L32.5 27L28 24.5L23.5 27L24.5 21.5L20.5 18L26 17.5L28 12Z"
+    fill="white"
+    opacity="0.8"
+  />
+</svg>
+

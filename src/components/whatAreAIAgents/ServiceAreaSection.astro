@@ -1,0 +1,53 @@
+---
+const {
+  imageSrc = '/img/real-resulls.png',
+  imageAlt = 'Map of Northern Virginia highlighting service areas'
+} = Astro.props as {
+  imageSrc?: string;
+  imageAlt?: string;
+};
+
+const highlights = [
+  'A spa in Lorton cut response time from 2 hours to 10 seconds',
+  'A roofing company booked 17 jobs in one week through AI texting',
+  'A dental clinic in Burke now confirms 95% of its appointments with zero staff effort'
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-16 lg:py-20">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:gap-12">
+    <div class="flex flex-col gap-6 md:w-[60%] text-center md:text-left">
+      <h2 class="text-3xl md:text-4xl font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        <span class="text-white">WHERE WE WORK: </span>
+        <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">
+          NORTHERN VIRGINIA & NEARBY
+        </span>
+      </h2>
+      <p class="text-sm font-semibold uppercase tracking-[0.35em] text-[#8dc5ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        REAL RESULTS FROM REAL LOCAL BUSINESSES
+      </p>
+      <ul class="space-y-4 text-base md:text-lg leading-relaxed text-[#d0d5db] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        {highlights.map((highlight) => (
+          <li class="flex items-start gap-3 text-left">
+            <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] text-sm font-semibold text-white">
+              ✓
+            </span>
+            <span>{highlight}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="md:w-[40%]">
+      <div class="overflow-hidden rounded-3xl border border-[#fffefe1a] bg-[#fffefe0d] backdrop-blur-sm">
+        <img
+          src={imageSrc}
+          alt={imageAlt}
+          loading="lazy"
+          class="h-full w-full object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+

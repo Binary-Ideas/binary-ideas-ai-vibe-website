@@ -1,0 +1,295 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import HeroSection from "../../components/VoiceAI/sections/HeroSection.astro";
+import IntroductionSection from "../../components/VoiceAI/sections/IntroductionSection.astro";
+import KeyFeaturesSection from "../../components/VoiceAI/sections/KeyFeaturesSection.astro";
+import BenefitsSection from "../../components/VoiceAI/sections/BenefitsSection.astro";
+import HowItWorksSection from "../../components/VoiceAI/sections/HowItWorksSection.astro";
+import UseCasesSection from "../../components/VoiceAI/sections/UseCasesSection.astro";
+import WhyChooseSection from "../../components/VoiceAI/sections/WhyChooseSection.astro";
+import FaqSection from "../../components/VoiceAI/sections/FaqSection.astro";
+import ServiceArea from "../../components/VoiceAI/sections/ServiceArea.astro";
+import CallToActionSection from "../../components/VoiceAI/sections/CallToActionSection.astro";
+import Footer from "../../components/Footer.astro";
+import { servicesContentMap } from "../../data/services/content";
+
+export async function getStaticPaths() {
+  return Object.keys(servicesContentMap).map((slug) => ({
+    params: { service: slug }
+  }));
+}
+
+const { service } = Astro.params;
+const serviceEntry = servicesContentMap[service];
+
+if (!serviceEntry) {
+  throw new Error(`Service page not found for slug: ${service}`);
+}
+
+const {
+  meta,
+  hero,
+  introduction,
+  keyFeatures,
+  benefits,
+  process,
+  useCases,
+  whyChoose,
+  faq,
+  cta
+} = serviceEntry;
+---
+
+<BaseLayout title={meta.title} description={meta.description}>
+  <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
+    <Header />
+
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
+      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-50 pointer-events-none">
+        <div class="absolute top-0 left-[25%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--1 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[25%] bottom-0 w-96 h-96">
+          <div class="glow-sphere glow-sphere--2 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[50%] left-[50%] w-96 h-96 -translate-x-1/2 -translate-y-1/2">
+          <div class="glow-sphere glow-sphere--3 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[1200px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-10 left-[20%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--4 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[22%] top-1/2 w-96 h-96">
+          <div class="glow-sphere glow-sphere--5 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-1/2 bottom-10 w-80 h-80 -translate-x-1/2">
+          <div class="glow-sphere glow-sphere--6 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[2400px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[15%] left-[28%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--7 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[28%] top-[55%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--8 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[10%] bottom-[10%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--9 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[3600px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-[20%] right-[15%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--10 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[18%] top-[60%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--11 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[35%] bottom-[5%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--12 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[4800px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[10%] left-[22%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--13 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[20%] top-[50%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--14 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[45%] bottom-[15%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--15 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="relative z-[1]">
+        <HeroSection
+          titleLeading={hero.titleLeading}
+          titleTrailing={hero.titleTrailing}
+          titleGradientClass={hero.titleGradientClass}
+          description={hero.description}
+          ctaText={hero.ctaText}
+          ctaAriaLabel={hero.ctaAriaLabel}
+          ctaIconSrc={hero.ctaIconSrc}
+          ctaIconAlt={hero.ctaIconAlt}
+        />
+        <IntroductionSection
+          featureImage={introduction.featureImage}
+          infoTitleLeading={introduction.titleLeading}
+          infoTitleHighlight={introduction.titleHighlight}
+          descriptionParagraphs={introduction.descriptionParagraphs}
+        />
+        <KeyFeaturesSection
+          titleLeading={keyFeatures.titleLeading}
+          titleHighlight={keyFeatures.titleHighlight}
+          subtitle={keyFeatures.subtitle}
+          features={keyFeatures.features}
+        />
+        <BenefitsSection
+          titleLeading={benefits.titleLeading}
+          titleHighlight={benefits.titleHighlight}
+          benefits={benefits.items}
+        />
+        <HowItWorksSection
+          titleLeading={process.titleLeading}
+          titleHighlight={process.titleHighlight}
+          subtitle={process.subtitle}
+          steps={process.steps}
+        />
+        <UseCasesSection
+          headingLeading={useCases.headingLeading}
+          headingHighlight={useCases.headingHighlight}
+          useCases={useCases.items}
+        />
+        <WhyChooseSection
+          titleLeading={whyChoose.titleLeading}
+          titleHighlight={whyChoose.titleHighlight}
+          location={whyChoose.location}
+          content={whyChoose.content}
+          logo={whyChoose.logo}
+        />
+        <FaqSection
+          titleLeading={faq.titleLeading}
+          titleHighlight={faq.titleHighlight}
+          subtitle={faq.subtitle}
+          faqItems={faq.items}
+        />
+        <ServiceArea serviceSlug={service} serviceName={hero.titleLeading} />
+        <CallToActionSection
+          headlineLeading={cta.headlineLeading}
+          headlineHighlight={cta.headlineHighlight}
+          introText={cta.introText}
+          features={cta.features}
+          primaryButton={cta.primaryButton}
+          secondaryButton={cta.secondaryButton}
+          backgroundClass={cta.backgroundClass}
+        />
+        <Footer />
+      </div>
+    </main>
+  </div>
+</BaseLayout>
+
+<style is:inline>
+  .glow-sphere {
+    animation: glowFloat 20s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+  }
+
+  .glow-sphere--1 {
+    animation-duration: 18s;
+    animation-delay: -3s;
+  }
+
+  .glow-sphere--2 {
+    animation-duration: 22s;
+    animation-delay: -7s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--3 {
+    animation-duration: 19s;
+    animation-delay: -4s;
+  }
+
+  .glow-sphere--4 {
+    animation-duration: 17s;
+    animation-delay: -9s;
+  }
+
+  .glow-sphere--5 {
+    animation-duration: 23s;
+    animation-delay: -13s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--6 {
+    animation-duration: 16s;
+    animation-delay: -6s;
+  }
+
+  .glow-sphere--7 {
+    animation-duration: 21s;
+    animation-delay: -10s;
+  }
+
+  .glow-sphere--8 {
+    animation-duration: 24s;
+    animation-delay: -15s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--9 {
+    animation-duration: 17s;
+    animation-delay: -8s;
+  }
+
+  .glow-sphere--10 {
+    animation-duration: 22s;
+    animation-delay: -12s;
+  }
+
+  .glow-sphere--11 {
+    animation-duration: 18s;
+    animation-delay: -5s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--12 {
+    animation-duration: 24s;
+    animation-delay: -16s;
+  }
+
+  .glow-sphere--13 {
+    animation-duration: 19s;
+    animation-delay: -11s;
+  }
+
+  .glow-sphere--14 {
+    animation-duration: 23s;
+    animation-delay: -14s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--15 {
+    animation-duration: 18s;
+    animation-delay: -9s;
+  }
+
+  @keyframes glowFloat {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+      opacity: 0.92;
+    }
+
+    20% {
+      transform: translate3d(70px, -55px, 0) scale(1.08) rotate(2deg);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translate3d(-60px, 45px, 0) scale(0.94) rotate(-2deg);
+      opacity: 0.85;
+    }
+
+    60% {
+      transform: translate3d(80px, 55px, 0) scale(1.12) rotate(3deg);
+      opacity: 0.98;
+    }
+
+    80% {
+      transform: translate3d(-75px, -45px, 0) scale(0.96) rotate(-3deg);
+      opacity: 0.88;
+    }
+
+    100% {
+      transform: translate3d(60px, 35px, 0) scale(1.05) rotate(1deg);
+      opacity: 0.95;
+    }
+  }
+</style>
+

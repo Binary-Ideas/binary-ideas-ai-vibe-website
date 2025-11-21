@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Social Media AI for Small Business | Binary Ideas AI Northern Virginia",
+    "description": "Automate content creation, scheduling, and engagement with AI-powered social media management. Save 15+ hours weekly and increase engagement by 50%. Serving Northern Virginia businesses. Get your free consultation.",
+    "slug": "social-media-ai"
+  },
+  "hero": {
+    "titleLeading": "Social Media AI ",
+    "titleTrailing": "Virginia",
+    "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
+    "description": "AI that creates, schedules, and optimizes your social media content across all platforms automatically. Save 15+ hours per week and increase engagement by 50% with consistent posting and better content performance.",
+    "ctaText": "Get Your Free Consultation",
+    "ctaAriaLabel": "Get Your Free Consultation",
+    "ctaIconSrc": "/img/vector-36.svg",
+    "ctaIconAlt": "Arrow icon"
+  },
+  "introduction": {
+    "featureImage": {
+      "src": "/img/Social Media.png",
+      "alt": "Social media AI workspace"
+    },
+    "titleLeading": "What is ",
+    "titleHighlight": "Social Media AI?",
+    "descriptionParagraphs": [
+      "Social Media AI is an intelligent system that uses artificial intelligence to automate and optimize your social media marketing across all platforms. Unlike traditional social media management that requires constant manual effort and creative energy, our AI creates engaging content, schedules posts at optimal times, and manages audience engagement automatically while maintaining your brand voice and style.",
+      "This powerful solution is designed specifically for small and medium businesses in Northern Virginia who want to maintain a strong social media presence without dedicating hours each day to content creation and posting. Whether you're building brand awareness, promoting products, or engaging with your community, Social Media AI ensures your social media strategy runs smoothly and effectively, driving real business results."
+    ]
+  },
+  "keyFeatures": {
+    "titleLeading": "Key",
+    "titleHighlight": "Features",
+    "subtitle": "",
+    "features": [
+      {
+        "id": "content-generation",
+        "icon": "message",
+        "title": "Content Generation",
+        "description": "Our AI creates engaging social media posts, captions, and content tailored to each platform's unique audience and format requirements, ensuring your content resonates with your followers and drives engagement."
+      },
+      {
+        "id": "post-scheduling",
+        "icon": "calendar",
+        "title": "Post Scheduling",
+        "description": "Automatically schedule posts at optimal times for maximum engagement based on when your audience is most active, ensuring your content gets seen by the right people at the right time."
+      },
+      {
+        "id": "engagement-automation",
+        "icon": "phone",
+        "title": "Engagement Automation",
+        "description": "AI responds to comments, messages, and mentions in real-time to maintain active engagement with your audience, building stronger relationships and community around your brand."
+      },
+      {
+        "id": "hashtag-optimization",
+        "icon": "globe",
+        "title": "Hashtag Optimization",
+        "description": "Intelligently select and optimize hashtags for maximum reach and engagement on each platform, helping your content reach new audiences and increase visibility."
+      },
+      {
+        "id": "analytics-reporting",
+        "icon": "clock",
+        "title": "Analytics Reporting",
+        "description": "Track detailed performance metrics including reach, engagement, clicks, and conversions across all platforms, providing actionable insights to continuously improve your social media strategy."
+      },
+      {
+        "id": "multi-platform-management",
+        "icon": "database",
+        "title": "Multi-Platform Management",
+        "description": "Manage all your social media accounts from one centralized dashboard with platform-specific optimization, ensuring consistent messaging while respecting each platform's unique characteristics."
+      }
+    ]
+  },
+  "benefits": {
+    "titleLeading": "Benefits for ",
+    "titleHighlight": "Your Business",
+    "items": [
+      {
+        "id": "save-time",
+        "title": "Save 15+ Hours Per Week",
+        "description": "Eliminate the time-consuming tasks of content creation, scheduling, and engagement management, freeing up your time to focus on other important aspects of growing your Northern Virginia business.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(56,189,248,1)_0%,rgba(248,113,113,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "consistent-posting",
+        "title": "Consistent Posting Schedule",
+        "description": "Maintain a regular posting schedule across all platforms without manual effort, ensuring your audience always has fresh content to engage with and your brand stays top-of-mind.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(236,72,153,1)_0%,rgba(59,130,246,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "increase-engagement",
+        "title": "Increase Engagement by 50%",
+        "description": "AI-optimized content and posting times lead to significantly higher engagement rates, helping you build a more active and loyal social media following.",
+        "iconType": "image",
+        "iconSrc": "/img/vector-20.svg",
+        "iconImages": []
+      },
+      {
+        "id": "better-content",
+        "title": "Better Content Performance",
+        "description": "Data-driven content creation and optimization lead to better performing posts, higher reach, and improved ROI from your social media marketing efforts.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(147,197,253,1)_0%,rgba(56,189,248,1)_100%)]",
+        "iconImages": []
+      }
+    ]
+  },
+  "process": {
+    "titleLeading": "How It Works ",
+    "titleHighlight": "Our Process",
+    "subtitle": "We blend AI automation with a managed strategy built for your brand",
+    "steps": [
+      {
+        "id": 1,
+        "stepNumber": "Step 1",
+        "title": "Brand Analysis",
+        "description": "We analyze your current social media presence, brand voice, target audience, and content strategy to develop a customized AI approach that aligns with your business goals.",
+        "icon": "phone",
+        "gradient": "bg-[linear-gradient(135deg,rgba(56,189,248,1)_0%,rgba(236,72,153,1)_100%)]"
+      },
+      {
+        "id": 2,
+        "stepNumber": "Step 2",
+        "title": "AI Training & Setup",
+        "description": "Our team trains the AI on your brand voice, industry knowledge, and content preferences, then sets up automated workflows for content creation and posting across all platforms.",
+        "icon": "tool",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(156,163,175,1)_100%)]"
+      },
+      {
+        "id": 3,
+        "stepNumber": "Step 3",
+        "title": "Platform Integration",
+        "description": "We connect your social media accounts and integrate the AI with your existing tools, ensuring seamless content distribution and engagement management across all platforms.",
+        "icon": "bolt",
+        "gradient": "bg-[linear-gradient(135deg,rgba(96,165,250,1)_0%,rgba(190,24,93,1)_100%)]"
+      },
+      {
+        "id": 4,
+        "stepNumber": "Step 4",
+        "title": "Launch & Optimization",
+        "description": "We launch your AI-powered social media strategy and continuously monitor performance, making adjustments to improve engagement and results based on real-world data.",
+        "icon": "headset",
+        "gradient": "bg-[linear-gradient(135deg,rgba(147,197,253,1)_0%,rgba(124,58,237,1)_100%)]"
+      }
+    ]
+  },
+  "useCases": {
+    "headingLeading": "Use ",
+    "headingHighlight": "Cases",
+    "items": [
+      {
+        "id": "brand-awareness",
+        "icon": "stethoscope",
+        "title": "Brand Awareness Campaigns",
+        "description": "Perfect for Northern Virginia businesses, our AI creates and manages brand awareness campaigns that consistently promote your business and build recognition in your local market.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(236,72,153,0.92)_0%,rgba(14,116,144,0.95)_100%)]"
+      },
+      {
+        "id": "product-promotions",
+        "icon": "headphones",
+        "title": "Product Promotions",
+        "description": "Automate product promotion campaigns with AI-generated content that highlights features, benefits, and special offers while maintaining consistent messaging across all platforms.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(29,78,216,0.92)_0%,rgba(76,29,149,0.95)_100%)]"
+      },
+      {
+        "id": "community-management",
+        "icon": "target",
+        "title": "Community Management",
+        "description": "Maintain active community engagement by responding to comments, questions, and mentions automatically, building stronger relationships with your customers and followers.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(99,102,241,0.92)_0%,rgba(45,212,191,0.95)_100%)]"
+      },
+      {
+        "id": "influencer-outreach",
+        "icon": "utensils",
+        "title": "Influencer Outreach",
+        "description": "Identify and engage with potential influencers and partners in your industry, automating the initial outreach process while maintaining a personal touch in communications.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(236,72,153,0.95)_100%)]"
+      }
+    ]
+  },
+  "whyChoose": {
+    "titleLeading": "Why Choose ",
+    "titleHighlight": "Binary Ideas AI",
+    "location": {
+      "basedIn": "Based in",
+      "city": "Lorton",
+      "region": "Northern VA"
+    },
+    "content": {
+      "description": "As a local Northern Virginia agency based in Lorton, we understand the unique social media challenges and opportunities facing businesses in our region. We don't offer generic social media solutions – every AI system we build is customized for your specific industry, audience, and brand goals.",
+      "additionalInfo": "Our ongoing support and optimization ensure your Social Media AI continues to improve over time, and our proven track record with local businesses means you can trust us to deliver measurable results that directly impact your brand awareness and customer engagement."
+    },
+    "logo": {
+      "src": "/img/bi-ai-logo-portrait-white-2x-1-new.png",
+      "alt": "Binary Ideas AI symbol"
+    }
+  },
+  "faq": {
+    "titleLeading": "Frequently Asked ",
+    "titleHighlight": "Questions",
+    "subtitle": "Get answers to common questions about Social Media AI",
+    "items": [
+      {
+        "question": "Which social media platforms does it support?",
+        "answer": "Our Social Media AI supports all major platforms including Facebook, Instagram, Twitter, LinkedIn, TikTok, and YouTube, with platform-specific optimization for each channel."
+      },
+      {
+        "question": "Can we review content before it's posted?",
+        "answer": "Yes, you can set up approval workflows to review and approve content before it goes live, or choose to have the AI post automatically based on your preferences."
+      },
+      {
+        "question": "How does the AI maintain our brand voice?",
+        "answer": "We train the AI on your specific brand voice, tone, and messaging style, ensuring all generated content aligns with your brand identity and resonates with your audience."
+      },
+      {
+        "question": "What kind of content can the AI create?",
+        "answer": "Our AI can create posts, captions, stories, video scripts, and more across all platforms, adapting content format and style to each platform's best practices."
+      },
+      {
+        "question": "How do we measure the success of our social media AI?",
+        "answer": "We provide comprehensive analytics including engagement rates, reach, clicks, conversions, and ROI metrics to help you track performance and optimize your strategy."
+      }
+    ]
+  },
+  "cta": {
+    "headlineLeading": "Ready to Transform Your ",
+    "headlineHighlight": "Social Media?",
+    "introText": "Join other Northern Virginia businesses who are already saving 15+ hours per week with AI-powered social media management.",
+    "features": [
+      { "text": "Weekly strategy syncs" },
+      { "text": "Content variations for every channel" },
+      { "text": "Transparent performance dashboards" }
+    ],
+    "primaryButton": {
+      "label": "Call (703) 690-9726",
+      "ariaLabel": "Book a Social Media AI discovery call",
+      "iconSrc": "/img/vector.svg",
+      "iconAlt": "Phone icon",
+      "phoneNumber": "7036909726"
+    },
+    "secondaryButton": {
+      "label": "Email Us",
+      "ariaLabel": "Email Binary Ideas AI about Social Media AI",
+      "href": "mailto:info@binaryideas.com"
+    },
+    "backgroundClass": "bg-[linear-gradient(130deg,#0f1f3a_0%,#2b103a_100%)]"
+  }
+}
+

@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Email Marketing AI for Small Business | Binary Ideas AI Northern Virginia",
+    "description": "Boost open rates by up to 40% with AI-powered email automation that personalizes content, optimizes send times, and improves ROI. Serving Northern Virginia businesses with advanced email marketing automation. Book a free consultation today.",
+    "slug": "email-marketing-ai"
+  },
+  "hero": {
+    "titleLeading": "Email Marketing AI ",
+    "titleTrailing": "Virginia",
+    "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
+    "description": "Email Marketing AI VirginiaAI-powered email marketing that personalizes content, optimizes send times, and improves engagement at scale.Increase open rates by 40% and save 10+ hours per week while improving your email ROI.",
+    "ctaText": "Get Your Free Consultation",
+    "ctaAriaLabel": "Get Your Free Consultation",
+    "ctaIconSrc": "/img/vector-36.svg",
+    "ctaIconAlt": "Arrow icon"
+  },
+  "introduction": {
+    "featureImage": {
+      "src": "/img/Email.png",
+      "alt": "Email marketing AI"
+    },
+    "titleLeading": "What is ",
+    "titleHighlight": "Email Marketing AI?",
+    "descriptionParagraphs": [
+      "Email Marketing AI is an intelligent system that uses artificial intelligence to automate and optimize your email marketing campaigns. Unlike traditional email marketing that requires constant manual effort and guesswork, our AI analyzes your audience behavior, personalizes content for each recipient, and automatically optimizes send times for maximum engagement.",
+      "This powerful solution is designed specifically for small and medium businesses in Northern Virginia who want to scale their email marketing efforts without scaling their marketing team. Whether you're sending newsletters, product promotions, or nurturing leads, Email Marketing AI ensures every email is optimized for the right person at the right time, dramatically improving your campaign performance and ROI."
+    ]
+  },
+  "keyFeatures": {
+    "titleLeading": "Key",
+    "titleHighlight": "Features",
+    "subtitle": "",
+    "features": [
+      {
+        "id": "personalized-content",
+        "icon": "message",
+        "title": "Personalized Content",
+        "description": "Our AI creates unique, personalized email content for each recipient based on their preferences, past behavior, and engagement history, making every email feel like it was written specifically for them."
+      },
+      {
+        "id": "send-time-optimization",
+        "icon": "clock",
+        "title": "Send Time Optimization",
+        "description": "AI analyzes when each subscriber is most likely to open and engage with emails, automatically scheduling sends at the optimal time for maximum open rates and click-through rates."
+      },
+      {
+        "id": "ab-testing-automation",
+        "icon": "calendar",
+        "title": "A/B Testing Automation",
+        "description": "Continuously test different subject lines, content variations, and send times without manual effort, automatically implementing the winning combinations to improve performance over time."
+      },
+      {
+        "id": "segmentation",
+        "icon": "globe",
+        "title": "Segmentation",
+        "description": "Intelligently segment your audience based on behavior patterns, preferences, and engagement levels, ensuring each subscriber receives the most relevant content for their interests and stage in the customer journey."
+      },
+      {
+        "id": "performance-analytics",
+        "icon": "database",
+        "title": "Performance Analytics",
+        "description": "Track detailed performance metrics including open rates, click-through rates, conversion rates, and ROI with actionable insights to continuously improve your email marketing strategy."
+      },
+      {
+        "id": "template-generation",
+        "icon": "tool",
+        "title": "Template Generation",
+        "description": "AI creates professional, mobile-responsive email templates optimized for different campaign types and audiences, ensuring consistent branding and maximum visual impact across all devices."
+      }
+    ]
+  },
+  "benefits": {
+    "titleLeading": "Benefits for ",
+    "titleHighlight": "Your Business",
+    "items": [
+      {
+        "id": "increase-open-rates",
+        "title": "Increase Open Rates by 40%",
+        "description": "Personalized subject lines and optimized send times dramatically improve email open rates, ensuring more of your audience sees and engages with your content.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(249,115,22,1)_0%,rgba(139,92,246,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "improve-click-through",
+        "title": "Improve Click-Through Rates",
+        "description": "AI-optimized content and strategic placement of calls-to-action lead to higher click-through rates, driving more traffic to your website and increasing conversions.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(251,191,36,1)_0%,rgba(124,58,237,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "save-time",
+        "title": "Save 10+ Hours Per Week",
+        "description": "Automate content creation, segmentation, testing, and optimization, freeing up your time to focus on other important aspects of growing your Northern Virginia business.",
+        "iconType": "image",
+        "iconSrc": "/img/vector-25.svg",
+        "iconImages": []
+      },
+      {
+        "id": "better-roi",
+        "title": "Better ROI on Campaigns",
+        "description": "Higher engagement rates and improved targeting lead to better conversion rates and increased revenue from your email marketing efforts, maximizing your marketing investment.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(249,168,212,1)_0%,rgba(96,165,250,1)_100%)]",
+        "iconImages": []
+      }
+    ]
+  },
+  "process": {
+    "titleLeading": "How It Works ",
+    "titleHighlight": "Our Process",
+    "subtitle": "Launch stronger email programs with a guided implementation",
+    "steps": [
+      {
+        "id": 1,
+        "stepNumber": "Step 1",
+        "title": "Audience Analysis",
+        "description": "We analyze your current email list, engagement patterns, and customer data to understand your audience and develop a personalized AI strategy for your Northern Virginia business.",
+        "icon": "phone",
+        "gradient": "bg-[linear-gradient(135deg,rgba(249,115,22,1)_0%,rgba(234,179,8,1)_100%)]"
+      },
+      {
+        "id": 2,
+        "stepNumber": "Step 2",
+        "title": "AI Model Training",
+        "description": "Our team trains the AI on your specific industry, brand voice, and audience preferences to ensure it creates content and optimizations that resonate with your customers.",
+        "icon": "tool",
+        "gradient": "bg-[linear-gradient(135deg,rgba(245,158,11,1)_0%,rgba(99,102,241,1)_100%)]"
+      },
+      {
+        "id": 3,
+        "stepNumber": "Step 3",
+        "title": "Campaign Setup",
+        "description": "We integrate the AI with your email marketing platform, set up automated workflows, and create initial campaigns to test and optimize the system for your business.",
+        "icon": "bolt",
+        "gradient": "bg-[linear-gradient(135deg,rgba(251,191,36,1)_0%,rgba(138,75,252,1)_100%)]"
+      },
+      {
+        "id": 4,
+        "stepNumber": "Step 4",
+        "title": "Launch & Optimization",
+        "description": "We launch your AI-powered email campaigns and continuously monitor performance, making adjustments to improve engagement and ROI based on real-world results.",
+        "icon": "headset",
+        "gradient": "bg-[linear-gradient(135deg,rgba(249,168,212,1)_0%,rgba(79,70,229,1)_100%)]"
+      }
+    ]
+  },
+  "useCases": {
+    "headingLeading": "Use ",
+    "headingHighlight": "Cases",
+    "items": [
+      {
+        "id": "newsletter-campaigns",
+        "icon": "target",
+        "title": "Newsletter Campaigns",
+        "description": "Perfect for Northern Virginia businesses, our AI creates personalized newsletter content that adapts to each subscriber's interests and engagement patterns, keeping your audience engaged and informed.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(251,146,60,0.92)_0%,rgba(99,102,241,0.95)_100%)]"
+      },
+      {
+        "id": "drip-sequences",
+        "icon": "stethoscope",
+        "title": "Drip Sequences",
+        "description": "Automate lead nurturing with intelligent drip campaigns that adapt based on subscriber behavior, ensuring each prospect receives the right message at the right time in their journey.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(234,88,12,0.92)_0%,rgba(59,130,246,0.95)_100%)]"
+      },
+      {
+        "id": "product-launches",
+        "icon": "utensils",
+        "title": "Product Launches",
+        "description": "Create excitement and anticipation for new products or services with AI-optimized launch sequences that build momentum and drive pre-orders or early adoption.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(245,158,11,0.92)_0%,rgba(5,158,187,0.95)_100%)]"
+      },
+      {
+        "id": "reengagement-campaigns",
+        "icon": "headphones",
+        "title": "Re-engagement Campaigns",
+        "description": "Win back inactive subscribers with personalized re-engagement campaigns that identify the right message and timing to reactivate dormant customers and reduce churn.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(249,115,22,0.92)_0%,rgba(124,58,237,0.95)_100%)]"
+      }
+    ]
+  },
+  "whyChoose": {
+    "titleLeading": "Why Choose ",
+    "titleHighlight": "Binary Ideas AI",
+    "location": {
+      "basedIn": "Based in",
+      "city": "Lorton",
+      "region": "Northern VA"
+    },
+    "content": {
+      "description": "As a local Northern Virginia agency based in Lorton, we understand the unique marketing challenges and opportunities facing businesses in our region. We don't offer generic email marketing solutions – every AI system we build is customized for your specific industry, audience, and business goals.",
+      "additionalInfo": "Our ongoing support and optimization ensure your Email Marketing AI continues to improve over time, and our proven track record with local businesses means you can trust us to deliver measurable results that directly impact your marketing ROI and business growth."
+    },
+    "logo": {
+      "src": "/img/bi-ai-logo-portrait-white-2x-1-new.png",
+      "alt": "Binary Ideas AI symbol"
+    }
+  },
+  "faq": {
+    "titleLeading": "Frequently Asked ",
+    "titleHighlight": "Questions",
+    "subtitle": "Get answers to common questions about Email Marketing AI",
+    "items": [
+      {
+        "question": "How quickly will we see improved email performance?",
+        "answer": "Most clients see improved open rates and engagement within the first week, with significant performance gains typically occurring within 2-3 weeks as the AI learns your audience preferences."
+      },
+      {
+        "question": "What email platforms does it integrate with?",
+        "answer": "Our Email Marketing AI integrates with most major email marketing platforms including Mailchimp, Constant Contact, HubSpot, and others commonly used by Northern Virginia businesses."
+      },
+      {
+        "question": "Do we need to provide content or does the AI create everything?",
+        "answer": "The AI can create content from scratch or work with your existing content. We can also train it on your brand voice and style to ensure consistency with your existing marketing materials."
+      },
+      {
+        "question": "How does the AI ensure email deliverability?",
+        "answer": "Our AI optimizes for deliverability by managing send frequency, content quality, and engagement patterns to maintain high sender reputation and avoid spam filters."
+      },
+      {
+        "question": "What kind of ROI can we expect?",
+        "answer": "Most clients see 3-5x improvement in email marketing ROI within the first quarter, with continued improvements as the AI optimizes and learns from your specific audience behavior."
+      }
+    ]
+  },
+  "cta": {
+    "headlineLeading": "Ready to Transform Your ",
+    "headlineHighlight": "Email Marketing?",
+    "introText": "Join other Northern Virginia businesses who are already seeing 40% higher open rates with AI-powered email marketing.",
+    "features": [
+      { "text": "Personalized content at scale" },
+      { "text": "Lifecycle automations built for you" },
+      { "text": "Weekly performance insights" }
+    ],
+    "primaryButton": {
+      "label": "Call (703) 690-9726",
+      "ariaLabel": "Book a Email Marketing strategy call",
+      "iconSrc": "/img/vector.svg",
+      "iconAlt": "Phone icon",
+      "phoneNumber": "7036909726"
+    },
+    "secondaryButton": {
+      "label": "Email Us",
+      "ariaLabel": "Email Binary Ideas AI about Email Marketing AI",
+      "href": "mailto:info@binaryideas.com"
+    },
+    "backgroundClass": "bg-[linear-gradient(130deg,#2a0f06_0%,#1a1036_100%)]"
+  }
+}
+

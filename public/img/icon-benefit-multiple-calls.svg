@@ -1,0 +1,49 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="benefit_multiple_calls_bg" x1="8" y1="10" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="benefit_multiple_calls_wave" x1="18" y1="18" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#E0E7FF" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="48" height="48" rx="14" fill="url(#benefit_multiple_calls_bg)"/>
+  <path
+    d="M18.5 26.5V20C18.5 19.1716 19.1716 18.5 20 18.5H28C28.8284 18.5 29.5 19.1716 29.5 20V24.5C29.5 25.3284 28.8284 26 28 26H22.5L18.5 29.5V26.5Z"
+    fill="white"
+    fill-opacity="0.85"
+  />
+  <path
+    d="M27.5 32.5V28C27.5 27.1716 28.1716 26.5 29 26.5H36.5C37.3284 26.5 38 27.1716 38 28V33.5C38 34.3284 37.3284 35 36.5 35H31.5L27.5 38.5V32.5Z"
+    fill="white"
+  />
+  <path
+    d="M23.5 19C23.5 16.5147 25.5147 14.5 28 14.5C30.4853 14.5 32.5 16.5147 32.5 19"
+    stroke="url(#benefit_multiple_calls_wave)"
+    stroke-width="2.4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M34.5 40C34.5 42.4853 32.4853 44.5 30 44.5C27.5147 44.5 25.5 42.4853 25.5 40"
+    stroke="url(#benefit_multiple_calls_wave)"
+    stroke-width="2.4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M36.5 20.5C39.5376 22.3953 41.5 25.5761 41.5 29.1C41.5 32.6239 39.5376 35.8047 36.5 37.7"
+    stroke="white"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    opacity="0.65"
+  />
+  <path
+    d="M19.5 35.5C16.9787 33.8589 15.25 31.0278 15.25 27.85C15.25 24.6722 16.9787 21.8411 19.5 20.2"
+    stroke="white"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    opacity="0.45"
+  />
+</svg>
+

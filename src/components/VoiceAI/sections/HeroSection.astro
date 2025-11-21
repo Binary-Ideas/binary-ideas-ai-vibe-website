@@ -1,0 +1,68 @@
+---
+interface Props {
+  titleLeading?: string;
+  titleTrailing?: string;
+  titleGradientClass?: string;
+  description?: string;
+  ctaText?: string;
+  ctaAriaLabel?: string;
+  ctaIconSrc?: string;
+  ctaIconAlt?: string;
+  ctaLink?: string;
+}
+
+const {
+  titleLeading = "Voice AI Agents",
+  titleTrailing = "Virginia",
+  titleGradientClass = "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
+  description = "Transform your phone system with AI that sounds completely human and handles calls 24/7. Never miss another customer call while reducing staffing costs by up to 60%.",
+  ctaText = "Get Free Consultation",
+  ctaAriaLabel = "Get Free Consultation",
+  ctaIconSrc = "/img/vector-36.svg",
+  ctaIconAlt = "",
+  ctaLink = "https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
+} = Astro.props as Props;
+
+const formattedDescription = description.replace(/\. /g, ".<br />");
+
+---
+
+<section class="relative px-6 pt-36 pb-20 sm:pt-44 sm:pb-24 lg:pt-52 lg:pb-28">
+  <div class="mx-auto flex max-w-5xl flex-col items-center text-center gap-10 sm:gap-12">
+    <h1 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-[46px] font-semibold leading-[68px] sm:text-[64px] sm:leading-[84px] md:text-[70px] md:leading-[94px]">
+      <span class={`inline-block text-transparent bg-clip-text ${titleGradientClass}`}>
+        {titleLeading}
+      </span>
+      {titleTrailing && (
+        <span class="text-white">
+          {" "}
+          {titleTrailing}
+        </span>
+      )}
+    </h1>
+
+    <p class="max-w-3xl text-[18px] leading-8 text-[#dfe3ef] sm:text-[22px] sm:leading-[34px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      {description}
+    </p>
+
+    <div class="flex items-center justify-center">
+      <a
+        href={ctaLink}
+        class="relative inline-flex items-center justify-center gap-3 rounded-[28px] bg-[linear-gradient(90deg,#5d86ff_0%,#815fff_50%,#c084fc_100%)] px-12 py-4 text-base font-semibold text-white shadow-[0_24px_65px_rgba(88,110,255,0.38)] transition-transform duration-200 hover:scale-[1.05] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/30"
+        aria-label={ctaAriaLabel}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {ctaText}
+        <span class="inline-flex h-5 w-5 items-center justify-center">
+          <img class="h-5 w-5" alt={ctaIconAlt} src={ctaIconSrc} />
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  /* Styles injected for HeroSection */
+</style>
+

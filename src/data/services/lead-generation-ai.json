@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Lead Generation AI for Small Business | Binary Ideas AI Northern Virginia",
+    "description": "Automate lead capture, scoring, and follow-up with AI that works 24/7. Increase lead volume by up to 300% while improving quality and reducing cost per lead. Serving Northern Virginia businesses. Book a free consultation today.",
+    "slug": "lead-generation-ai"
+  },
+  "hero": {
+    "titleLeading": "Lead Generation AI",
+    "titleTrailing": "Virginia",
+    "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
+    "description": "Lead Generation AI VirginiaAutomate your lead capture and qualification with intelligent AI that works 24/7 to find and nurture prospects. Increase your lead volume by 300% while improving lead quality and reducing cost per lead.",
+    "ctaText": "Get Your Free Consultation",
+    "ctaAriaLabel": "Get Your Free Consultation",
+    "ctaIconSrc": "/img/vector-36.svg",
+    "ctaIconAlt": "Arrow icon"
+  },
+  "introduction": {
+    "featureImage": {
+      "src": "/img/Lead Generation.png",
+      "alt": "Lead Generation AI dashboard"
+    },
+    "titleLeading": "What is ",
+    "titleHighlight": "Lead Generation AI?",
+    "descriptionParagraphs": [
+      "Lead Generation AI is an intelligent system that automatically identifies, captures, and qualifies potential customers for your business using advanced artificial intelligence. Unlike traditional lead generation methods that require constant manual effort, our AI continuously scans multiple channels, analyzes prospect behavior, and engages with potential customers even when you're focused on other tasks.",
+      "This powerful solution is designed specifically for small and medium businesses in Northern Virginia who want to scale their sales pipeline without scaling their marketing team. Whether you're in B2B services, real estate, healthcare, or any industry that relies on quality leads, Lead Generation AI ensures you never miss a potential opportunity while maintaining the personal touch that converts prospects into customers."
+    ]
+  },
+  "keyFeatures": {
+    "titleLeading": "Key",
+    "titleHighlight": "Features",
+    "subtitle": "",
+    "features": [
+      {
+        "id": "automated-lead-scoring",
+        "icon": "target",
+        "title": "Automated Lead Scoring",
+        "description": "Our AI analyzes prospect behavior, demographics, and engagement patterns to automatically score leads based on their likelihood to convert, helping you focus on the most promising opportunities first."
+      },
+      {
+        "id": "multi-channel-capture",
+        "icon": "globe",
+        "title": "Multi-Channel Capture",
+        "description": "Capture leads from your website, social media, email campaigns, and other digital touchpoints simultaneously, ensuring no potential customer falls through the cracks regardless of how they discover your business."
+      },
+      {
+        "id": "real-time-notifications",
+        "icon": "bell",
+        "title": "Real-Time Notifications",
+        "description": "Get instant alerts when high-quality leads are identified, allowing you to respond immediately while the prospect is still engaged and most likely to convert."
+      },
+      {
+        "id": "crm-integration",
+        "icon": "database",
+        "title": "CRM Integration",
+        "description": "Seamlessly sync all captured leads with your existing CRM system, automatically updating contact information, lead scores, and interaction history to keep your sales team informed."
+      },
+      {
+        "id": "follow-up-automation",
+        "icon": "clock",
+        "title": "Follow-Up Automation",
+        "description": "Intelligently nurture leads with personalized follow-up sequences that adapt based on prospect behavior, ensuring consistent engagement without overwhelming potential customers."
+      },
+      {
+        "id": "analytics-dashboard",
+        "icon": "chart-bar",
+        "title": "Analytics Dashboard",
+        "description": "Track lead generation performance with detailed analytics showing conversion rates, source performance, and ROI metrics to continuously optimize your lead generation strategy."
+      }
+    ]
+  },
+  "benefits": {
+    "titleLeading": "Benefits for ",
+    "titleHighlight": "Your Business",
+    "items": [
+      {
+        "id": "increase-lead-volume",
+        "title": "Increase Lead Volume by 300%",
+        "description": "Our AI works around the clock to identify and capture leads from multiple sources, dramatically increasing your pipeline while you focus on closing deals and growing your business.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(59,130,246,1)_0%,rgba(96,165,250,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "improve-lead-quality",
+        "title": "Improve Lead Quality",
+        "description": "Advanced scoring algorithms ensure you only spend time on prospects who are genuinely interested and likely to convert, improving your sales team's efficiency and success rates.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(168,85,247,1)_0%,rgba(59,130,246,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "reduce-cost-per-lead",
+        "title": "Reduce Cost Per Lead",
+        "description": "Eliminate expensive advertising waste and manual lead generation efforts. Our AI finds qualified prospects at a fraction of the cost of traditional marketing methods.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(236,72,153,1)_0%,rgba(168,85,247,1)_100%)]",
+        "iconImages": []
+      },
+      {
+        "id": "faster-sales-cycles",
+        "title": "Faster Sales Cycles",
+        "description": "By qualifying leads before they reach your sales team and providing detailed prospect insights, your sales process becomes more efficient, leading to quicker closes and higher conversion rates.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(59,130,246,1)_0%,rgba(12,10,25,1)_100%)]",
+        "iconImages": []
+      }
+    ]
+  },
+  "process": {
+    "titleLeading": "How It Works ",
+    "titleHighlight": "Our Process",
+    "subtitle": "",
+    "steps": [
+      {
+        "id": 1,
+        "stepNumber": "Step 1",
+        "title": "Strategy Development",
+        "description": "We analyze your current lead generation efforts, identify your ideal customer profile, and develop a customized AI strategy that targets the right prospects for your Northern Virginia business.",
+        "icon": "lightbulb",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(147,197,253,1)_100%)]"
+      },
+      {
+        "id": 2,
+        "stepNumber": "Step 2",
+        "title": "AI Model Training",
+        "description": "Our team trains the AI on your specific industry, target audience, and business goals to ensure it identifies and qualifies leads that match your ideal customer profile.",
+        "icon": "chip",
+        "gradient": "bg-[linear-gradient(135deg,rgba(167,139,250,1)_0%,rgba(59,130,246,1)_100%)]"
+      },
+      {
+        "id": 3,
+        "stepNumber": "Step 3",
+        "title": "System Integration",
+        "description": "We integrate the AI with your existing marketing tools, CRM system, and lead capture forms to create a seamless lead generation ecosystem that works with your current workflow.",
+        "icon": "link",
+        "gradient": "bg-[linear-gradient(135deg,rgba(168,85,247,1)_0%,rgba(236,72,153,1)_100%)]"
+      },
+      {
+        "id": 4,
+        "stepNumber": "Step 4",
+        "title": "Launch & Optimization",
+        "description": "We launch your Lead Generation AI and continuously monitor performance, making adjustments to improve lead quality and volume based on real-world results and feedback.",
+        "icon": "rocket",
+        "gradient": "bg-[linear-gradient(135deg,rgba(236,72,153,1)_0%,rgba(59,130,246,1)_100%)]"
+      }
+    ]
+  },
+  "useCases": {
+    "headingLeading": "Use ",
+    "headingHighlight": "Cases",
+    "items": [
+      {
+        "id": "b2b-lead-generation",
+        "icon": "briefcase",
+        "title": "B2B Lead Generation",
+        "description": "Perfect for Northern Virginia B2B companies, our AI identifies decision-makers at target companies, tracks their engagement with your content, and scores them based on buying signals and company fit.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(13,71,161,0.95)_100%)]"
+      },
+      {
+        "id": "real-estate-inquiries",
+        "icon": "home",
+        "title": "Real Estate Inquiries",
+        "description": "Capture and qualify potential homebuyers and sellers by analyzing their online behavior, property searches, and engagement patterns to identify serious prospects ready to work with a real estate agent.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(236,72,153,0.92)_0%,rgba(124,58,237,0.95)_100%)]"
+      },
+      {
+        "id": "service-business-leads",
+        "icon": "handshake",
+        "title": "Service Business Leads",
+        "description": "Identify businesses and individuals in need of your services by monitoring local search patterns, social media activity, and website behavior to find prospects actively seeking solutions you provide.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(168,85,247,0.92)_0%,rgba(59,130,246,0.95)_100%)]"
+      },
+      {
+        "id": "ecommerce-prospects",
+        "icon": "shopping-cart",
+        "title": "E-commerce Prospects",
+        "description": "Track website visitors, abandoned carts, and product interest to identify high-intent prospects and automatically nurture them with personalized follow-up sequences designed to drive conversions.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(12,15,25,0.95)_100%)]"
+      }
+    ]
+  },
+  "whyChoose": {
+    "titleLeading": "Why Choose ",
+    "titleHighlight": "Binary Ideas AI",
+    "location": {
+      "basedIn": "Based in",
+      "city": "Lorton",
+      "region": "Northern VA"
+    },
+    "content": {
+      "description": "As a local Northern Virginia agency based in Lorton, we understand the unique challenges and opportunities facing businesses in our region. We don't offer generic lead generation solutions – every AI system we build is customized for your specific industry, target market, and business goals.",
+      "additionalInfo": "Our ongoing support and optimization ensure your Lead Generation AI continues to improve over time, and our proven track record with local businesses means you can trust us to deliver measurable results that directly impact your bottom line."
+    },
+    "logo": {
+      "src": "/img/bi-ai-logo-portrait-white-2x-1-new.png",
+      "alt": "Binary Ideas AI symbol"
+    }
+  },
+  "faq": {
+    "titleLeading": "Frequently Asked ",
+    "titleHighlight": "Questions",
+    "subtitle": "Get answers to common questions about Lead Generation AI",
+    "items": [
+      {
+        "question": "How quickly will we see results?",
+        "answer": "Most clients begin seeing qualified leads within the first week of implementation, with significant volume increases typically occurring within 2-4 weeks as the AI learns and optimizes."
+      },
+      {
+        "question": "What types of leads will the AI generate?",
+        "answer": "Our AI generates leads based on your specific criteria and ideal customer profile, including contact information, company details, and lead scores indicating their likelihood to convert."
+      },
+      {
+        "question": "Do we need to integrate with our existing systems?",
+        "answer": "Yes, but we handle all integration work. Our AI seamlessly connects with your CRM, email marketing platform, and other tools to ensure a smooth workflow."
+      },
+      {
+        "question": "How does the AI ensure lead quality?",
+        "answer": "Our AI uses advanced scoring algorithms that analyze multiple data points including engagement behavior, demographic fit, and buying signals, to ensure only high-quality leads reach your sales team."
+      },
+      {
+        "question": "What's the cost compared to traditional lead generation?",
+        "answer": "Our Lead Generation AI typically costs 60-80% less than traditional methods while generating 3x more qualified leads, providing significant ROI improvement for your marketing investment."
+      }
+    ]
+  },
+  "cta": {
+    "headlineLeading": "Ready 3x Your ",
+    "headlineHighlight": "Lead Generation?",
+    "introText": "Join other Northern Virginia businesses who are already generating more qualified leads with AI automation",
+    "features": [
+      { "text": "Continuous AI optimization" },
+      { "text": "Full funnel visibility" },
+      { "text": "Local Northern VA support" }
+    ],
+    "primaryButton": {
+      "label": "Call (703) 690-9726",
+      "ariaLabel": "Book a Lead Generation Strategy call",
+      "iconSrc": "/img/vector.svg",
+      "iconAlt": "Phone icon",
+      "phoneNumber": "7036909726"
+    },
+    "secondaryButton": {
+      "label": "Email Us",
+      "ariaLabel": "Email Binary Ideas AI about Lead Generation AI",
+      "href": "mailto:info@binaryideas.com"
+    },
+    "backgroundClass": "bg-[linear-gradient(130deg,#2b0f33_0%,#1a0c36_100%)]"
+  }
+}
+

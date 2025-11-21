@@ -1,0 +1,31 @@
+---
+import BlogListingPage from '../../../components/Blog/BlogListingPage.astro';
+import { BLOG_POSTS_PER_PAGE, blogPostsContent, getBlogPagination } from '../../../data/blogs/content';
+
+export async function getStaticPaths() {
+  const totalPages = Math.max(1, Math.ceil(blogPostsContent.length / BLOG_POSTS_PER_PAGE));
+
+  if (totalPages <= 1) {
+    return [];
+  }
+
+  return Array.from({ length: totalPages - 1 }, (_, index) => ({
+    params: { page: String(index + 2) }
+  }));
+}
+
+const pageParam = Number(Astro.params.page ?? '1');
+
+if (Number.isNaN(pageParam) || pageParam < 1) {
+  throw new Error(`Invalid blog page parameter: ${Astro.params.page}`);
+}
+
+const { posts, totalPages, currentPage } = getBlogPagination(pageParam);
+
+if (posts.length === 0) {
+  throw new Error(`Blog page not found for page=${pageParam}`);
+}
+---
+
+<BlogListingPage posts={posts} currentPage={currentPage} totalPages={totalPages} />
+

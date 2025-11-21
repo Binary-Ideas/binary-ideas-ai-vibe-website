@@ -1,0 +1,134 @@
+---
+type IconName =
+  | "message"
+  | "clock"
+  | "calendar"
+  | "phone"
+  | "globe"
+  | "database"
+  | "analytics";
+
+interface Feature {
+  id: string;
+  title: string;
+  description: string;
+  icon: IconName;
+  iconSrc?: string;
+  iconAlt?: string;
+}
+
+interface Props {
+  titleLeading?: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  features?: Feature[];
+}
+
+const defaultFeatures: Feature[] = [
+  {
+    id: "nlp",
+    icon: "message",
+    title: "Natural Language Processing",
+    description:
+      "Our AI understands context, tone, and intent, allowing for fluid conversations that feel completely natural. Customers won't realize they're speaking with an AI agent."
+  },
+  {
+    id: "availability",
+    icon: "clock",
+    title: "24/7 Availability",
+    description:
+      "Never miss a call again. Your Voice AI Agent works around the clock, handling customer inquiries even when your office is closed, ensuring you capture every opportunity."
+  },
+  {
+    id: "scheduling",
+    icon: "calendar",
+    title: "Appointment Scheduling",
+    description:
+      "Seamlessly schedule appointments by checking your calendar in real time, sending confirmations, and even handling rescheduling requests without human intervention."
+  },
+  {
+    id: "routing",
+    icon: "phone",
+    title: "Call Routing and Transfers",
+    description:
+      "Intelligently route calls to the right department or person, and transfer complex inquiries to human staff when needed, ensuring customers always reach the right solution."
+  },
+  {
+    id: "multilang",
+    icon: "globe",
+    title: "Multi-Language Support",
+    description:
+      "Serve your diverse Northern Virginia community with support for multiple languages, breaking down communication barriers and expanding your customer base."
+  },
+  {
+    id: "crm",
+    icon: "database",
+    title: "CRM Integration",
+    description:
+      "Automatically log all interactions, update customer records, and sync data with your existing CRM system, keeping your customer information organized and accessible."
+  }
+];
+
+const {
+  titleLeading = "Key",
+  titleHighlight = "Features",
+  subtitle = "Each service is designed to deliver measurable results and ROI for your business",
+  features = defaultFeatures
+} = Astro.props as Props;
+
+const iconSources: Record<IconName, string> = {
+  message: "/img/icon natural language.png",
+  clock: "/img/icon 24-7 availability.png",
+  calendar: "/img/icon appointment schedule.png",
+  phone: "/img/icon call routing.png",
+  globe: "/img/icon multi language.png",
+  database: "/img/icon crm integration.png",
+  analytics: "/img/icon-analytics-tracking.svg"
+};
+---
+
+<section class="relative mx-auto mt-24 max-w-6xl px-6 py-24">
+  <header class="flex flex-col items-center text-center">
+    <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-[56px] md:leading-[64px]">
+      <span>{titleLeading} </span>
+      <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#60a5fa_0%,#8b5cf6_100%)]">
+        {titleHighlight}
+      </span>
+    </h2>
+
+    <p class="mt-4 max-w-3xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-7 tracking-[0] text-[#99a1ae] sm:text-lg">
+      {subtitle}
+    </p>
+  </header>
+
+  <div class="mt-16 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
+    {features.map((feature) => (
+      <article class="relative flex h-full flex-col rounded-[20px] border border-[#ffffff12] bg-[linear-gradient(180deg,rgba(32,34,51,0.95)_0%,rgba(16,17,26,0.95)_100%)] px-8 pt-10 pb-12 shadow-[0px_25px_55px_rgba(10,10,15,0.45)]">
+        <div class="flex h-[56px] w-[56px] items-center justify-center overflow-hidden rounded-2xl shadow-[0_20px_35px_rgba(59,130,246,0.35)]">
+          <span class="sr-only">{feature.title} icon</span>
+          <img
+            src={feature.iconSrc ?? iconSources[feature.icon]}
+            alt={feature.iconAlt ?? ""}
+            class="h-full w-full object-cover"
+            loading="lazy"
+            aria-hidden="true"
+          />
+        </div>
+
+        <h3 class="mt-6 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-xl font-semibold leading-7 text-white">
+          {feature.title}
+        </h3>
+
+        <p class="mt-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-7 text-[#b5bdc8]">
+          {feature.description}
+        </p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style is:global>
+  /* Styles injected for KeyFeaturesSection */
+</style>
+
+

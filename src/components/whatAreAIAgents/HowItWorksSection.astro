@@ -1,0 +1,68 @@
+---
+const steps = [
+  {
+    imageSrc: '/img/user-1.png',
+    imageAlt: 'Binary Ideas AI agent connecting tools',
+    step: 'Step 1',
+    title: 'Connect with Your Tools',
+    description:
+      'We plug the AI Agent into your systems: Facebook page, your website, calendar, CRM, or even your Google Forms.'
+  },
+  {
+    imageSrc: '/img/recording-studio-1.png',
+    imageAlt: 'AI agent learning voice and tone in a studio',
+    step: 'Step 2',
+    title: 'Talk Like a Real Human',
+    description:
+      'It learns how you speak. Friendly? Formal? Tagalog or English? We train it. No more “robot replies.” Just smooth, human-like responses that match your brand.'
+  },
+  {
+    imageSrc: '/img/working-1.png',
+    imageAlt: 'AI agent handling real business tasks',
+    step: 'Step 3',
+    title: 'Do Real Tasks',
+    description:
+      'It doesn’t just “chat.” It books appointments, sends reminders, follows up, qualifies leads, answers FAQs, and even helps with hiring or training questions.'
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
+  <div class="mx-auto flex max-w-6xl flex-col gap-12 text-center">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-3xl md:text-4xl font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        <span class="text-white">HOW AI AGENTS WORK </span>
+        <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">
+          (WITHOUT YOU BABYSITTING)
+        </span>
+      </h2>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-3">
+      {steps.map((step) => (
+        <article class="flex flex-col items-center gap-5 rounded-[28px] border border-[#fffefe1a] bg-[#0f1524]/70 p-8 text-left backdrop-blur-md">
+          <div class="overflow-hidden rounded-2xl border border-[#fffefe1a] bg-[#fffefe0d]">
+            <img
+              src={step.imageSrc}
+              alt={step.imageAlt}
+              loading="lazy"
+              class="h-32 w-32 object-cover"
+            />
+          </div>
+          <div class="flex flex-col gap-3 text-center">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.3em] text-[#8dc5ff]">
+              {step.step}
+            </h3>
+            <strong class="text-xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {step.title}
+            </strong>
+            <p class="text-sm md:text-base leading-relaxed text-[#d0d5db] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {step.description}
+            </p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+

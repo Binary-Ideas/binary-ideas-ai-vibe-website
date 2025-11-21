@@ -46,15 +46,27 @@ const locationDescription = `Binary Ideas AI provides ${service.name} services t
     <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
       <!-- Background gradient bubbles -->
       <div class="absolute top-0 left-0 w-full h-[1200px] opacity-50 pointer-events-none">
-        <div class="absolute top-0 left-[25%] w-96 h-96 bg-[#2b7fff] rounded-[33554400px] blur-3xl" />
-        <div class="absolute right-[25%] bottom-0 bg-[#ac46ff] w-96 h-96 rounded-[33554400px] blur-3xl" />
-        <div class="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 bg-[#f6329a] w-96 h-96 rounded-[33554400px] blur-3xl" />
+        <div class="absolute top-0 left-[25%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--1 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[25%] bottom-0 w-96 h-96">
+          <div class="glow-sphere glow-sphere--2 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[50%] left-[50%] w-96 h-96 -translate-x-1/2 -translate-y-1/2">
+          <div class="glow-sphere glow-sphere--3 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
       </div>
 
       <div class="absolute top-[1200px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
-        <div class="absolute top-10 left-[20%] w-80 h-80 bg-[#ac46ff] rounded-[33554400px] blur-3xl" />
-        <div class="absolute right-[22%] top-1/2 bg-[#2b7fff] w-96 h-96 rounded-[33554400px] blur-3xl" />
-        <div class="absolute left-1/2 bottom-10 -translate-x-1/2 bg-[#f6329a] w-80 h-80 rounded-[33554400px] blur-3xl" />
+        <div class="absolute top-10 left-[20%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--4 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[22%] top-1/2 w-96 h-96">
+          <div class="glow-sphere glow-sphere--5 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-1/2 bottom-10 w-80 h-80 -translate-x-1/2">
+          <div class="glow-sphere glow-sphere--6 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
       </div>
 
       <!-- Hero Section -->
@@ -246,3 +258,74 @@ const locationDescription = `Binary Ideas AI provides ${service.name} services t
     </main>
   </div>
 </BaseLayout>
+
+<style is:inline>
+  .glow-sphere {
+    animation: glowFloat 20s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+  }
+
+  .glow-sphere--1 {
+    animation-duration: 18s;
+    animation-delay: -3s;
+  }
+
+  .glow-sphere--2 {
+    animation-duration: 22s;
+    animation-delay: -7s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--3 {
+    animation-duration: 19s;
+    animation-delay: -4s;
+  }
+
+  .glow-sphere--4 {
+    animation-duration: 17s;
+    animation-delay: -9s;
+  }
+
+  .glow-sphere--5 {
+    animation-duration: 23s;
+    animation-delay: -13s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--6 {
+    animation-duration: 16s;
+    animation-delay: -6s;
+  }
+
+  @keyframes glowFloat {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+      opacity: 0.92;
+    }
+
+    20% {
+      transform: translate3d(70px, -55px, 0) scale(1.08) rotate(2deg);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translate3d(-60px, 45px, 0) scale(0.94) rotate(-2deg);
+      opacity: 0.85;
+    }
+
+    60% {
+      transform: translate3d(80px, 55px, 0) scale(1.12) rotate(3deg);
+      opacity: 0.98;
+    }
+
+    80% {
+      transform: translate3d(-75px, -45px, 0) scale(0.96) rotate(-3deg);
+      opacity: 0.88;
+    }
+
+    100% {
+      transform: translate3d(60px, 35px, 0) scale(1.05) rotate(1deg);
+      opacity: 0.95;
+    }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+import { locations } from "../../../data/location.js";
+
+interface Props {
+  serviceSlug: string;
+  serviceName?: string;
+  introText?: string;
+  footerText?: string;
+  itemsPerRow?: number;
+}
+
+const {
+  serviceSlug,
+  serviceName,
+  introText,
+  footerText = "Based in Lorton, we provide same-day consultations and rapid implementation for all Northern Virginia businesses.",
+  itemsPerRow = 6
+} = Astro.props as Props;
+
+if (!serviceSlug) {
+  throw new Error("ServiceArea component requires a `serviceSlug` prop.");
+}
+
+const serviceDisplayName = serviceName ?? "this service";
+const resolvedIntroText =
+  introText ??
+  `We proudly serve businesses across Northern Virginia with ${serviceDisplayName.toLowerCase()} and local expertise. Choose a city to see tailored details.`;
+
+const locationLinks = locations.map((location) => ({
+  city: location.city,
+  slug: location.slug,
+  href: `/services/${serviceSlug}-${location.slug}`
+}));
+
+const rows: typeof locationLinks[] = [];
+for (let i = 0; i < locationLinks.length; i += itemsPerRow) {
+  rows.push(locationLinks.slice(i, i + itemsPerRow));
+}
+---
+
+<section id="service-area" class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32 flex flex-col items-center">
+  <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+    <span class="text-white">Our </span>
+    <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Service Area</span>
+  </h2>
+
+  <p
+    class="max-w-3xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#99a1ae] text-base md:text-lg text-center tracking-[0] leading-7 mb-12"
+    set:html={resolvedIntroText.split('\n').join('<br />')}
+  />
+
+  <div
+    class="w-full max-w-5xl"
+    role="list"
+    aria-label="Cities served"
+  >
+    {rows.map((row, rowIndex) => (
+      <div
+        class={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 ${rowIndex === 0 ? "mb-4" : ""}`}
+      >
+        {row.map((location) => (
+          <a
+            class="h-[50px] flex items-center justify-center bg-[#2b7fff0d] rounded-[10px] border-[#2b7fff33] border border-solid backdrop-blur-sm backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(4px)_brightness(100%)] px-4 hover:bg-[#2b7fff1a] hover:border-[#2b7fff66] transition-all duration-300 cursor-pointer"
+            href={location.href}
+            role="listitem"
+            aria-label={`Learn about ${serviceDisplayName} in ${location.city}, Virginia`}
+            title={`${serviceDisplayName} in ${location.city}, VA`}
+          >
+            <span class="text-sm text-center leading-5 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-white tracking-[0] whitespace-nowrap">
+              {location.city}
+            </span>
+          </a>
+        ))}
+      </div>
+    ))}
+  </div>
+
+  <p class="max-w-4xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-normal text-[#50a2ff] text-base md:text-lg text-center tracking-[0] leading-7 mt-12">
+    {footerText}
+  </p>
+</section>
+
+

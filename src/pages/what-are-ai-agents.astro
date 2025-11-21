@@ -1,0 +1,279 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HeroSection from '../components/whatAreAIAgents/HeroSection.astro';
+import IntroductionSection from '../components/whatAreAIAgents/IntroductionSection.astro';
+import DefinitionSection from '../components/whatAreAIAgents/DefinitionSection.astro';
+import HowItWorksSection from '../components/whatAreAIAgents/HowItWorksSection.astro';
+import UseCasesSection from '../components/whatAreAIAgents/UseCasesSection.astro';
+import ComparisonSection from '../components/whatAreAIAgents/ComparisonSection.astro';
+import ServiceAreaSection from '../components/whatAreAIAgents/ServiceAreaSection.astro';
+import IndustriesSection from '../components/whatAreAIAgents/IndustriesSection.astro';
+import FaqSection from '../components/VoiceAI/sections/FaqSection.astro';
+import LocalImpactSection from '../components/whatAreAIAgents/LocalImpactSection.astro';
+import CustomizationSection from '../components/whatAreAIAgents/CustomizationSection.astro';
+
+const pageTitle = 'What Are AI Agents?';
+const pageDescription = 'Learn what AI agents are and how they transform business workflows.';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
+    <Header />
+
+    <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
+      <div class="absolute top-0 left-0 w-full h-[1200px] opacity-50 pointer-events-none">
+        <div class="absolute top-0 left-[25%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--1 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[25%] bottom-0 w-96 h-96">
+          <div class="glow-sphere glow-sphere--2 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute top-[50%] left-[50%] w-96 h-96 -translate-x-1/2 -translate-y-1/2">
+          <div class="glow-sphere glow-sphere--3 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[1200px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-10 left-[20%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--4 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[22%] top-1/2 w-96 h-96">
+          <div class="glow-sphere glow-sphere--5 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-1/2 bottom-10 w-80 h-80 -translate-x-1/2">
+          <div class="glow-sphere glow-sphere--6 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[2400px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[15%] left-[28%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--7 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[28%] top-[55%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--8 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[10%] bottom-[10%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--9 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[3600px] left-0 w-full h-[1200px] opacity-40 pointer-events-none">
+        <div class="absolute top-[20%] right-[15%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--10 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[18%] top-[60%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--11 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[35%] bottom-[5%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--12 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="absolute top-[4800px] left-0 w-full h-[1200px] opacity-35 pointer-events-none">
+        <div class="absolute top-[10%] left-[22%] w-80 h-80">
+          <div class="glow-sphere glow-sphere--13 h-full w-full bg-[#ac46ff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute right-[20%] top-[50%] w-96 h-96">
+          <div class="glow-sphere glow-sphere--14 h-full w-full bg-[#2b7fff] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+        <div class="absolute left-[45%] bottom-[15%] w-72 h-72">
+          <div class="glow-sphere glow-sphere--15 h-full w-full bg-[#f6329a] rounded-[33554400px] blur-3xl pointer-events-none"></div>
+        </div>
+      </div>
+
+      <div class="relative z-[1] flex flex-col gap-16 pt-20 pb-0">
+        <HeroSection />
+        <IntroductionSection />
+        <DefinitionSection />
+        <HowItWorksSection />
+        <UseCasesSection />
+        <ComparisonSection />
+        <ServiceAreaSection />
+        <IndustriesSection />
+        <FaqSection
+          titleLeading="COMMON QUESTIONS"
+          titleHighlight="ABOUT AI AGENTS"
+          subtitle="Answers for local business owners considering AI Agents"
+          faqItems={[
+            {
+              question: 'Do they work 24/7?',
+              answer: 'Yep. Even at 2am.'
+            },
+            {
+              question: 'Can I try before I pay?',
+              answer: 'Of course! Free demo calls are available.'
+            },
+            {
+              question: 'Are they expensive?',
+              answer:
+                'No. It’s like hiring a super affordable assistant. We even offer flexible monthly pricing.'
+            },
+            {
+              question: "What if I'm not techy?",
+              answer: 'No problem. We set everything up and train you.'
+            }
+          ]}
+        />
+        <LocalImpactSection />
+        <CustomizationSection />
+        <section class="relative isolate overflow-hidden px-6 py-24 text-center text-white bg-[linear-gradient(120deg,#06152d_0%,#1a021f_100%)]">
+          <div
+            class="pointer-events-none absolute left-1/2 top-[-240px] h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(124,58,237,0.45)_0%,rgba(124,58,237,0)_70%)] blur-[140px] opacity-70"
+            aria-hidden="true"
+          />
+          <div
+            class="pointer-events-none absolute right-[-220px] top-[160px] h-[540px] w-[540px] rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.35)_0%,rgba(59,130,246,0)_70%)] blur-[150px] opacity-65"
+            aria-hidden="true"
+          />
+          <div
+            class="pointer-events-none absolute left-[-260px] bottom-[-260px] h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(168,85,247,0.3)_0%,rgba(168,85,247,0)_70%)] blur-[160px] opacity-60"
+            aria-hidden="true"
+          />
+
+          <div class="relative mx-auto flex max-w-3xl flex-col items-center gap-8">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              Let’s Make Business Easier
+            </h2>
+            <div class="space-y-4 text-base md:text-lg leading-relaxed text-[#cbd4e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              <p>You didn’t start a business to answer 300 messages a week.</p>
+              <p>You started to serve people. Grow. Have more time.</p>
+              <p>Let us help. Your AI Agent is ready.</p>
+            </div>
+            <a
+              href="https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center justify-center rounded-[26px] bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] px-12 py-5 text-lg font-semibold tracking-wide text-white shadow-[0_22px_55px_rgba(94,117,255,0.45)] transition-transform duration-200 hover:scale-[1.04] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/35"
+            >
+              BOOK A FREE DEMO HERE
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <Footer />
+    </main>
+  </div>
+</BaseLayout>
+
+<style is:inline>
+  .glow-sphere {
+    animation: glowFloat 20s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+  }
+
+  .glow-sphere--1 {
+    animation-duration: 18s;
+    animation-delay: -3s;
+  }
+
+  .glow-sphere--2 {
+    animation-duration: 22s;
+    animation-delay: -7s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--3 {
+    animation-duration: 19s;
+    animation-delay: -4s;
+  }
+
+  .glow-sphere--4 {
+    animation-duration: 17s;
+    animation-delay: -9s;
+  }
+
+  .glow-sphere--5 {
+    animation-duration: 23s;
+    animation-delay: -13s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--6 {
+    animation-duration: 16s;
+    animation-delay: -6s;
+  }
+
+  .glow-sphere--7 {
+    animation-duration: 21s;
+    animation-delay: -10s;
+  }
+
+  .glow-sphere--8 {
+    animation-duration: 24s;
+    animation-delay: -15s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--9 {
+    animation-duration: 17s;
+    animation-delay: -8s;
+  }
+
+  .glow-sphere--10 {
+    animation-duration: 22s;
+    animation-delay: -12s;
+  }
+
+  .glow-sphere--11 {
+    animation-duration: 18s;
+    animation-delay: -5s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--12 {
+    animation-duration: 24s;
+    animation-delay: -16s;
+  }
+
+  .glow-sphere--13 {
+    animation-duration: 19s;
+    animation-delay: -11s;
+  }
+
+  .glow-sphere--14 {
+    animation-duration: 23s;
+    animation-delay: -14s;
+    animation-direction: alternate-reverse;
+  }
+
+  .glow-sphere--15 {
+    animation-duration: 18s;
+    animation-delay: -9s;
+  }
+
+  @keyframes glowFloat {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+      opacity: 0.92;
+    }
+
+    20% {
+      transform: translate3d(70px, -55px, 0) scale(1.08) rotate(2deg);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translate3d(-60px, 45px, 0) scale(0.94) rotate(-2deg);
+      opacity: 0.85;
+    }
+
+    60% {
+      transform: translate3d(80px, 55px, 0) scale(1.12) rotate(3deg);
+      opacity: 0.98;
+    }
+
+    80% {
+      transform: translate3d(-75px, -45px, 0) scale(0.96) rotate(-3deg);
+      opacity: 0.88;
+    }
+
+    100% {
+      transform: translate3d(60px, 35px, 0) scale(1.05) rotate(1deg);
+      opacity: 0.95;
+    }
+  }
+</style>
+

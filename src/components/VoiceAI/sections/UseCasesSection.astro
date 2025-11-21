@@ -1,0 +1,115 @@
+---
+interface UseCase {
+  id: string;
+  icon: IconName;
+  title: string;
+  description: string;
+  gradient: string;
+}
+
+type IconName = "stethoscope" | "utensils" | "headphones" | "target";
+
+interface Props {
+  headingLeading?: string;
+  headingHighlight?: string;
+  useCases?: UseCase[];
+}
+
+const defaultUseCases: UseCase[] = [
+  {
+    id: "medical",
+    icon: "stethoscope",
+    title: "Medical Appointment Scheduling",
+    description:
+      "Perfect for Northern Virginia medical practices, our Voice AI Agents can handle appointment scheduling, insurance verification, and patient inquiries while maintaining HIPAA compliance.",
+    gradient:
+      "bg-[linear-gradient(135deg,rgba(11,123,178,0.9)_0%,rgba(9,24,46,0.95)_100%)]"
+  },
+  {
+    id: "restaurant",
+    icon: "utensils",
+    title: "Restaurant Reservations",
+    description:
+      "Manage table reservations, special requests, and customer inquiries efficiently. Your AI agent can check availability, take reservations, and even handle cancellations or modifications.",
+    gradient:
+      "bg-[linear-gradient(135deg,rgba(107,29,147,0.9)_0%,rgba(46,12,60,0.95)_100%)]"
+  },
+  {
+    id: "customer-service",
+    icon: "headphones",
+    title: "Customer Service Inquiries",
+    description:
+      "Handle product questions, order status inquiries, and general customer service requests with intelligent responses that resolve issues quickly and professionally.",
+    gradient:
+      "bg-[linear-gradient(135deg,rgba(117,22,70,0.92)_0%,rgba(40,9,28,0.95)_100%)]"
+  },
+  {
+    id: "lead-qualification",
+    icon: "target",
+    title: "Lead Qualification Calls",
+    description:
+      "Qualify potential customers by asking the right questions, gathering contact information, and determining their level of interest before transferring to your sales team.",
+    gradient:
+      "bg-[linear-gradient(135deg,rgba(69,36,144,0.92)_0%,rgba(22,33,68,0.95)_100%)]"
+  }
+];
+
+const {
+  headingLeading = "Use",
+  headingHighlight = "Cases",
+  useCases = defaultUseCases
+} = Astro.props as Props;
+
+const iconMarkup: Record<IconName, string> = {
+  stethoscope: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M4 2v6a4 4 0 0 0 8 0V2"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/><path d="M2 2v6a6 6 0 0 0 12 0V2"/></svg>`,
+  utensils: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M4 3h2v7a2 2 0 0 1-2 2v8"/><path d="M10 3v7a2 2 0 0 1-2 2v8"/><path d="M14 7h6"/><path d="M17 7v13"/><path d="M15 20h4"/></svg>`,
+  headphones: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>`,
+  target: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m22 12-2 0"/><path d="m4 12-2 0"/></svg>`
+};
+---
+
+<section
+  class="relative mx-auto mt-24 max-w-6xl px-6 py-24"
+  aria-labelledby="use-cases-heading"
+>
+  <header class="flex flex-col items-center text-center gap-3">
+    <h2
+      id="use-cases-heading"
+      class="flex items-center justify-center gap-2 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl font-semibold leading-tight sm:text-4xl md:text-[54px] md:leading-[64px]"
+    >
+      <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#c084fc_0%,#a855f7_100%)]">
+        {headingLeading}
+      </span>
+      <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#60a5fa_0%,#38bdf8_100%)]">
+        {headingHighlight}
+      </span>
+    </h2>
+  </header>
+
+  <div class="mt-14 grid gap-10 lg:grid-cols-2">
+    {useCases.map((useCase) => (
+      <article
+        class={`relative flex h-full flex-col overflow-hidden rounded-[28px] border border-[#ffffff1a] px-10 py-10 shadow-[0px_32px_70px_rgba(9,10,20,0.5)] ${useCase.gradient}`}
+      >
+        <div class="pointer-events-none absolute inset-0 rounded-[28px] opacity-70 [background:radial-gradient(circle_at_top_right,rgba(255,255,255,0.28)_0%,rgba(255,255,255,0)_60%)]" aria-hidden="true" />
+
+        <div class="relative flex h-[58px] w-[58px] items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(102,126,234,1)_0%,rgba(152,68,255,1)_100%)] text-white shadow-[0_18px_40px_rgba(102,126,234,0.35)]">
+          <span class="sr-only">{useCase.title} icon</span>
+          <span class="flex items-center justify-center" set:html={iconMarkup[useCase.icon]} />
+        </div>
+
+        <h3 class="relative mt-7 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-2xl font-semibold leading-9 text-white">
+          {useCase.title}
+        </h3>
+
+        <p class="relative mt-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-7 text-[#d0d8e6]">
+          {useCase.description}
+        </p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style is:global>
+  /* Styles injected for UseCasesSection */
+</style>
