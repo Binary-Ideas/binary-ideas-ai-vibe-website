@@ -5,14 +5,62 @@
     "slug": "chatbot-ai"
   },
   "hero": {
-    "titleLeading": "Chatbot AI ",
-    "titleTrailing": "Virginia",
+    "titleLeading": "Stop Losing Leads to",
+    "titleTrailing": "Unanswered Messages",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "Chatbot AI Virginia Intelligent chatbots that provide instant customer support, answer questions, and guide users through your website 24/7. Reduce support tickets by 70% and provide instant response times while improving customer satisfaction.",
+    "description": "Every time a potential customer messages you at 8 PM and gets no response, they're calling your competitor by 8:05 PM.",
+    "problemList": [
+      "You're spending thousands on marketing to drive traffic to your website—only to lose those leads because you can't respond instantly.",
+      "You answer messages during dinner. You lose leads on weekends. You're working 24/7, but your website isn't.",
+      "Every unanswered chat on your website is money walking out the door. Your Northern Virginia business deserves better."
+    ],
     "ctaText": "Get Your Free Consultation",
     "ctaAriaLabel": "Get Your Free Consultation",
     "ctaIconSrc": "/img/vector-36.svg",
     "ctaIconAlt": "Arrow icon"
+  },
+  "painPoints": {
+    "titleLeading": "YOUR WEBSITE IS COSTING YOU MONEY",
+    "titleHighlight": "EVERY SINGLE DAY",
+    "description": "You're losing $5,000-$10,000 per month to slow response times. Here's exactly how it's happening:",
+    "cards": [
+      {
+        "title": "Lost Revenue After Hours",
+        "icon": "💰",
+        "description": "80% of your leads contact you outside business hours. When they get no response, they move on to competitors who answer in 60 seconds or less. That's 15-20 leads per month choosing someone else—worth $250-500 each to your business.",
+        "pain": "You know these leads are coming. You can see them in your analytics. But you're powerless to stop them from going elsewhere because you're not a machine—you need sleep, family time, and weekends off."
+      },
+      {
+        "title": "Buried in Repetitive Questions",
+        "icon": "😤",
+        "description": "Your team wastes 10-15 hours every week answering the same questions: \"What are your prices?\" \"What are your hours?\" \"Do you serve my area?\" That's $5,000-$7,500 in monthly salary spent on work a $500 AI could handle.",
+        "pain": "You hired talented people to grow your business, but they're stuck being human FAQs. Meanwhile, real opportunities are slipping through the cracks because everyone's too busy with routine questions."
+      },
+      {
+        "title": "Overwhelmed During Peak Times",
+        "icon": "🚫",
+        "description": "When 5 people message you at once, someone gets ignored. That ignored lead just became your competitor's customer. During busy seasons, you might be losing 30-40 leads per month this way—that's $7,500-$20,000 in lost revenue.",
+        "pain": "You feel like you're constantly drowning. The busier you get, the more opportunities you miss. Success is literally creating more failure, and there's no way to keep up without cloning yourself."
+      },
+      {
+        "title": "Your Phone Has Become Your Prison",
+        "icon": "📱",
+        "description": "You're checking messages during dinner, responding to inquiries at your kid's soccer game, and waking up at 6 AM to catch up on overnight contacts. Your phone buzzes and your stomach drops—even when you're supposed to be enjoying your hard-earned time off.",
+        "pain": "You started this business for freedom and flexibility. Now you're more trapped than when you had a boss. Your family resents the phone, your friends have stopped inviting you out, and you can't remember the last time you truly disconnected."
+      },
+      {
+        "title": "Watching Money Slip Away",
+        "icon": "💔",
+        "description": "You're paying $2,000-$5,000 per month for Google Ads, SEO, and marketing to drive traffic to your website. But when those expensive visitors arrive and message you, 60-70% get no response fast enough. You're literally watching your marketing budget evaporate.",
+        "pain": "Every month you write checks for marketing, hoping this will be the month it pays off. But you know the truth—the problem isn't getting leads to your website. It's what happens after they arrive. You're pouring water into a leaky bucket."
+      },
+      {
+        "title": "The Competitor Paranoia",
+        "icon": "😰",
+        "description": "You know your competitors are reading the same articles about AI and 24/7 customer service. Some of them have probably already implemented it. Every lead you lose could be going to them, making them stronger while you fall further behind.",
+        "pain": "You lie awake at night wondering how many customers you lost today. Not because your service isn't great—it is. But because someone else answered faster. It's maddening to lose business not on quality, but on response time."
+      }
+    ]
   },
   "introduction": {
     "featureImage": {

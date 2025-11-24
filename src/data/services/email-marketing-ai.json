@@ -5,14 +5,44 @@
     "slug": "email-marketing-ai"
   },
   "hero": {
-    "titleLeading": "Email Marketing AI ",
-    "titleTrailing": "Virginia",
+    "titleLeading": "You're Sending Emails",
+    "titleTrailing": "Into a Black Hole",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "Email Marketing AI VirginiaAI-powered email marketing that personalizes content, optimizes send times, and improves engagement at scale.Increase open rates by 40% and save 10+ hours per week while improving your email ROI.",
-    "ctaText": "Get Your Free Consultation",
-    "ctaAriaLabel": "Get Your Free Consultation",
+    "description": "Your Northern Virginia business is spending 10+ hours every week on email marketing that nobody opens. You're crafting newsletters, promotions, and campaigns—but your open rates are stuck at 15-20% and your emails feel like they're disappearing into thin air.\n\nWe know you're already wearing too many hats. You shouldn't have to be a copywriting expert AND a data scientist just to get people to read your emails.",
+    "problemList": [
+      "You send the same email to everyone at the same time—and most of it lands in spam or gets ignored because it's not personalized or timed right.",
+      "You're guessing what subject lines work, what content resonates, and when to send—wasting hours on campaigns that deliver mediocre results.",
+      "Your competitors are getting 40-50% open rates because they're using AI—while you're stuck manually writing emails that get 18% opens and generate almost no revenue."
+    ],
+    "ctaText": "Get Your Free Email Marketing Audit",
+    "ctaAriaLabel": "Get Your Free Email Marketing Audit",
     "ctaIconSrc": "/img/vector-36.svg",
     "ctaIconAlt": "Arrow icon"
+  },
+  "painPoints": {
+    "titleLeading": "YOUR EMAIL MARKETING IS COSTING YOU $5,000 IN LOST REVENUE",
+    "titleHighlight": "EVERY MONTH",
+    "description": "Here's what's really happening: you're sending generic emails at generic times, and thousands in potential revenue vanish quietly with every send.",
+    "cards": [
+      {
+        "title": "$5,000-$8,000 in Monthly Revenue",
+        "icon": "💸",
+        "description": "Every campaign that gets a 15% open rate instead of 40% is leaving money on the table. With 5,000 subscribers, that's 1,000+ missed opens per send—equal to 50-80 lost conversions and thousands in sales.",
+        "pain": "You watch your competitors' emails landing at the perfect time with personalized content while yours sit unread. You know email should be your most profitable channel, but instead it feels like shouting into the void."
+      },
+      {
+        "title": "10-15 Hours Per Week on Manual Work",
+        "icon": "⏰",
+        "description": "You're manually segmenting lists, writing versions, scheduling sends, running tests, analyzing results, and tweaking campaigns. That's 40-60 hours per month you could spend serving customers or growing your business.",
+        "pain": "Every Sunday night, you're staring at your laptop trying to write Tuesday's newsletter while your family wants your attention—and you know most people won't even open it."
+      },
+      {
+        "title": "Subscribers Are Quietly Unsubscribing",
+        "icon": "📉",
+        "description": "Generic emails that don't match subscriber interests lead to unsubscribes and spam complaints—hurting your sender reputation and making future emails even less likely to reach inboxes.",
+        "pain": "It's not fair that big companies with full marketing teams and expensive software are winning at email marketing while you're doing everything manually and getting crushed. You shouldn't need a marketing degree and 20 hours per week to send emails people actually read."
+      }
+    ]
   },
   "introduction": {
     "featureImage": {

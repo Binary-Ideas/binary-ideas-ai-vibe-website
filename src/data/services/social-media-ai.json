@@ -5,14 +5,62 @@
     "slug": "social-media-ai"
   },
   "hero": {
-    "titleLeading": "Social Media AI ",
-    "titleTrailing": "Virginia",
+    "titleLeading": "Stop Losing Customers Because",
+    "titleTrailing": "Your Social Media Went Dark for 3 Days",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "AI that creates, schedules, and optimizes your social media content across all platforms automatically. Save 15+ hours per week and increase engagement by 50% with consistent posting and better content performance.",
-    "ctaText": "Get Your Free Consultation",
-    "ctaAriaLabel": "Get Your Free Consultation",
+    "description": "Your Northern Virginia business is hemorrhaging opportunities because your social media presence is inconsistent. You post when you have time (which is never), your engagement is sporadic, and potential customers think you've gone out of business when they see your last post was 6 weeks ago.",
+    "problemList": [
+      "You're losing 10-15 qualified leads every month because people check your social media before they buy, see crickets, and choose an active competitor instead.",
+      "You spend 2-3 hours creating one post, it gets 12 likes, and you wonder if social media is even worth the effort.",
+      "You know you should be posting daily, engaging with followers, and building a community—but between running your business and serving customers, social media gets pushed to \"someday\" every single week."
+    ],
+    "ctaText": "Get Your Free Social Media Audit",
+    "ctaAriaLabel": "Get Your Free Social Media Audit",
     "ctaIconSrc": "/img/vector-36.svg",
     "ctaIconAlt": "Arrow icon"
+  },
+  "painPoints": {
+    "titleLeading": "YOU'RE INVISIBLE ON THE PLATFORMS",
+    "titleHighlight": "WHERE YOUR CUSTOMERS ARE LOOKING",
+    "description": "Here's what's really happening: Your ideal customers are scrolling through Facebook, Instagram, and LinkedIn right now, looking for businesses like yours. But when they land on your profile, they see silence—and they move on.",
+    "cards": [
+      {
+        "title": "You're Spending Hours to Create Content Nobody Sees",
+        "icon": "💸",
+        "description": "You sit down on Sunday night, spend 90 minutes trying to write something clever for Facebook, agonize over the caption, second-guess yourself, and finally hit \"post\" at 11 PM. Result: 8 likes (half from your mom and employees). Hours wasted for nearly zero engagement.",
+        "pain": "You know social media matters for your business, but you also know every hour spent on content is an hour not spent serving customers or actually making money. It feels like a necessary evil that never pays off, but you're afraid to stop entirely because your competitors are active and you don't want to fall further behind."
+      },
+      {
+        "title": "By the Time You Post, the Moment Has Passed",
+        "icon": "⏰",
+        "description": "You see a trending topic perfect for your business on Monday morning. \"I should post about this!\" you think. But you're in back-to-back meetings all day. By Tuesday evening when you finally sit down to create content, the trend is dead, the conversation has moved on, and your post lands with a thud because you're 36 hours late.",
+        "pain": "Social media rewards speed and consistency, but your business can't move at social media's pace. You watch competitors jump on trends, capitalize on viral moments, and build engagement while you're stuck juggling too many responsibilities to keep up."
+      },
+      {
+        "title": "You Have No Idea What Works (So You Keep Doing What Doesn't)",
+        "icon": "📊",
+        "description": "Your post about your new service got 6 likes. Your behind-the-scenes photo got 47 likes and 12 comments. Your carefully crafted promotional post got 3 likes and zero engagement. What's working? What's wasting time? You have no clue because you don't have time to analyze metrics or optimize your strategy.",
+        "pain": "You're flying blind. Maybe video content performs 5X better than images for your audience—but you'll never know because you don't have time to experiment and measure. So you keep posting whatever you can throw together, hoping something sticks."
+      },
+      {
+        "title": "Your Customers Are Asking Questions You Don't See for 3 Days",
+        "icon": "🔥",
+        "description": "Someone comments on your Facebook post: \"Do you serve the Alexandria area?\" It's a qualified lead, ready to buy, asking a simple question. You don't see it for 72 hours because you check social media twice a week. By the time you respond, they've already hired a competitor.",
+        "pain": "Every unanswered comment, ignored DM, and missed mention is a lost opportunity and a damaged reputation. People expect businesses to be responsive on social media—when you're not, they assume you don't care about customers."
+      },
+      {
+        "title": "You're Losing Brand Awareness to Competitors Who Show Up Daily",
+        "icon": "😰",
+        "description": "Your competitor posts 3-5 times per week. Their audience sees them constantly, remembers their brand, and thinks of them first when they need the service. You post once every 2-3 weeks when you remember. When customers are ready to buy, guess whose brand they remember?",
+        "pain": "You're equally qualified, equally experienced, maybe even better—but you're losing business because your competitor has better top-of-mind awareness. They're not winning on quality; they're winning on consistency."
+      },
+      {
+        "title": "You Feel Guilty Every Time You Neglect Social Media",
+        "icon": "💔",
+        "description": "You log into Instagram, see your last post was 21 days ago, and feel that familiar wave of guilt. \"I really need to post something.\" But you also need to handle 47 other urgent tasks, so social media gets pushed to tomorrow. Again. And the guilt compounds.",
+        "pain": "Social media becomes this constant source of stress hanging over you. You're not doing it, you know you should be doing it, you feel bad about not doing it—but you still don't do it because you're too overwhelmed with everything else."
+      }
+    ]
   },
   "introduction": {
     "featureImage": {

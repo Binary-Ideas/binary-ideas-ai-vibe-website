@@ -52,6 +52,20 @@ interface UseCaseItem {
   gradient: string;
 }
 
+interface PainPointCard {
+  title: string;
+  icon: string;
+  description: string;
+  pain: string;
+}
+
+interface PainPointsContent {
+  titleLeading: string;
+  titleHighlight: string;
+  description: string;
+  cards: PainPointCard[];
+}
+
 interface CTAFeature {
   text: string;
 }
@@ -83,11 +97,13 @@ export interface ServiceContent {
     titleTrailing: string;
     titleGradientClass: string;
     description: string;
+    problemList?: string[];
     ctaText: string;
     ctaAriaLabel: string;
     ctaIconSrc: string;
     ctaIconAlt?: string;
   };
+  painPoints?: PainPointsContent;
   introduction: {
     featureImage: FeatureImage;
     titleLeading: string;

@@ -5,14 +5,62 @@
     "slug": "lead-generation-ai"
   },
   "hero": {
-    "titleLeading": "Lead Generation AI",
-    "titleTrailing": "Virginia",
+    "titleLeading": "Stop Wasting Money on",
+    "titleTrailing": "Leads That Never Convert",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "Lead Generation AI VirginiaAutomate your lead capture and qualification with intelligent AI that works 24/7 to find and nurture prospects. Increase your lead volume by 300% while improving lead quality and reducing cost per lead.",
-    "ctaText": "Get Your Free Consultation",
-    "ctaAriaLabel": "Get Your Free Consultation",
+    "description": "Your Northern Virginia business is bleeding revenue on expensive leads that go nowhere. You're spending $3,000-$10,000 per month on marketing, but only 20-30% of those leads are actually qualified buyers.",
+    "problemList": [
+      "You're paying $50-200 per lead, but half of them are tire-kickers who were never going to buy.",
+      "Your sales team wastes hours chasing unqualified prospects while real opportunities slip away.",
+      "You have no idea which marketing channels actually bring in quality leads versus just expensive clicks."
+    ],
+    "ctaText": "Get Your Free Lead Audit",
+    "ctaAriaLabel": "Get Your Free Lead Audit",
     "ctaIconSrc": "/img/vector-36.svg",
     "ctaIconAlt": "Arrow icon"
+  },
+  "painPoints": {
+    "titleLeading": "YOU'RE DROWNING IN LEADS",
+    "titleHighlight": "BUT STARVING FOR CUSTOMERS",
+    "description": "Here's the cruel irony: Your marketing is working—leads are coming in. But your sales aren't growing. You're spending more money each month to generate more leads, yet your revenue stays flat or even drops. Why?",
+    "cards": [
+      {
+        "title": "Your Lead Quality is Terrible",
+        "icon": "💸",
+        "description": "You're paying $50-200 per lead from Google Ads, Facebook, and other channels. But when your sales team calls them, 60-70% are unqualified: wrong budget, wrong timeline, wrong fit, or just browsing. That's $3,000-$7,000 per month spent on leads that were never going to buy.",
+        "pain": "You watch your marketing budget evaporate on people who were never serious buyers. Every month you hope \"this time will be different,\" but the same pattern repeats. You're essentially paying top dollar for window shoppers."
+      },
+      {
+        "title": "Your Sales Team is Overwhelmed and Inefficient",
+        "icon": "⏰",
+        "description": "Your salespeople spend 15-20 hours per week chasing bad leads—making calls that go to voicemail, sending emails that never get opened, qualifying prospects who should have been filtered out before they ever reached a human. That's $15,000-$25,000 in monthly salary wasted on busywork.",
+        "pain": "You hired talented salespeople to close deals, not to qualify tire-kickers. They're frustrated, burned out, and considering other opportunities. Meanwhile, real prospects aren't getting the attention they deserve because everyone's drowning in garbage leads."
+      },
+      {
+        "title": "You Have No Visibility Into What's Working",
+        "icon": "📊",
+        "description": "You're running ads on Google, Facebook, LinkedIn, and maybe others. Some leads say they found you on social media, some say Google, some can't remember. You have no idea which channels bring quality leads versus expensive duds, so you keep spending on everything hoping something works.",
+        "pain": "You're flying blind. Maybe Facebook is bringing in garbage leads while LinkedIn brings gold—but you wouldn't know it. You could be doubling down on your worst-performing channel while starving your best one, all because you can't see what's actually driving revenue."
+      },
+      {
+        "title": "Good Leads Get Lost in the Chaos",
+        "icon": "🔥",
+        "description": "When 100 leads come in per month and 70 are junk, the 30 quality prospects get buried. By the time your team identifies the good ones, they've been waiting 2-3 days for follow-up. Those prospects have already talked to competitors who responded faster, and 70% have made a decision before you ever reach them.",
+        "pain": "You're losing deals you should be winning—not because of price or quality, but because you called on Thursday and your competitor called on Monday. The leads you paid good money to attract are choosing other options while you're stuck sorting wheat from chaff."
+      },
+      {
+        "title": "You Can't Scale Without Going Broke",
+        "icon": "😰",
+        "description": "You want to grow, but the math doesn't work. To double your sales, you'd need to 3X your marketing budget (to account for all the bad leads) and hire 2 more salespeople (to chase them all). That's $10,000-$20,000 more per month in spend before you make an extra dollar in revenue.",
+        "pain": "You're trapped. You can't afford to scale your current system, but you also can't afford to stay small. Your competitors with better lead qualification are growing while you're stuck treading water, watching margins shrink as marketing costs rise."
+      },
+      {
+        "title": "You're Afraid to Turn Off the Faucet",
+        "icon": "💔",
+        "description": "You know the leads are low quality, but what if you stop the ads and the phone stops ringing entirely? At least now you're getting some deals from the flood of inquiries. So you keep paying, keep hoping, keep watching money disappear on leads that never convert.",
+        "pain": "You feel like you're being held hostage by your own marketing. The system is expensive and inefficient, but shutting it down feels even riskier. So you stay stuck in this expensive, frustrating limbo—paying too much for too little return but too scared to change."
+      }
+    ]
   },
   "introduction": {
     "featureImage": {

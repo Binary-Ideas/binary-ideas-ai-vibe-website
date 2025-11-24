@@ -4,6 +4,7 @@ interface Props {
   titleTrailing?: string;
   titleGradientClass?: string;
   description?: string;
+  problemList?: string[];
   ctaText?: string;
   ctaAriaLabel?: string;
   ctaIconSrc?: string;
@@ -16,6 +17,7 @@ const {
   titleTrailing = "Virginia",
   titleGradientClass = "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
   description = "Transform your phone system with AI that sounds completely human and handles calls 24/7. Never miss another customer call while reducing staffing costs by up to 60%.",
+  problemList = [],
   ctaText = "Get Free Consultation",
   ctaAriaLabel = "Get Free Consultation",
   ctaIconSrc = "/img/vector-36.svg",
@@ -23,7 +25,7 @@ const {
   ctaLink = "https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
 } = Astro.props as Props;
 
-const formattedDescription = description.replace(/\. /g, ".<br />");
+const formattedDescription = description ? description.split('\n').join('<br />') : "";
 
 ---
 
@@ -41,9 +43,20 @@ const formattedDescription = description.replace(/\. /g, ".<br />");
       )}
     </h1>
 
-    <p class="max-w-3xl text-[18px] leading-8 text-[#dfe3ef] sm:text-[22px] sm:leading-[34px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
-      {description}
-    </p>
+    <p
+      class="max-w-3xl text-[18px] leading-8 text-[#dfe3ef] sm:text-[22px] sm:leading-[34px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]"
+      set:html={formattedDescription}
+    />
+
+    {problemList.length > 0 && (
+      <div class="grid w-full max-w-5xl gap-4 text-left sm:grid-cols-2 lg:grid-cols-3">
+        {problemList.map((item) => (
+          <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-4 shadow-[0_15px_35px_rgba(0,0,0,0.25)] backdrop-blur text-base leading-7 text-[#dfe3ef] sm:text-lg [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {item}
+          </div>
+        ))}
+      </div>
+    )}
 
     <div class="flex items-center justify-center">
       <a

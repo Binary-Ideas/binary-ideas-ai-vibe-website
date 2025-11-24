@@ -5,14 +5,62 @@
     "slug": "training-agents"
   },
   "hero": {
-    "titleLeading": "Training Agents",
-    "titleTrailing": "Virginia",
+    "titleLeading": "Your Business is Unique.",
+    "titleTrailing": "Why Are You Using Cookie-Cutter AI?",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "We build and train custom AI agents tailored to your specific business processes and needs. Automate unique workflows, gain competitive advantage, and achieve scalable solutions with continuous improvement.",
-    "ctaText": "Get Your Free Consultation",
-    "ctaAriaLabel": "Get Your Free Consultation about training agents",
+    "description": "You've got workflows that don't fit neatly into any software. You've tried off-the-shelf solutions that force you to change how you work just to use the technology. You're spending thousands on tools that solve 60% of your problem while creating new headaches for the other 40%.",
+    "problemList": [
+      "Every week you waste wrestling with generic software is another week your competitors with custom AI solutions are pulling ahead.",
+      "You answer the same questions manually that could be automated. You spend hours on repetitive tasks that AI could handle in seconds.",
+      "You're hiring more people to do work that intelligent systems should be doing—but you can't find software that understands YOUR specific process."
+    ],
+    "ctaText": "Get Your Free AI Automation Audit",
+    "ctaAriaLabel": "Get Your Free AI Automation Audit",
     "ctaIconSrc": "/img/vector-36.svg",
     "ctaIconAlt": "Arrow icon"
+  },
+  "painPoints": {
+    "titleLeading": "YOU'RE TRAPPED BETWEEN EXPENSIVE MANUAL WORK",
+    "titleHighlight": "AND USELESS GENERIC SOFTWARE",
+    "description": "Here's the frustrating reality: manual processes are killing your efficiency, but every software demo forces you to rebuild your workflow just to fit their system.",
+    "cards": [
+      {
+        "title": "Off-the-Shelf Software Doesn't Fit Your Business",
+        "icon": "💸",
+        "description": "You've tried Salesforce, HubSpot, Monday.com, and other \"industry solutions.\" Each one promises everything but delivers about 60% of what you need. The other 40% requires workarounds or process changes, so you end up paying for tools your team only half-uses.",
+        "pain": "You're forced to choose between doing things the wrong way (to fit the software) or doing them manually (defeating the purpose of automation). Either way, you're wasting money and frustrating your team."
+      },
+      {
+        "title": "Your Team Wastes 15-25 Hours Per Week on Repetitive Tasks",
+        "icon": "⏰",
+        "description": "Your people are manually entering data, copying information between systems, answering the same customer questions, processing forms, and generating reports that follow the same pattern. That's $12,000-$30,000 per month in salary spent on work automation could handle.",
+        "pain": "You hired talented people to grow your business, not to be human copy-paste machines. They're bored, frustrated, and considering other opportunities while you pay professional salaries for clerical work."
+      },
+      {
+        "title": "You Have No Idea How Much Inefficiencies Cost",
+        "icon": "📊",
+        "description": "You know manual processes are expensive, but you've never calculated the true cost: wasted labor hours, costly errors, missed opportunities, frustrated customers, and competitive disadvantage.",
+        "pain": "Your instinct says you're losing a fortune, but without hard numbers it's impossible to justify the investment in custom automation. So you keep delaying, keep suffering, and keep watching margins shrink."
+      },
+      {
+        "title": "Generic AI Can't Handle Your Industry Requirements",
+        "icon": "🔥",
+        "description": "You need AI that understands medical billing, construction sequencing, legal compliance, or specific manufacturing processes. ChatGPT and generic bots don't understand your terminology, regulations, or business logic.",
+        "pain": "You watch tech companies deploy impressive AI, but when you try to use it for your business, it falls flat because it doesn't understand your context. You're stuck choosing between dumb automation or smart AI that doesn't know your industry."
+      },
+      {
+        "title": "You Can't Scale Without Drowning in Operational Costs",
+        "icon": "😰",
+        "description": "To double revenue with your current manual processes, you'd need to hire 5-10 more people just to handle the increased volume of data entry, support, processing, and reporting. Growth becomes prohibitively expensive.",
+        "pain": "You're trapped at current revenue levels not because of market demand, but because your systems can't handle growth without massive headcount increases."
+      },
+      {
+        "title": "You're Tired of Consultants Selling Software That Doesn't Fit",
+        "icon": "💔",
+        "description": "You've paid for implementations that promised everything and delivered disappointment. Consultants demo beautiful dashboards but disappear when you need help adapting the system to your actual workflow.",
+        "pain": "You've been burned multiple times by agencies that oversold and underdelivered. Now you're skeptical of anyone claiming they can solve your automation challenges, even though you desperately need a solution that works."
+      }
+    ]
   },
   "introduction": {
     "featureImage": {
