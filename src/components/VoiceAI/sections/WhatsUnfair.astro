@@ -1,0 +1,49 @@
+---
+interface Props {
+  titleLeading?: string;
+  titleTrailing?: string;
+  content?: string[];
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
+const {
+  titleLeading = "Here's What's Really",
+  titleTrailing = "Unfair",
+  content = [],
+  imageSrc = "/img/stop-doing.png",
+  imageAlt = "Business owner trying to keep up manually"
+} = Astro.props as Props;
+---
+
+{content.length > 0 && (
+  <section class="relative w-full px-4 md:px-8 lg:px-20 py-16 lg:py-20">
+    <div class="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-center md:gap-12">
+      <div class="md:w-[40%]">
+        <div class="overflow-hidden rounded-3xl border border-[#fffefe1a] bg-[#fffefe0d] backdrop-blur-sm">
+          <img
+            src={imageSrc}
+            alt={imageAlt}
+            loading="lazy"
+            class="h-full w-full object-cover"
+          />
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-6 md:w-[60%] text-center md:text-left">
+        <h2 class="text-3xl md:text-4xl font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          <span class="text-white">{titleLeading} </span>
+          <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">
+            {titleTrailing}
+          </span>
+        </h2>
+        <div class="space-y-4 text-base md:text-lg leading-relaxed text-[#d0d5db] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          {content.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+

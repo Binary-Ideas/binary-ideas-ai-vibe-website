@@ -62,6 +62,16 @@
       }
     ]
   },
+  "whatsUnfair": {
+    "titleLeading": "Here's What's Really ",
+    "titleTrailing": "Unfair",
+    "content": [
+      "You're excellent at what you do—whether that's healthcare, professional services, manufacturing, real estate, or any other industry. Your business model works. Your processes are proven. Your team knows what they're doing.",
+      "But in 2025, businesses with custom AI systems specifically built for their workflows are operating at 3-5X the efficiency of companies still using generic software or manual processes.",
+      "It's not fair that you have to choose between rebuilding your entire workflow (to fit generic software) or staying stuck with expensive manual processes. It's not fair that your competitors with custom automation are scaling profitably while you're hiring more people just to keep up. And it's definitely not fair that off-the-shelf solutions work great for simple businesses but fail for companies with unique, sophisticated processes like yours.",
+      "You shouldn't have to change how your business works just to use technology. Technology should adapt to you. You shouldn't need a computer science degree to automate your workflows. And you definitely shouldn't have to choose between expensive manual labor and useless generic software that doesn't fit."
+    ]
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Training Agent.png",

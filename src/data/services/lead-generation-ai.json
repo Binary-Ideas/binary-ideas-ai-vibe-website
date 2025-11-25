@@ -62,6 +62,16 @@
       }
     ]
   },
+  "whatsUnfair": {
+    "titleLeading": "Here's What's Really",
+    "titleTrailing": "Unfair ",
+    "content": [
+      "You're doing everything the marketing gurus told you to do. You're running ads. You're creating content. You're capturing leads. Your website works. Your offers are strong.",
+      "But in 2025, simply generating leads isn't enough. Your competitors with intelligent lead qualification systems only pay for qualified prospects, while you're paying for everyone who clicks your ad.",
+      "It's not fair that you have to choose between spending more (to generate enough volume that some qualify) or settling for less growth. It's not fair that your salespeople burn out sorting through junk while competitors' teams only talk to ready-to-buy prospects. And it's definitely not fair that your marketing dollars work harder for companies with better technology.",
+      "You shouldn't have to 3X your budget just to 2X your revenue. You shouldn't need a massive sales team just to sort through bad leads. And you definitely shouldn't have to guess which marketing channels actually drive sales versus just expensive clicks."
+    ]
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Lead Generation.png",

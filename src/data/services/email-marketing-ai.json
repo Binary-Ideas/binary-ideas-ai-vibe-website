@@ -44,6 +44,16 @@
       }
     ]
   },
+  "whatsUnfair": {
+    "titleLeading": "Here's What's Really ",
+    "titleTrailing": "Unfair",
+    "content": [
+      "You pour real expertise into your business. You know your customers, you deliver results, and you've earned their trust the hard way.",
+      "But in 2025, brands using AI-driven email platforms show up in every inbox at the perfect time with eerily personalized content—while your carefully written campaigns get buried under newsletters nobody reads.",
+      "It's not fair that you have to be a copywriter, data scientist, and deliverability expert just to compete. It's not fair that giant companies with automation suites get all the attention while your authentic voice gets filtered into Promotions.",
+      "You shouldn't have to sacrifice nights and weekends drafting emails that never get opened. You shouldn't have to guess which subject line might work. And you definitely shouldn't lose revenue just because you don't have an AI assistant doing the heavy lifting behind the scenes."
+    ]
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Email.png",

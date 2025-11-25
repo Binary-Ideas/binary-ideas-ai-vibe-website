@@ -66,6 +66,14 @@ interface PainPointsContent {
   cards: PainPointCard[];
 }
 
+interface WhatsUnfairContent {
+  titleLeading: string;
+  titleTrailing: string;
+  content: string[];
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
 interface CTAFeature {
   text: string;
 }
@@ -104,6 +112,7 @@ export interface ServiceContent {
     ctaIconAlt?: string;
   };
   painPoints?: PainPointsContent;
+  whatsUnfair?: WhatsUnfairContent;
   introduction: {
     featureImage: FeatureImage;
     titleLeading: string;

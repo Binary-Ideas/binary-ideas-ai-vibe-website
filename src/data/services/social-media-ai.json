@@ -62,6 +62,16 @@
       }
     ]
   },
+  "whatsUnfair": {
+    "titleLeading": "Here's What's Really ",
+    "titleTrailing": "Unfair",
+    "content": [
+      "You're doing everything right in your actual business. You serve customers well. You deliver quality. You have great reviews. Your product or service is excellent.",
+      "But in 2025, customers check your social media before they buy. Inactive social presence equals \"dead business\" in their eyes. Your competitors with consistent social media capture customers simply by showing up, while you lose opportunities because potential buyers assume you're out of business.",
+      "It's not fair that you have to be a content creator, copywriter, graphic designer, engagement manager, and algorithm expert just to stay competitive. It's not fair that your 20+ years of business expertise matters less than whether you posted on Instagram this week. And it's definitely not fair that businesses with dedicated marketing teams (or time to focus on social media) steal your customers just because they're more visible online.",
+      "You shouldn't have to choose between serving customers and building your social media presence. You shouldn't need to work nights and weekends creating content. And you definitely shouldn't lose qualified leads because your last post was 3 weeks ago."
+    ]
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Social Media.png",

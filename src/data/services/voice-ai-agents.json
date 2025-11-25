@@ -62,6 +62,17 @@
       }
     ]
   },
+  "whatsUnfair": {
+    "titleLeading": "Here's What's Really ",
+    "titleTrailing": "Unfair:",
+    "content": [
+      "You've spent years building expertise in your field. You're excellent at what you do. Your customers love you. You deserve to succeed.",
+      "But in 2025, tech-savvy competitors with AI phone systems are stealing your customers—not because they're better at the actual work, but because they answer in 30 seconds while you're stuck on another line or serving existing clients.",
+      "It's not fair that you need to be a computer science expert just to compete. It's not fair that answering instantly has become more important than being actually good at your job. And it's definitely not fair that your hard work, expertise, and dedication matter less than having the latest technology.",
+      "You shouldn't have to choose between serving your current customers well and capturing new leads. You shouldn't have to sacrifice family time to answer \"What are your hours?\" calls. And you definitely shouldn't have to become a tech expert just to level the playing field.",
+      "It's not fair that you're losing customers simply because you can't answer three phones at once. You provide better service—you just need better systems."
+    ]
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Voice AI.png",
