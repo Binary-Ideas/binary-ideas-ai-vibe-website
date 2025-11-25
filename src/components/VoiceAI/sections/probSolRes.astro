@@ -1,0 +1,123 @@
+---
+interface DetailContent {
+  heading?: string;
+  intro?: string;
+  body?: string;
+  highlight?: string;
+  outro?: string;
+}
+
+interface Props {
+  titleLeading?: string;
+  titleTrailing?: string;
+  problem?: string;
+  solution?: string;
+  result?: string;
+  detail?: DetailContent;
+}
+
+const {
+  titleLeading = "THERE'S A BETTER WAY:",
+  titleTrailing = "MEET YOUR NEW 24/7 AGENT",
+  problem,
+  solution,
+  result,
+  detail
+} = Astro.props as Props;
+
+const cards = [
+  {
+    key: "problem",
+    label: "The Problem",
+    text: problem,
+    accentClass: "from-[#f97316] to-[#fb923c]",
+    borderClass: "border-[#f9731633]",
+    bgClass: "bg-[#070911]"
+  },
+  {
+    key: "solution",
+    label: "The Solution",
+    text: solution,
+    accentClass: "from-[#38bdf8] to-[#3b82f6]",
+    borderClass: "border-[#38bdf833]",
+    bgClass: "bg-[#070f1f]"
+  },
+  {
+    key: "result",
+    label: "The Result",
+    text: result,
+    accentClass: "from-[#f472b6] to-[#c084fc]",
+    borderClass: "border-[#f472b633]",
+    bgClass: "bg-[#0f0816]"
+  }
+].filter((card) => Boolean(card.text));
+
+const hasContent = cards.length === 3;
+---
+
+{hasContent && (
+  <section class="relative w-full px-4 py-16 md:px-8 lg:px-20">
+    <div class="mx-auto flex max-w-6xl flex-col gap-10">
+      <div class="max-w-4xl text-center mx-auto">
+        <h2 class="text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-[2.75rem]">
+          <span class="text-white">{titleLeading} </span>
+          <span class="bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)] bg-clip-text text-transparent">
+            {titleTrailing}
+          </span>
+        </h2>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-3">
+        {cards.map((card) => (
+          <article
+            class={`relative flex h-full flex-col rounded-3xl border ${card.borderClass} ${card.bgClass} p-6 shadow-[0_25px_70px_rgba(5,6,14,0.45)]`}
+          >
+            <div class="mb-4 flex items-center gap-3">
+              <span
+                class={`inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br ${card.accentClass} text-sm font-semibold uppercase tracking-wide text-white`}
+              >
+                {card.label === "The Problem"
+                  ? "P"
+                  : card.label === "The Solution"
+                    ? "S"
+                    : "R"}
+              </span>
+              <span class="text-base font-semibold uppercase tracking-[0.25em] text-white/80">
+                {card.label}
+              </span>
+            </div>
+            <p class="text-base leading-relaxed text-[#d0d5db]">{card.text}</p>
+          </article>
+        ))}
+      </div>
+      {detail && (
+        <div class="flex flex-col gap-6">
+          {detail.intro && (
+            <p class="text-lg leading-relaxed text-white/90 text-center">
+              {detail.intro}
+            </p>
+          )}
+          {(detail.body || detail.highlight) && (
+            <div class="rounded-[32px] border border-white/10 bg-[#050915] p-8 shadow-[0_30px_80px_rgba(5,6,14,0.55)]">
+              {detail.body && (
+                <p class="text-base leading-relaxed text-[#f1f5f9]">{detail.body}</p>
+              )}
+              {detail.highlight && (
+                <div class="mt-6 rounded-2xl border border-[#facc15]/35 bg-[#1f1c13] p-5">
+                  <p class="text-base leading-relaxed text-[#fef9c3]" set:html={detail.highlight}></p>
+                </div>
+              )}
+            </div>
+          )}
+          {detail.outro && (
+            <div class="rounded-[32px] border border-[#38bdf833] bg-[#09192f] p-8 text-center shadow-[0_20px_60px_rgba(6,15,30,0.4)]">
+              <p class="text-base leading-relaxed text-[#e2e8f0]">{detail.outro}</p>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  </section>
+)}
+
+

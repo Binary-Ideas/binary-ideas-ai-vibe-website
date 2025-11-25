@@ -74,6 +74,24 @@ interface WhatsUnfairContent {
   imageAlt?: string;
 }
 
+interface ProbSolResDetail {
+  heading?: string;
+  intro: string;
+  body: string;
+  highlight: string;
+  outro: string;
+}
+
+interface ProbSolResContent {
+  heading?: string;
+  titleLeading: string;
+  titleTrailing: string;
+  problem: string;
+  solution: string;
+  result: string;
+  detail?: ProbSolResDetail;
+}
+
 interface CTAFeature {
   text: string;
 }
@@ -113,6 +131,7 @@ export interface ServiceContent {
   };
   painPoints?: PainPointsContent;
   whatsUnfair?: WhatsUnfairContent;
+  probSolRes?: ProbSolResContent;
   introduction: {
     featureImage: FeatureImage;
     titleLeading: string;

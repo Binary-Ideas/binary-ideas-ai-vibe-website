@@ -54,6 +54,21 @@
       "You shouldn't have to sacrifice nights and weekends drafting emails that never get opened. You shouldn't have to guess which subject line might work. And you definitely shouldn't lose revenue just because you don't have an AI assistant doing the heavy lifting behind the scenes."
     ]
   },
+  "probSolRes": {
+    "heading": "Email Marketing AI",
+    "titleLeading": "THERE'S A BETTER WAY: ",
+    "titleTrailing": "SEND EMAILS PEOPLE CAN'T WAIT TO OPEN",
+    "problem": "Blasting the same email to everyone keeps your open rates stuck at 15-20% and quietly bleeds $6,000-$12,000 in repeat revenue every month as subscribers tune you out.",
+    "solution": "We layer Email Marketing AI on top of the platform you already use so it segments automatically, writes personalized copy in your voice, and times each send for maximum engagement—no migration or new software nightmares.",
+    "result": "You ship tailored campaigns every week, revive dormant leads, and drive 25-40% more bookings without spending late nights writing emails from scratch.",
+    "detail": {
+      "heading": "Email Marketing AI",
+      "intro": "Imagine having your best copywriter and data analyst fused into one assistant—crafting personalized emails for every segment, testing subject lines automatically, and sending campaigns the moment each subscriber is most likely to open.",
+      "body": "That's what Email Marketing AI delivers. It studies past performance, writes in your brand voice, and spins up tailored variations that feel one-to-one. Every send is optimized for inbox placement, CTA performance, and revenue impact—without you pulling another late night in your ESP.",
+      "highlight": "<strong>We know \"email automation\" has burned you before.</strong> We've been on those calls where agencies promised 40% open rates, then handed over generic templates. As Northern Virginia business owners, we built this because we needed smarter automation that still sounded like us.",
+      "outro": "You don't need to switch platforms or learn new software. Keep Mailchimp, Klaviyo, or whatever you're using now. Answer a few questions about your offers, and we handle the rest—from segmentation logic to ongoing optimization—so every campaign actually earns its keep."
+    }
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Email.png",

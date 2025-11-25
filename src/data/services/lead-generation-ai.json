@@ -72,6 +72,21 @@
       "You shouldn't have to 3X your budget just to 2X your revenue. You shouldn't need a massive sales team just to sort through bad leads. And you definitely shouldn't have to guess which marketing channels actually drive sales versus just expensive clicks."
     ]
   },
+  "probSolRes": {
+    "heading": "Lead Generation AI",
+    "titleLeading": "THERE'S A BETTER WAY: ",
+    "titleTrailing": "LET AI QUALIFY EVERY PROSPECT IN SECONDS",
+    "problem": "With spreadsheets, unscored form fills, and two-day response times, Northern Virginia service businesses watch 35% of warm leads go cold within 48 hours—wasting $8,000-$15,000 every month in ad spend and missed deals.",
+    "solution": "We embed Lead Generation AI into your existing funnels to capture every inquiry, score it in seconds, and route hot prospects to the right rep automatically—no new CRM or painful rebuild required.",
+    "result": "You respond in under 60 seconds, double the quality conversations your sales team has each week, and finally see which campaigns print money—without hiring extra coordinators.",
+    "detail": {
+      "heading": "Lead Generation AI",
+      "intro": "Imagine having your sharpest SDR working 24/7—spotting buying signals the instant they happen, calling prospects back within seconds, and feeding your team conversations that are actually ready to close.",
+      "body": "That's exactly what Lead Generation AI delivers. It monitors every form, chat, phone call, and ad click, then uses advanced scoring to prioritize the prospects who match your ideal customer profile. High-intent leads get fast-tracked to your sales reps with the exact insights they need to win the deal, while low-quality tire-kickers are nurtured automatically.",
+      "highlight": "<strong>We know you're drowning in junk leads.</strong> We've sat in the same Northern Virginia offices hearing the phone ring with \"just curious\" shoppers while real opportunities slipped away. We're local too, and we were tired of tools that promised better leads but dumped more noise on already stretched teams.",
+      "outro": "You don't need to rip out your CRM or rebuild your funnel. You keep the tools you know, answer a few questions about your sales process, and we handle everything else—from setup to optimization—so your pipeline finally matches the effort you're putting into it."
+    }
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Lead Generation.png",

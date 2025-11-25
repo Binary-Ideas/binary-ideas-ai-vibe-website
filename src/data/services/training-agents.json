@@ -72,6 +72,21 @@
       "You shouldn't have to change how your business works just to use technology. Technology should adapt to you. You shouldn't need a computer science degree to automate your workflows. And you definitely shouldn't have to choose between expensive manual labor and useless generic software that doesn't fit."
     ]
   },
+  "probSolRes": {
+    "heading": "Training Agents",
+    "titleLeading": "THERE'S A BETTER WAY: ",
+    "titleTrailing": "CUSTOM AI BUILT SPECIFICALLY FOR YOUR BUSINESS",
+    "problem": "Northern Virginia businesses with unique workflows waste $50,000-$200,000 annually on manual processes or generic software that doesn't fit their specific industry requirements and business logic.",
+    "solution": "We build and train custom AI agents specifically designed for your unique processes, industry terminology, and business rules—handling complex workflows that off-the-shelf solutions can't touch.",
+    "result": "Your team stops wasting 15-25 hours weekly on repetitive work, your operational costs drop 40-70%, and you can finally scale without hiring proportionally more people to handle the workload.",
+    "detail": {
+      "heading": "Training Agents",
+      "intro": "Imagine having your sharpest operations lead cloned into software—watching every workflow, catching exceptions before they snowball, and keeping projects moving even when your team is slammed.",
+      "body": "That's exactly what our custom Training Agents do. We capture your unique playbooks, business logic, and industry language, then train AI workers that follow them flawlessly. They log into the same systems your team already uses, trigger automations, escalate when a human is needed, and keep every step of your process on rails.",
+      "highlight": "<strong>We know \"one-size-fits-all\" software never fits.</strong> We're Northern Virginia builders too, and we've sat through the demos that force you to rewrite your workflow. Training Agents was born because our own clients needed something that matched how they actually operate—not how a SaaS product thinks they should.",
+      "outro": "You don't have to become a data scientist or rebuild your stack. We interview your subject-matter experts, map the process, and deliver AI teammates that feel like they've been on staff for years—complete with ongoing optimization as your business evolves."
+    }
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Training Agent.png",

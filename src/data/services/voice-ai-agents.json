@@ -73,6 +73,21 @@
       "It's not fair that you're losing customers simply because you can't answer three phones at once. You provide better service—you just need better systems."
     ]
   },
+  "probSolRes": {
+    "heading": "Voice AI",
+    "titleLeading": "THERE'S A BETTER WAY: ",
+    "titleTrailing": "MEET YOUR NEW 24/7 PHONE RECEPTIONIST",
+    "problem": "With 30-40% of calls coming in after hours or during peak times, Northern Virginia businesses are losing $3,000-$7,000 in revenue every month to missed calls and voicemail.",
+    "solution": "We install Voice AI Agents directly into your existing phone system—no rebuild needed, no technical expertise required.",
+    "result": "You'll capture every call 24/7, reduce staffing costs by 60%, and turn your phone into a revenue-generating machine—without hiring a single employee or sacrificing another evening with your family.",
+    "detail": {
+      "heading": "Voice AI Agent",
+      "intro": "Imagine having your best receptionist working around the clock—answering calls instantly, scheduling appointments, and capturing every opportunity while you focus on growing your Northern Virginia business.",
+      "body": "That's exactly what Voice AI Agents do. Our intelligent phone system uses artificial intelligence to handle customer calls with natural, human-like conversations. Unlike robotic phone trees that frustrate customers, our AI understands context, responds appropriately, and provides the kind of service that makes customers think you hired the perfect receptionist.",
+      "highlight": "<strong>We know you're skeptical.</strong> You've been promised \"game-changing solutions\" before that turned into expensive headaches. But this is different—because we're local Northern Virginia business owners too. We're based right here in Lorton, and we understand your frustration with technology that promises the moon and delivers confusion.",
+      "outro": "You don't need to change your phone system. You don't need technical expertise. You don't even need to understand how AI works. You just tell us about your business, and we handle everything else—from installation to ongoing optimization."
+    }
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Voice AI.png",

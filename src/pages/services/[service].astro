@@ -13,6 +13,7 @@ import ServiceArea from "../../components/VoiceAI/sections/ServiceArea.astro";
 import CallToActionSection from "../../components/VoiceAI/sections/CallToActionSection.astro";
 import ThePainPoints from "../../components/VoiceAI/thePainPoints.astro";
 import WhatsUnfair from "../../components/VoiceAI/sections/WhatsUnfair.astro";
+import ProbSolRes from "../../components/VoiceAI/sections/probSolRes.astro";
 import Footer from "../../components/Footer.astro";
 import { servicesContentMap } from "../../data/services/content";
 
@@ -34,6 +35,7 @@ const {
   hero,
   painPoints,
   whatsUnfair,
+  probSolRes,
   introduction,
   keyFeatures,
   benefits,
@@ -139,6 +141,7 @@ const {
             imageAlt={whatsUnfair.imageAlt}
           />
         )}
+        {probSolRes && <ProbSolRes {...probSolRes} />}
         <IntroductionSection
           featureImage={introduction.featureImage}
           infoTitleLeading={introduction.titleLeading}

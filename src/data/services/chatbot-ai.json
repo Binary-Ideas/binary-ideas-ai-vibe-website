@@ -72,6 +72,21 @@
       "You shouldn't have to choose between serving your current customers well and capturing new leads. You shouldn't have to sacrifice family time to respond to \"What are your hours?\" messages. And you definitely shouldn't have to become a tech expert just to level the playing field."
     ]
   },
+  "probSolRes": {
+    "heading": "Chatbot AI",
+    "titleLeading": "THERE'S A BETTER WAY: ",
+    "titleTrailing": "MEET YOUR NEW 24/7 SALES ASSISTANT",
+    "problem": "With 80% of leads contacting businesses after hours, Northern Virginia companies are losing $5,000-$10,000 in revenue every month to unanswered inquiries and slow response times.",
+    "solution": "We install AI chatbots directly into your existing website—no rebuild needed, no technical expertise required.",
+    "result": "You'll capture every lead 24/7, triple your qualified inquiries, and turn your website into your best salesperson—without hiring a single employee or sacrificing another evening with your family.",
+    "detail": {
+      "heading": "Chatbot AI",
+      "intro": "Imagine having your best employee working around the clock—answering questions instantly, qualifying leads, and capturing every opportunity while you focus on growing your Northern Virginia business.",
+      "body": "That's exactly what Chatbot AI does. Our intelligent virtual assistant uses artificial intelligence to engage website visitors in natural conversations, provide instant support, and turn more browsers into buyers—without you lifting a finger.",
+      "highlight": "<strong>We know you're skeptical.</strong> You've been promised \"game-changing solutions\" before that turned into expensive headaches. But this is different—because we're local Northern Virginia business owners too. We understand your frustration with technology that promises the moon and delivers confusion.",
+      "outro": "You don't need to rebuild your website. You don't need technical expertise. You don't even need to understand how AI works. You just answer five quick questions about your business, and we handle everything else—from installation to ongoing optimization."
+    }
+  },
   "introduction": {
     "featureImage": {
       "src": "/img/Chatbot.png",
