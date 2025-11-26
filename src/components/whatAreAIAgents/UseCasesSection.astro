@@ -5,37 +5,55 @@ const cards = [
     imageAlt: 'Beauty and self-care icon',
     title: 'Beauty & Self-Care in Alexandria',
     description:
-      'The Problem: \n\nMissing bookings from Facebook DMs that came in after hours\n\nTheir AI Agent now replies instantly to Facebook messages, confirms appointments, and upsells with "Want to add a facial?" prompts.\n\nBonus Result:\n\nThe AI also collects reviews automatically. "How was your visit?" texts increased their Google rating from 4.2 to 4.8 stars.'
+      'The Problem: Missing bookings from Facebook DMs that came in after hours\n\nTheir AI Agent now replies instantly to Facebook messages, confirms appointments, and upsells with "Want to add a facial?" prompts.\n\nBonus Result:\n\nThe AI also collects reviews automatically. "How was your visit?" texts increased their Google rating from 4.2 to 4.8 stars.'
   },
   {
     imageSrc: '/img/icon-clinic.jpg',
     imageAlt: 'Clinic and wellness icon',
     title: 'Med Spa in Springfield',
     description:
-      'The Problem: \n\nFront desk staff spent 70% of their time answering the same questions\n\nWe automated their bookings, pre-screening forms, and post-treatment check-ins. The front desk now focuses on in-person patients instead of repetitive questions.\n\nReal Result:\n\nLess admin work = 12 more patients seen per week = $18,000 more monthly revenue.'
+      'The Problem: Front desk staff spent 70% of their time answering the same questions\n\nWe automated their bookings, pre-screening forms, and post-treatment check-ins. The front desk now focuses on in-person patients instead of repetitive questions.\n\nReal Result:\n\nLess admin work = 12 more patients seen per week = $18,000 more monthly revenue.'
   },
   {
     imageSrc: '/img/icon-contractor.jpg',
     imageAlt: 'Contractor and trades icon',
     title: 'HVAC Contractor in Lorton',
     description:
-      'The Problem: \n\nPlaying phone tag with customers while installing AC units\n\nHis AI Agent answers calls, sends instant follow-up texts, and books site visits – even when he\'s 20 feet up on a roof.\n\nIn His Words:\n\n"I used to miss 3-5 jobs a week. Now I don\'t miss any. My calendar\'s actually full for the first time in years."'
+      'The Problem: Playing phone tag with customers while installing AC units\n\nHis AI Agent answers calls, sends instant follow-up texts, and books site visits – even when he\'s 20 feet up on a roof.\n\nIn His Words:\n\n"I used to miss 3-5 jobs a week. Now I don\'t miss any. My calendar\'s actually full for the first time in years."'
   },
   {
     imageSrc: '/img/icon-real-estate.jpg',
     imageAlt: 'Real estate icon',
     title: 'Real Estate Agent in Fairfax Station',
     description:
-      'The Problem: \n\nOpen house guests ghosted after showing interest\n\nNow her AI Agent texts every guest within 60 seconds. It asks if they want to schedule a private tour, get loan pre-approval info, or see comparable properties – and logs everything in her CRM.'
+      'The Problem: Open house guests ghosted after showing interest\n\nNow her AI Agent texts every guest within 60 seconds. It asks if they want to schedule a private tour, get loan pre-approval info, or see comparable properties – and logs everything in her CRM.'
   },
   {
     imageSrc: '/img/icon-coaches.jpg',
     imageAlt: 'Coaches and course creators icon',
     title: 'Online Course Creator in Woodbridge',
     description:
-      'The Problem: \n\nSpending 10+ hours weekly answering the same course questions\n\nHer AI Agent handles FAQs, qualifies prospects, and sends payment reminders. Her inbox is finally clean and her calendar is full of qualified coaching calls – not tire-kickers.'
+      'The Problem: Spending 10+ hours weekly answering the same course questions\n\nHer AI Agent handles FAQs, qualifies prospects, and sends payment reminders. Her inbox is finally clean and her calendar is full of qualified coaching calls – not tire-kickers.'
   }
 ];
+
+const boldLabels = ['The Problem', 'Bonus Result', 'Real Result', 'In His Words'];
+
+const formatParagraph = (text: string) => {
+  const match = text.match(/^(.*?)(:)(.*)$/);
+  if (!match) {
+    return text;
+  }
+
+  const [_, label, colon, rest] = match;
+  const trimmedLabel = label.trim();
+
+  if (!boldLabels.includes(trimmedLabel)) {
+    return text;
+  }
+
+  return `<strong>${trimmedLabel}${colon}</strong>${rest}`;
+};
 ---
 
 <section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
@@ -68,18 +86,10 @@ const cards = [
               const trimmed = paragraph.trim();
               if (!trimmed) return null;
 
-              const labelMatch = trimmed.match(/^\*\*(.+?)\*\*:(.*)$/);
-
               return (
-                <p>
-                  {labelMatch ? (
-                    <>
-                      <strong>{labelMatch[1].trim()}:</strong> {labelMatch[2].trim()}
-                    </>
-                  ) : (
-                    trimmed.replace(/^\*\*|\*\*$/g, '')
-                  )}
-                </p>
+                <p
+                  set:html={formatParagraph(trimmed)}
+                ></p>
               );
             })}
           </div>
@@ -102,9 +112,16 @@ const cards = [
             </h3>
           </div>
           <div class="space-y-3 text-sm md:text-base leading-relaxed text-[#d0d5db] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
-            {card.description.split('\n\n').map((paragraph) => (
-              <p set:html={paragraph}></p>
-            ))}
+            {card.description.split('\n\n').map((paragraph) => {
+              const trimmed = paragraph.trim();
+              if (!trimmed) return null;
+
+              return (
+                <p
+                  set:html={formatParagraph(trimmed)}
+                ></p>
+              );
+            })}
           </div>
         </article>
       ))}
