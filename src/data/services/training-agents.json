@@ -178,41 +178,33 @@
     ]
   },
   "process": {
-    "titleLeading": "How It Works ",
-    "titleHighlight": "Our Process",
-    "subtitle": "",
+    "titleLeading": "How It Works -",
+    "titleHighlight": "Three Simple Steps",
+    "subtitle": "<strong>How We Build Your Custom AI Agent in 3 Simple Steps</strong><br /><br />You're already buried in work. The last thing you need is another complicated technology project. That's why we've made this so simple that you'll barely know we're working.<br /><br /><strong>We Know You Don't Have Time for \"Projects\"</strong><br /><br />You're already juggling operations, sales, customer service, and everything else. Adding a complex AI implementation to your plate sounds exhausting, even if the end result is amazing.",
     "steps": [
       {
         "id": 1,
-        "stepNumber": "Step 1",
-        "title": "Discovery & Analysis",
-        "description": "We conduct a comprehensive analysis of your business processes, identify automation opportunities, and define the specific requirements for your custom AI agent solution.",
+        "stepNumber": "STEP 1",
+        "title": "Free AI Opportunity Audit (30 Minutes)",
+        "description": "<p>We analyze your current workflows, identify the biggest automation opportunities, and calculate exactly how much time and money you're wasting on tasks AI could handle. Then we show you what custom automation would look like for YOUR specific process. No sales pitch, no pressure—just honest analysis.</p><p><strong>What you'll get:</strong> A detailed breakdown showing which processes are automation candidates, estimated time savings, projected cost reduction, and realistic ROI projections. Even if you don't work with us, you'll know exactly where you're leaving money on the table.</p>",
         "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(45,212,191,1)_0%,rgba(59,130,246,1)_100%)]"
       },
       {
         "id": 2,
-        "stepNumber": "Step 2",
-        "title": "Custom Development",
-        "description": "Our team develops and trains AI models specifically for your business, creating intelligent agents that understand your unique processes and can make decisions that align with your goals.",
+        "stepNumber": "STEP 2",
+        "title": "We Build & Train Your Custom AI Agent",
+        "description": "<p>We document your processes together, define your business rules and requirements, then build AI models specifically trained for your industry and workflows. We integrate seamlessly with your existing systems (no rebuild needed), test thoroughly with real scenarios, and launch with your team's feedback built in.</p><p><strong>What you'll do:</strong> Spend 2-3 hours over a few weeks describing how your process works and answering questions. That's it. We handle the AI development, the system integration, the testing, and the deployment. You don't touch any technology—you just explain your business and we translate that into intelligent automation.</p>",
         "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(29,180,194,1)_0%,rgba(30,64,175,1)_100%)]"
       },
       {
         "id": 3,
-        "stepNumber": "Step 3",
-        "title": "Integration & Testing",
-        "description": "We integrate your custom AI agents with your existing systems and thoroughly test all functionality to ensure seamless operation and optimal performance in your business environment.",
+        "stepNumber": "STEP 3",
+        "title": "Watch Efficiency Soar & Costs Plummet",
+        "description": "<p>Your custom AI starts handling routine work automatically—making decisions based on your business logic, coordinating across multiple systems, and learning from every interaction. Your team focuses on strategic work while AI handles repetitive tasks, and you track the impact with detailed performance analytics.</p><p><strong>What you'll experience:</strong> Within the first week, your team will notice they're spending less time on busywork. Within 30 days, you'll see measurable productivity gains and cost reductions. Within 90 days, you'll have clear data on ROI and opportunities for further optimization—plus your AI is getting smarter every week.</p>",
         "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(139,92,246,1)_100%)]"
-      },
-      {
-        "id": 4,
-        "stepNumber": "Step 4",
-        "title": "Deployment & Support",
-        "description": "We deploy your AI agents and provide comprehensive training, documentation, and ongoing support to ensure your team can effectively use and maintain the system long-term.",
-        "icon": "headset",
-        "gradient": "bg-[linear-gradient(135deg,rgba(165,180,252,1)_0%,rgba(14,165,233,1)_100%)]"
       }
     ]
   },
@@ -274,34 +266,47 @@
     "items": [
       {
         "question": "How long does it take to develop a custom AI agent?",
-        "answer": "Development time varies based on complexity, but most custom AI agents are completed within 4-8 weeks, including training, testing, and integration phases."
+        "answer": "Development time varies based on complexity, but most custom AI agents are completed within 4-8 weeks, including requirements gathering, training, testing, integration, and launch. Simpler automations can be ready in 2-3 weeks; highly complex multi-system integrations may take 10-12 weeks."
       },
       {
         "question": "What data do you need to train the AI agent?",
-        "answer": "We work with your existing business data, process documentation, and examples of how tasks should be performed to train the AI agent effectively for your specific use case."
+        "answer": "We work with your existing business data, process documentation, and examples of how tasks should be performed to train the AI agent effectively for your specific use case. If you don't have formal documentation, we'll help you document the process as part of the project—many of our clients discover this documentation exercise itself provides valuable insights."
       },
       {
         "question": "Can the AI agent be modified after deployment?",
-        "answer": "Yes, our AI agents are designed to be flexible and can be updated, retrained, or modified as your business processes evolve or requirements change."
+        "answer": "Absolutely. Our AI agents are designed to be flexible and can be updated, retrained, or modified as your business processes evolve or requirements change. In fact, we recommend periodic optimization sessions (quarterly or semi-annually) to ensure your AI continues to improve and adapt to changing needs."
       },
       {
         "question": "What kind of support do you provide after deployment?",
-        "answer": "We provide comprehensive documentation, training for your team, and ongoing technical support to ensure your AI agents continue to perform optimally and meet your business needs."
+        "answer": "We provide comprehensive documentation, training for your team, and ongoing technical support to ensure your AI agents continue to perform optimally and meet your business needs. All support requests are answered within 4 hours, and we're available evenings and weekends for urgent issues."
       },
       {
         "question": "How do we measure the success of our custom AI agent?",
-        "answer": "We establish specific performance metrics based on your business goals and provide detailed reporting on efficiency gains, error reduction, and ROI to help you track success."
+        "answer": "We establish specific performance metrics based on your business goals (e.g., time savings, cost reduction, error rates, throughput) and provide detailed reporting on efficiency gains, cost savings, and ROI to help you track success. You'll have a dashboard showing exactly how much time and money the AI is saving weekly."
+      },
+      {
+        "question": "What if the AI can't handle the complexity of our workflow?",
+        "answer": "We specialize in complex, sophisticated workflows that generic automation can't touch. If we determine during the audit that your process is too complex for AI (rare, but it happens), we'll tell you honestly—we won't waste your time or money. But in 95%+ of cases, custom-trained AI can handle far more complexity than clients expect."
+      },
+      {
+        "question": "Do we need technical expertise on our team?",
+        "answer": "Not at all. We handle all the technical work—development, integration, deployment, and maintenance. Your team just needs to understand your business process (which they already do). We translate your business logic into AI intelligence. No coding, no data science, no technical skills required from your side."
+      },
+      {
+        "question": "What happens if the AI makes a mistake?",
+        "answer": "We build in quality controls, human review checkpoints, and fallback protocols for high-stakes decisions. For critical processes, we typically deploy AI in \"assistant mode\" initially (suggests actions, human approves) before graduating to \"autonomous mode\" once accuracy is proven. And we continuously monitor performance to catch and correct any issues quickly."
       }
     ]
   },
   "cta": {
     "headlineLeading": "Ready to Build Your ",
     "headlineHighlight": "Custom AI Agent?",
-    "introText": "Join other Northern Virginia businesses who are already automating unique workflows with custom-trained AI agents.",
+    "introText": "Join the Northern Virginia businesses already slashing operational costs by 40–70% and reclaiming thousands of hours lost to repetitive work. \n\nGet a free 30-minute AI workflow audit — no pressure, no pitch. We’ll show you exactly where money is leaking and how AI can eliminate the manual work eating your time, payroll, and growth.",
     "features": [
-      { "text": "Custom architecture & integrations" },
-      { "text": "Enterprise security standards" },
-      { "text": "Ongoing optimization roadmap" }
+      { "text": "Free consultation — no contracts, no pressure" },
+      { "text": "We’ll tell you honestly if a Training AI Agent makes sense for your team" },
+      { "text": "Most systems are built, trained, and deployed within 2–4 weeks" },
+      { "text": "Perfect for onboarding, SOPs, internal training, and repetitive knowledge-based tasks" }
     ],
     "primaryButton": {
       "label": "Call (703) 690-9726",
@@ -311,11 +316,14 @@
       "phoneNumber": "7036909726"
     },
     "secondaryButton": {
-      "label": "Email Us",
-      "ariaLabel": "Email Binary Ideas AI about Training Agents",
+      "label": "Request Your Free Workflow Analysis",
+      "ariaLabel": "Request Your Free Workflow Analysis",
       "href": "mailto:info@binaryideas.com"
     },
     "backgroundClass": "bg-[linear-gradient(130deg,#021c30_0%,#1a0f2f_100%)]"
+  },
+  "serviceArea": {
+    "introText": "We proudly serve businesses across Northern Virginia with custom AI agent development and local expertise. Choose a city to see tailored details."
   }
 }
 

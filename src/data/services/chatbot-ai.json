@@ -178,41 +178,33 @@
     ]
   },
   "process": {
-    "titleLeading": "How It Works ",
-    "titleHighlight": "Our Process",
-    "subtitle": "A proven process that keeps you involved while we handle the heavy lifting",
+    "titleLeading": "HOW WE MAKE THIS",
+    "titleHighlight": "EFFORTLESS FOR YOU",
+    "subtitle": "You're already overwhelmed. The last thing you need is another complicated \"solution\" that requires weeks of your time and a technical degree to implement. That's why we've made this stupid-simple:",
     "steps": [
       {
         "id": 1,
-        "stepNumber": "Step 1",
-        "title": "Requirements Analysis",
-        "description": "We analyze your current customer support needs, common questions, and business processes to design a chatbot strategy that addresses your specific challenges and goals.",
+        "stepNumber": "STEP 1",
+        "title": "Book a 15-Minute Consultation",
+        "description": "<p>We analyze your current website traffic and show you exactly where you're losing leads and how much it's costing you each month. No sales pitch, no pressure—just a clear picture of what's happening and what's possible.</p><p><strong>What you'll get:</strong> A free audit showing your monthly lead loss, the dollar value of those missed opportunities, and exactly which hours/days you're bleeding the most revenue. Even if you don't work with us, you'll walk away with valuable insights.</p>",
         "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(56,189,248,1)_0%,rgba(168,85,247,1)_100%)]"
       },
       {
         "id": 2,
-        "stepNumber": "Step 2",
-        "title": "AI Training & Customization",
-        "description": "Our team trains the AI on your specific industry, products, and customer service approach, then customizes the chatbot's personality to match your brand voice and customer expectations.",
+        "stepNumber": "STEP 2",
+        "title": "We Install Your Customized AI Assistant",
+        "description": "<p>We learn your business inside and out—your services, pricing, policies, and personality. Then we customize your chatbot to sound like YOU and install it directly on your existing website. No rebuild needed. No technical work on your end. We literally handle everything.</p><p><strong>What you'll do:</strong> Spend 20 minutes answering questions about your business (the stuff you already know). That's it. We handle the technology, the installation, the testing, and the launch. You'll never touch a single line of code.</p>",
         "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(147,197,253,1)_0%,rgba(99,102,241,1)_100%)]"
       },
       {
         "id": 3,
-        "stepNumber": "Step 3",
-        "title": "Integration & Testing",
-        "description": "We integrate the chatbot with your website and existing systems, then thoroughly test all interactions to ensure accurate responses and smooth handoffs to human agents when needed.",
+        "stepNumber": "STEP 3",
+        "title": "Watch Your Calendar Fill With Qualified Leads",
+        "description": "<p>Your AI starts working immediately—24/7, 365 days a year. It answers questions, qualifies prospects, and books appointments while you sleep, serve customers, or actually enjoy your weekend. You get instant notifications only for hot leads that need your personal attention.</p><p><strong>What you'll experience:</strong> Within 24-48 hours, you'll start seeing leads captured that would have been lost. Within 30 days, your team will wonder how they ever managed without it. Within 90 days, you'll look back at your old system and shake your head at all the money you used to leave on the table.</p>",
         "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(129,140,248,1)_100%)]"
-      },
-      {
-        "id": 4,
-        "stepNumber": "Step 4",
-        "title": "Launch & Optimization",
-        "description": "We launch your chatbot and continuously monitor performance, making adjustments based on user feedback and analytics to improve response accuracy and customer satisfaction.",
-        "icon": "headset",
-        "gradient": "bg-[linear-gradient(135deg,rgba(165,180,252,1)_0%,rgba(196,181,253,1)_100%)]"
       }
     ]
   },
@@ -273,24 +265,24 @@
     "subtitle": "Get answers to common questions about Chatbot AI",
     "items": [
       {
-        "question": "How quickly can the chatbot be implemented?",
-        "answer": "Most chatbot implementations are completed within 1-2 weeks, depending on the complexity of your requirements and the amount of training data needed for your specific industry."
+        "question": "Will this work with my existing website?",
+        "answer": "Yes! We install directly on your current website—no rebuild, no migration, no downtime. Works with WordPress, Shopify, Wix, Squarespace, custom sites, everything. Your website stays exactly the same, just smarter."
       },
       {
-        "question": "Can the chatbot learn from customer interactions?",
-        "answer": "Yes, our AI continuously learns from customer interactions to improve responses and better understand your customers' needs and preferences over time."
+        "question": "What if the AI gives wrong answers?",
+        "answer": "We train your chatbot specifically on YOUR business, products, and policies. When it encounters something unfamiliar, it transfers to you with full context. You're always in control, and we continuously improve it based on real conversations."
       },
       {
-        "question": "What happens when the chatbot can't answer a question?",
-        "answer": "When the chatbot encounters a question it can't answer, it seamlessly transfers the conversation to a human agent with full context and conversation history."
+        "question": "How long until I see results?",
+        "answer": "Most Northern Virginia businesses see qualified leads within 24-48 hours of launch. The chatbot starts working immediately, and we track everything—lead capture rate, response times, and conversion metrics—so you know exactly what's working."
       },
       {
-        "question": "Can we customize the chatbot's personality and responses?",
-        "answer": "Absolutely. We customize the chatbot's personality, tone, and response style to match your brand voice and create a consistent customer experience."
+        "question": "Won't customers be annoyed by a chatbot?",
+        "answer": "Not if it's done right. Our AI feels helpful, not pushy. It only engages when visitors need help and speaks naturally (no robotic scripts). Plus, customers WANT instant answers—that's why they're on your website. The alternative (waiting hours or days for a response) is way more annoying."
       },
       {
-        "question": "How do we measure the chatbot's success?",
-        "answer": "We provide detailed analytics on response accuracy, customer satisfaction, ticket reduction, and conversion rates to help you measure ROI and identify improvement opportunities."
+        "question": "How much does it cost?",
+        "answer": "Plans typically start at **$500/month** for small businesses with moderate website traffic. Compare that to $3,000+/month for a customer service rep who can only handle one conversation at a time and needs vacation days. Contact us for exact pricing based on your needs—no surprises, no hidden fees."
       }
     ]
   },
@@ -299,9 +291,11 @@
     "headlineHighlight": "Customer Support?",
     "introText": "Join other Northern Virginia businesses who are already reducing support tickets by 70% with AI-powered chatbots.",
     "features": [
-      { "text": "Personalized scripts & tone" },
-      { "text": "CRM & helpdesk integrations" },
-      { "text": "Live agent handoff included" }
+      { "text": "Free consultation with zero obligation" },
+      { "text": "We'll tell you honestly if Chatbot AI makes sense for your website traffic" },
+      { "text": "Most implementations complete in 7 days" },
+      { "text": "60-day performance guarantee—capture more leads or we refund your money" },
+      { "text": "No long-term contracts—cancel anytime" }
     ],
     "primaryButton": {
       "label": "Call (703) 690-9726",
@@ -316,6 +310,9 @@
       "href": "mailto:info@binaryideas.com"
     },
     "backgroundClass": "bg-[linear-gradient(130deg,#0b1f3a_0%,#1b0f2c_100%)]"
+  },
+  "serviceArea": {
+    "introText": "We proudly serve businesses across Northern Virginia with Chatbot AI expertise and local support. Choose a city to see tailored details."
   }
 }
 

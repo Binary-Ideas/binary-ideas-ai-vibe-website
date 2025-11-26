@@ -24,7 +24,7 @@ if (!serviceSlug) {
 const serviceDisplayName = serviceName ?? "this service";
 const resolvedIntroText =
   introText ??
-  `We proudly serve businesses across Northern Virginia with ${serviceDisplayName.toLowerCase()} and local expertise. Choose a city to see tailored details.`;
+  `We proudly serve businesses across Northern Virginia with ${serviceDisplayName} and local expertise. Choose a city to see tailored details.`;
 
 const locationLinks = locations.map((location) => ({
   city: location.city,
@@ -40,8 +40,8 @@ for (let i = 0; i < locationLinks.length; i += itemsPerRow) {
 
 <section id="service-area" class="relative w-full px-4 md:px-8 lg:px-20 py-20 md:py-32 flex flex-col items-center">
   <h2 class="text-3xl md:text-4xl lg:text-5xl font-normal text-center mb-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
-    <span class="text-white">Our </span>
-    <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Service Area</span>
+    <span class="text-white">Binary Ideas AI - Northern Virginia's </span><br/>
+    <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Premier AI Automation Agency</span>
   </h2>
 
   <p

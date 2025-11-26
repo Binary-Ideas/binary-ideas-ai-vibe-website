@@ -177,40 +177,40 @@
     ]
   },
   "process": {
-    "titleLeading": "How It Works ",
+    "titleLeading": "How It Works",
     "titleHighlight": "Our Process",
-    "subtitle": "",
+    "subtitle": "From consultation to implementation, we guide you every step of the way",
     "steps": [
       {
         "id": 1,
-        "stepNumber": "Step 1",
-        "title": "Strategy Development",
-        "description": "We analyze your current lead generation efforts, identify your ideal customer profile, and develop a customized AI strategy that targets the right prospects for your Northern Virginia business.",
-        "icon": "lightbulb",
+        "stepNumber": "STEP 1",
+        "title": "Free Lead Audit & Strategy Session (15 Minutes)",
+        "description": "<p>We analyze your current lead sources, conversion rates, and cost per qualified lead. Then we show you exactly where you're wasting money and how much you could save with intelligent qualification. No sales pitch, no pressure—just honest analysis.</p><p><strong>What you'll get:</strong> A detailed breakdown showing your cost per lead by channel, your qualification rate (% of leads actually worth calling), and your hidden costs (wasted sales time, lost opportunities). Even if you don't work with us, you'll know exactly where your money is going.</p>",
+        "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(147,197,253,1)_100%)]"
       },
       {
         "id": 2,
-        "stepNumber": "Step 2",
-        "title": "AI Model Training",
-        "description": "Our team trains the AI on your specific industry, target audience, and business goals to ensure it identifies and qualifies leads that match your ideal customer profile.",
-        "icon": "chip",
+        "stepNumber": "STEP 2",
+        "title": "We Build & Install Your Custom AI Qualifier",
+        "description": "<p>We define your ideal customer profile together (budget, timeline, needs, authority), then train the AI to recognize those signals in incoming leads. We integrate with your existing CRM, marketing tools, and lead sources—Google Ads, Facebook, website forms, landing pages—no rebuild needed, no disruption to your current process.</p><p><strong>What you'll do:</strong> Spend 30 minutes describing your ideal customer and how you currently qualify leads. That's it. We handle the AI training, the integration testing, and the launch. No technical skills required on your end.</p>",
+        "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(167,139,250,1)_0%,rgba(59,130,246,1)_100%)]"
       },
       {
         "id": 3,
-        "stepNumber": "Step 3",
-        "title": "System Integration",
-        "description": "We integrate the AI with your existing marketing tools, CRM system, and lead capture forms to create a seamless lead generation ecosystem that works with your current workflow.",
-        "icon": "link",
+        "stepNumber": "STEP 3",
+        "title": "Watch Lead Quality Soar & Costs Plummet",
+        "description": "<p>Your AI starts qualifying every lead instantly—asking the right questions, scoring based on buying signals, routing hot prospects to sales in real-time, and filtering out time-wasters automatically. Your team only talks to ready-to-buy prospects while you track exactly which channels drive revenue versus just clicks.</p><p><strong>What you'll experience:</strong> Within the first week, your sales team will notice they're talking to better prospects. Within 30 days, you'll see your cost per qualified lead drop by 50-70%. Within 90 days, you'll have clear data on which marketing channels to double down on and which to cut entirely.</p>",
+        "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(168,85,247,1)_0%,rgba(236,72,153,1)_100%)]"
       },
       {
         "id": 4,
-        "stepNumber": "Step 4",
-        "title": "Launch & Optimization",
-        "description": "We launch your Lead Generation AI and continuously monitor performance, making adjustments to improve lead quality and volume based on real-world results and feedback.",
-        "icon": "rocket",
+        "stepNumber": "STEP 4",
+        "title": "Continuous Optimization & Support",
+        "description": "<p>We don't set it up and disappear. We monitor performance, analyze conversion data, and continuously refine your qualification criteria and scoring algorithms. As your business evolves, your Lead Generation AI evolves with you—getting smarter and more accurate every week.</p><p><strong>What you'll get:</strong> Monthly performance reports, quarterly optimization sessions, and ongoing support to ensure your Lead Generation AI keeps delivering measurable results. You'll always know which improvements are driving the best ROI.</p>",
+        "icon": "headset",
         "gradient": "bg-[linear-gradient(135deg,rgba(236,72,153,1)_0%,rgba(59,130,246,1)_100%)]"
       }
     ]
@@ -272,35 +272,39 @@
     "subtitle": "Get answers to common questions about Lead Generation AI",
     "items": [
       {
-        "question": "How quickly will we see results?",
-        "answer": "Most clients begin seeing qualified leads within the first week of implementation, with significant volume increases typically occurring within 2-4 weeks as the AI learns and optimizes."
+        "question": "How quickly will we see improvements in lead quality?",
+        "answer": "Most clients begin seeing better-qualified leads within the first week of implementation. Significant improvements—50-70% reduction in cost per qualified lead—typically occur within 2-4 weeks as the AI learns your audience and refines its qualification criteria. The AI gets smarter with every lead, so performance continues improving over time. By month 3, most clients report their sales team is 2-3X more productive and close rates have improved 40-60% on AI-qualified leads."
       },
       {
-        "question": "What types of leads will the AI generate?",
-        "answer": "Our AI generates leads based on your specific criteria and ideal customer profile, including contact information, company details, and lead scores indicating their likelihood to convert."
+        "question": "What if we already use a CRM or marketing automation platform?",
+        "answer": "Our Lead Generation AI integrates seamlessly with most major platforms including Salesforce, HubSpot, Pipedrive, ActiveCampaign, Mailchimp, and others commonly used by Northern Virginia businesses. We handle all integration work during setup—no disruption to your current workflow, no data migration headaches, no learning curve for your team."
       },
       {
-        "question": "Do we need to integrate with our existing systems?",
-        "answer": "Yes, but we handle all integration work. Our AI seamlessly connects with your CRM, email marketing platform, and other tools to ensure a smooth workflow."
+        "question": "How does the AI determine if a lead is qualified or not?",
+        "answer": "During setup, we work with you to define your ideal customer profile: budget range, timeline, decision authority, specific needs, company size (for B2B), and other criteria that matter to YOUR business. The AI then uses these criteria plus behavioral signals (engagement, content downloads, website activity, email opens, pages viewed) to score every lead from 0-100. You have full control over the qualification criteria and can adjust them anytime based on what's actually converting."
       },
       {
-        "question": "How does the AI ensure lead quality?",
-        "answer": "Our AI uses advanced scoring algorithms that analyze multiple data points including engagement behavior, demographic fit, and buying signals, to ensure only high-quality leads reach your sales team."
+        "question": "What happens to leads that don't qualify immediately?",
+        "answer": "They're not thrown away. Leads that don't qualify now but show some potential get added to automated nurturing sequences—periodic emails, content offers, educational resources—that keep them engaged until they ARE ready. When their behavior and engagement improve (opening emails, downloading resources, revisiting pricing page), the AI automatically re-scores them and routes them to sales when they're qualified. Nothing falls through the cracks."
       },
       {
-        "question": "What's the cost compared to traditional lead generation?",
-        "answer": "Our Lead Generation AI typically costs 60-80% less than traditional methods while generating 3x more qualified leads, providing significant ROI improvement for your marketing investment."
+        "question": "What kind of ROI can we expect?",
+        "answer": "Most clients see 400-800% ROI in the first year from three main sources: (1) 60-80% reduction in cost per qualified lead, (2) 2.5-3.5X increase in sales team productivity, and (3) higher close rates from faster response to hot prospects. The average client generates **$5,000-$20,000 in additional monthly revenue** while spending LESS on marketing. Specific results depend on your industry, average deal size, and current lead quality—but we track everything and show you exactly where the ROI is coming from."
+      },
+      {
+        "question": "What if our lead volume is low—under 50 leads per month?",
+        "answer": "Lead Generation AI still provides tremendous value even with lower volume. When you only get 50 leads per month, you can't afford to waste time on the 30-35 that aren't qualified. The AI ensures your team focuses exclusively on the 15-20 that are actually worth pursuing—dramatically improving conversion rates and sales efficiency even if total volume is modest. Plus, better data on which channels drive quality helps you increase volume strategically over time."
       }
     ]
   },
   "cta": {
-    "headlineLeading": "Ready 3x Your ",
-    "headlineHighlight": "Lead Generation?",
-    "introText": "Join other Northern Virginia businesses who are already generating more qualified leads with AI automation",
+    "headlineLeading": "Ready to Transform ",
+    "headlineHighlight": "Your Lead Quality?",
+    "introText": "Join other Northern Virginia businesses who are already saving $3,000-$7,000 monthly on wasted lead spend with Lead Generation AI.",
     "features": [
-      { "text": "Continuous AI optimization" },
-      { "text": "Full funnel visibility" },
-      { "text": "Local Northern VA support" }
+      { "text": "Free Consultation" },
+      { "text": "No Commitment" },
+      { "text": "Same-Day Response" }
     ],
     "primaryButton": {
       "label": "Call (703) 690-9726",
@@ -315,6 +319,9 @@
       "href": "mailto:info@binaryideas.com"
     },
     "backgroundClass": "bg-[linear-gradient(130deg,#2b0f33_0%,#1a0c36_100%)]"
+  },
+  "serviceArea": {
+    "introText": "We proudly serve businesses across Northern Virginia with Lead Generation AI and local expertise. Choose a city to see tailored details."
   }
 }
 

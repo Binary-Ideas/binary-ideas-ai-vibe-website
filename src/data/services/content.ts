@@ -189,6 +189,11 @@ export interface ServiceContent {
     secondaryButton: SecondaryButtonConfig;
     backgroundClass: string;
   };
+  serviceArea?: {
+    introText?: string;
+    headingLeading?: string;
+    headingHighlight?: string;
+  };
 }
 
 export const servicesContent: ServiceContent[] = [

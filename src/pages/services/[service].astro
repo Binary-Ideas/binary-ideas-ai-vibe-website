@@ -43,7 +43,8 @@ const {
   useCases,
   whyChoose,
   faq,
-  cta
+  cta,
+  serviceArea
 } = serviceEntry;
 ---
 
@@ -183,7 +184,11 @@ const {
           subtitle={faq.subtitle}
           faqItems={faq.items}
         />
-        <ServiceArea serviceSlug={service} serviceName={hero.titleLeading} />
+        <ServiceArea
+          serviceSlug={service}
+          serviceName={hero.titleLeading}
+          introText={serviceArea?.introText}
+        />
         <CallToActionSection
           headlineLeading={cta.headlineLeading}
           headlineHighlight={cta.headlineHighlight}

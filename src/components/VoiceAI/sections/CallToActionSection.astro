@@ -22,7 +22,7 @@ interface SecondaryButtonConfig {
 interface Props {
   headlineLeading?: string;
   headlineHighlight?: string;
-  introText?: string;
+  introText?: string | string[];
   features?: Feature[];
   primaryButton?: PrimaryButtonConfig;
   secondaryButton?: SecondaryButtonConfig;
@@ -72,6 +72,15 @@ const secondaryHref =
 
 const primaryOnClick = primaryHref ? `window.location.href='${primaryHref}'` : undefined;
 const secondaryOnClick = secondaryHref ? `window.location.href='${secondaryHref}'` : undefined;
+
+const introParagraphs = Array.isArray(introText)
+  ? introText
+  : typeof introText === "string"
+    ? introText
+        .split(/\n{2,}/)
+        .map((paragraph) => paragraph.trim())
+        .filter(Boolean)
+    : [];
 ---
 
 <section class={`relative isolate overflow-hidden px-6 py-28 text-center text-white ${backgroundClass}`}>
@@ -96,9 +105,13 @@ const secondaryOnClick = secondaryHref ? `window.location.href='${secondaryHref}
       </span>
     </h2>
 
-    <p class="max-w-[720px] text-base leading-7 text-[#b5bed0] sm:text-lg sm:leading-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
-      {introText}
-    </p>
+    <div class="max-w-[720px] space-y-4 text-base leading-7 text-[#b5bed0] sm:text-lg sm:leading-8 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      {introParagraphs.length > 0 ? (
+        introParagraphs.map((paragraph) => <p>{paragraph}</p>)
+      ) : (
+        <p>{introText}</p>
+      )}
+    </div>
 
     <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
       <button

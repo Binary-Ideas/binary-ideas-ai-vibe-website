@@ -160,41 +160,33 @@
     ]
   },
   "process": {
-    "titleLeading": "How It Works ",
-    "titleHighlight": "Our Process",
-    "subtitle": "Launch stronger email programs with a guided implementation",
+    "titleLeading": "How It Works -",
+    "titleHighlight": "Three Simple Steps",
+    "subtitle": "You don't need technical skills. You don't need to rebuild your website. You just keep running your business while we handle everything.",
     "steps": [
       {
         "id": 1,
-        "stepNumber": "Step 1",
-        "title": "Audience Analysis",
-        "description": "We analyze your current email list, engagement patterns, and customer data to understand your audience and develop a personalized AI strategy for your Northern Virginia business.",
+        "stepNumber": "STEP 1",
+        "title": "Book a 15-Minute Email Marketing Audit",
+        "description": "<p>We analyze your current email campaigns, open rates, and subscriber behavior. We show you exactly where you're losing money and which improvements will have the biggest impact on your Northern Virginia business.</p><p><strong>No sales pitch</strong>—just honest advice on whether Email Marketing AI is right for you and what results you can realistically expect based on your industry and list size.</p>",
         "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(249,115,22,1)_0%,rgba(234,179,8,1)_100%)]"
       },
       {
         "id": 2,
-        "stepNumber": "Step 2",
-        "title": "AI Model Training",
-        "description": "Our team trains the AI on your specific industry, brand voice, and audience preferences to ensure it creates content and optimizations that resonate with your customers.",
+        "stepNumber": "STEP 2",
+        "title": "We Train Your AI on Your Brand Voice",
+        "description": "<p>We connect the AI to your email platform (Mailchimp, Constant Contact, HubSpot, etc.) and train it to write emails that sound like YOU—whether that's friendly and casual, professional and authoritative, or anything in between.</p><p><strong>We handle everything:</strong> segmentation logic, personalization rules, send-time optimization, A/B test setup, and integration with your CRM. No website rebuild needed. No technical skills required on your end.</p>",
         "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(245,158,11,1)_0%,rgba(99,102,241,1)_100%)]"
       },
       {
         "id": 3,
-        "stepNumber": "Step 3",
-        "title": "Campaign Setup",
-        "description": "We integrate the AI with your email marketing platform, set up automated workflows, and create initial campaigns to test and optimize the system for your business.",
+        "stepNumber": "STEP 3",
+        "title": "Watch Your Open Rates and Revenue Climb",
+        "description": "<p>Your Email Marketing AI launches campaigns at the perfect time for each subscriber, personalizes content based on their interests and behavior, and continuously tests different approaches to improve performance.</p><p><strong>All automatically.</strong> While you focus on serving customers. You'll get weekly reports showing open rates, click-through rates, conversions, and ROI—with clear insights into what's working and why.</p>",
         "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(251,191,36,1)_0%,rgba(138,75,252,1)_100%)]"
-      },
-      {
-        "id": 4,
-        "stepNumber": "Step 4",
-        "title": "Launch & Optimization",
-        "description": "We launch your AI-powered email campaigns and continuously monitor performance, making adjustments to improve engagement and ROI based on real-world results.",
-        "icon": "headset",
-        "gradient": "bg-[linear-gradient(135deg,rgba(249,168,212,1)_0%,rgba(79,70,229,1)_100%)]"
       }
     ]
   },
@@ -279,11 +271,11 @@
   "cta": {
     "headlineLeading": "Ready to Transform Your ",
     "headlineHighlight": "Email Marketing?",
-    "introText": "Join other Northern Virginia businesses who are already seeing 40% higher open rates with AI-powered email marketing.",
+    "introText": "Join other Northern Virginia businesses seeing 40% higher open rates and $5,000-$8,000 in additional monthly revenue.\n\nGet a free 15-minute email marketing audit. We'll show you exactly where you're losing money and how AI can fix it. No sales pitch — just honest advice.",
     "features": [
-      { "text": "Personalized content at scale" },
-      { "text": "Lifecycle automations built for you" },
-      { "text": "Weekly performance insights" }
+      { "text": "Free consultation with zero obligation" },
+      { "text": "Most implementations complete in 2-4 weeks" },
+      { "text": "We'll tell you honestly if Email Marketing AI makes sense for your business" }
     ],
     "primaryButton": {
       "label": "Call (703) 690-9726",
@@ -293,11 +285,14 @@
       "phoneNumber": "7036909726"
     },
     "secondaryButton": {
-      "label": "Email Us",
-      "ariaLabel": "Email Binary Ideas AI about Email Marketing AI",
+      "label": "Email for Free Analysis",
+      "ariaLabel": "Email Binary Ideas AI for Free Analysis",
       "href": "mailto:info@binaryideas.com"
     },
     "backgroundClass": "bg-[linear-gradient(130deg,#2a0f06_0%,#1a1036_100%)]"
+  },
+  "serviceArea": {
+    "introText": "We proudly serve businesses across Northern Virginia with Email Marketing AI and local expertise. Choose a city to see tailored details."
   }
 }
 

@@ -178,41 +178,33 @@
     ]
   },
   "process": {
-    "titleLeading": "How It Works ",
-    "titleHighlight": "Our Process",
-    "subtitle": "We blend AI automation with a managed strategy built for your brand",
+    "titleLeading": "How It Works -",
+    "titleHighlight": "Three Simple Steps",
+    "subtitle": "You don't need to understand AI, algorithms, or social media marketing. You just answer some questions about your brand, and we handle everything else—from content creation to posting schedules to engagement management. Your social media just... runs.",
     "steps": [
       {
         "id": 1,
-        "stepNumber": "Step 1",
-        "title": "Brand Analysis",
-        "description": "We analyze your current social media presence, brand voice, target audience, and content strategy to develop a customized AI approach that aligns with your business goals.",
+        "stepNumber": "STEP 1",
+        "title": "Book a 15-Minute Social Media Audit",
+        "description": "<p>We analyze your current social media presence across all platforms and show you exactly where you're losing visibility and engagement. We identify which content types work best for your audience, what posting frequency you need, and which platforms drive the most business results.</p><p><strong>Reassurance:</strong> No sales pitch—just honest insights into what's working, what's not, and whether Social Media AI makes sense for your business. Even if you don't work with us, you'll walk away knowing exactly what's costing you leads.</p>",
         "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(56,189,248,1)_0%,rgba(236,72,153,1)_100%)]"
       },
       {
         "id": 2,
-        "stepNumber": "Step 2",
-        "title": "AI Training & Setup",
-        "description": "Our team trains the AI on your brand voice, industry knowledge, and content preferences, then sets up automated workflows for content creation and posting across all platforms.",
+        "stepNumber": "STEP 2",
+        "title": "We Train Your AI and Connect Your Accounts",
+        "description": "<p>We train the AI on your brand voice, industry knowledge, content preferences, and ideal customer. Then we connect it to your Facebook, Instagram, LinkedIn, TikTok, and other platforms. We set up automated posting schedules, engagement rules, and content guidelines specific to your business goals.</p><p><strong>We handle everything:</strong> No website rebuild needed. No complex integrations. All technical setup completed within 7-10 business days. You just provide brand information and approval.</p>",
         "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(156,163,175,1)_100%)]"
       },
       {
         "id": 3,
-        "stepNumber": "Step 3",
-        "title": "Platform Integration",
-        "description": "We connect your social media accounts and integrate the AI with your existing tools, ensuring seamless content distribution and engagement management across all platforms.",
+        "stepNumber": "STEP 3",
+        "title": "Watch Your Engagement Grow While You Focus on Customers",
+        "description": "<p>Your AI creates and posts engaging content daily, responds to comments and messages automatically, tracks performance analytics, and continuously optimizes for better results. You review performance dashboards weekly, approve content if you want, or just let it run completely on autopilot.</p><p><strong>What you'll experience:</strong> Your social media becomes consistent, engaging, and effective—without you touching it. You get more visibility, more engagement, and more customers while saving 15+ hours per week. Month 1: Good results. Month 3: Great results. Month 6: Exceptional results as the AI learns exactly what YOUR audience loves.</p>",
         "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(96,165,250,1)_0%,rgba(190,24,93,1)_100%)]"
-      },
-      {
-        "id": 4,
-        "stepNumber": "Step 4",
-        "title": "Launch & Optimization",
-        "description": "We launch your AI-powered social media strategy and continuously monitor performance, making adjustments to improve engagement and results based on real-world data.",
-        "icon": "headset",
-        "gradient": "bg-[linear-gradient(135deg,rgba(147,197,253,1)_0%,rgba(124,58,237,1)_100%)]"
       }
     ]
   },
@@ -274,48 +266,64 @@
     "items": [
       {
         "question": "Which social media platforms does it support?",
-        "answer": "Our Social Media AI supports all major platforms including Facebook, Instagram, Twitter, LinkedIn, TikTok, and YouTube, with platform-specific optimization for each channel."
+        "answer": "Our Social Media AI supports all major platforms including Facebook, Instagram, LinkedIn, Twitter, TikTok, and YouTube. We optimize content specifically for each platform's algorithm, audience, and format requirements while maintaining consistent brand messaging across all channels. For most Northern VA businesses, we focus heavily on Facebook (for local visibility), Instagram (for visual engagement), and LinkedIn (for B2B connections), with additional platforms added based on where your specific audience spends time."
       },
       {
         "question": "Can we review content before it's posted?",
-        "answer": "Yes, you can set up approval workflows to review and approve content before it goes live, or choose to have the AI post automatically based on your preferences."
+        "answer": "Absolutely. You have three options based on your comfort level:<br><br>(1) <strong>Full Autopilot:</strong> AI creates and posts automatically—you just review performance weekly.<br>(2) <strong>Approval Workflow:</strong> You review and approve content batches before they go live.<br>(3) <strong>Hybrid:</strong> AI posts routine content automatically, but flags certain post types for your approval. Most clients start with approval workflows and transition to autopilot once they trust the AI's content quality."
       },
       {
         "question": "How does the AI maintain our brand voice?",
-        "answer": "We train the AI on your specific brand voice, tone, and messaging style, ensuring all generated content aligns with your brand identity and resonates with your audience."
+        "answer": "We train the AI on YOUR specific brand voice through a comprehensive onboarding process: We analyze your existing social media content, blog posts, website copy, and customer communications. You complete a brand voice questionnaire defining your tone, style, and messaging preferences. We provide sample posts for your review and feedback before launch. The AI continuously learns from your edits and feedback to improve over time. Within 2-3 weeks, the AI produces content that accurately reflects your brand voice."
       },
       {
         "question": "What kind of content can the AI create?",
-        "answer": "Our AI can create posts, captions, stories, video scripts, and more across all platforms, adapting content format and style to each platform's best practices."
+        "answer": "The AI creates virtually every type of social media content: Text posts (updates, announcements, thought leadership, tips), Photo posts (before-and-after showcases, product highlights, team introductions), Video scripts (short-form video, reels, stories, TikToks), Stories (daily story content for Instagram and Facebook), Carousels (multi-image educational and promotional content), Polls & Questions (interactive engagement content), Event promotions (grand openings, sales, special events), and User-generated content (amplifying customer reviews and testimonials). All content is adapted to each platform's best practices."
       },
       {
-        "question": "How do we measure the success of our social media AI?",
-        "answer": "We provide comprehensive analytics including engagement rates, reach, clicks, conversions, and ROI metrics to help you track performance and optimize your strategy."
+        "question": "How do we measure success?",
+        "answer": "We provide comprehensive analytics dashboards that track the metrics that matter for YOUR business: Engagement metrics (likes, comments, shares, saves, story interactions), Reach metrics (impressions, profile visits, follower growth), Lead metrics (click-throughs, DM inquiries, form submissions), Conversion metrics (actual customers generated from social media), Time savings (hours saved on content creation), and ROI (revenue generated vs. cost of service). You get weekly dashboard access and monthly detailed reports showing exactly what's working."
+      },
+      {
+        "question": "Can the AI handle negative comments or complaints?",
+        "answer": "Yes, with intelligent escalation: Positive comments get appreciated responses that maintain engagement. Simple questions get immediate, accurate answers. Qualified leads get responses and immediate alerts to you for follow-up. Negative comments get flagged instantly and notify you for personal handling. Spam/trolls get identified and hidden while flagging you to review. You set the escalation rules during setup, and the AI learns from how you handle edge cases over time."
+      },
+      {
+        "question": "How long does implementation take?",
+        "answer": "From decision to launch:<br><br>Day 1-2: Onboarding call, brand voice training, platform connections.<br>Day 3-5: AI training on your content, approval of initial content samples.<br>Day 6-7: Final adjustments, scheduling setup, launch preparation.<br>Day 8+: Live and posting automatically.<br><br>Most clients are fully live within 7-10 business days. During implementation, we handle all technical setup—you just provide brand information and approval."
+      },
+      {
+        "question": "What happens if we want to pause or cancel?",
+        "answer": "No long-term contracts or cancellation fees. You can pause or cancel anytime:<br><br><strong>Pause:</strong> Keep your account active but stop posting (useful for seasonal businesses or temporary situations).<br><strong>Cancel:</strong> Full cancellation with no penalties—you own all content created during your service period. Month-to-month flexibility means you're never locked in. We earn your business every month by delivering results, not by trapping you in contracts."
       }
     ]
   },
   "cta": {
-    "headlineLeading": "Ready to Transform Your ",
-    "headlineHighlight": "Social Media?",
-    "introText": "Join other Northern Virginia businesses who are already saving 15+ hours per week with AI-powered social media management.",
+    "headlineLeading": "Stop Losing Customers ",
+    "headlineHighlight": "to Inactive Social Media",
+    "introText": "Join other Northern Virginia businesses who are already saving 15+ hours per week while increasing engagement by 50-150% with AI-powered social media that never takes a day off.",
     "features": [
-      { "text": "Weekly strategy syncs" },
-      { "text": "Content variations for every channel" },
-      { "text": "Transparent performance dashboards" }
+      { "text": "Free consultation with zero obligation" },
+      { "text": "We'll tell you honestly if Social Media AI makes sense for your business" },
+      { "text": "Most implementations complete in 7-10 business days" },
+      { "text": "No long-term contracts—month-to-month flexibility" }
     ],
     "primaryButton": {
-      "label": "Call (703) 690-9726",
+      "label": "Call (703) 690-9726 Now",
       "ariaLabel": "Book a Social Media AI discovery call",
       "iconSrc": "/img/vector.svg",
       "iconAlt": "Phone icon",
       "phoneNumber": "7036909726"
     },
     "secondaryButton": {
-      "label": "Email Us",
-      "ariaLabel": "Email Binary Ideas AI about Social Media AI",
+      "label": "Schedule Your Free Social Media Audit",
+      "ariaLabel": "Schedule Your Free Social Media Audit",
       "href": "mailto:info@binaryideas.com"
     },
     "backgroundClass": "bg-[linear-gradient(130deg,#0f1f3a_0%,#2b103a_100%)]"
+  },
+  "serviceArea": {
+    "introText": "We proudly serve businesses across Northern Virginia with Social Media AI and local market expertise. Choose a city to see tailored details."
   }
 }
 
