@@ -281,28 +281,24 @@
     "subtitle": "Get answers to common questions about Voice AI Agents",
     "items": [
       {
-        "question": "How quickly will we see improved email performance?",
-        "answer": "Most clients see improved open rates within the first 1-2 campaigns (within the first week). Significant performance gains—40%+ increases in opens and clicks—typically occur within 2-3 weeks as the AI learns your audience's preferences and behavior patterns. The AI gets smarter with every email sent, so performance continues improving over time."
+        "question": "How long does implementation take?",
+        "answer": "Most Voice AI Agent implementations are completed within 2-4 weeks, depending on the complexity of your requirements and integrations needed."
       },
       {
-        "question": "What email platforms does it integrate with?",
-        "answer": "Our Email Marketing AI integrates with most major platforms including Mailchimp, Constant Contact, HubSpot, ActiveCampaign, ConvertKit, and others commonly used by Northern Virginia businesses. If you're using a less common platform, contact us and we'll let you know if integration is possible."
+        "question": "What systems does it integrate with?",
+        "answer": "Our Voice AI Agents integrate with most major CRM systems, calendar applications, and phone systems commonly used by Northern Virginia businesses."
       },
       {
-        "question": "Do we need to provide content or does the AI create everything?",
-        "answer": "The AI can create content from scratch, work with your existing email templates, or use a hybrid approach. During setup, we train the AI on your brand voice, style, and messaging so it creates emails that sound like you. You have full control: You can review and approve emails before they send, or let the AI handle everything automatically once you're comfortable with its performance."
+        "question": "Do we need technical expertise?",
+        "answer": "No technical expertise required on your end. We handle all setup, training, and ongoing maintenance, so you can focus on running your business."
       },
       {
-        "question": "How does the AI ensure email deliverability?",
-        "answer": "Our AI is built with deliverability in mind. It manages send frequency to avoid overwhelming subscribers, optimizes content to avoid spam filters, monitors engagement patterns to maintain high sender reputation, and automatically cleans your list of inactive emails that hurt deliverability. The result: Higher inbox placement rates and better overall email performance."
+        "question": "What kind of results can we expect?",
+        "answer": "Most clients see immediate improvements in call handling efficiency and customer satisfaction, with measurable cost savings within the first month."
       },
       {
-        "question": "What kind of ROI can we expect?",
-        "answer": "Most clients see a 3-5x improvement in email marketing ROI within the first quarter. If you're currently getting $3 in revenue for every $1 spent on email marketing, you can expect that to increase to $10-15 per dollar with AI optimization. Specific results depend on your industry, list size, and current email performance—but the average client sees $5,000-$8,000 in additional monthly revenue from improved email campaigns."
-      },
-      {
-        "question": "What if we have a small email list?",
-        "answer": "Email Marketing AI works for lists of all sizes. Even if you only have 500-1,000 subscribers, personalization and send-time optimization can significantly improve engagement and revenue. The smaller your list, the more important each subscriber is—which makes AI optimization even more valuable for maximizing every opportunity."
+        "question": "How much does it cost?",
+        "answer": "Pricing varies based on your specific needs and call volume. Contact us for a customized quote that fits your budget and requirements."
       }
     ]
   },
