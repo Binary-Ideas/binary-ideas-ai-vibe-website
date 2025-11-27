@@ -20,8 +20,6 @@ tags:
 excerpt: "Binary Ideas AI highlights three future insights showing how AI agents deliver 24/7 support, personalization, and human-assisted service for Lorton, VA businesses."
 ---
 
-![AI Agent in Customer Service Lorton VA helping customer online](https://binaryideas.ai/wp-content/uploads/2025/09/ai-agent-customer-service-lorton-va-hero.png)
-
 Serving neighbors around **South County High**, **Gunston Plaza**, or the **Workhouse Arts Center** means customer service never stops. Long hold times and missed messages frustrate locals fast. The good news: **AI agents in customer service** are now affordable helpers that boost your team without replacing them.
 
 ## The Real Talk About Customer Service in Lorton

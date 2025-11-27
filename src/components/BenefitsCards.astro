@@ -23,7 +23,7 @@ const {
   introText = "Every day you delay automation, you're bleeding money. Here's what it's really costing your Northern Virginia business:",
   cards = [
     {
-      id: "save-time",
+      id: "lost-revenue",
       icon: "/img/vector-6.svg",
       title: "Lost Revenue",
       description:
@@ -38,8 +38,8 @@ const {
       leftPosition: "left-0",
     },
     {
-      id: "cut-costs",
-      icon: "/img/background-shadow.svg",
+      id: "wasted-time",
+      icon: "/img/icon-wasted-time.svg",
       title: "Wasted Time",
       description:
         "Your team spends 40+ hours weekly on repetitive tasks: data entry, scheduling, email responses, follow-ups. That's $2,000-$4,000 in labor costs for work a $200/month AI could handle.",
@@ -53,8 +53,8 @@ const {
       leftPosition: "left-[435px]",
     },
     {
-      id: "boost-revenue",
-      icon: "/img/background-shadow-1.svg",
+      id: "team-burnout",
+      icon: "/img/icon-team-burnout.svg",
       title: "Team Burnout",
       description:
         "Your best employees are exhausted from doing the same tasks over and over. They're not focused on growth because they're stuck in survival mode. This is costing you talent and morale.",
@@ -90,7 +90,7 @@ const {
         class={`relative w-16 h-16 flex items-center justify-center rounded-[14px] overflow-hidden shadow-[0px_4px_6px_-4px_#0000001a,0px_10px_15px_-3px_#0000001a] mb-4 ${card.iconBg || 'bg-gradient-to-br from-purple-500 to-pink-500'}`}
       >
         <img
-          class="w-8 h-8 object-contain"
+          class="w-10 h-10 md:w-12 md:h-12 object-contain"
           alt={card.title}
           src={card.icon}
         />

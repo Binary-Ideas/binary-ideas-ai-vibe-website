@@ -19,8 +19,6 @@ tags:
 excerpt: "Binary Ideas AI outlines six chatbot data privacy mistakes that put Lorton, VA companies at risk—and shares the fixes to stay compliant, trusted, and competitive."
 ---
 
-![Small business owner in Lorton VA using secure chatbot system](https://binaryideas.ai/wp-content/uploads/2025/09/hero-chatbot-data-privacy-lorton-va.png)
-
 Chatbots help Lorton businesses serve customers faster, but they also collect personal data. When privacy is ignored, you risk fines, lawsuits, and lost trust. Here are the six mistakes that cost local owners the most—and how to fix them.
 
 ## Stop These Chatbot Data Privacy Mistakes Now

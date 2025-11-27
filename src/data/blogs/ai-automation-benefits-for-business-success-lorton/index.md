@@ -172,7 +172,3 @@ We make it easy to start small and scale fast.
 [Binary Ideas AI Automation Agency](https://binaryideas.ai/) • [9525 4th Place, Lorton, VA 22079](https://maps.app.goo.gl/QyEzYjx67Mj88R4C8)  
 Call us at **[(703) 690-9726](tel:7036909726)**
 
----
-
-Robert San Diego is an AI technology expert and Computer Information Systems graduate from Strayer University (Cum Laude). He specializes in helping businesses leverage artificial intelligence to transform their operations and gain competitive advantage. Robert simplifies complex AI concepts into practical strategies for organizations looking to lead through intelligent technology adoption.
-

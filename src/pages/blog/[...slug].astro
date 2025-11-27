@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import AboutRobertSanDiego from '../../components/Blog/AboutRobertSanDiego.astro';
 import { blogPostsContent, blogPostsContentMap } from '../../data/blogs/content';
 
 export async function getStaticPaths() {
@@ -183,7 +184,7 @@ const relatedPostCards = [...relatedByCategory, ...relatedByTags, ...relatedFall
               </section>
 
               {postEntry.tags?.length ? (
-                <section class="w-full">
+                <section class="w-full mb-0">
                   <div class="flex flex-wrap gap-2">
                     {postEntry.tags.map((tag) => (
                       <a
@@ -196,6 +197,10 @@ const relatedPostCards = [...relatedByCategory, ...relatedByTags, ...relatedFall
                   </div>
                 </section>
               ) : null}
+
+              <div class="mt-6 md:mt-[50px]">
+                <AboutRobertSanDiego />
+              </div>
             </div>
 
             <aside class="flex flex-col gap-6 rounded-3xl border border-[#fffefe1a] bg-[#0f1524]/70 p-6 backdrop-blur-md lg:sticky lg:top-[160px]">

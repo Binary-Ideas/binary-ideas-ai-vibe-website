@@ -168,7 +168,3 @@ If you made it this far, you already know your business could run smoother. The 
 [Book Your Appointment Now](https://api.3sixtycrm.com/widget/bookings/robert-sandiego) or call **(703) 690-9726**.  
 [Binary Ideas AI Automation Agency](http://binaryideas.ai/) – [9525 4th Place, Lorton, VA 22079](https://maps.app.goo.gl/QyEzYjx67Mj88R4C8)
 
----
-
-Robert San Diego is an AI technology expert and Computer Information Systems graduate from Strayer University (Cum Laude). He specializes in helping businesses leverage artificial intelligence to transform their operations and gain competitive advantage. Robert simplifies complex AI concepts into practical strategies for organizations looking to lead through intelligent technology adoption.
-

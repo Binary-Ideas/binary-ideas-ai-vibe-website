@@ -23,7 +23,6 @@ excerpt: "Binary Ideas AI introduces seven AI agents giving Lorton, VA owners th
 
 *Serving local business owners in Lorton, VA – right from the heart of Fairfax County*
 
-![Meet Your New Digital Team- 7 AI Agents Transforming Small Businesses in Lorton VA - Featured](https://binaryideas.ai/wp-content/uploads/2025/07/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Featured.jpg)
 
 ## Struggling to Keep Up With the Tech Side of Your Business?
 
@@ -182,8 +181,4 @@ We are not just another SaaS company—we are your neighbor. **Binary Ideas AI**
 
 Let’s build your first AI agent together.  
 [Book your free consult](https://binaryideas.ai/contact-us/) · Explore our deep-dive guide: [Unlocking Success With AI Automations in Lorton, VA](https://binaryideas.ai/unlocking-success-with-ai-automations-in-lorton-va/)
-
----
-
-Robert San Diego is an AI technology expert and Computer Information Systems graduate from Strayer University (Cum Laude). He helps organizations unlock competitive advantages by translating complex AI concepts into practical rollout strategies.
 
