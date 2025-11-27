@@ -4,7 +4,7 @@ export const services = [
         name: "Voice AI Agents",
         slug: "voice-ai-agents",
         shortDescription: "Automated phone systems that sound human",
-        description: "Our Voice AI Agents handle phone calls with naturalsounding conversations, appointment scheduling, and customer inquiries 24/7.",
+        description: "Our Voice AI Agents handle phone calls with natural sounding conversations, appointment scheduling, and customer inquiries 24/7.",
         features: [
             "Natural language processing",
             "24/7 availability",

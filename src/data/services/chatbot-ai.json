@@ -5,14 +5,14 @@
     "slug": "chatbot-ai"
   },
   "hero": {
-    "titleLeading": "Stop Losing $3,000-$7,000 ",
-    "titleTrailing": "Monthly to Missed Phone Calls",
+    "titleLeading": "Stop Losing $5,000-$10,000 ",
+    "titleTrailing": "Monthly to Unanswered Messages",
     "titleGradientClass": "bg-[linear-gradient(90deg,#c084fc_0%,#8b5cf6_50%,#60a5fa_100%)]",
-    "description": "Every unanswered call is money walking out the door. Your Northern Virginia business deserves better.",
+    "description": "Every unanswered chat on your website is money walking out the door. Your Northern Virginia business deserves better.",
     "problemList": [
-      "You answer your phone during dinner. You lose leads on weekends. You're working 24/7, but your phone system isn't.",
-      "Every time a potential customer calls you at 8 PM and gets voicemail, they're calling your competitor by 8:05 PM.",
-      "You're spending thousands on marketing to drive calls to your business—only to lose those leads because you can't answer fast enough."
+      "You answer messages during dinner. You lose leads on weekends. You're working 24/7, but your website isn't.",
+      "Every time a potential customer messages you at 8 PM and gets no response, they're calling your competitor by 8:05 PM.",
+      "You're spending thousands on marketing to drive traffic to your website—only to lose those leads because you can't respond instantly."
     ],
     "ctaText": "Get Your Free Consultation",
     "ctaAriaLabel": "Get Your Free Consultation",
@@ -102,43 +102,43 @@
   "keyFeatures": {
     "titleLeading": "Key",
     "titleHighlight": "Features",
-    "subtitle": "",
+    "subtitle": "Each service is designed to deliver measurable results and ROI for your business",
     "features": [
       {
-        "id": "natural-conversations",
+        "id": "instant-response-under-3-seconds",
         "icon": "message",
-        "title": "Natural Conversations",
-        "description": "Our AI-powered chatbots engage in fluid, human-like conversations that understand context, tone, and intent, making every interaction feel natural and helpful rather than robotic or scripted."
+        "title": "Instant Response (Under 3 Seconds)",
+        "description": "Your chatbot engages visitors the moment they need help, answering questions and capturing information before they bounce to a competitor's site."
       },
       {
-        "id": "multi-platform-deployment",
+        "id": "24-7-lead-capture",
         "icon": "globe",
-        "title": "Multi-Platform Deployment",
-        "description": "Deploy your chatbot across your website, social media platforms, and messaging apps to provide consistent support wherever your customers prefer to engage with your business."
+        "title": "24/7 Lead Capture",
+        "description": "Never lose a lead to slow response times again. Your Chatbot AI works around the clock, qualifying prospects and booking appointments even when your office is closed."
       },
       {
-        "id": "knowledge-base-integration",
+        "id": "smart-lead-qualification",
         "icon": "database",
-        "title": "Knowledge Base Integration",
-        "description": "Connect your chatbot to your existing knowledge base, FAQ documents, and product information to provide accurate, up-to-date answers to customer questions instantly."
+        "title": "Smart Lead Qualification",
+        "description": "Ask the right questions to identify serious buyers and filter out tire-kickers. Your AI gathers budget, timeline, and project details before passing leads to your team."
       },
       {
-        "id": "human-handoff",
+        "id": "appointment-booking",
         "icon": "phone",
-        "title": "Human Handoff",
-        "description": "Intelligently identify when a customer needs human assistance and seamlessly transfer the conversation to your support team with full context and conversation history."
+        "title": "Appointment Booking",
+        "description": "Seamlessly schedule consultations by checking your calendar in real time, sending confirmations, and handling rescheduling requests without human intervention."
       },
       {
-        "id": "analytics-tracking",
+        "id": "multi-channel-integration",
         "icon": "analytics",
-        "title": "Analytics Tracking",
-        "description": "Track chatbot performance, user satisfaction, common questions, and conversion metrics to continuously improve your customer service and identify areas for optimization."
+        "title": "Multi-Channel Integration",
+        "description": "Connect with visitors across your website, Facebook Messenger, and other platforms. Provide consistent service everywhere your customers are."
       },
       {
-        "id": "customizable-personality",
+        "id": "crm-and-calendar-sync",
         "icon": "calendar",
-        "title": "Customizable Personality",
-        "description": "Design your chatbot's personality, tone, and communication style to match your brand voice and create a consistent experience that reflects your company culture and values."
+        "title": "CRM & Calendar Sync",
+        "description": "Automatically log all conversations, update lead records, and sync appointments with your existing CRM and calendar systems."
       }
     ]
   },
@@ -147,32 +147,31 @@
     "titleHighlight": "Your Business",
     "items": [
       {
-        "id": "reduce-tickets",
-        "title": "Reduce Support Tickets by 70%",
-        "description": "Handle common customer inquiries automatically, freeing up your support team to focus on complex issues and providing faster resolution for routine questions.",
+        "id": "three-x-more-qualified-leads",
+        "title": "3X More Qualified Leads",
+        "description": "Capture every visitor's attention at the perfect moment. Instant engagement means more conversations, more qualified prospects, and more sales opportunities.",
         "iconGradient": "bg-[linear-gradient(145deg,rgba(56,189,248,1)_0%,rgba(168,85,247,1)_100%)]",
         "iconImages": []
       },
       {
-        "id": "instant-responses",
-        "title": "Instant Response Times",
-        "description": "Provide immediate answers to customer questions 24/7, eliminating wait times and ensuring customers get the help they need when they need it most.",
+        "id": "reduce-response-time-under-30-seconds",
+        "title": "Reduce Response Time to Under 30 Seconds",
+        "description": "Stop losing leads to competitors who answer faster. Your Chatbot AI responds instantly—day or night, weekday or weekend.",
         "iconGradient": "bg-[linear-gradient(145deg,rgba(59,130,246,1)_0%,rgba(37,99,235,1)_100%)]",
         "iconImages": []
       },
       {
-        "id": "availability",
-        "title": "24/7 Availability",
-        "description": "Never miss a customer inquiry again. Your chatbot works around the clock, providing support even when your office is closed, ensuring you capture every opportunity.",
-        "iconType": "image",
-        "iconSrc": "/img/vector-18.svg",
+        "id": "save-10-15-hours-weekly",
+        "title": "Save 10-15 Hours Per Week",
+        "description": "Eliminate time wasted on repetitive questions. Your team focuses on closing deals and serving customers while AI handles routine inquiries.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(147,197,253,1)_0%,rgba(99,102,241,1)_100%)]",
         "iconImages": []
       },
       {
-        "id": "customer-satisfaction",
-        "title": "Improve Customer Satisfaction",
-        "description": "Provide consistent, accurate, and helpful responses that resolve customer issues quickly, leading to higher satisfaction scores and increased customer loyalty.",
-        "iconGradient": "bg-[linear-gradient(145deg,rgba(147,197,253,1)_0%,rgba(217,70,239,1)_100%)]",
+        "id": "increase-conversion-rates-40-plus",
+        "title": "Increase Conversion Rates by 40%+",
+        "description": "Guide visitors through your sales process with personalized conversations. Turn more website traffic into paying customers.",
+        "iconGradient": "bg-[linear-gradient(145deg,rgba(217,70,239,1)_0%,rgba(236,72,153,1)_100%)]",
         "iconImages": []
       }
     ]
@@ -186,7 +185,7 @@
         "id": 1,
         "stepNumber": "STEP 1",
         "title": "Book a 15-Minute Consultation",
-        "description": "<p>We analyze your current website traffic and show you exactly where you're losing leads and how much it's costing you each month. No sales pitch, no pressure—just a clear picture of what's happening and what's possible.</p><p><strong>What you'll get:</strong> A free audit showing your monthly lead loss, the dollar value of those missed opportunities, and exactly which hours/days you're bleeding the most revenue. Even if you don't work with us, you'll walk away with valuable insights.</p>",
+        "description": "<p>We analyze your current website traffic and show you exactly where you're losing leads and how much it's costing you each month. No sales pitch, no pressure—just a clear picture of what's happening and what's possible.</p><p><strong style=\"color:#fff;\">What you'll get:</strong> A free audit showing your monthly lead loss, the dollar value of those missed opportunities, and exactly which hours/days you're bleeding the most revenue. Even if you don't work with us, you'll walk away with valuable insights.</p>",
         "icon": "phone",
         "gradient": "bg-[linear-gradient(135deg,rgba(56,189,248,1)_0%,rgba(168,85,247,1)_100%)]"
       },
@@ -194,7 +193,7 @@
         "id": 2,
         "stepNumber": "STEP 2",
         "title": "We Install Your Customized AI Assistant",
-        "description": "<p>We learn your business inside and out—your services, pricing, policies, and personality. Then we customize your chatbot to sound like YOU and install it directly on your existing website. No rebuild needed. No technical work on your end. We literally handle everything.</p><p><strong>What you'll do:</strong> Spend 20 minutes answering questions about your business (the stuff you already know). That's it. We handle the technology, the installation, the testing, and the launch. You'll never touch a single line of code.</p>",
+        "description": "<p>We learn your business inside and out—your services, pricing, policies, and personality. Then we customize your chatbot to sound like YOU and install it directly on your existing website. No rebuild needed. No technical work on your end. We literally handle everything.</p><p><strong style=\"color:#fff;\">What you'll do:</strong> Spend 20 minutes answering questions about your business (the stuff you already know). That's it. We handle the technology, the installation, the testing, and the launch. You'll never touch a single line of code.</p>",
         "icon": "tool",
         "gradient": "bg-[linear-gradient(135deg,rgba(147,197,253,1)_0%,rgba(99,102,241,1)_100%)]"
       },
@@ -202,7 +201,7 @@
         "id": 3,
         "stepNumber": "STEP 3",
         "title": "Watch Your Calendar Fill With Qualified Leads",
-        "description": "<p>Your AI starts working immediately—24/7, 365 days a year. It answers questions, qualifies prospects, and books appointments while you sleep, serve customers, or actually enjoy your weekend. You get instant notifications only for hot leads that need your personal attention.</p><p><strong>What you'll experience:</strong> Within 24-48 hours, you'll start seeing leads captured that would have been lost. Within 30 days, your team will wonder how they ever managed without it. Within 90 days, you'll look back at your old system and shake your head at all the money you used to leave on the table.</p>",
+        "description": "<p>Your AI starts working immediately—24/7, 365 days a year. It answers questions, qualifies prospects, and books appointments while you sleep, serve customers, or actually enjoy your weekend. You get instant notifications only for hot leads that need your personal attention.</p><p><strong style=\"color:#fff;\">What you'll experience:</strong> Within 24-48 hours, you'll start seeing leads captured that would have been lost. Within 30 days, your team will wonder how they ever managed without it. Within 90 days, you'll look back at your old system and shake your head at all the money you used to leave on the table.</p>",
         "icon": "bolt",
         "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,1)_0%,rgba(129,140,248,1)_100%)]"
       }
@@ -213,31 +212,31 @@
     "headingHighlight": "Cases",
     "items": [
       {
-        "id": "customer-support",
-        "icon": "headphones",
-        "title": "Customer Support",
-        "description": "Perfect for Northern Virginia businesses, our chatbots handle common customer inquiries, provide product information, and resolve issues quickly while maintaining a helpful, professional tone.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(29,78,216,0.92)_0%,rgba(76,29,149,0.95)_100%)]"
+        "id": "contractors-home-services",
+        "icon": "home",
+        "title": "Contractors & Home Services",
+        "description": "\"Can you give me a quote?\" \"Are you available next Tuesday?\" Your AI answers pricing questions, checks availability, and books consultations—even when you're on a job site with no signal.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(99,102,241,0.92)_0%,rgba(37,99,235,0.95)_100%)]"
       },
       {
-        "id": "product-recommendations",
-        "icon": "target",
-        "title": "Product Recommendations",
-        "description": "Guide customers to the right products or services by asking intelligent questions about their needs and preferences, increasing sales and improving customer satisfaction.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(67,56,202,0.92)_0%,rgba(147,51,234,0.95)_100%)]"
+        "id": "lawyers-professional-services",
+        "icon": "scale",
+        "title": "Lawyers & Professional Services",
+        "description": "Qualify leads by asking about their case, location, and urgency. Your AI handles initial consultations and passes serious prospects to you with all their information—no more unqualified tire-kickers wasting your time.",
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(168,85,247,0.95)_100%)]"
       },
       {
-        "id": "faq-automation",
-        "icon": "utensils",
-        "title": "FAQ Automation",
-        "description": "Automatically answer frequently asked questions about your business, services, policies, and procedures, reducing repetitive inquiries and improving response times.",
+        "id": "healthcare-dental-practices",
+        "icon": "stethoscope",
+        "title": "Healthcare & Dental Practices",
+        "description": "Patients can check appointment availability, get answers about insurance, and book consultations 24/7. Your front desk staff focuses on in-office patients while your AI handles the digital queue.",
         "gradient": "bg-[linear-gradient(135deg,rgba(14,165,233,0.92)_0%,rgba(8,47,73,0.95)_100%)]"
       },
       {
-        "id": "lead-qualification",
-        "icon": "stethoscope",
-        "title": "Lead Qualification",
-        "description": "Engage website visitors, ask qualifying questions, and identify potential customers before transferring them to your sales team with detailed context and contact information.",
+        "id": "retail-ecommerce",
+        "icon": "shopping-cart",
+        "title": "Retail & E-commerce",
+        "description": "Guide customers to the right products, answer questions about shipping and returns, and provide personalized recommendations based on their needs—turning browsers into buyers even while you sleep.",
         "gradient": "bg-[linear-gradient(135deg,rgba(13,148,136,0.92)_0%,rgba(30,64,175,0.95)_100%)]"
       }
     ]
