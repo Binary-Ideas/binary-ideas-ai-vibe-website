@@ -228,28 +228,32 @@
         "icon": "home",
         "title": "Contractors & Home Services",
         "description": "\"Can you give me a quote?\" \"Are you available next Tuesday?\" Your AI answers pricing questions, checks availability, and books consultations—even when you're on a job site with no signal.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(99,102,241,0.92)_0%,rgba(37,99,235,0.95)_100%)]"
+        "gradient": "bg-[linear-gradient(135deg,rgba(99,102,241,0.92)_0%,rgba(37,99,235,0.95)_100%)]",
+        "result": "Capture 15-25 additional qualified leads monthly that would have gone to competitors who answered faster. Close rate increases 30-40% because prospects are pre-qualified before you spend time on estimates. Save 10-15 hours per week not playing phone tag or responding to unqualified inquiries."
       },
       {
         "id": "lawyers-professional-services",
         "icon": "scale",
         "title": "Lawyers & Professional Services",
         "description": "Qualify leads by asking about their case, location, and urgency. Your AI handles initial consultations and passes serious prospects to you with all their information—no more unqualified tire-kickers wasting your time.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(168,85,247,0.95)_100%)]"
+        "gradient": "bg-[linear-gradient(135deg,rgba(59,130,246,0.92)_0%,rgba(168,85,247,0.95)_100%)]",
+        "result": "Your consultation calendar fills with pre-qualified prospects who can afford your services and have legitimate cases. Reduce time spent on unqualified leads by 70%. Convert 40-50% more consultations because prospects arrive informed and ready to hire."
       },
       {
         "id": "healthcare-dental-practices",
         "icon": "stethoscope",
         "title": "Healthcare & Dental Practices",
         "description": "Patients can check appointment availability, get answers about insurance, and book consultations 24/7. Your front desk staff focuses on in-office patients while your AI handles the digital queue.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(14,165,233,0.92)_0%,rgba(8,47,73,0.95)_100%)]"
+        "gradient": "bg-[linear-gradient(135deg,rgba(14,165,233,0.92)_0%,rgba(8,47,73,0.95)_100%)]",
+        "result": "Fill 20-30% more appointment slots by capturing after-hours booking requests. Reduce no-shows by 40% with automated reminders. Patient satisfaction scores increase because they get instant answers instead of waiting on hold. Your front desk handles 50% fewer routine calls."
       },
       {
         "id": "retail-ecommerce",
         "icon": "shopping-cart",
         "title": "Retail & E-commerce",
         "description": "Guide customers to the right products, answer questions about shipping and returns, and provide personalized recommendations based on their needs—turning browsers into buyers even while you sleep.",
-        "gradient": "bg-[linear-gradient(135deg,rgba(13,148,136,0.92)_0%,rgba(30,64,175,0.95)_100%)]"
+        "gradient": "bg-[linear-gradient(135deg,rgba(13,148,136,0.92)_0%,rgba(30,64,175,0.95)_100%)]",
+        "result": "Increase conversion rate by 25-40% by answering questions instantly before customers abandon their cart. Average order value increases 15-30% through AI-powered product recommendations. Recover 30-50% of abandoned carts with proactive engagement. Reduce support tickets by 60% while improving customer satisfaction."
       }
     ]
   },

@@ -82,10 +82,10 @@
     "result": "Your team stops wasting 15-25 hours weekly on repetitive work, your operational costs drop 40-70%, and you can finally scale without hiring proportionally more people to handle the workload.",
     "detail": {
       "heading": "Training Agents",
-      "intro": "Imagine having your sharpest operations lead cloned into software—watching every workflow, catching exceptions before they snowball, and keeping projects moving even when your team is slammed.",
-      "body": "That's exactly what our custom Training Agents do. We capture your unique playbooks, business logic, and industry language, then train AI workers that follow them flawlessly. They log into the same systems your team already uses, trigger automations, escalate when a human is needed, and keep every step of your process on rails.",
-      "highlight": "<strong>We know \"one-size-fits-all\" software never fits.</strong> We're Northern Virginia builders too, and we've sat through the demos that force you to rewrite your workflow. Training Agents was born because our own clients needed something that matched how they actually operate—not how a SaaS product thinks they should.",
-      "outro": "You don't have to become a data scientist or rebuild your stack. We interview your subject-matter experts, map the process, and deliver AI teammates that feel like they've been on staff for years—complete with ongoing optimization as your business evolves."
+      "intro": "Imagine if you had a brilliant employee who learned every detail of your business processes, never forgot protocols, worked 24/7 without breaks, handled complex multi-step workflows requiring real intelligence, got smarter every week, and cost 80-90% less than human labor. ",
+      "body": "That's exactly what our custom Training Agents do. Unlike generic AI chatbots that give canned responses or rigid automation that breaks when anything changes, we build intelligent agents specifically trained on YOUR industry, YOUR processes, YOUR data, and YOUR business rules.",
+      "highlight": "<strong>We don't hand you software and wish you luck</strong>. We analyze your workflows, identify automation opportunities, build custom AI models trained on your specific requirements, integrate seamlessly with your existing systems, and continuously optimize performance based on real-world results. If your process involves complex decision-making, industry-specific knowledge, or multi-system coordination, that's exactly what we specialize in. ",
+      "outro": "You don't need to understand AI or machine learning—you just explain how your business works, and we translate that into intelligent automation that actually fits your workflow."
     }
   },
   "introduction": {
@@ -96,7 +96,7 @@
     "titleLeading": "What are ",
     "titleHighlight": "Training Agents?",
     "descriptionParagraphs": [
-      "Training Agents is our custom AI development service where we build and train specialized artificial intelligence agents specifically for your unique business processes and requirements. Unlike off-the-shelf AI solutions that force you to adapt your workflows, we create AI agents that are designed from the ground up to understand and optimize your specific industry, processes, and business goals.",
+      "Training Agents are our custom AI development services where we build and train specialized artificial intelligence agents specifically for your unique business processes and requirements. Unlike off-the-shelf AI solutions that force you to adapt your workflows, we create AI agents that are designed from the ground up to understand and optimize your specific industry, processes, and business goals.",
       "This comprehensive solution is designed specifically for small and medium businesses in Northern Virginia who have unique workflows, industry-specific requirements, or complex processes that can't be addressed by standard AI solutions. Whether you need to automate data processing, streamline customer interactions, or optimize internal operations, our custom-trained AI agents provide the flexibility and intelligence needed to transform your business processes."
     ]
   },
