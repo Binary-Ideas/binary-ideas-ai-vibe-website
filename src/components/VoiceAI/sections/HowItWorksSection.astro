@@ -110,14 +110,14 @@ const splitDescription = (html?: string) => {
       const { intro, rest } = splitDescription(step.description);
 
       return (
-        <article class="relative flex rounded-[28px] border border-white/10 bg-[#0f172a]/60 p-6 shadow-[0_25px_80px_rgba(5,7,20,0.55)] backdrop-blur-lg">
-          <div class="flex items-start gap-6">
+        <article class="relative flex flex-col sm:flex-row rounded-[28px] border border-white/10 bg-[#0f172a]/60 p-6 shadow-[0_25px_80px_rgba(5,7,20,0.55)] backdrop-blur-lg">
+          <div class="flex flex-col sm:flex-row items-start gap-6">
             <div class={`flex h-16 w-16 items-center justify-center rounded-full text-white shadow-[0_18px_35px_rgba(11,76,140,0.45)] ${step.gradient}`}>
               <span class="sr-only">{step.title} icon</span>
               <span class="flex items-center justify-center" set:html={iconMarkup[step.icon]} />
             </div>
 
-            <div class="flex-1 space-y-5">
+            <div class="flex-1 space-y-5 mt-4 sm:mt-0">
               <div class="space-y-2">
                 <span class="text-xs font-semibold uppercase tracking-[0.4em] text-[#4ade80]">
                   {step.stepNumber}

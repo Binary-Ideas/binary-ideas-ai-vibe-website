@@ -91,9 +91,9 @@ const processedBenefits: ProcessedBenefit[] = benefits.map((benefit) => ({
     </h2>
   </header>
 
-  <div class="mt-12 grid gap-8 sm:grid-cols-2">
+  <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2">
     {processedBenefits.map((benefit) => (
-      <article class="relative flex rounded-[24px] border border-solid border-[#ffffff14] bg-[linear-gradient(180deg,rgba(31,32,45,0.9)_0%,rgba(16,17,26,0.9)_100%)] px-8 py-6 shadow-[0px_20px_45px_rgba(10,10,15,0.45)]">
+      <article class="relative flex flex-col sm:flex-row rounded-[24px] border border-solid border-[#ffffff14] bg-[linear-gradient(180deg,rgba(31,32,45,0.9)_0%,rgba(16,17,26,0.9)_100%)] px-8 py-6 shadow-[0px_20px_45px_rgba(10,10,15,0.45)]">
         <div class="flex h-[60px] w-[60px] shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-[rgba(12,16,31,0.85)] shadow-[0_20px_45px_rgba(8,14,35,0.35)]">
           {benefit.iconType === "image" ? (
             <img class="h-full w-full rounded-[20px] object-cover" alt={benefit.title} src={benefit.iconSrc} />
@@ -108,7 +108,7 @@ const processedBenefits: ProcessedBenefit[] = benefits.map((benefit) => ({
           )}
         </div>
 
-        <div class="ml-6 flex flex-col">
+        <div class="mt-4 sm:mt-0 sm:ml-6 flex flex-col">
           <h3 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-semibold text-2xl text-white tracking-[0] leading-8">
             {benefit.title}
           </h3>

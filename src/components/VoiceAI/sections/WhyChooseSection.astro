@@ -85,7 +85,7 @@ const descriptionParagraphs = Array.isArray(content.description)
           />
       </div>
 
-      <div class="absolute -bottom-10 -right-10 flex h-[128px] w-[138px] flex-col items-center justify-center rounded-[24px] border border-white/40 bg-[linear-gradient(135deg,#8b5cf6_0%,#2563eb_100%)] shadow-[0_26px_48px_rgba(84,63,242,0.55)] backdrop-blur-[8px] z-[5]" style="transform: translate(-10px,-10px);">
+      <div class="absolute -bottom-14 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-6 lg:-right-10 flex w-auto max-w-[85vw] sm:max-w-[220px] flex-col items-center justify-center rounded-[24px] border border-white/40 bg-[linear-gradient(135deg,#8b5cf6_0%,#2563eb_100%)] px-6 py-5 text-center shadow-[0_26px_48px_rgba(84,63,242,0.55)] backdrop-blur-[8px] z-[5]" style="transform: translate(-10px,-10px);">
         <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-[12px] tracking-[0.08em] text-white/88">
           {location.basedIn}
         </span>
@@ -98,7 +98,7 @@ const descriptionParagraphs = Array.isArray(content.description)
       </div>
     </div>
 
-    <div class="relative overflow-hidden rounded-[34px] border border-[#ffffff17] bg-[linear-gradient(145deg,rgba(25,27,45,0.92)_0%,rgba(16,17,33,0.95)_100%)] px-12 py-12 shadow-[0_38px_85px_rgba(10,10,20,0.55)]">
+    <div class="relative overflow-hidden rounded-[34px] border border-[#ffffff17] bg-[linear-gradient(145deg,rgba(25,27,45,0.92)_0%,rgba(16,17,33,0.95)_100%)] px-12 pt-[30px] pb-12 mt-5 lg:mt-0 lg:pt-12 shadow-[0_38px_85px_rgba(10,10,20,0.55)]">
       <div class="pointer-events-none absolute inset-0 rounded-[34px] opacity-70 [background:radial-gradient(circle_at_top_right,rgba(120,64,255,0.25)_0%,rgba(19,20,37,0)_65%)]" aria-hidden="true" />
       <div class="relative space-y-5">
         {descriptionParagraphs.map((paragraph) => (
