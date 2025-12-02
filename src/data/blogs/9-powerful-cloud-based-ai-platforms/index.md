@@ -5,7 +5,7 @@ meta:
   slug: "9-powerful-cloud-based-ai-platforms"
   publishDate: "2025-07-28"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Cloud-Based-AI-Platforms-Featured-Image.png"
+    src: "/img/Blog-Images/Cloud-Based-AI-Platforms-Featured-Image.png"
     alt: "Lorton VA business owner overwhelmed before switching to cloud-based AI platforms"
 pageTitle: "9 Powerful Cloud-Based AI Platforms That Are Dominating Lorton VA Right Now"
 categories:
@@ -42,7 +42,7 @@ Instead of repeating answers all day, hand the script to a bot that works 24/7. 
 
 ## 1. [Dialogflow (by Google)](https://cloud.google.com/dialogflow) – The One With the Brainpower
 
-![Dialogflow chatbot platform in use by small businesses in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/07/Cloud-Based-AI-Platforms-Dialogflow.png)
+![Dialogflow chatbot platform in use by small businesses in Lorton VA](/img/Blog-Images/Cloud-Based-AI-Platforms-Dialogflow.png)
 
 If you already live in Google Workspace, Dialogflow feels familiar. It understands natural language far better than canned scripts, guiding conversations through branching logic without losing context.
 
@@ -62,7 +62,7 @@ Curious how open source stacks up? Read the warning signs in [5 Dangerous Mistak
 
 ## 3. [ManyChat](https://manychat.com) – Perfect for Instagram and Facebook DM Automation
 
-![ManyChat automating Instagram DMs for small business in South County VA](https://binaryideas.ai/wp-content/uploads/2025/07/Cloud-Based-AI-Platforms-ManyChat.png)
+![ManyChat automating Instagram DMs for small business in South County VA](/img/Blog-Images/Cloud-Based-AI-Platforms-ManyChat.png)
 
 ManyChat automates promo replies, comment-to-DM campaigns, and follow-ups right where your followers live. If your call-to-action says "DM us to book," this platform makes sure that message converts.
 
@@ -94,7 +94,7 @@ Chatfuel is drag-and-drop automation. You can build flows in minutes, plug it in
 
 ## 7. [Landbot](https://landbot.io) – Looks Cool. Works Smooth.
 
-![Landbot platform for boutique-style Lorton businesses with custom branding](https://binaryideas.ai/wp-content/uploads/2025/07/Cloud-Based-AI-Platforms-Landbot.png)
+![Landbot platform for boutique-style Lorton businesses with custom branding](/img/Blog-Images/Cloud-Based-AI-Platforms-Landbot.png)
 
 Landbot turns chat flows into interactive, on-brand experiences. Think swipe cards, visual decision trees, and custom styling that feels premium.
 

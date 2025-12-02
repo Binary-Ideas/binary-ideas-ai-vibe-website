@@ -5,7 +5,7 @@ meta:
   slug: "discover-the-varieties-of-ai-agents-lorton-va"
   publishDate: "2025-07-23"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Discover-the-Varieties-of-AI-Agents-Lorton-VA-Available-Featured-Image.png"
+    src: "/img/Blog-Images/Discover-the-Varieties-of-AI-Agents-Lorton-VA-Available-Featured-Image.png"
     alt: "A business woman in Lorton VA using AI agents"
 pageTitle: "Discover the Varieties of AI Agents Lorton VA Available"
 categories:
@@ -34,7 +34,7 @@ We have helped plumbers, realtors, auto shops, dance studios, and more across Lo
 
 ### 1. Chatbot Agent (The Friendly Front Desk)
 
-![Chatbot Agent in action in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/07/Chatbot-Agent-The-Friendly-Front-Desk.png)
+![Chatbot Agent in action in Lorton VA](/img/Blog-Images/Chatbot-Agent-The-Friendly-Front-Desk.png)
 
 Answer questions 24/7—pricing, hours, directions, FAQs that are unique to your business.
 
@@ -42,7 +42,7 @@ Answer questions 24/7—pricing, hours, directions, FAQs that are unique to your
 
 ### 2. Lead Generation Agent (The Silent Salesperson)
 
-![Lead Generation agent keeps company employees happy](https://binaryideas.ai/wp-content/uploads/2025/07/Lead-Generation-Agent-The-Silent-Salesperson.png)
+![Lead Generation agent keeps company employees happy](/img/Blog-Images/Lead-Generation-Agent-The-Silent-Salesperson.png)
 
 Captures leads from your site, Facebook, or SMS, warms them up, and filters out tire-kickers.
 
@@ -50,7 +50,7 @@ Captures leads from your site, Facebook, or SMS, warms them up, and filters out 
 
 ### 3. Email Marketing Agent (The Follow-Up King)
 
-![A smiling owner in Lorton VA satisfied with the Email marketing Agent](https://binaryideas.ai/wp-content/uploads/2025/07/Email-Marketing-Agent-The-Follow-Up-King.png)
+![A smiling owner in Lorton VA satisfied with the Email marketing Agent](/img/Blog-Images/Email-Marketing-Agent-The-Follow-Up-King.png)
 
 Writes and sends automated reminders, promos, and newsletters, segmenting audiences so each person gets the right message.
 

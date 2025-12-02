@@ -5,7 +5,7 @@ meta:
   slug: "7-ai-agents-meet-your-new-digital-team"
   publishDate: "2025-07-02"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Featured.jpg"
+    src: "/img/Blog-Images/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Featured.jpg"
     alt: "Meet Your New Digital Team- 7 AI Agents Transforming Small Businesses in Lorton VA - Featured"
 pageTitle: "Meet Your New Digital Team: 7 AI Agents Transforming Small Businesses in Lorton, VA"
 categories:
@@ -38,7 +38,7 @@ Below are the **seven AI agents** we customize for Lorton, VA organizations.
 
 ## 1. Voice Agent – Answer Calls Like a Pro
 
-![Voice AI Agent - Answer Calls Like a Pro](https://binaryideas.ai/wp-content/uploads/2025/07/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Voice-Agent-–-Answer-Calls-Like-a-Pro.jpg)
+![Voice AI Agent - Answer Calls Like a Pro](/img/Blog-Images/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Voice-Agent-–-Answer-Calls-Like-a-Pro.jpg)
 
 A local real estate agent used to miss calls after 6 p.m. We installed a Voice Agent that answers questions, collects caller details, and books appointments.
 
@@ -52,7 +52,7 @@ Best for:
 
 ## 2. Chatbot Agent – Instant Help on Your Website
 
-![Chatbot AI Agent – Instant Help on Your Website](https://binaryideas.ai/wp-content/uploads/2025/07/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Chatbot-Agent-–-Instant-Help-on-Your-Website.jpg)
+![Chatbot AI Agent – Instant Help on Your Website](/img/Blog-Images/Meet-Your-New-Digital-Team-7-AI-Agents-Transforming-Small-Businesses-in-Lorton-VA-Chatbot-Agent-–-Instant-Help-on-Your-Website.jpg)
 
 This agent is your **digital front desk**. Whether you run a bakery or a law firm, our Chatbot Agent can:
 
@@ -139,7 +139,7 @@ Visit us at:
 
 **Binary Ideas AI**  
 9525 4th Place, Lorton, VA 22079  
-[Contact Us](https://binaryideas.ai/contact-us/) · [Book a Free AI Consultation](https://api.3sixtycrm.com/widget/bookings/robert-sandiego)
+[Book a Free AI Consultation](https://api.3sixtycrm.com/widget/bookings/robert-sandiego)
 
 ## FAQ: AI Agents for Local Businesses
 
@@ -180,5 +180,5 @@ We are not just another SaaS company—we are your neighbor. **Binary Ideas AI**
 ### Ready to try an agent?
 
 Let’s build your first AI agent together.  
-[Book your free consult](https://binaryideas.ai/contact-us/) · Explore our deep-dive guide: [Unlocking Success With AI Automations in Lorton, VA](https://binaryideas.ai/unlocking-success-with-ai-automations-in-lorton-va/)
+[Book your free consult](https://api.3sixtycrm.com/widget/bookings/robert-sandiego) · Explore our deep-dive guide: [Unlocking Success With AI Automations in Lorton, VA](/unlocking-success-with-ai-automations-in-lorton-va/)
 

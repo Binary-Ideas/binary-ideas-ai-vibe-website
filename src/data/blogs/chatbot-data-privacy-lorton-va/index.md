@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-data-privacy-lorton-va"
   publishDate: "2025-09-08"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/09/hero-chatbot-data-privacy-lorton-va.png"
+    src: "/img/Blog-Images/hero-chatbot-data-privacy-lorton-va.png"
     alt: "Small business owner in Lorton VA using secure chatbot system"
 pageTitle: "Chatbot Data Privacy Mistakes Lorton VA – 6 Costly Errors"
 categories:

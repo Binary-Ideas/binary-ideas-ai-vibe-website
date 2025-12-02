@@ -5,7 +5,7 @@ meta:
   slug: "why-businesses-save-more-with-ai-automation"
   publishDate: "2025-08-01"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Benefits-Featured-Image.png"
+    src: "/img/Blog-Images/AI-Automation-Benefits-Featured-Image.png"
     alt: "AI Automation Benefits: Small business owner in Lorton VA saving time with AI automation tools"
 pageTitle: "Why Businesses Save More With AI Automation"
 categories:
@@ -47,7 +47,7 @@ This is not just about saving time or money. It is about getting your life back.
 
 ## So What Even _Is_ AI Automation?
 
-![AI Automation Benefits: AI automation dashboard interface overview](https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Benefits-What-Is-AI-Automation.png)
+![AI Automation Benefits: AI automation dashboard interface overview](/img/Blog-Images/AI-Automation-Benefits-What-Is-AI-Automation.png)
 
 You have heard the phrase, but what does AI automation really mean?
 

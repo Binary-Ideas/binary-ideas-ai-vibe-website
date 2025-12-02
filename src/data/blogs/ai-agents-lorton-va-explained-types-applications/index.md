@@ -5,7 +5,7 @@ meta:
   slug: "ai-agents-lorton-va-explained-types-applications"
   publishDate: "2025-07-30"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/AI-Agents-Lorton-VA-Featured-Image.png"
+    src: "/img/Blog-Images/AI-Agents-Lorton-VA-Featured-Image.png"
     alt: "AI agents helping small business owner in Lorton VA manage tasks"
 pageTitle: "AI Agents Lorton VA Explained: Types and Their Applications"
 categories:
@@ -30,7 +30,7 @@ Let’s break it down with real words, real examples, and zero tech jargon.
 
 ## What Is an AI Agent (For Real Tho)?
 
-![Cartoon image showing how AI agents work behind the scenes](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Agents-Lorton-VA-What-is-an-AI-Agent.png)
+![Cartoon image showing how AI agents work behind the scenes](/img/Blog-Images/AI-Agents-Lorton-VA-What-is-an-AI-Agent.png)
 
 Have you ever messaged a business at 10 PM and received an instant reply? That was likely an **AI agent**.
 
@@ -56,7 +56,7 @@ Apps wait for you to act. AI agents **take action**. Think of them as a smart in
 
 ### 1. Chatbot Agent = Your Digital Front Desk Lady
 
-![AI chatbot agent talking to customer for Lorton small business](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Agents-Lorton-VA-Chatbot-Agent.png)
+![AI chatbot agent talking to customer for Lorton small business](/img/Blog-Images/AI-Agents-Lorton-VA-Chatbot-Agent.png)
 
 This agent chats with customers on your site like a front-desk legend who never clocks out. It answers questions, books appointments, and collects info.
 
@@ -66,7 +66,7 @@ This agent chats with customers on your site like a front-desk legend who never 
 
 ### 2. Social Media Agent = Your Content Hustler
 
-![Social media AI agent managing content for local Lorton business](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Agents-Lorton-VA-Social-Media-Agent.png)
+![Social media AI agent managing content for local Lorton business](/img/Blog-Images/AI-Agents-Lorton-VA-Social-Media-Agent.png)
 
 This agent writes posts, schedules them, and surfaces trending ideas—perfect when you do not have time to live in Instagram.
 

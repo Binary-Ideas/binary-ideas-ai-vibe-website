@@ -5,7 +5,7 @@ meta:
   slug: "comparing-ai-agent-types-lorton-va"
   publishDate: "2025-07-09"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Comparing-AI-Agent-Types-in-Lorton-VA-The-Smartest-Way-to-Get-Your-Time-Back-Featured-Image.png"
+    src: "/img/Blog-Images/Comparing-AI-Agent-Types-in-Lorton-VA-The-Smartest-Way-to-Get-Your-Time-Back-Featured-Image.png"
     alt: "Overwhelmed small business owner in Lorton VA surprised as AI Agents manage his emails, schedule, and calls on computer screens."
 pageTitle: "Comparing AI Agent Types in Lorton VA: The Smartest Way to Get Your Time Back"
 categories:
@@ -38,7 +38,7 @@ You want to know which AI agent actually helps, not which one just sounds cool. 
 
 ### 1. Chatbot Agent
 
-![Chatbot AI Agent Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/07/Chatbot-Agent.png)
+![Chatbot AI Agent Lorton VA](/img/Blog-Images/Chatbot-Agent.png)
 
 Those little chat bubbles on websites? That is this agent. Ours go beyond a simple hello to answer FAQs, book appointments, and qualify leads.
 
@@ -51,7 +51,7 @@ Those little chat bubbles on websites? That is this agent. Ours go beyond a simp
 
 ### 2. Voice Agent
 
-![AI Agent communicating through voice call on smartphone, showing soundwave and chatbot icons during virtual conversation.](https://binaryideas.ai/wp-content/uploads/2025/07/Voice-Agent.png)
+![AI Agent communicating through voice call on smartphone, showing soundwave and chatbot icons during virtual conversation.](/img/Blog-Images/Voice-Agent.png)
 
 Imagine someone calling your business and a smart AI answering, booking time, and covering questions just like a person. No holds. No missed calls.
 
@@ -66,7 +66,7 @@ Imagine someone calling your business and a smart AI answering, booking time, an
 
 ### 3. Lead Gen Agent
 
-![Businesswoman using AI Agent lead generation dashboard displaying incoming leads from social media, email, and campaigns.](https://binaryideas.ai/wp-content/uploads/2025/07/Lead-Gen-Agent.png)
+![Businesswoman using AI Agent lead generation dashboard displaying incoming leads from social media, email, and campaigns.](/img/Blog-Images/Lead-Gen-Agent.png)
 
 This is the go-getter. It hunts and organizes leads from Facebook, email, DMs, and more.
 

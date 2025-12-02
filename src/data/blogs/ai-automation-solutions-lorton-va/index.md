@@ -5,7 +5,7 @@ meta:
   slug: "ai-automation-solutions-lorton-va"
   publishDate: "2025-08-29"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Solutions-Lorton-VA-Featured-Image.png"
+    src: "/img/Blog-Images/AI-Automation-Solutions-Lorton-VA-Featured-Image.png"
     alt: "Local Lorton VA business using AI Automation Solutions"
 pageTitle: "AI Automation Solutions Lorton VA: 9 Smart Ways to Unlock Profitability"
 categories:
@@ -37,7 +37,7 @@ AI automation works for you—not the other way around. It handles repetitive ta
 
 ## 1. Smarter Scheduling That Saves Hours
 
-![AI scheduling app for small business owners in Lorton](https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Solutions-Lorton-VA-Scheduling.png)
+![AI scheduling app for small business owners in Lorton](/img/Blog-Images/AI-Automation-Solutions-Lorton-VA-Scheduling.png)
 
 Still juggling paper appointment books? AI scheduling behaves like a 24/7 receptionist.
 
@@ -49,7 +49,7 @@ Customers book themselves, reminders go out on time, and you reclaim hours. Dive
 
 ## 2. AI Chatbots = Instant Customer Replies
 
-![AI chatbot helping Lorton customers instantly](https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Solutions-Lorton-VA-Chatbot.png)
+![AI chatbot helping Lorton customers instantly](/img/Blog-Images/AI-Automation-Solutions-Lorton-VA-Chatbot.png)
 
 People in Lorton do not want to wait for answers. AI chatbots jump in to help immediately:
 
@@ -71,7 +71,7 @@ Recommendations feel natural because AI watches purchase history and behavior.
 
 ## 4. Automate Inventory Before It’s a Problem
 
-![AI inventory management for Lorton VA restaurants](https://binaryideas.ai/wp-content/uploads/2025/08/AI-Automation-Solutions-Lorton-VA-Inventory.png)
+![AI inventory management for Lorton VA restaurants](/img/Blog-Images/AI-Automation-Solutions-Lorton-VA-Inventory.png)
 
 AI predicts what you will need, when you will need it:
 

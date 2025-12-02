@@ -5,7 +5,7 @@ meta:
   slug: "ai-agents-lorton-va-what-are-the-different-types"
   publishDate: "2025-06-25"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/06/AI-Agents-Lorton-VA-What-Are-the-Different-Types-of-AI-Agents.png"
+    src: "/img/Blog-Images/AI-Agents-Lorton-VA-What-Are-the-Different-Types-of-AI-Agents.png"
     alt: "Smiling business owner using a laptop with a digital AI assistant hologram in a modern Lorton VA office."
 pageTitle: "AI Agents Lorton VA: What Are the Different Types of AI Agents?"
 categories:
@@ -31,7 +31,7 @@ Take Mike, who runs an HVAC shop near Silverbrook Road. Two hot leads slipped aw
 
 That is the real promise of AI agents: they help regular people get work done without burning out.
 
-![Smiling business owner using a laptop with a digital AI assistant hologram in a modern Lorton VA office.](https://binaryideas.ai/wp-content/uploads/2025/06/AI-Agents-Lorton-VA-What-Are-the-Different-Types-of-AI-Agents.png)
+![Smiling business owner using a laptop with a digital AI assistant hologram in a modern Lorton VA office.](/img/Blog-Images/AI-Agents-Lorton-VA-What-Are-the-Different-Types-of-AI-Agents.png)
 
 ## What's an AI Agent (and Why Should You Care)?
 
@@ -51,7 +51,7 @@ Every agent specializes in a different job. Pick the one you need most and let i
 
 ### Chatbot Agent
 
-![User interacting with AI chatbot interface on a laptop in Lorton VA.](https://binaryideas.ai/wp-content/uploads/2025/06/AI-Automations-in-Lorton-VA-Chatbot-AI.png)
+![User interacting with AI chatbot interface on a laptop in Lorton VA.](/img/Blog-Images/AI-Automations-in-Lorton-VA-Chatbot-AI.png)
 
 - Answers questions and FAQs
 - Collects contact information
@@ -61,7 +61,7 @@ A chatbot keeps you looking professional even at midnight.
 
 ### Voice Agent
 
-![Businesswoman using an AI-powered voice assistant with a headset.](https://binaryideas.ai/wp-content/uploads/2025/06/AI-Automations-in-Lorton-VA-Voice-Agent.png)
+![Businesswoman using an AI-powered voice assistant with a headset.](/img/Blog-Images/AI-Automations-in-Lorton-VA-Voice-Agent.png)
 
 - Picks up inbound calls like a live receptionist
 - Shares store hours, directions, and service details
@@ -75,7 +75,7 @@ A chatbot keeps you looking professional even at midnight.
 
 ### Order Tracking Agent
 
-![AI robot managing a customer support dashboard for order tracking.](https://binaryideas.ai/wp-content/uploads/2025/06/AI-Automations-in-Lorton-VA-Order-Tracking-Agent.png)
+![AI robot managing a customer support dashboard for order tracking.](/img/Blog-Images/AI-Automations-in-Lorton-VA-Order-Tracking-Agent.png)
 
 - Sends shipping or delivery updates
 - Answers "Where is my order?" instantly

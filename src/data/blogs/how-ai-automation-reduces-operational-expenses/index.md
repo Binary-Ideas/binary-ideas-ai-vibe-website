@@ -5,7 +5,7 @@ meta:
   slug: "how-ai-automation-reduces-operational-expenses"
   publishDate: "2025-07-04"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/How-AI-Automation-Reduces-Operational-Expenses-Featured-Image.png"
+    src: "/img/Blog-Images/How-AI-Automation-Reduces-Operational-Expenses-Featured-Image.png"
     alt: "How AI Automation Reduces Operational Expenses - Featured Image"
 pageTitle: "How AI Automation Reduces Operational Expenses"
 categories:
@@ -36,7 +36,7 @@ AI automation matters because **time equals money—and money keeps you open nex
 
 ## What Is AI Automation Anyway?
 
-![What Is AI Automation Anyway](https://binaryideas.ai/wp-content/uploads/2025/07/What-Is-AI-Automation-Anyway.png)
+![What Is AI Automation Anyway](/img/Blog-Images/What-Is-AI-Automation-Anyway.png)
 
 No, robots are not taking over.
 
@@ -57,7 +57,7 @@ A local dog groomer fielded 40+ calls each week just to confirm appointment time
 
 ## How AI Automation Reduces Operational Expenses (The Real Stuff)
 
-![How AI Automation Reduces Operational Expenses (The Real Stuff)](https://binaryideas.ai/wp-content/uploads/2025/07/How-AI-Automation-Reduces-Operational-Expenses-The-Real-Stuff.png)
+![How AI Automation Reduces Operational Expenses (The Real Stuff)](/img/Blog-Images/How-AI-Automation-Reduces-Operational-Expenses-The-Real-Stuff.png)
 
 Let us break it down.
 
@@ -106,7 +106,7 @@ More data means smarter decisions.
 
 ## What AI Automations We Set Up at Binary Ideas AI
 
-![What AI Automations We Set Up at Binary Ideas AI](https://binaryideas.ai/wp-content/uploads/2025/07/What-AI-Automations-We-Set-Up-at-Binary-Ideas-AI.png)
+![What AI Automations We Set Up at Binary Ideas AI](/img/Blog-Images/What-AI-Automations-We-Set-Up-at-Binary-Ideas-AI.png)
 
 We deliver done-for-you systems tailored to cut costs and save time.
 

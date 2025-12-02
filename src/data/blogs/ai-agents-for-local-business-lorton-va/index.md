@@ -5,7 +5,7 @@ meta:
   slug: "ai-agents-for-local-business-lorton-va"
   publishDate: "2025-09-10"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/09/ai-agents-for-local-business-lorton-va-.png"
+    src: "/img/Blog-Images/ai-agents-for-local-business-lorton-va-.png"
     alt: "AI Agents for Local Business Lorton VA"
 pageTitle: "AI Agents for Local Business Lorton VA: 8 Essential Steps to Get Started Now"
 categories:

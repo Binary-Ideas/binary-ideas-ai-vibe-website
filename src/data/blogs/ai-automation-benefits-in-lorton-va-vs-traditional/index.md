@@ -5,7 +5,7 @@ meta:
   slug: "ai-automation-benefits-in-lorton-va-vs-traditional"
   publishDate: "2025-07-25"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Benefits-Featured-Image.png"
+    src: "/img/Blog-Images/AI-Automation-Benefits-Featured-Image.png"
     alt: "AI Automation Benefits - workspace showing chatbot setup in Lorton VA"
 pageTitle: "AI Automation Benefits in Lorton VA vs Traditional Methods: Cost Comparison"
 categories:
@@ -70,7 +70,7 @@ This is not science fiction. A tutoring center near Gunston went from juggling 3
 
 ## Missed Opportunity Calculator (Simple)
 
-![AI Automation Benefits - Missed Opportunity](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Benefits-Missed-Opportunity.png)
+![AI Automation Benefits - Missed Opportunity](/img/Blog-Images/AI-Automation-Benefits-Missed-Opportunity.png)
 
 Let’s do some quick math:
 
@@ -84,7 +84,7 @@ Let’s do some quick math:
 
 ## Checklist: Is Your Biz Ready for Automation?
 
-![Is your Lorton business ready for automation checklist](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Benefits-Checklist.png)
+![Is your Lorton business ready for automation checklist](/img/Blog-Images/AI-Automation-Benefits-Checklist.png)
 
 Check all that apply:
 
@@ -99,7 +99,7 @@ If you checked two or more, you are ready.
 
 ## Local Case Study: Salon Near Liberty Market
 
-![Local salon owner in Liberty Market using chatbot AI](https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Benefits-Real-Life-Use-Case.png)
+![Local salon owner in Liberty Market using chatbot AI](/img/Blog-Images/AI-Automation-Benefits-Real-Life-Use-Case.png)
 
 “Before AI, I stayed up texting clients at 10 PM. Now my bot handles booking, reminders, and reviews.”
 

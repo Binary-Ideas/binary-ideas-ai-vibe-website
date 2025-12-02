@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-ai-implementation-lorton-va"
   publishDate: "2025-07-07"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Chatbot-AI-Implementation-Lorton-VA-9-Must-Have-Features-for-Busy-Local-Business-Owners-Featured-Image.png"
+    src: "/img/Blog-Images/Chatbot-AI-Implementation-Lorton-VA-9-Must-Have-Features-for-Busy-Local-Business-Owners-Featured-Image.png"
     alt: "Small business in Lorton VA using AI chatbot to handle customer messages and bookings"
 pageTitle: "Chatbot AI Implementation Lorton VA: 9 Must-Have Features for Busy Local Business Owners"
 categories:
@@ -58,7 +58,7 @@ Lorton is multilingual. Your chatbot should be too. We build bots that switch la
 
 ### 3. User-Friendly Design (Because No One Likes Confusing Tech)
 
-![Simple chatbot interface designed for local Lorton businesses](https://binaryideas.ai/wp-content/uploads/2025/07/3.-User-Friendly-Design-Because-Nobody-Likes-Confusing-Tech.png)
+![Simple chatbot interface designed for local Lorton businesses](/img/Blog-Images/3.-User-Friendly-Design-Because-Nobody-Likes-Confusing-Tech.png)
 
 No one wants to tap through seventeen buttons just to find store hours. We keep the UI simple:
 
@@ -70,13 +70,13 @@ Perfect for barbershops, auto shops, nail salons, and any walk-in friendly busin
 
 ### 4. Instant Deployment—No Waiting Months
 
-![Quick chatbot deployment setup for HVAC company in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/07/Instant-Deployment-So-Youre-Not-Waiting-Months.png)
+![Quick chatbot deployment setup for HVAC company in Lorton VA](/img/Blog-Images/Instant-Deployment-So-Youre-Not-Waiting-Months.png)
 
 If setup takes weeks, it is easy to abandon. We launch most bots in three to seven days (48 hours for urgent cases). Our team writes responses, designs the flow, tests it all, and launches on your site or landing page. You just approve the content.
 
 ### 5. Automated Booking and Payments—No Missed Sales
 
-![AI chatbot confirming appointment and processing payment for small business in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/07/Automated-Booking-Payments-No-Missed-Sales.png)
+![AI chatbot confirming appointment and processing payment for small business in Lorton VA](/img/Blog-Images/Automated-Booking-Payments-No-Missed-Sales.png)
 
 Visitors bounce when they cannot book instantly. Our chatbots:
 

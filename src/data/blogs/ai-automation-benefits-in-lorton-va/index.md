@@ -5,7 +5,7 @@ meta:
   slug: "ai-automation-benefits-in-lorton-va"
   publishDate: "2025-07-18"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Benefits-in-Lorton-VA-Unlock-Major-Savings-Featured-Image.jpg"
+    src: "/img/Blog-Images/AI-Automation-Benefits-in-Lorton-VA-Unlock-Major-Savings-Featured-Image.jpg"
     alt: "AI Automation benefits - Small business owner in Lorton VA using dashboard to save time and money"
 pageTitle: "AI Automation Benefits in Lorton VA: Unlock Major Savings"
 categories:
@@ -63,7 +63,7 @@ Typos, wrong numbers, and double bookings add up. AI keeps details straight, eli
 
 ## Case Study: Real Savings in Lorton
 
-![AI Automation benefits - AI chatbot helps Fairfax cleaning business save time and money](https://binaryideas.ai/wp-content/uploads/2025/07/Case-Study.jpg)
+![AI Automation benefits - AI chatbot helps Fairfax cleaning business save time and money](/img/Blog-Images/Case-Study.jpg)
 
 A Fairfax client spent hours answering customer questions. We paired a simple AI chatbot with their calendar and saw results within sixty days:
 
@@ -91,7 +91,7 @@ We also cover Alexandria, Woodbridge, Fairfax, and beyond.
 
 ## Did You Know? (Local AI Cost-Saving Facts)
 
-![Key facts about AI automation benefits and savings for Lorton small businesses](https://binaryideas.ai/wp-content/uploads/2025/07/Did-You-Know-Section.jpg)
+![Key facts about AI automation benefits and savings for Lorton small businesses](/img/Blog-Images/Did-You-Know-Section.jpg)
 
 - Small businesses spend 20–30% of their time on tasks ripe for automation.  
 - Lorton teams using AI save $800–$2,000 each month in admin costs.  
@@ -100,7 +100,7 @@ We also cover Alexandria, Woodbridge, Fairfax, and beyond.
 
 ## Frequently Asked Questions About AI Automation Benefits in Lorton VA
 
-![A Lorton business owner interested in AI automation benefits](https://binaryideas.ai/wp-content/uploads/2025/07/faq-section.jpg)
+![A Lorton business owner interested in AI automation benefits](/img/Blog-Images/faq-section.jpg)
 
 ### 1. Do I need to know tech or coding?
 

@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-architecture-lorton-va"
   publishDate: "2025-09-15"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/09/Chatbot-Architecture-Featured-Image.png"
+    src: "/img/Blog-Images/hero-chatbot-architecture-lorton-va.png"
     alt: "Secure chatbot architecture diagram for Lorton VA businesses"
 pageTitle: "5 Layers of Chatbot Architecture Every Lorton VA Owner Should Know"
 categories:
@@ -59,7 +59,7 @@ Lorton VA businesses are moving fast with AI, and those who skip the security ta
 
 ### 1. The User Layer – Where Conversations Happen
 
-![Chatbot user layer with messages and quick replies for Lorton VA business customers](https://binaryideas.ai/wp-content/uploads/2025/09/Chatbot-Architecture-User-Layer.png)
+![Chatbot user layer with messages and quick replies for Lorton VA business customers](/img/Blog-Images/chatbot-user-layer-lorton-va.png)
 
 This is the first thing customers notice—messages, buttons, menus, and quick replies. If this layer is not designed with care, conversations feel clunky and people drop off fast.
 
@@ -77,7 +77,7 @@ A smooth user layer makes people want to use the bot again, instead of giving up
 
 ### 2. The Processing Layer – The Brain of the Bot
 
-![Processing layer of chatbot architecture showing AI brain and decision-making system in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/09/Chatbot-Architecture-Processing-Layer.png)
+![Processing layer of chatbot architecture showing AI brain and decision-making system in Lorton VA](/img/Blog-Images/chatbot-processing-layer-lorton-va.png)
 
 This layer is like the brain. It reads what the customer types, processes it, and finds the right response. Without good training data, the bot acts clueless.
 
@@ -89,7 +89,7 @@ Tip: Treat this layer like teaching a new employee. The better you train, the fe
 
 ### 3. The Integration Layer – Connecting to Your Business Tools
 
-![Integration layer of chatbot architecture linking systems for Lorton VA businesses](https://binaryideas.ai/wp-content/uploads/2025/09/Chatbot-Architecture-Integration-Layer.png)
+![Integration layer of chatbot architecture linking systems for Lorton VA businesses](/img/Blog-Images/chatbot-integration-layer-lorton-va.png)
 
 Think of this as the plumbing hidden behind your walls. It connects the chatbot to booking systems, CRMs, or payment apps.
 

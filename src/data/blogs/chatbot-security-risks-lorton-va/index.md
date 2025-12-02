@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-security-risks-lorton-va"
   publishDate: "2025-09-01"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/09/chatbot-security-risks-Lorton-VA-Featured-Image.png"
+    src: "/img/Blog-Images/chatbot-security-risks-Lorton-VA-Featured-Image.png"
     alt: "Hero image showing chatbot security risks for small businesses in Lorton VA"
 pageTitle: "7 Critical Chatbot Security Risks Lorton VA Business Owners Can’t Ignore"
 categories:
@@ -25,7 +25,7 @@ Below are the **seven critical chatbot security risks** Lorton businesses face a
 
 ## Why Security Matters in Chatbots
 
-![Data privacy issues with chatbot vulnerabilities in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/09/chatbot-security-risks-Lorton-VA-Supporting-before-risks.png)
+![Data privacy issues with chatbot vulnerabilities in Lorton VA](/img/Blog-Images/chatbot-security-risks-Lorton-VA-Supporting-before-risks.png)
 
 Chatbots capture names, emails, addresses, payments, and even health information. Leaving that data unprotected is like locking your storefront while keeping the windows open.
 
@@ -52,7 +52,7 @@ Call **(703) 690-9726** or [book an appointment](https://api.3sixtycrm.com/widge
 
 ### 1. Weak Passwords and Authentication
 
-![Weak chatbot password risk example for Lorton VA businesses](https://binaryideas.ai/wp-content/uploads/2025/09/chatbot-security-risks-Lorton-VA-Risk-1-Weak-Passwords.png)
+![Weak chatbot password risk example for Lorton VA businesses](/img/Blog-Images/chatbot-security-risks-Lorton-VA-Risk-1-Weak-Passwords.png)
 
 Default logins like “admin123” invite trouble. Fix it with:
 
@@ -62,7 +62,7 @@ Default logins like “admin123” invite trouble. Fix it with:
 
 ### 2. Data Privacy Issues
 
-![Protecting chatbot data privacy for Lorton VA local businesses](https://binaryideas.ai/wp-content/uploads/2025/09/chatbot-security-risks-Lorton-VA-Risk-2-Data-Privacy.png)
+![Protecting chatbot data privacy for Lorton VA local businesses](/img/Blog-Images/chatbot-security-risks-Lorton-VA-Risk-2-Data-Privacy.png)
 
 Chatbots soak up personal data. Without encryption and secure storage you could violate privacy laws and face fines.
 

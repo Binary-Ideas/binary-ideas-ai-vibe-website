@@ -5,7 +5,7 @@ meta:
   slug: "unlocking-success-with-ai-automations-in-lorton-va"
   publishDate: "2025-06-27"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/06/AI-Automations-in-Lorton-VA-The-Secret-Sauce-Local-Businesses-Are-Just-Starting-to-Taste.png"
+    src: "/img/Blog-Images/AI-Automations-in-Lorton-VA-The-Secret-Sauce-Local-Businesses-Are-Just-Starting-to-Taste.png"
     alt: "Smiling business owner in a modern shop surrounded by glowing AI automation icons."
 pageTitle: "Unlocking Success with AI Automations in Lorton, VA: The Secret Sauce Local Businesses Love"
 categories:
@@ -35,7 +35,7 @@ These always-on helpers:
 
 Across Lorton, companies already rely on AI to answer questions, schedule appointments, follow up with leads, and even run ads automatically. Binary Ideas sets everything up, so you do not need any technical background.
 
-![Illustration describing the basics of AI automation.](https://binaryideas.ai/wp-content/uploads/2025/06/So…-What-Is-AI-Automation-Really.png)
+![Illustration describing the basics of AI automation.](/img/Blog-Images/So…-What-Is-AI-Automation-Really.png)
 
 ## Why AI Matters for Local Businesses in Lorton, VA
 
@@ -49,13 +49,13 @@ Here is what Lorton operators are already doing:
 
 Bottom line: AI automations help you get back to what you do best.
 
-![Local business icons showing how AI supports owners in Lorton, VA.](https://binaryideas.ai/wp-content/uploads/2025/06/Why-AI-Matters-for-Local-Businesses-in-Lorton-VA.png)
+![Local business icons showing how AI supports owners in Lorton, VA.](/img/Blog-Images/Why-AI-Matters-for-Local-Businesses-in-Lorton-VA.png)
 
 ## Real Tasks You Can Automate Right Now
 
 You do not need a massive team to benefit from AI. These are the everyday workflows Binary Ideas automates for neighborhood clients:
 
-![Graphic highlighting top automation use cases for Lorton businesses.](https://binaryideas.ai/wp-content/uploads/2025/06/Real-Tasks-You-Can-Automate-Right-Now.png)
+![Graphic highlighting top automation use cases for Lorton businesses.](/img/Blog-Images/Real-Tasks-You-Can-Automate-Right-Now.png)
 
 ### 1. Answering Messages Instantly
 

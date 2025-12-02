@@ -5,7 +5,7 @@ meta:
   slug: "ai-automation-lorton-va-cost-savings-explained"
   publishDate: "2025-07-11"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/AI-Automation-Lorton-VA-AI-Automation-Cost-Savings-Explained-Featured-Image.png"
+    src: "/img/Blog-Images/AI-Automation-Lorton-VA-AI-Automation-Cost-Savings-Explained-Featured-Image.png"
     alt: "AI automation robot observing office workers buried in paperwork - representing how AI automation reduces manual tasks and boosts efficiency in Lorton VA workplaces."
 pageTitle: "AI Automation Lorton VA: Cost Savings Explained"
 categories:
@@ -79,7 +79,7 @@ You would think Lorton businesses would have jumped on automation already, but m
 
 ### 1. Chatbot Agent
 
-![AI Automation Lorton VA Chatbot Agent](https://binaryideas.ai/wp-content/uploads/2025/07/1.-Chatbot-Agent.png)
+![AI Automation Lorton VA Chatbot Agent](/img/Blog-Images/1.-Chatbot-Agent.png)
 
 Handles FAQs, booking, and product info. Connects to your site and Facebook page.
 
@@ -97,7 +97,7 @@ Sends a quick "hey, just checking in" text to old leads and turns cold prospects
 
 ### 5. Social Media Agent
 
-![AI automation robot managing social media chats and business communication on laptop and smartphone in a modern office - symbolizing AI Automation in Lorton VA for small business productivity and cost savings.](https://binaryideas.ai/wp-content/uploads/2025/07/5.-Social-Media-Agent.png)
+![AI automation robot managing social media chats and business communication on laptop and smartphone in a modern office - symbolizing AI Automation in Lorton VA for small business productivity and cost savings.](/img/Blog-Images/5.-Social-Media-Agent.png)
 
 Replies to Instagram and Facebook DMs, schedules posts, and pulls reviews so you do not have to.
 
@@ -121,7 +121,7 @@ One HVAC crew in Lorton told us, "My tech used to hate answering calls in the va
 
 ## How Binary Ideas AI Does It Differently
 
-![AI Automation Lorton VA How Binary Ideas AI Does It Differently](https://binaryideas.ai/wp-content/uploads/2025/07/How-Binary-Ideas-AI-Does-It-Differently.png)
+![AI Automation Lorton VA How Binary Ideas AI Does It Differently](/img/Blog-Images/How-Binary-Ideas-AI-Does-It-Differently.png)
 
 We are not slapping ChatGPT onto your site and calling it a day. We sit down with you, ask what keeps wrecking your week, and build an AI stack that fits your business like a glove.
 

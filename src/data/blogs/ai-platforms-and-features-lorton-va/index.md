@@ -5,7 +5,7 @@ meta:
   slug: "ai-platforms-and-features-lorton-va"
   publishDate: "2025-08-18"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/08/lorton-va-startup-ai-chatbot.png"
+    src: "/img/Blog-Images/lorton-va-startup-ai-chatbot.png"
     alt: "Lorton VA startup owners using AI platforms and features"
 pageTitle: "10 Game-Changing AI Platform Features Local Lorton Startups Are Loving"
 categories:
@@ -30,7 +30,7 @@ If you are tired of guessing which platform fits, [book an appointment today](ht
 
 ## 1. Automation Tools That Save Hours Every Week
 
-![AI automation tools for small businesses in Lorton VA](https://binaryideas.ai/wp-content/uploads/2025/08/ai-automation-tools-lorton.png)
+![AI automation tools for small businesses in Lorton VA](/img/Blog-Images/ai-automation-tools-lorton.png)
 
 If you have ever burned an afternoon confirming appointments, chasing late payments, or answering the same question 20 times, you know why automation tops the list.
 
@@ -42,7 +42,7 @@ A bakery at **Lorton Station** clawed back more than 10 hours a week by letting 
 
 ## 2. Chatbot Analytics That Tell You the Truth
 
-![Chatbot analytics dashboard helping Lorton VA businesses](https://binaryideas.ai/wp-content/uploads/2025/08/chatbot-analytics-lorton-va.png)
+![Chatbot analytics dashboard helping Lorton VA businesses](/img/Blog-Images/chatbot-analytics-lorton-va.png)
 
 Having a chatbot is great; understanding what it is doing for you is better. Strong analytics go beyond vanity metrics and show:
 
@@ -54,7 +54,7 @@ A gift shop in **Gunston Plaza** spotted that most visitors bailed when delivery
 
 ## 3. CRM Integrations That Actually Sync
 
-![AI chatbot CRM integration for Lorton VA startups](https://binaryideas.ai/wp-content/uploads/2025/08/ai-crm-integration-lorton.png)
+![AI chatbot CRM integration for Lorton VA startups](/img/Blog-Images/ai-crm-integration-lorton.png)
 
 Most Lorton businesses already live inside a CRM. The problem? Many AI tools do not sync correctly, so leads sit in inboxes.
 

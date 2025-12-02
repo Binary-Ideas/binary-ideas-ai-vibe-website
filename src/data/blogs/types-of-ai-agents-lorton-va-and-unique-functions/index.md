@@ -5,7 +5,7 @@ meta:
   slug: "types-of-ai-agents-lorton-va-and-unique-functions"
   publishDate: "2025-07-16"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Utility-Based-Agents-aka-Decision-Makers.png"
+    src: "/img/Blog-Images/Utility-Based-Agents-aka-Decision-Makers.png"
     alt: "AI agent Lorton VA weighing options for decision making"
 pageTitle: "Types of AI Agents Lorton VA and Their Unique Functions"
 categories:
@@ -43,7 +43,7 @@ You do not need to become a technologist—that is our job. Just tell us what yo
 
 ### 1. Reflex AI Agents (Rule Followers)
 
-![AI agents Lorton VA working as instructed](https://binaryideas.ai/wp-content/uploads/2025/07/Reflex-AI-Agents-aka-_Rule-Followers_.png)
+![AI agents Lorton VA working as instructed](/img/Blog-Images/Reflex-AI-Agents-aka-_Rule-Followers_.png)
 
 These basic bots follow straightforward if-this-then-that rules. If someone types “I need help,” they answer with “Sure! How can I help?”
 
@@ -55,7 +55,7 @@ These basic bots follow straightforward if-this-then-that rules. If someone type
 
 ### 2. Model-Based Agents (Little Planners)
 
-![AI Agents Lorton VA planning the next move](https://binaryideas.ai/wp-content/uploads/2025/07/Model-Based-Agents-aka-Little-Planners.png)
+![AI Agents Lorton VA planning the next move](/img/Blog-Images/Model-Based-Agents-aka-Little-Planners.png)
 
 Model-based agents react and plan. They rely on data to figure out the next best move―think of a smarter chatbot that can answer questions and recommend the right service based on earlier conversations.
 
@@ -67,7 +67,7 @@ Model-based agents react and plan. They rely on data to figure out the next best
 
 ### 3. Goal-Based AI Agents (Mission Bots)
 
-![AI Agent Lorton VA reaching its goal](https://binaryideas.ai/wp-content/uploads/2025/07/Goal-Based-AI-Agents-aka-Mission-Bots.png)
+![AI Agent Lorton VA reaching its goal](/img/Blog-Images/Goal-Based-AI-Agents-aka-Mission-Bots.png)
 
 These agents chase outcomes instead of sitting idle. A goal-based agent keeps following up with a lead until a booking is secured, shifting between email, text, and other channels until the job is done.
 

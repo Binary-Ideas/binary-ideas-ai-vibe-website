@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-ai-analytics-lorton-va"
   publishDate: "2025-07-21"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/07/Chatbot-AI-Analytics-Lorton-VA-9-Local-Strategies-to-Optimize-Test-and-Rescue-Your-AI-Chatbot-Featured-Image.png"
+    src: "/img/Blog-Images/Chatbot-AI-Analytics-Lorton-VA-9-Local-Strategies-to-Optimize-Test-and-Rescue-Your-AI-Chatbot-Featured-Image.png"
     alt: "Local business owner in Lorton VA reviewing chatbot AI Analytics on screen"
 pageTitle: "Chatbot AI Analytics Lorton VA: 9 Local Strategies to Optimize, Test, and Rescue Your AI Chatbot"
 categories:
@@ -28,7 +28,7 @@ Clicks but no bookings, repeat questions your bot should handle, crickets in the
 
 ## 1. Start With the Numbers: What Are Your Chatbot’s Real Metrics?
 
-![Chatbot AI analytics dashboard showing user engagement stats](https://binaryideas.ai/wp-content/uploads/2025/07/Start-With-the-Numbers.png)
+![Chatbot AI analytics dashboard showing user engagement stats](/img/Blog-Images/Start-With-the-Numbers.png)
 
 You cannot fix what you are not measuring. Dig into **chatbot analytics and performance metrics** to learn:
 
@@ -50,13 +50,13 @@ A Liberty Market salon tested two greetings; the shorter option tripled response
 
 ## 3. Are Your Customers Happy? Track Sentiment
 
-![Chatbot showing real-time sentiment analysis with local business background](https://binaryideas.ai/wp-content/uploads/2025/07/Analyze-User-Sentiment.png)
+![Chatbot showing real-time sentiment analysis with local business background](/img/Blog-Images/Analyze-User-Sentiment.png)
 
 Words do not always reveal emotion, but tone does. **User sentiment analysis in chatbots** flags frustration so you can escalate to a human before someone posts a bad review. A Hilltop auto service now routes irritated users directly to the owner, protecting their reputation.
 
 ## 4. Measure ROI: Is Your Bot Earning Its Keep?
 
-![ROI dashboard showing chatbot time savings and customer leads](https://binaryideas.ai/wp-content/uploads/2025/07/Calculate-Your-ROI.png)
+![ROI dashboard showing chatbot time savings and customer leads](/img/Blog-Images/Calculate-Your-ROI.png)
 
 Calculate **chatbot ROI** by tracking:
 

@@ -5,7 +5,7 @@ meta:
   slug: "open-source-chatbot-platforms-in-lorton-va"
   publishDate: "2025-08-04"
   heroImage:
-    src: "https://binaryideas.ai/wp-content/uploads/2025/08/open-source-chatbot-platforms-Featured-Image.png"
+    src: "/img/Blog-Images/open-source-chatbot-platforms-Featured-Image.png"
     alt: "Business owner in Lorton VA frustrated by broken chatbot"
 pageTitle: "5 Dangerous Mistakes People Make Choosing Open-Source Chatbot Platforms in Lorton VA"
 categories:
@@ -41,7 +41,7 @@ Let’s break down the **top five mistakes** we see in Lorton—and how to avoid
 
 ## Mistake #1: Thinking “Free” Means “Easy”
 
-![Local Lorton business owner confused by open-source chatbot platforms code](https://binaryideas.ai/wp-content/uploads/2025/08/open-source-chatbot-platforms-Mistake-1-Thinking-Free-Means-Easy.png)
+![Local Lorton business owner confused by open-source chatbot platforms code](/img/Blog-Images/open-source-chatbot-platforms-Mistake-1-Thinking-Free-Means-Easy.png)
 
 ### “Open source” ≠ “Plug and play”
 
@@ -73,7 +73,7 @@ Want a better feature breakdown? Check out our guide to [must-have chatbot featu
 
 ## Mistake #3: Forgetting About Hosting and Maintenance
 
-![open-source chatbot platforms with hosting and server risk alerts](https://binaryideas.ai/wp-content/uploads/2025/08/open-source-chatbot-platforms-Mistake-3-Forgetting-About-Hosting-and-Maintenance.png)
+![open-source chatbot platforms with hosting and server risk alerts](/img/Blog-Images/open-source-chatbot-platforms-Mistake-3-Forgetting-About-Hosting-and-Maintenance.png)
 
 ### The hidden costs
 
@@ -124,7 +124,7 @@ Need help sorting through the options? We are local, and we have watched these t
 
 ## FAQ: Local Business Owners Always Ask This
 
-![Common chatbot questions from Lorton VA business owners](https://binaryideas.ai/wp-content/uploads/2025/08/open-source-chatbot-platforms-FAQ.png)
+![Common chatbot questions from Lorton VA business owners](/img/Blog-Images/open-source-chatbot-platforms-FAQ.png)
 
 ### 1. Is open-source chatbot software really free?
 
