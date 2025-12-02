@@ -44,11 +44,18 @@ const {
   whyChoose,
   faq,
   cta,
-  serviceArea
+  serviceArea,
+  schema
 } = serviceEntry;
 ---
 
 <BaseLayout title={meta.title} description={meta.description}>
+  {schema && (
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(schema, null, 2)}
+    ></script>
+  )}
   <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
     <Header />
 

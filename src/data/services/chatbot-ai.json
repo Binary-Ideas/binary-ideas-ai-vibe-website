@@ -330,6 +330,311 @@
   },
   "serviceArea": {
     "introText": "We proudly serve businesses across Northern Virginia with Chatbot AI expertise and local support. Choose a city to see tailored details."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "name": "Binary Ideas AI",
+        "description": "Northern Virginia's Premier AI Automation Agency - Transforming businesses with intelligent automation and AI chatbot solutions.",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
+        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "image": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "telephone": "+1-703-690-9726",
+        "email": "info@binaryideasai.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lorton",
+          "addressRegion": "VA",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Fairfax" },
+          { "@type": "City", "name": "Arlington" },
+          { "@type": "City", "name": "Alexandria" },
+          { "@type": "City", "name": "Burke" },
+          { "@type": "City", "name": "Woodbridge" },
+          { "@type": "City", "name": "Fairfax Station" },
+          { "@type": "City", "name": "Manassas" },
+          { "@type": "City", "name": "Fredericksburg" },
+          { "@type": "City", "name": "Springfield" },
+          { "@type": "City", "name": "Reston" },
+          { "@type": "City", "name": "Tysons" },
+          { "@type": "City", "name": "Herndon" }
+        ],
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        "sameAs": [
+          "https://www.facebook.com/binaryideasai",
+          "https://www.linkedin.com/company/binaryideasai"
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#service",
+        "serviceType": "Chatbot AI Solutions",
+        "name": "AI-Powered Chatbot Service",
+        "description": "24/7 AI chatbot that captures leads, qualifies prospects, and books appointments automatically. Increase conversions by 40%+ and never miss another lead.",
+        "provider": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/",
+        "category": "AI Automation Service",
+        "offers": {
+          "@type": "Offer",
+          "price": "500",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "500",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          },
+          "availability": "https://schema.org/InStock",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/",
+          "description": "Plans start at $500/month for small businesses with moderate website traffic."
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Virginia"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Small and Medium Businesses"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Chatbot AI Features",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Instant Response (Under 3 Seconds)",
+                "description": "Your chatbot engages visitors the moment they need help, answering questions and capturing information before they bounce to a competitor's site."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "24/7 Lead Capture",
+                "description": "Never lose a lead to slow response times again. Your Chatbot AI works around the clock, qualifying prospects and booking appointments even when your office is closed."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Smart Lead Qualification",
+                "description": "Ask the right questions to identify serious buyers and filter out tire-kickers. Your AI gathers budget, timeline, and project details before passing leads to your team."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Appointment Booking",
+                "description": "Seamlessly schedule consultations by checking your calendar in real time, sending confirmations, and handling rescheduling requests without human intervention."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Multi-Channel Integration",
+                "description": "Connect with visitors across your website, Facebook Messenger, and other platforms. Provide consistent service everywhere your customers are."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "CRM & Calendar Sync",
+                "description": "Automatically log all conversations, update lead records, and sync appointments with your existing CRM and calendar systems."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will this work with my existing website?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! We install directly on your current website—no rebuild, no migration, no downtime. Works with WordPress, Shopify, Wix, Squarespace, custom sites, everything. Your website stays exactly the same, just smarter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if the AI gives wrong answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We train your chatbot specifically on YOUR business, products, and policies. When it encounters something unfamiliar, it transfers to you with full context. You're always in control, and we continuously improve it based on real conversations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long until I see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most Northern Virginia businesses see qualified leads within 24-48 hours of launch. The chatbot starts working immediately, and we track everything—lead capture rate, response times, and conversion metrics—so you know exactly what's working."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Won't customers be annoyed by a chatbot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not if it's done right. Our AI feels helpful, not pushy. It only engages when visitors need help and speaks naturally (no robotic scripts). Plus, customers WANT instant answers—that's why they're on your website. The alternative (waiting hours or days for a response) is way more annoying."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plans typically start at $500/month for small businesses with moderate website traffic. Compare that to $3,000+/month for a customer service rep who can only handle one conversation at a time and needs vacation days. Contact us for exact pricing based on your needs—no surprises, no hidden fees."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#webpage",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/",
+        "name": "Chatbot AI Services - Stop Losing $5,000-$10,000 Monthly | Binary Ideas AI",
+        "description": "24/7 AI chatbot for Northern Virginia businesses. Capture every lead, qualify prospects, and book appointments automatically. Increase conversions by 40%+ and never miss another customer.",
+        "isPartOf": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+        },
+        "about": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://binary-ideas-ai-vibe-website.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chatbot AI",
+            "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#benefits",
+        "name": "Chatbot AI Benefits",
+        "description": "Key benefits of implementing Chatbot AI for your business",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "3X More Qualified Leads",
+            "description": "Capture every visitor's attention at the perfect moment. Instant engagement means more conversations, more qualified prospects, and more sales opportunities."
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Reduce Response Time to Under 30 Seconds",
+            "description": "Stop losing leads to competitors who answer faster. Your Chatbot AI responds instantly—day or night, weekday or weekend."
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Save 10-15 Hours Per Week",
+            "description": "Eliminate time wasted on repetitive questions. Your team focuses on closing deals and serving customers while AI handles routine inquiries."
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Increase Conversion Rates by 40%+",
+            "description": "Guide visitors through your sales process with personalized conversations. Turn more website traffic into paying customers."
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#howto",
+        "name": "How to Get Started with Chatbot AI",
+        "description": "Three simple steps to implement AI chatbot for your business",
+        "totalTime": "P7D",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Book a 15-Minute Consultation",
+            "text": "We analyze your current website traffic and show you exactly where you're losing leads and how much it's costing you each month. No sales pitch, no pressure—just a clear picture of what's happening and what's possible.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#step1"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "We Install Your Customized AI Assistant",
+            "text": "We learn your business inside and out—your services, pricing, policies, and personality. Then we customize your chatbot to sound like YOU and install it directly on your existing website. No rebuild needed. No technical work on your end.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#step2"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Watch Your Calendar Fill With Qualified Leads",
+            "text": "Your AI starts working immediately—24/7, 365 days a year. It answers questions, qualifies prospects, and books appointments while you sleep, serve customers, or actually enjoy your weekend.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#step3"
+          }
+        ]
+      },
+      {
+        "@type": "Product",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/#product",
+        "name": "Chatbot AI - 24/7 Lead Capture & Qualification System",
+        "description": "Intelligent AI chatbot that engages website visitors, qualifies leads, and books appointments automatically. Increase conversions by 40%+ and capture every lead 24/7.",
+        "brand": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "500",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2025-12-31",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/chatbot-ai/"
+        },
+        "category": "Software as a Service (SaaS)",
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Small and Medium Businesses in Northern Virginia"
+        }
+      }
+    ]
   }
 }
 

@@ -194,6 +194,7 @@ export interface ServiceContent {
     headingLeading?: string;
     headingHighlight?: string;
   };
+  schema?: Record<string, unknown>;
 }
 
 export const servicesContent: ServiceContent[] = [
