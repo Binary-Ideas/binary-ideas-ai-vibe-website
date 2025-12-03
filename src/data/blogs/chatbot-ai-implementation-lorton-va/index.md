@@ -5,7 +5,7 @@ meta:
   slug: "chatbot-ai-implementation-lorton-va"
   publishDate: "2025-07-07"
   heroImage:
-    src: "/img/Blog-Images/Automated-Booking-Payments-No-Missed-Sales.png"
+    src: "/img/Blog-Images/Chatbot-AI-Implementation-Lorton-VA-9-Must-Have-Features-for-Busy-Local-Business-Owners-Featured-Image.png"
     alt: "AI chatbot confirming appointments and payments for a Lorton VA business"
 pageTitle: "Chatbot AI Implementation Lorton VA: 9 Must-Have Features for Busy Local Business Owners"
 categories:
