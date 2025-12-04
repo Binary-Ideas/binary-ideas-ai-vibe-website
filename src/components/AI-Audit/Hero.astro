@@ -1,0 +1,115 @@
+---
+interface Stat {
+  value: string;
+  description: string;
+}
+
+interface Props {
+  badge?: string;
+  titleLeading?: string;
+  titleHighlight?: string;
+  titleGradientClass?: string;
+  subtitle?: string;
+  proofLabel?: string;
+  stats?: Stat[];
+  primaryCtaText?: string;
+  primaryCtaLink?: string;
+  ctaDetails?: string[];
+}
+
+const {
+  badge = "Elite AI Audit Program",
+  titleLeading = "Discover Exactly Where You're Losing",
+  titleHighlight = "$10,000-$30,000 Monthly",
+  titleGradientClass = "bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]",
+  subtitle = "Get a complete AI audit showing every inefficiency costing you money—and the exact ROI of fixing each one.",
+  proofLabel = "KEY STATS:",
+  stats = [
+    { value: "$47,500", description: "Average Annual Savings Our Clients Discover" },
+    { value: "62 Hours", description: "Average Weekly Time Reclaimed from Manual Work" },
+    { value: "3-6 Months", description: "Average ROI Timeline on Quick Wins" }
+  ],
+  primaryCtaText = "Get Your Comprehensive AI Audit",
+  primaryCtaLink = "https://api.3sixtycrm.com/widget/bookings/robert-sandiego",
+  ctaDetails = [
+    "✓ 2-week deep-dive analysis",
+    "✓ Visual workflow maps",
+    "✓ Prioritized roadmap with exact ROI"
+  ]
+} = Astro.props;
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
+  <div class="mx-auto flex max-w-5xl flex-col items-center gap-10 text-center">
+    <div class="flex flex-col gap-5 items-center text-center">
+      <span class="inline-flex items-center gap-2 rounded-full border border-[#ffffff1f] bg-white/5 px-5 py-2 text-sm font-medium text-[#b4c4ff]">
+        <span class="flex h-2.5 w-2.5">
+          <span class="absolute inline-flex h-2.5 w-2.5 animate-ping rounded-full bg-[#2b7fff] opacity-60"></span>
+          <span class="relative inline-flex h-2.5 w-2.5 rounded-full bg-gradient-to-r from-[#2b7fff] to-[#ac46ff]"></span>
+        </span>
+        {badge}
+      </span>
+
+      <h1 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-[44px] font-semibold leading-[64px] sm:text-[62px] sm:leading-[80px] md:text-[70px] md:leading-[92px] text-white">
+        {titleLeading}
+        <span class={`block text-transparent bg-clip-text ${titleGradientClass}`}>
+          {titleHighlight}
+        </span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-[#d7e1ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] leading-relaxed max-w-3xl">
+        {subtitle}
+      </p>
+    </div>
+
+    <div class="flex w-full flex-col gap-6 rounded-[32px] border border-white/10 bg-white/5 p-6 text-left md:p-10">
+      <p class="text-sm tracking-[0.2em] text-[#b4c4ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] uppercase">
+        {proofLabel}
+      </p>
+      <div class="grid gap-6 md:grid-cols-3">
+        {stats.map((stat) => (
+          <div class="rounded-2xl border border-white/10 bg-[#0f1220]/60 p-5 text-center shadow-[0_15px_45px_rgba(9,11,22,0.35)]">
+            <p class="text-3xl md:text-4xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {stat.value}
+            </p>
+            <p class="mt-2 text-base leading-relaxed text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {stat.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center gap-4">
+      <a
+        href={primaryCtaLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 rounded-[26px] bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] px-10 py-4 text-base font-semibold tracking-wide text-white shadow-[0_25px_60px_rgba(55,133,255,0.45)] transition-transform duration-200 hover:scale-[1.04] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/35 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]"
+      >
+        {primaryCtaText}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-5 w-5"
+          aria-hidden="true"
+        >
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg>
+      </a>
+
+      {ctaDetails.length > 0 && (
+        <p class="text-sm text-[#cbd4e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          {ctaDetails.join(" • ")}
+        </p>
+      )}
+    </div>
+  </div>
+</section>
+

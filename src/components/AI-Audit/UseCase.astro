@@ -1,0 +1,146 @@
+---
+interface UseCase {
+  icon: string;
+  title: string;
+  discovered: string[];
+  quickWins: string[];
+  roi: {
+    investment: string;
+    savings: string;
+    roi: string;
+  };
+  result: string;
+}
+
+const useCases: UseCase[] = [
+  {
+    icon: "🏥",
+    title: "MEDICAL PRACTICE · FAIRFAX",
+    discovered: [
+      "Missing 30+ calls daily during peak hours = $12,000/month lost revenue",
+      "Front desk spending 15 hours/week on appointment scheduling",
+      "Patient intake forms requiring manual data entry (8 hours/week)"
+    ],
+    quickWins: [
+      "Voice AI receptionist for after-hours + overflow calls",
+      "Automated appointment scheduling via chatbot",
+      "Digital intake forms with auto-population to EMR"
+    ],
+    roi: {
+      investment: "Total Investment: $1,200/month",
+      savings: "Annual Savings: $156,000",
+      roi: "ROI: 1,200% within 12 months"
+    },
+    result:
+      '"We captured 45 additional monthly patients worth $18,000 in revenue within 6 weeks. The audit literally paid for itself in the first month and we\'re on track to exceed the projected savings."'
+  },
+  {
+    icon: "⚖️",
+    title: "LAW FIRM · ALEXANDRIA",
+    discovered: [
+      "Paralegals spending 35 hours/week on document review = $3,500/week in billable time lost",
+      "Client intake process taking 90+ minutes per prospect",
+      "Manual contract review missing 15% of key clauses"
+    ],
+    quickWins: [
+      "Custom Training Agent for document analysis",
+      "Lead qualification chatbot for initial consultations",
+      "Automated contract review with clause extraction"
+    ],
+    roi: {
+      investment: "Total Investment: $32,000 (one-time) + $600/month",
+      savings: "Annual Savings: $182,000",
+      roi: "ROI: 464% within 12 months"
+    },
+    result:
+      '"The audit showed us we were leaving $180K on the table annually. We implemented all three Quick Wins and freed up 30 hours weekly of paralegal time. We took on 20% more cases without hiring. Best consulting investment we\'ve ever made."'
+  },
+  {
+    icon: "🏗️",
+    title: "CONTRACTOR · LORTON",
+    discovered: [
+      "Missing 70% of website inquiries outside business hours = 20-25 lost leads/month",
+      "Estimator spending 12 hours/week creating quotes manually",
+      "Zero follow-up system for leads that didn't convert immediately"
+    ],
+    quickWins: [
+      "Website chatbot for instant quote requests 24/7",
+      "Voice AI to capture after-hours calls",
+      "Automated lead follow-up sequence"
+    ],
+    roi: {
+      investment: "Total Investment: $750/month",
+      savings: "Annual Savings: $96,000",
+      roi: "ROI: 967% within 12 months"
+    },
+    result:
+      '"The audit mapped out exactly where we were bleeding leads. We captured 22 additional projects in the first 90 days—more than paying for the entire implementation. Lead volume increased 250% and we\'re finally converting evening/weekend traffic."'
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-28">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10">
+    <div class="text-center text-white flex flex-col gap-4">
+      <p class="text-sm uppercase tracking-[0.35em] text-[#b4c4ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Real Client Outcomes
+      </p>
+      <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl md:text-5xl leading-tight">
+        Proof From Northern Virginia Businesses
+      </h2>
+      <p class="text-lg text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] max-w-3xl mx-auto">
+        Every audit turns hidden inefficiencies into a prioritized ROI plan. Here’s what local teams discovered, implemented, and gained.
+      </p>
+    </div>
+
+    <div class="flex flex-col gap-8">
+      {useCases.map((useCase) => (
+        <article class="rounded-[32px] border border-white/10 bg-[#0c101f]/85 p-8 shadow-[0_35px_90px_rgba(5,7,17,0.6)]">
+          <header class="flex flex-col items-center gap-3 text-center text-white">
+            <span class="text-4xl" aria-hidden="true">{useCase.icon}</span>
+            <h3 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-2xl md:text-3xl uppercase tracking-[0.2em]">
+              {useCase.title}
+            </h3>
+          </header>
+
+          <div class="mt-8 grid gap-6 md:grid-cols-3">
+            <div class="flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <p class="text-xs uppercase tracking-[0.3em] text-[#7ee8ff]">Discovered in Audit</p>
+              <ul class="list-disc space-y-2 pl-5 text-sm text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                {useCase.discovered.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div class="flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <p class="text-xs uppercase tracking-[0.3em] text-[#f78bc0]">Top 3 Quick Wins</p>
+              <ul class="list-disc space-y-2 pl-5 text-sm text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                {useCase.quickWins.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div class="flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <p class="text-xs uppercase tracking-[0.3em] text-[#c084fc]">Projected ROI</p>
+              <ul class="space-y-2 text-sm text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                <li>{useCase.roi.investment}</li>
+                <li>{useCase.roi.savings}</li>
+                <li>{useCase.roi.roi}</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-8 rounded-[24px] border border-[#ffffff1a] bg-gradient-to-r from-[#1f0f23] via-[#200f27] to-[#1a1030] p-6 text-center">
+            <p class="text-xs uppercase tracking-[0.4em] text-[#fbcfe8]">Actual Result After Implementation</p>
+            <p class="mt-4 text-base italic text-[#f5f3ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] leading-relaxed">
+              {useCase.result}
+            </p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+

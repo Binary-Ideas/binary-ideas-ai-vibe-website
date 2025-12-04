@@ -1,0 +1,85 @@
+---
+const inclusions = [
+  "5-10 strategic interviews with leadership & employees",
+  "Complete Ops Canvas mapping your workflows",
+  "AI Opportunity Matrix prioritizing all solutions",
+  "12-month Implementation Roadmap",
+  "Detailed ROI calculations for every opportunity",
+  'Executive presentation with "Money Slide"',
+  "2 follow-up strategy sessions (60 mins each)"
+];
+
+const guaranteeText =
+  "If our audit doesn't identify at least $40,000+ in annual savings opportunities (5X+ ROI), we'll refund 100% of your investment. We're that confident in the value we deliver.";
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-28">
+  <div class="mx-auto flex max-w-5xl flex-col gap-10 text-white">
+    <div class="text-center flex flex-col gap-4">
+      <p class="text-sm uppercase tracking-[0.35em] text-[#b4c4ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Investment
+      </p>
+      <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl md:text-5xl leading-tight">
+        INVESTMENT IN YOUR AI AUDIT
+      </h2>
+      <p class="text-lg text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Comprehensive 2-week engagement designed to uncover every inefficiency, quantify savings, and build a roadmap you can execute immediately.
+      </p>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2">
+      <article class="flex h-full flex-col gap-5 rounded-[32px] border border-white/10 bg-[#0f1427]/80 p-8 shadow-[0_35px_90px_rgba(5,7,17,0.55)]">
+        <header>
+          <p class="text-xs uppercase tracking-[0.35em] text-[#7ee8ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            Comprehensive 2-week AI audit
+          </p>
+          <p class="mt-2 text-sm text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            Total Value: $10,000+ in strategic analysis
+          </p>
+        </header>
+
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+          <p class="text-xs uppercase tracking-[0.35em] text-[#fbcfe8] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            What's Included
+          </p>
+          <ul class="mt-4 flex flex-col gap-3 text-sm text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {inclusions.map((item) => (
+              <li class="flex items-start gap-3">
+                <span class="mt-[2px] text-[#7ee8ff]" aria-hidden="true">▹</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </article>
+
+      <article class="flex h-full flex-col gap-6 rounded-[32px] border border-white/10 bg-gradient-to-b from-[#1f1a38] to-[#0d0f1c] p-8 shadow-[0_40px_100px_rgba(8,11,25,0.6)]">
+        <div>
+          <p class="text-xs uppercase tracking-[0.35em] text-[#c084fc] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            Professional Audit Investment
+          </p>
+          <p class="mt-4 text-6xl font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">$7,500</p>
+          <p class="mt-2 text-sm text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            One-time fee • No recurring costs
+          </p>
+        </div>
+
+        <div class="rounded-[24px] border border-[#ffffff1a] bg-white/5 p-6">
+          <p class="text-xs uppercase tracking-[0.35em] text-[#7ee8ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            Our Guarantee
+          </p>
+          <p class="mt-3 text-base text-[#f5f6ff] leading-relaxed [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {guaranteeText}
+          </p>
+        </div>
+
+        <div class="rounded-[24px] border border-[#f6329a40] bg-gradient-to-r from-[#2b0f23] via-[#2f0f2c] to-[#1e0f31] p-5 text-center shadow-[0_35px_90px_rgba(246,50,154,0.3)]">
+          <p class="text-sm font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            We only take on a limited number of audits each month to ensure hands-on analysis. Reserve your slot early.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+

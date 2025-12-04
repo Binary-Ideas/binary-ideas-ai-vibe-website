@@ -1,0 +1,73 @@
+---
+const differentiators = [
+  {
+    icon: "🗣️",
+    title: "We Actually Talk to Your Team",
+    description:
+      "Most \"audits\" are 30-minute calls with a salesperson. We spend 5-10 hours interviewing your leadership AND frontline employees to understand reality—not just management's perception of it. The gap between these perspectives is where we find your biggest opportunities."
+  },
+  {
+    icon: "🗺️",
+    title: "You See Everything Visually",
+    description:
+      "No 90-page reports you'll never read. You get visual diagrams (Ops Canvas, Opportunity Matrix, Roadmap) that you can share with your team and reference for years. One glance shows you exactly where problems exist and how to fix them."
+  },
+  {
+    icon: "📊",
+    title: "ROI Backed by YOUR Data",
+    description:
+      "We don't use generic industry benchmarks. We calculate ROI using YOUR actual salaries, YOUR time spent on tasks, and YOUR revenue per employee. The numbers are real because they're based on your specific business."
+  },
+  {
+    icon: "⚡",
+    title: "Prioritized by Quick Wins First",
+    description:
+      "We don't recommend expensive, complex projects upfront. We start with Quick Wins—low-effort, high-impact solutions that prove ROI in 3-6 months and build momentum for bigger projects later. You see results fast."
+  },
+  {
+    icon: "🚫",
+    title: "We Tell You What NOT to Do",
+    description:
+      "Part of the value is identifying expensive mistakes to avoid. We'll tell you which AI projects are overhyped, overpriced, or wrong for your business—saving you from wasting $50,000+ on solutions that won't deliver."
+  },
+  {
+    icon: "📍",
+    title: "Local Northern VA Expertise",
+    description:
+      "We're based in Lorton and exclusively serve Northern Virginia businesses. We understand your market, your competition, and your challenges. When you call, you talk to us—not a consultant in another state reading from a script."
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-28">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10">
+    <div class="text-center text-white flex flex-col gap-4">
+      <p class="text-sm uppercase tracking-[0.4em] text-[#b4c4ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        WHY THIS AUDIT
+      </p>
+      <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl md:text-5xl leading-tight">
+        WHAT MAKES OUR AI AUDIT DIFFERENT
+      </h2>
+      <p class="text-lg text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] max-w-3xl mx-auto">
+        Real interviews, visual clarity, and ROI calculations built from your actual numbers—not templates or vendor promises.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2">
+      {differentiators.map((item) => (
+        <article class="flex h-full flex-col gap-4 rounded-[28px] border border-white/10 bg-[#0f1424]/80 p-6 shadow-[0_30px_80px_rgba(6,8,20,0.55)]">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl" aria-hidden="true">{item.icon}</span>
+            <h3 class="text-xl text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {item.title}
+            </h3>
+          </div>
+          <p class="text-base leading-relaxed text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {item.description}
+          </p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+

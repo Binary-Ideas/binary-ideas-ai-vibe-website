@@ -1,0 +1,50 @@
+---
+import FaqSection from '../VoiceAI/sections/FaqSection.astro';
+
+const faqItems = [
+  {
+    question: 'How is this different from the free 30-minute consultation?',
+    answer:
+      'The free consultation identifies 2-3 obvious opportunities and gives directional guidance. The comprehensive audit is a 2-week deep-dive with 5-10 interviews, complete process mapping, visual diagrams, detailed ROI calculations, and a prioritized 12-month roadmap. Think of the consultation as "here\'s what might help" and the audit as "here\'s exactly what to do, in what order, with precise ROI projections."'
+  },
+  {
+    question: 'Do we need to prepare anything before the audit?',
+    answer:
+      "Minimal preparation. We'll need access to key team members for interviews (30-45 mins each) and rough data on things like: number of employees, average salaries, current tools/software used, and approximate time spent on key tasks. We can work with estimates—precision isn't required upfront."
+  },
+  {
+    question: "What if the audit reveals we're not ready for AI yet?",
+    answer:
+      "We'll tell you honestly. Sometimes businesses need to fix foundational issues (unclear processes, missing data, team resistance) before AI makes sense. If that's you, we'll recommend what to fix first and revisit AI later. Our guarantee protects you: if we can't identify $40K+ in viable opportunities, you get a full refund."
+  },
+  {
+    question: 'Will you try to sell us your implementation services?',
+    answer:
+      "The audit is vendor-agnostic strategic analysis. If we recommend solutions we can build (Voice AI, Training Agents, etc.), we'll mention that as an option—but we'll also recommend third-party tools if they're better fits. Your audit results are yours to implement however you choose. Many clients implement with us because we already understand their business, but it's never required."
+  },
+  {
+    question: 'How long does implementation take after the audit?',
+    answer:
+      'Depends on which opportunities you prioritize. Quick Wins typically take 2-6 weeks to implement. Medium complexity projects take 6-12 weeks. Big Swings can take 3-6 months. The audit roadmap includes realistic timelines for each recommendation so you know exactly what to expect.'
+  },
+  {
+    question: 'Can you audit just one department instead of our whole business?',
+    answer:
+      'Absolutely. If you want to focus the audit on a specific area (sales, operations, customer support), we can scope it accordingly. The investment may be adjusted based on scope. Many clients start with one department, see results, then expand the audit to other areas.'
+  },
+  {
+    question: 'What happens after we receive the audit results?',
+    answer:
+      'You\'ll have a complete roadmap and can choose your path: (1) Implement internally using our recommendations, (2) Hire us to implement the solutions, (3) Hire other vendors and use our audit to guide them, or (4) Do nothing (though why waste the audit investment?). The audit results are yours—no strings attached.'
+  }
+];
+---
+
+<FaqSection
+  titleLeading="COMMON QUESTIONS"
+  titleHighlight="ABOUT OUR AI AUDIT"
+  subtitle="Everything you need to know about the scope, preparation, deliverables, and what happens after the audit."
+  faqItems={faqItems}
+/>
+
+

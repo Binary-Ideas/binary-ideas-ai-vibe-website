@@ -1,0 +1,43 @@
+---
+import CallToActionSection from '../VoiceAI/sections/CallToActionSection.astro';
+
+const introParagraphs = [
+  "In 2 weeks, you'll know exactly where you're losing money, which AI solutions will deliver the best ROI, and the precise roadmap for implementing them—all backed by data from <strong>your</strong> business.",
+  "Investment: $7,500 one-time • 2-week turnaround • Guaranteed $40K+ in identified opportunities."
+];
+
+const features = [
+  "5-10 strategic interviews with your leadership and employees",
+  "Visual Ops Canvas mapping every workflow inefficiency",
+  "AI Opportunity Matrix prioritizing Quick Wins vs. Big Swings",
+  "12-month roadmap showing what to implement when",
+  "Detailed ROI calculations for every recommended solution",
+  "Money-back guarantee if we don't find $40K+ in opportunities"
+];
+
+const primaryButton = {
+  label: "CALL (703) 690-9726",
+  ariaLabel: "Call (703) 690-9726 to schedule your audit",
+  phoneNumber: "7036909726",
+  iconSrc: "/img/vector.svg",
+  iconAlt: "Phone"
+};
+
+const secondaryButton = {
+  label: "Email info@binaryideasai.com",
+  ariaLabel: "Email info@binaryideasai.com to discuss your audit",
+  emailAddress: "info@binaryideasai.com"
+};
+---
+
+<CallToActionSection
+  headlineLeading="Stop Guessing."
+  headlineHighlight="Get Your Complete AI Audit."
+  introText={introParagraphs}
+  features={features.map((text) => ({ text }))}
+  primaryButton={primaryButton}
+  secondaryButton={secondaryButton}
+  backgroundClass="bg-[linear-gradient(120deg,#060912_0%,#151a34_80%)] py-20 lg:py-24"
+/>
+
+

@@ -1,0 +1,96 @@
+---
+interface PainPoint {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  heading?: string;
+  introParagraphs?: string[];
+  painPoints?: PainPoint[];
+  truthLabel?: string;
+  truthDescription?: string;
+}
+
+const {
+  heading = "You Know You're Losing Money to Manual Work—But Where?",
+  introParagraphs = [
+    "Most Northern Virginia business owners suspect they're wasting time and money on inefficient processes. But without a systematic audit, you're flying blind—guessing which problems to fix first and hoping AI will somehow help.",
+    "You don't need more hype. You need clarity that shows you exactly what's broken, what it's costing you, and where AI can create the fastest wins."
+  ],
+  painPoints = [
+    {
+      icon: "🤔",
+      title: "You Don't Know Where to Start",
+      description:
+        "Your team is buried in repetitive tasks. You suspect AI could help, but which process should you automate first? Sales? Customer support? Operations? Without a clear roadmap, you're paralyzed by options."
+    },
+    {
+      icon: "💸",
+      title: "You Can't Quantify the Cost",
+      description:
+        "You know manual processes are expensive, but you don't have hard numbers. How much is that weekly reporting costing you? What's the dollar value of those missed calls? Without data, you can't justify the investment in automation."
+    },
+    {
+      icon: "⚠️",
+      title: "You're Afraid of Wasting Money",
+      description:
+        "You've heard horror stories about $50,000 AI projects that failed. You don't want to invest in the wrong solution, but you also can't afford to keep bleeding money to inefficiency. You need confidence before you invest."
+    },
+    {
+      icon: "🎯",
+      title: "You Need Proof It Will Work",
+      description:
+        "Every AI vendor promises amazing results, but they're selling software—not analyzing YOUR specific business. You need someone to audit YOUR workflows, YOUR team, and YOUR processes to show you what will actually deliver ROI."
+    }
+  ],
+  truthLabel = "THE TRUTH:",
+  truthDescription =
+    "You're probably losing $10,000-$30,000 monthly to hidden inefficiencies you don't even see. Our comprehensive AI audit finds them, quantifies them, and shows you exactly how to fix them—starting with the highest ROI opportunities first."
+} = Astro.props;
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-16 lg:py-24">
+  <div class="mx-auto flex max-w-5xl flex-col gap-10">
+    <div class="flex flex-col gap-6 text-left text-white">
+      <p class="text-sm uppercase tracking-[0.3em] text-[#b4c4ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Manual Work Reality
+      </p>
+      <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl md:text-4xl leading-snug">
+        {heading}
+      </h2>
+      <div class="flex flex-col gap-4 text-lg text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] leading-relaxed">
+        {introParagraphs.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </div>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2">
+      {painPoints.map((point) => (
+        <div class="flex flex-col gap-4 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_25px_60px_rgba(8,9,17,0.45)]">
+          <div class="flex items-center gap-3">
+            <span class="text-3xl" aria-hidden="true">{point.icon}</span>
+            <h3 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-xl text-white">
+              {point.title}
+            </h3>
+          </div>
+          <p class="text-base leading-relaxed text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {point.description}
+          </p>
+        </div>
+      ))}
+    </div>
+
+    <div class="rounded-[30px] border border-[#f6329a40] bg-gradient-to-r from-[#1a0f1f] via-[#1a0f1f] to-[#250f29] p-8 text-center shadow-[0_30px_80px_rgba(246,50,154,0.35)]">
+      <p class="text-sm uppercase tracking-[0.3em] text-[#f78bc0] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        {truthLabel}
+      </p>
+      <p class="mt-4 text-2xl text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica] leading-snug">
+        {truthDescription}
+      </p>
+    </div>
+  </div>
+</section>
+
