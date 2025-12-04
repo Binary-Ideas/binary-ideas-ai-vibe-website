@@ -1,0 +1,129 @@
+---
+interface Package {
+  label: string;
+  price: string;
+  subtitle: string;
+  description: string;
+  includes: string[];
+  highlight?: string;
+  popular?: boolean;
+}
+
+const packages: Package[] = [
+  {
+    label: "Strategy Session",
+    price: "$2,500",
+    subtitle: "Perfect for businesses who need strategic direction but plan to handle implementation internally.",
+    description: "",
+    includes: [
+      "2-week assessment & strategy development",
+      "AI Readiness Assessment",
+      "Custom 12-month AI roadmap",
+      "Vendor recommendations & comparison",
+      "ROI projections & budget planning",
+      "2 follow-up strategy calls (60 mins each)"
+    ],
+    highlight: "Get Started"
+  },
+  {
+    label: "Strategy + Implementation",
+    price: "$8,500",
+    subtitle: "For businesses who want strategic guidance PLUS hands-on support through implementation.",
+    includes: [
+      "Everything in Strategy Session",
+      "8-12 weeks implementation oversight",
+      "Vendor selection & contract negotiation",
+      "Weekly implementation check-ins",
+      "Team training & change management",
+      "Troubleshooting & optimization support",
+      "Performance tracking & ROI validation"
+    ],
+    highlight: "Most Popular",
+    popular: true
+  },
+  {
+    label: "Ongoing Strategic Partner",
+    price: "$3,500/month",
+    subtitle: "For businesses who want continuous AI strategy and optimization as their needs evolve.",
+    includes: [
+      "Everything in Strategy + Implementation",
+      "Monthly strategy & planning sessions",
+      "Continuous performance optimization",
+      "New automation opportunity identification",
+      "Priority support for urgent issues",
+      "Quarterly roadmap updates",
+      "Unlimited email/Slack consultation"
+    ],
+    highlight: "Get Started"
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-24">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10 text-center">
+    <div class="space-y-4">
+      <h2 class="text-3xl md:text-4xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        AI Consulting Investment
+      </h2>
+      <p class="text-base md:text-lg text-[#cbd4e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] max-w-4xl mx-auto">
+        Our consulting pays for itself by helping you avoid one wrong $50,000 decision or by accelerating your ROI by 3-6 months. Most clients save 5-10X our consulting fee through better vendor selection and implementation strategy alone.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      {packages.map((pkg) => (
+        <article
+          class={`flex h-full flex-col rounded-[32px] border border-white/10 bg-[#060b16]/85 p-8 text-left shadow-[0_40px_120px_rgba(4,6,14,0.5)] ${
+            pkg.popular ? "ring-2 ring-[#2b7fff]" : ""
+          }`}
+        >
+          {pkg.popular && (
+            <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_100%)] px-4 py-1 text-sm font-semibold text-white">
+              ⭐ Most Popular
+            </div>
+          )}
+          <div class="space-y-2">
+            <h3 class="text-2xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {pkg.label}
+            </h3>
+            <p class="text-3xl font-bold text-white">{pkg.price}</p>
+            <p class="text-sm leading-6 text-[#cbd4e6]">{pkg.subtitle}</p>
+          </div>
+
+          <div class="mt-6 flex-1 space-y-3 text-sm leading-6 text-[#d0d8e6]">
+            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-[#7ac8ff]">
+              Includes
+            </p>
+            <ul class="space-y-2 text-sm text-[#e2e8f0]">
+              {pkg.includes.map((item) => (
+                <li class="flex items-start gap-2 text-left">
+                  <span class="text-[#39e5b6]">✓</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <a
+            href="https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 inline-flex items-center justify-center rounded-[18px] bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_100%)] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+          >
+            {pkg.highlight ?? "Get Started"}
+          </a>
+        </article>
+      ))}
+    </div>
+
+    <div class="rounded-[24px] border border-white/15 bg-white/5 p-6 text-center text-sm leading-6 text-[#e2e8f0] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-[#7ee8ff]">
+        30-Day Satisfaction Guarantee
+      </p>
+      <p class="mt-2">
+        All packages include our 30-day satisfaction guarantee. If you don't believe our consulting will save you 5-10X what you paid, we'll refund 100% of your investment.
+      </p>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,44 @@
+---
+import FaqSection from '../VoiceAI/sections/FaqSection.astro';
+
+const faqItems = [
+  {
+    question: "How is this different from the free 30-minute audit?",
+    answer:
+      "The free audit identifies opportunities and gives you directional guidance. AI Consulting is comprehensive strategic planning with implementation support. Think of the audit as “here's what's possible,” and consulting as “here's exactly how to do it, what to avoid, and how to get maximum ROI.” If you're ready to implement and want expert guidance through the entire process, consulting is the right choice."
+  },
+  {
+    question: "Do I need to know what AI solutions I want before hiring you?",
+    answer:
+      "Absolutely not. In fact, it's often better if you DON'T come in with preconceived ideas about which solutions you need. Many businesses think they need one thing (like a chatbot) when the real ROI is elsewhere (like workflow automation). We help you figure out what you actually need based on objective analysis of your business, not based on what's trendy or what vendors are pushing."
+  },
+  {
+    question: "Can you implement the solutions for us, or just consult?",
+    answer:
+      "We can do both. If we recommend solutions we build (like Voice AI, Training Agents, or Custom Automation), we can implement directly. If we recommend third-party tools (like certain CRMs or marketing platforms), we oversee implementation and vendor management to ensure you're getting what you paid for. You get the best of both worlds: unbiased recommendations + implementation capability."
+  },
+  {
+    question: "What if you recommend something we can't afford?",
+    answer:
+      "We always provide options at different budget levels. If your ideal solution costs $50,000 but your budget is $15,000, we'll show you a phased approach or alternative solutions that fit your budget while still delivering meaningful ROI. We're strategic partners, not salespeople—our job is finding solutions that work within YOUR constraints."
+  },
+  {
+    question: "How long does the consulting process take?",
+    answer:
+      "Strategy Session: 2-3 weeks from kickoff to final recommendations.<br /><br />Strategy + Implementation: 8-12 weeks from strategy through successful deployment.<br /><br />Ongoing Strategic Partner: Month-to-month relationship that evolves with your business. We move as fast as you're ready to move, but we won't rush you into decisions that aren't fully vetted."
+  },
+  {
+    question: "What if we've already tried AI and it failed?",
+    answer:
+      "That's exactly why you need consulting. Most AI failures happen because of wrong solution selection, poor implementation, or unrealistic expectations—not because AI can't work for your business. We diagnose what went wrong, determine if AI is still viable for you, and create a strategy that avoids the mistakes that sank your first attempt. Many of our best clients came to us after failed AI projects elsewhere."
+  }
+];
+---
+
+<FaqSection
+  titleLeading="COMMON QUESTIONS"
+  titleHighlight="ABOUT AI CONSULTING"
+  subtitle="Get clear answers about how our consulting works, what it includes, and how it pays for itself."
+  faqItems={faqItems}
+/>
+

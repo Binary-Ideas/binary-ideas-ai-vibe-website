@@ -1,0 +1,40 @@
+---
+import CallToActionSection from '../VoiceAI/sections/CallToActionSection.astro';
+
+const introParagraphs = [
+  "Get expert strategic guidance from Northern Virginia AI consultants who have no incentive to sell you the wrong solution.",
+  "Book a consultation call to discuss your specific situation and determine if AI consulting is right for you. No obligation, no sales pitch—just honest conversation about your options."
+];
+
+const features = [
+  "30-day satisfaction guarantee on all consulting packages",
+  "Typical ROI: 5-10X consulting investment within 12 months",
+  "Northern Virginia-based team with local market expertise",
+  "Vendor-agnostic recommendations focused on YOUR success"
+];
+
+const primaryButton = {
+  label: "CALL (703) 690-9726",
+  ariaLabel: "Call (703) 690-9726",
+  phoneNumber: "7036909726",
+  iconSrc: "/img/vector.svg",
+  iconAlt: "Phone"
+};
+
+const secondaryButton = {
+  label: "Email info@binaryideasai.com",
+  ariaLabel: "Email info@binaryideasai.com",
+  emailAddress: "info@binaryideasai.com"
+};
+---
+
+<CallToActionSection
+  headlineLeading="Stop Guessing."
+  headlineHighlight="Start Implementing the Right AI Solutions."
+  introText={introParagraphs}
+  features={features.map((text) => ({ text }))}
+  primaryButton={primaryButton}
+  secondaryButton={secondaryButton}
+  backgroundClass="bg-[linear-gradient(120deg,#050a19_0%,#121734_80%)] py-20 lg:py-24"
+/>
+

@@ -11,6 +11,9 @@ import WhatYouGet from '../components/AI-Consulting/WhatYouGet.astro';
 import TheProcess from '../components/AI-Consulting/TheProcess.astro';
 import RealResult from '../components/AI-Consulting/RealResult.astro';
 import WhyChooseUs from '../components/AI-Consulting/WhyChooseUs.astro';
+import AIConsultingInvestment from '../components/AI-Consulting/AIConsultingInvestment.astro';
+import FAQSection from '../components/AI-Consulting/FAQSection.astro';
+import CTASection from '../components/AI-Consulting/CTASection.astro';
 ---
 
 <BaseLayout
@@ -30,7 +33,7 @@ import WhyChooseUs from '../components/AI-Consulting/WhyChooseUs.astro';
         <div class="glow-sphere glow-sphere--6 absolute top-[90%] left-[55%] w-64 h-64 bg-[#f6329a] rounded-[33554400px] blur-3xl"></div>
       </div>
 
-      <div class="relative z-[1] flex flex-col gap-16 pt-20 pb-16">
+      <div class="relative z-[1] flex flex-col gap-16 pt-20 pb-0">
         <Hero />
         <TheProblem />
         <PainPoint />
@@ -40,6 +43,9 @@ import WhyChooseUs from '../components/AI-Consulting/WhyChooseUs.astro';
         <TheProcess />
         <RealResult />
         <WhyChooseUs />
+        <AIConsultingInvestment />
+        <FAQSection />
+        <CTASection />
       </div>
 
       <Footer
