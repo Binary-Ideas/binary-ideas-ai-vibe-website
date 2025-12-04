@@ -1,0 +1,140 @@
+---
+const iconCards = [
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <rect x="6.5" y="4.5" width="11" height="15" rx="1.5"></rect>
+        <path d="M9 8h6M9 11h6M9 14h4"></path>
+      </svg>
+    `,
+    title: "Comprehensive AI Readiness Assessment",
+    description:
+      "We audit your current workflows, technology stack, team capabilities, and business goals to determine where AI can (and can't) deliver value. You get an honest assessment of your readiness for AI adoption and what needs to change before you invest.",
+    deliverable: "AI Readiness Report identifying your strengths, gaps, and prerequisites for successful implementation."
+  },
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <path d="M5 17h9.5L19 7"></path>
+        <path d="M5 7h9.5"></path>
+        <circle cx="5" cy="7" r="1.3"></circle>
+        <circle cx="14.5" cy="7" r="1.3"></circle>
+        <circle cx="5" cy="17" r="1.3"></circle>
+        <circle cx="14.5" cy="17" r="1.3"></circle>
+      </svg>
+    `,
+    title: "Custom AI Strategy & Roadmap",
+    description:
+      "We create a prioritized 12-month AI implementation roadmap showing which solutions to implement first for maximum ROI, realistic cost projections for each phase, expected timeline and resource requirements, and how each solution integrates with your existing systems.",
+    deliverable:
+      "Custom AI Roadmap with phased implementation plan, budget projections, and ROI forecasts specific to YOUR business."
+  },
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <path d="M7 9h10l3 4H4l3-4Z"></path>
+        <path d="M4 13h16v4H4z"></path>
+        <path d="M9 17v3M15 17v3"></path>
+      </svg>
+    `,
+    title: "Vendor Selection & Evaluation",
+    description:
+      "We help you evaluate AI vendors and solutions objectively, comparing features, pricing, integration requirements, and long-term viability. We cut through marketing hype and show you what actually matters for your specific use case.",
+    deliverable: "Vendor Comparison Matrix with our unbiased recommendations and reasoning for each suggested solution."
+  },
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <path d="M9 18h6"></path>
+        <path d="M8 14h8l1-4h-6l-1-3"></path>
+        <circle cx="10" cy="4.5" r="1.5"></circle>
+        <path d="M6 18h2"></path>
+        <path d="M16 18h2"></path>
+      </svg>
+    `,
+    title: "Implementation Strategy & Oversight",
+    description:
+      "We don't just hand you a strategy and disappear. We help you execute: guiding your internal team or external vendors, troubleshooting implementation challenges, ensuring the solution is configured correctly for your workflows, and verifying you're getting the ROI we projected.",
+    deliverable:
+      "Implementation support through deployment, including vendor oversight, technical guidance, and performance monitoring."
+  },
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <path d="M9 10a3 3 0 1 1 6 0"></path>
+        <path d="M6.5 16.5c.5-2.5 2.5-4 5.5-4s5 1.5 5.5 4"></path>
+        <path d="M4 10c-.6 0-1 .4-1 1v5c0 .6.4 1 1 1h1"></path>
+        <path d="M20 17h1c.6 0 1-.4 1-1v-5c0-.6-.4-1-1-1h-1"></path>
+      </svg>
+    `,
+    title: "Team Training & Change Management",
+    description:
+      "The best AI solution fails if your team won't use it. We help you manage the human side of AI adoption: training your staff on new systems, addressing resistance and concerns, documenting processes and best practices, and ensuring smooth transition with minimal disruption.",
+    deliverable:
+      "Change Management Plan including training materials, adoption tracking, and ongoing support resources."
+  },
+  {
+    icon: `
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <path d="M4.5 12a7.5 7.5 0 1 1 3 6"></path>
+        <path d="M4.5 12h3"></path>
+        <path d="M12 5.5V9"></path>
+        <path d="M15 9.5 18 8"></path>
+        <path d="M16 14.5 18 17"></path>
+        <path d="M11 16.5 10 19"></path>
+      </svg>
+    `,
+    title: "Ongoing Optimization & Strategic Guidance",
+    description:
+      'AI implementation isn\'t "set it and forget it." We provide ongoing consulting to optimize performance, identify new automation opportunities, troubleshoot issues before they become expensive, and adjust strategy as your business evolves.',
+    deliverable:
+      "Monthly strategy sessions reviewing performance, identifying optimization opportunities, and planning next-phase implementations."
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
+  <div class="mx-auto flex max-w-6xl flex-col gap-12 text-center">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-3xl md:text-4xl font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        <span class="text-white">WHAT YOU GET </span>
+        <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">
+          WITH AI CONSULTING
+        </span>
+      </h2>
+    </div>
+
+    {Array.from({ length: 3 }).map((_, rowIndex) => (
+      <div class="grid gap-8 md:grid-cols-2">
+        {iconCards.slice(rowIndex * 2, rowIndex * 2 + 2).map((card) => (
+          <article class="relative flex h-full flex-col overflow-hidden rounded-[28px] border border-[#ffffff1a] bg-[#0f1524]/80 px-10 py-10 text-left shadow-[0px_32px_70px_rgba(9,10,20,0.5)]">
+            <div class="pointer-events-none absolute inset-0 rounded-[28px] opacity-70 [background:radial-gradient(circle_at_top_right,rgba(255,255,255,0.18)_0%,rgba(255,255,255,0)_70%)]" aria-hidden="true" />
+
+            <div class="relative flex h-[58px] w-[58px] items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)] text-white shadow-[0_18px_40px_rgba(102,126,234,0.35)]">
+              <span class="sr-only">{card.title} icon</span>
+              <span class="flex items-center justify-center" set:html={card.icon} />
+            </div>
+
+            <h3 class="relative mt-7 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-2xl font-semibold leading-9 text-white">
+              {card.title}
+            </h3>
+
+            <p class="relative mt-4 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-7 text-[#d0d8e6]">
+              {card.description}
+            </p>
+
+            <div class="relative mt-6 inline-flex flex-wrap items-center gap-3 bg-white/10 px-4 py-3 backdrop-blur-sm rounded-2xl">
+              <span class="text-xs font-semibold uppercase tracking-[0.3em] text-transparent bg-clip-text bg-[linear-gradient(90deg,#7ee8ff_0%,#c084fc_100%)]">
+                Deliverable
+              </span>
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-sm leading-6 text-white">
+                {card.deliverable}
+              </span>
+            </div>
+          </article>
+        ))}
+      </div>
+    ))}
+  </div>
+</section>
+

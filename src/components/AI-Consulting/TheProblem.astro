@@ -1,0 +1,79 @@
+---
+const cards = [
+  {
+    iconLabel: 'Vendor bias',
+    text: "You know AI could help your business, but every vendor is trying to sell you their solution—regardless of whether it's right for you."
+  },
+  {
+    iconLabel: 'AI overload',
+    text: "You're drowning in AI hype: ChatGPT, Claude, custom agents, automation tools. Which one actually solves YOUR problems?"
+  },
+  {
+    iconLabel: 'High stakes',
+    text: "You can't afford to waste $50,000+ and 6 months implementing the wrong solution because a salesperson convinced you it was \"cutting-edge.\""
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-20 lg:py-24">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10 text-center">
+    <div class="flex flex-col items-center gap-4">
+      <h2 class="text-3xl md:text-4xl lg:text-[44px] font-semibold leading-tight text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        <span class="bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)] bg-clip-text text-transparent">
+          The Problem
+        </span>
+      </h2>
+      <p class="text-base md:text-lg text-[#cbd4e6] max-w-3xl [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        You know AI could help your business, but navigating the options feels impossible.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      {cards.map((card, index) => (
+        <article class="relative flex h-full flex-col rounded-3xl border border-[#ffffff1a] bg-[#050712]/70 p-6 text-left shadow-[0_25px_70px_rgba(5,6,14,0.45)] backdrop-blur-md">
+          <div class="mb-4 flex items-center gap-3">
+            <span class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#2b7fff] via-[#ac46ff] to-[#f6329a] text-lg font-semibold text-white shadow-[0_15px_35px_rgba(43,127,255,0.45)] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              {index + 1}
+            </span>
+            <span class="text-sm font-semibold uppercase tracking-[0.3em] text-white/70 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+              Insight
+            </span>
+          </div>
+          <p class="text-base md:text-lg text-[#e2e8f0] leading-relaxed [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            {card.text}
+          </p>
+        </article>
+      ))}
+    </div>
+
+    <p class="text-base md:text-lg text-[#cbd4e6] leading-relaxed max-w-4xl mx-auto [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+      You need honest, strategic guidance from experts who understand YOUR business—not salespeople pushing whatever they're selling this month.
+    </p>
+
+    <div class="flex justify-center">
+      <a
+        href="https://api.3sixtycrm.com/widget/bookings/robert-sandiego"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 rounded-[26px] bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] px-10 py-4 text-base font-semibold tracking-wide text-white shadow-[0_22px_55px_rgba(94,117,255,0.45)] transition-transform duration-200 hover:scale-[1.04] focus:outline-none focus-visible:ring-4 focus-visible:ring-white/35 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]"
+      >
+        Get Your AI Strategy Session
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-5 w-5"
+          aria-hidden="true"
+        >
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+

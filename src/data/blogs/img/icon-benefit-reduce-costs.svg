@@ -1,0 +1,51 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="benefit_reduce_costs_bg" x1="10" y1="8" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B7FFF"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="benefit_reduce_costs_arrow" x1="18" y1="16" x2="36" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#E2E8F0" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="48" height="48" rx="14" fill="url(#benefit_reduce_costs_bg)"/>
+  <path
+    d="M18 20L28 30L34 24L40 30"
+    stroke="white"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.6"
+  />
+  <path
+    d="M18 34L18 20"
+    stroke="white"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.4"
+  />
+  <path
+    d="M28.5 27.5L24 32H32L28.5 27.5Z"
+    fill="white"
+    opacity="0.6"
+  />
+  <path
+    d="M22 36H34C35.1046 36 36 36.8954 36 38V40H20V38C20 36.8954 20.8954 36 22 36Z"
+    fill="url(#benefit_reduce_costs_arrow)"
+  />
+  <circle cx="26" cy="32" r="3.5" stroke="white" stroke-width="2" opacity="0.9"/>
+  <path
+    d="M26 30V34"
+    stroke="white"
+    stroke-width="1.6"
+    stroke-linecap="round"
+  />
+  <path
+    d="M24.75 32H27.25"
+    stroke="white"
+    stroke-width="1.6"
+    stroke-linecap="round"
+  />
+</svg>
+

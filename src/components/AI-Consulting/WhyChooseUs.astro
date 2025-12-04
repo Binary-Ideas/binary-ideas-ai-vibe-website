@@ -1,0 +1,100 @@
+---
+interface Pillar {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+const pillars: Pillar[] = [
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21s-7-4-7-10V5l7-2 7 2v6c0 6-7 10-7 10Z" />
+        <path d="M10 10h4" />
+        <path d="M10 13h4" />
+      </svg>
+    `,
+    title: "Vendor-Agnostic & Unbiased",
+    description:
+      "We don't sell AI software, so we have zero incentive to push a specific solution. If the best option is a tool we didn't build, we'll recommend it. If you're not ready for AI yet, we'll tell you to wait. Our only goal is helping you make the right decision for YOUR business."
+  },
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2v4" />
+        <path d="M12 18v4" />
+        <path d="M4.93 4.93 7.76 7.76" />
+        <path d="M16.24 16.24 19.07 19.07" />
+        <path d="M2 12h4" />
+        <path d="M18 12h4" />
+        <circle cx="12" cy="12" r="5" />
+      </svg>
+    `,
+    title: "Northern Virginia Expertise",
+    description:
+      "We're based in Lorton and exclusively serve Northern Virginia businesses. We understand the local market dynamics, competitive landscape, and specific challenges businesses face in our region. When you call, you talk to us—not a consultant in another state who's never been to Fairfax."
+  },
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2v2" />
+        <path d="M14 2v2" />
+        <path d="M7 6h10" />
+        <path d="M19 10H5" />
+        <path d="M7 6v14h10V6" />
+      </svg>
+    `,
+    title: "Implementation Support, Not Just Strategy",
+    description:
+      "We don't hand you a 90-page report and disappear. We're with you through implementation, vendor management, team training, troubleshooting, and optimization. You get a partner, not a consultant who abandons you after the “strategy phase.”"
+  },
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 3v18h18" />
+        <path d="M7 14 12 9l3 3 4-4" />
+      </svg>
+    `,
+    title: "Proven Track Record with Real ROI",
+    description:
+      "Our consulting clients achieve measurable results: 40-70% reduction in operational costs from automation, 2-5X increase in lead capture and conversion, 30-50 hours weekly freed up from repetitive tasks, and 5-10X ROI on AI investments within 12 months. We track real numbers, not vague improvements."
+  }
+];
+---
+
+<section class="relative w-full px-4 md:px-8 lg:px-20 py-24">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10 text-center">
+    <div class="space-y-4">
+      <p class="text-sm font-semibold uppercase tracking-[0.4em] text-[#7ac8ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Why Choose Us
+      </p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        Why Northern Virginia Businesses Choose Our AI Consulting
+      </h2>
+      <p class="text-base md:text-lg text-[#cbd4e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica] max-w-3xl mx-auto">
+        You've been burned by consultants who deliver 90-page reports you can't use and vendors who oversell and underdeliver. We're different because we're local business owners, not career consultants—and our success depends on YOUR results.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2">
+      {pillars.map((pillar) => (
+        <article class="rounded-[28px] border border-white/10 bg-[#050915]/80 p-8 text-left shadow-[0_30px_80px_rgba(6,12,25,0.45)]">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0f293f] text-white">
+              <span class="flex items-center justify-center" set:html={pillar.icon} />
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-lg font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                {pillar.title}
+              </h3>
+              <p class="text-sm leading-6 text-[#d0d8e6] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                {pillar.description}
+              </p>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+

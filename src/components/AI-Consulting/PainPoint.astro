@@ -1,0 +1,200 @@
+---
+const cards = [
+  {
+    icon: "💸",
+    title: "Wasted Implementation Costs: $30,000-$100,000+",
+    description:
+      "You invest $50,000 in an AI solution because the demo looked impressive. Six months later, your team isn't using it because it doesn't fit your actual workflows. Now you're stuck with sunk costs, frustrated employees, and you're back where you started—except you're $50,000 poorer and 6 months behind competitors who chose the right solution.",
+    pain: `Every AI vendor promises their solution is "perfect for your business." But they don't understand your workflows, your industry nuances, or your team's capabilities. They're selling software, not solving problems. You're left second-guessing every decision: "Is this the right tool? Are we implementing it correctly? Why isn't this delivering the ROI they promised?" By the time you realize it's the wrong fit, you've already invested months and tens of thousands of dollars you can't get back.`
+  },
+  {
+    icon: "⏰",
+    title: "Lost Time & Opportunity Cost: 6-12 Months",
+    description:
+      "While you're spinning your wheels implementing the wrong AI solution, your competitors are pulling ahead with systems that actually work. You're bleeding 6-12 months of momentum trying to force-fit generic software to your unique business—time you could have spent growing revenue with the right solution from day one.",
+    pain:
+      "You can't get those months back. Every month you waste on the wrong AI implementation is a month your competitors are capturing the leads, efficiency gains, and cost savings you should be getting. Your team becomes cynical about automation because \"we tried that AI thing and it didn't work.\" Now you've not only lost money and time—you've lost buy-in from the people who need to adopt these systems. The opportunity cost is staggering."
+  },
+  {
+    icon: "🎯",
+    title: "Wrong Solution for Your Problem",
+    description:
+      "The AI chatbot vendor says you need a chatbot. The voice AI company says you need voice automation. The marketing agency says you need AI-powered ads. Everyone's solution conveniently matches what they're selling—but nobody's asking what problem you're actually trying to solve. You end up with expensive tools that solve the wrong problems or no problems at all.",
+    pain:
+      "You don't have an AI problem—you have a business problem that AI might solve. But vendors are incentivized to sell their specific solution, not diagnose your actual needs. You're left Googling \"best AI for [your industry]\" at midnight, reading contradictory advice, watching slick demos that all look amazing, and having zero confidence in which path to choose. You need strategic guidance, not more sales pitches."
+  },
+  {
+    icon: "🤯",
+    title: "Paralysis by Analysis: $10,000+ Monthly While You Wait",
+    description:
+      "You've been \"researching AI solutions\" for 3 months. Every vendor demo adds more confusion. Your team is divided on which approach to take. Meanwhile, you're losing $10,000-$20,000 monthly to the manual processes that AI could be automating—if only you knew which solution to implement and how to do it right.",
+    pain:
+      "The longer you wait, the more money you lose—but rushing into the wrong solution costs even more. You're stuck in analysis paralysis, afraid to pull the trigger because you've heard horror stories about failed AI projects. You need someone who can cut through the noise, assess your specific situation objectively, and give you a clear roadmap that you can trust. The indecision itself is expensive, but making the wrong decision is catastrophic."
+  }
+];
+
+const philosophicalProblem =
+  "It's not fair that you need to become an AI expert just to make good business decisions. You shouldn't have to wade through vendor hype and technical jargon to figure out what actually works. You deserve honest, strategic guidance from experts who care about YOUR success—not their commission.";
+---
+
+{cards.length > 0 && (
+  <section class="relative px-4 py-20 sm:px-8 lg:px-20" data-pain-slider-root>
+    <div class="mx-auto flex max-w-6xl flex-col gap-10">
+      <div class="text-center">
+        <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
+          <span>The Hidden Cost of </span>
+          <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#60a5fa_0%,#8b5cf6_50%,#ec4899_100%)]">
+            Making the Wrong AI Decision
+          </span>
+        </h2>
+      </div>
+
+      <div class="relative">
+        <div class="overflow-hidden" data-pain-slider>
+          <div class="flex" data-pain-slider-track>
+            {cards.map((card) => (
+              <article class="flex w-full flex-shrink-0 px-0 sm:w-1/2 sm:px-2" data-pain-slide>
+                <div class="flex h-full w-full flex-col gap-4 rounded-[28px] border border-[#ffffff14] bg-[#fffefe08] p-6 shadow-[0_25px_60px_rgba(0,0,0,0.35)] [backdrop-filter:blur(22px)]">
+                  <div class="flex items-center gap-3">
+                    <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ffffff12] text-3xl">
+                      {card.icon}
+                    </div>
+                    <h3 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-2xl font-semibold text-white">
+                      {card.title}
+                    </h3>
+                  </div>
+
+                  <p class="text-base leading-7 text-[#dfe3ef] sm:text-lg [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                    {card.description}
+                  </p>
+
+                  <div class="rounded-2xl border border-[#ff65844d] bg-[rgba(255,77,125,0.12)] px-5 py-4 shadow-[0_10px_30px_rgba(255,77,125,0.2)]">
+                    <div class="text-xs font-semibold tracking-[0.2em] text-[#ff98b1]">
+                      THE PAIN
+                    </div>
+                    <p class="mt-2 text-sm leading-6 text-[#ffe7ee] sm:text-base [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+                      {card.pain}
+                    </p>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div class="mt-6 flex items-center justify-end gap-3" data-pain-nav>
+          <button
+            type="button"
+            class="flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white transition hover:bg-white/20"
+            data-pain-prev
+            aria-label="Previous pain points"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5">
+              <path d="M15 18l-6-6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white transition hover:bg-white/20"
+            data-pain-next
+            aria-label="Next pain points"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5">
+              <path d="M9 6l6 6-6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="rounded-[32px] border border-[#60a5fa33] bg-[#071325] p-8 text-center shadow-[0_30px_80px_rgba(6,12,25,0.55)]">
+        <p class="text-base leading-7 text-[#dfe6f7] sm:text-lg [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          {philosophicalProblem}
+        </p>
+      </div>
+    </div>
+  </section>
+)}
+
+<script is:inline>
+  (() => {
+    const sliders = document.querySelectorAll('[data-pain-slider-root]');
+    const mediaQuery = window.matchMedia('(min-width: 640px)');
+
+    sliders.forEach((slider) => {
+      const sliderViewport = slider.querySelector('[data-pain-slider]');
+      const track = slider.querySelector('[data-pain-slider-track]');
+      const nav = slider.querySelector('[data-pain-nav]');
+      if (!sliderViewport || !track) return;
+
+      let slides = Array.from(track.querySelectorAll('[data-pain-slide]'));
+      const originalCount = slides.length;
+      if (originalCount <= 1) {
+        nav?.classList.add('hidden');
+        return;
+      }
+
+      const maxVisible = Math.min(2, originalCount);
+
+      const cloneSlides = (elements) => elements.map((slide) => slide.cloneNode(true));
+      const prependClones = cloneSlides(slides.slice(-maxVisible)).reverse();
+      const appendClones = cloneSlides(slides.slice(0, maxVisible));
+      prependClones.forEach((clone) => track.insertBefore(clone, track.firstChild));
+      appendClones.forEach((clone) => track.appendChild(clone));
+
+      slides = Array.from(track.querySelectorAll('[data-pain-slide]'));
+
+      const prevButton = slider.querySelector('[data-pain-prev]');
+      const nextButton = slider.querySelector('[data-pain-next]');
+
+      let visibleCount = mediaQuery.matches ? Math.min(2, originalCount) : 1;
+      let currentIndex = maxVisible;
+      let isAnimating = false;
+
+      const getSlideWidth = () => (visibleCount === 1 ? 100 : 50);
+
+      const updatePosition = (instant = false) => {
+        track.style.transitionDuration = instant ? '0ms' : '500ms';
+        track.style.transform = `translateX(-${currentIndex * getSlideWidth()}%)`;
+      };
+
+      const clampIndex = () => {
+        if (currentIndex >= originalCount + maxVisible) {
+          currentIndex -= originalCount;
+          updatePosition(true);
+        } else if (currentIndex < maxVisible) {
+          currentIndex += originalCount;
+          updatePosition(true);
+        }
+      };
+
+      const handleResize = () => {
+        const newVisible = mediaQuery.matches ? Math.min(2, originalCount) : 1;
+        if (newVisible !== visibleCount) {
+          visibleCount = newVisible;
+          updatePosition(true);
+        }
+      };
+
+      mediaQuery.addEventListener('change', handleResize);
+      window.addEventListener('resize', handleResize);
+
+      track.addEventListener('transitionend', () => {
+        isAnimating = false;
+        clampIndex();
+      });
+
+      const move = (direction) => {
+        if (isAnimating) return;
+        isAnimating = true;
+        currentIndex += direction * visibleCount;
+        updatePosition();
+      };
+
+      prevButton?.addEventListener('click', () => move(-1));
+      nextButton?.addEventListener('click', () => move(1));
+
+      updatePosition(true);
+    });
+  })();
+</script>
+

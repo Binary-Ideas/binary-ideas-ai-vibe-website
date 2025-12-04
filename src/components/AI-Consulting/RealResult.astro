@@ -1,0 +1,123 @@
+---
+interface ResultCard {
+  icon: string;
+  title: string;
+  location: string;
+  situation: string;
+  consulting: string;
+  result: string;
+  quote: string;
+  gradient: string;
+}
+
+const cards: ResultCard[] = [
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21s-7-4-7-10V5l7-2 7 2v6c0 6-7 10-7 10Z" />
+        <path d="M10 10h4" />
+        <path d="M10 13h4" />
+      </svg>
+    `,
+    title: "Medical Practice",
+    location: "Fairfax County",
+    situation:
+      "Practice losing $15,000+ monthly to missed calls but didn't know whether to invest in a call center ($5,000/month), voice AI ($500/month), or hire more front desk staff ($3,500/month). Every vendor said their solution was “the best.”",
+    consulting:
+      "We analyzed their call volume patterns, peak times, and inquiry types. Recommended a hybrid approach: Voice AI for after-hours and overflow calls ($600/month) plus one additional part-time receptionist for in-person interactions ($1,800/month). Total cost: $2,400/month vs. the $5,000/month call center they were considering.",
+    result:
+      "Saved $31,200 annually vs. their original plan while capturing 98% of inbound calls. ROI positive within 6 weeks.",
+    quote: "“We would have wasted $60,000 on the wrong solution if we hadn’t gotten consulting first.”",
+    gradient: "bg-[linear-gradient(120deg,rgba(32,64,128,1)_0%,rgba(20,30,60,1)_100%)]"
+  },
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3 2 9l10 6 10-6-10-6Z" />
+        <path d="M2 15l10 6 10-6" />
+        <path d="M12 9v12" />
+      </svg>
+    `,
+    title: "Law Firm",
+    location: "Alexandria",
+    situation:
+      "Partners wanted to implement AI for document review but were paralyzed by options. Enterprise legal tech vendors were quoting $80,000–$150,000 for complex systems. Cheaper generic AI tools couldn’t handle legal complexity. Firm was stuck in analysis paralysis for 5 months.",
+    consulting:
+      "We assessed their document types and workflows. Recommended a custom Training Agent built specifically for their practice areas ($25,000 one-time + $400/month) instead of expensive enterprise software they’d only use 40% of. Saved them $55,000+ upfront and got a solution that fit their exact needs.",
+    result:
+      "Paralegal team freed up 30 hours weekly from document review, allowing them to take on 20% more cases without hiring. Generated $180,000 in additional annual revenue from increased capacity.",
+    quote: "“Best $15,000 we’ve ever spent on consulting.”",
+    gradient: "bg-[linear-gradient(120deg,rgba(18,58,94,1)_0%,rgba(17,29,55,1)_100%)]"
+  },
+  {
+    icon: `
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 21v-8l9-7 9 7v8" />
+        <path d="M9 21V9" />
+        <path d="M15 21V9" />
+      </svg>
+    `,
+    title: "Contractor",
+    location: "Lorton",
+    situation:
+      "Owner wanted to automate lead generation and scheduling but every marketing agency had a different recommendation. He’d already wasted $8,000 on a marketing agency that delivered zero results.",
+    consulting:
+      "We analyzed where his best customers actually came from (70% referrals and online searches). Recommended: Voice AI to capture missed calls ($400/month), simple website chatbot for instant quotes ($200/month), and automated follow-up system for referrals ($150/month). Total: $750/month vs. the $3,000/month agency retainer he was considering.",
+    result:
+      "Lead volume increased 250% in 90 days. Close rate improved 35% because leads were better qualified. Saved $27,000 annually vs. the agency retainer while getting better results.",
+    quote: "“I wish I’d hired you before I wasted money on that marketing agency.”",
+    gradient: "bg-[linear-gradient(120deg,rgba(14,76,102,1)_0%,rgba(13,37,56,1)_100%)]"
+  }
+];
+---
+
+<section class="relative py-24 px-4 sm:px-8 lg:px-20">
+  <div class="mx-auto flex max-w-6xl flex-col gap-10 text-center">
+    <div class="space-y-3">
+      <h2 class="text-3xl md:text-4xl font-semibold text-white [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        <span>Real Results from </span>
+        <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">Our Consulting Clients</span>
+      </h2>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3">
+      {cards.map((card) => (
+        <article
+          class={`flex h-full flex-col rounded-[32px] border border-white/10 ${card.gradient} px-7 py-8 text-left shadow-[0_30px_80px_rgba(6,12,25,0.55)]`}
+        >
+          <div class="flex items-center gap-3 text-white">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10">
+              <span class="flex items-center justify-center" set:html={card.icon}></span>
+            </div>
+            <div>
+              <p class="text-lg font-semibold [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">{card.title}</p>
+              <p class="text-sm text-white/70 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">{card.location}</p>
+            </div>
+          </div>
+
+          <div class="mt-6 space-y-4 text-sm leading-6 text-white/80 [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#ff6b6b]">The Situation</p>
+              <p class="mt-2 text-white/80">{card.situation}</p>
+            </div>
+
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#39e5b6]">Our Consulting</p>
+              <p class="mt-2 text-white/80">{card.consulting}</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/20 bg-white/10 px-4 py-3">
+              <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#7ee8ff]">Result</p>
+              <p class="mt-2 text-white">{card.result}</p>
+            </div>
+          </div>
+
+          <div class="mt-6 border-t border-white/20 pt-4 text-white/70 text-sm italic [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+            “{card.quote.replace(/(^“|”$)/g, "")}”
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+

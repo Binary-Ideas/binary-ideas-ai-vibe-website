@@ -1,0 +1,128 @@
+---
+type IconName = "discovery" | "strategy" | "contract" | "implementation" | "optimize";
+
+interface Step {
+  id: number;
+  stepNumber: string;
+  timeframe: string;
+  title: string;
+  description: string;
+  deliverable: string;
+  gradient: string;
+  icon: IconName;
+}
+
+const steps: Step[] = [
+  {
+    id: 1,
+    stepNumber: "Step 1",
+    timeframe: "Week 1-2",
+    title: "Discovery & Assessment",
+    description:
+      "We meet with your team to understand your business, workflows, pain points, and goals. We audit your current processes to identify automation opportunities and assess your readiness for AI adoption.",
+    deliverable: "AI Readiness Assessment identifying your highest-ROI opportunities and potential roadblocks.",
+    gradient: "bg-[linear-gradient(135deg,rgba(43,127,255,1)_0%,rgba(152,16,250,1)_100%)]",
+    icon: "discovery"
+  },
+  {
+    id: 2,
+    stepNumber: "Step 2",
+    timeframe: "Week 2-3",
+    title: "Strategy Development",
+    description:
+      "We create your custom AI roadmap prioritized by ROI, feasibility, and strategic impact. We research vendors and solutions that fit your specific requirements and provide realistic cost and timeline projections.",
+    deliverable: "12-Month AI Strategy & Roadmap with vendor recommendations and implementation plan.",
+    gradient: "bg-[linear-gradient(135deg,rgba(173,70,255,1)_0%,rgba(246,51,154,1)_100%)]",
+    icon: "strategy"
+  },
+  {
+    id: 3,
+    stepNumber: "Step 3",
+    timeframe: "Week 3-4",
+    title: "Vendor Selection & Contracting",
+    description:
+      "We help you evaluate vendors, negotiate contracts, and avoid common pitfalls in AI purchasing. We review agreements to ensure you're protected and getting fair value.",
+    deliverable: "Vendor recommendations with contract review and negotiation support.",
+    gradient: "bg-[linear-gradient(135deg,rgba(96,165,250,1)_0%,rgba(167,139,250,1)_100%)]",
+    icon: "contract"
+  },
+  {
+    id: 4,
+    stepNumber: "Step 4",
+    timeframe: "Week 4-12",
+    title: "Implementation Oversight",
+    description:
+      "We oversee implementation to ensure vendors deliver what they promised, your team adopts the new systems successfully, integration with existing tools works smoothly, and you're on track to hit projected ROI.",
+    deliverable: "Weekly implementation check-ins, troubleshooting support, and progress reporting.",
+    gradient: "bg-[linear-gradient(135deg,rgba(142,81,255,1)_0%,rgba(59,130,246,1)_100%)]",
+    icon: "implementation"
+  },
+  {
+    id: 5,
+    stepNumber: "Step 5",
+    timeframe: "Month 3+",
+    title: "Optimization & Scale",
+    description:
+      "Once initial systems are live, we help you optimize performance, identify next-phase automation opportunities, and scale what's working. We continue as your strategic AI partner as your needs evolve.",
+    deliverable: "Ongoing monthly strategy sessions and performance optimization.",
+    gradient: "bg-[linear-gradient(135deg,rgba(117,255,212,1)_0%,rgba(48,201,255,1)_100%)]",
+    icon: "optimize"
+  }
+];
+
+const iconMarkup: Record<IconName, string> = {
+  discovery: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12"><path d="M21 21l-4.35-4.35"/><circle cx="11" cy="11" r="7"/></svg>`,
+  strategy: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12"><path d="M4 20h16"/><path d="M4 4h16"/><path d="M8 4v16"/><path d="M16 4v16"/><path d="M4 10h16"/><path d="M4 14h16"/></svg>`,
+  contract: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>`,
+  implementation: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12"><path d="M12 3v4"/><path d="M12 17v4"/><path d="m4.93 4.93 2.83 2.83"/><path d="m16.24 16.24 2.83 2.83"/><path d="M3 12h4"/><path d="M17 12h4"/><circle cx="12" cy="12" r="4"/></svg>`,
+  optimize: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12"><path d="M3 3v5h5"/><path d="m21 21-5-5h-5"/><path d="M21 8V3h-5"/><path d="M3 16v5h5"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>`
+};
+---
+
+<section class="relative mx-auto mt-24 max-w-6xl px-6 py-24">
+  <header class="flex flex-col items-center gap-3 text-center">
+    <h2 class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-[54px] md:leading-[64px]">
+      <span>OUR AI CONSULTING </span>
+      <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#60a5fa_0%,#8b5cf6_100%)]">
+        PROCESS
+      </span>
+    </h2>
+    <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-7 text-[#9aa3b3] sm:text-lg">
+      From initial assessment to successful implementation, here's exactly how we guide you through AI adoption without wasting money or time on wrong solutions.
+    </p>
+  </header>
+
+  <div class="relative mt-16 space-y-6">
+    {steps.map((step) => (
+      <article class="relative flex flex-col sm:flex-row rounded-[28px] border border-white/10 bg-[#0f172a]/60 p-6 shadow-[0_25px_80px_rgba(5,7,20,0.55)] backdrop-blur-lg">
+        <div class="flex flex-col sm:flex-row items-start gap-6">
+          <div
+            class={`flex h-20 w-20 md:h-24 md:w-24 items-center justify-center rounded-full text-white shadow-[0_18px_35px_rgba(11,76,140,0.45)] ${step.gradient}`}
+          >
+            <span class="sr-only">{step.title} icon</span>
+            <span class="flex items-center justify-center" set:html={iconMarkup[step.icon]} />
+          </div>
+
+          <div class="flex-1 space-y-5 mt-4 sm:mt-0">
+            <div class="space-y-2">
+              <span class="text-xs font-semibold uppercase tracking-[0.4em] text-[#4ade80]">
+                {step.stepNumber} · {step.timeframe}
+              </span>
+              <h3 class="text-2xl font-semibold leading-8 text-white">{step.title}</h3>
+            </div>
+
+            <p class="text-base leading-7 text-[#d4ddf5]">{step.description}</p>
+
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.3em] text-transparent bg-clip-text bg-[linear-gradient(90deg,#7ee8ff_0%,#c084fc_100%)]">
+                Deliverable
+              </p>
+              <p class="mt-2 text-sm leading-6 text-[#e2e8f0]">{step.deliverable}</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+

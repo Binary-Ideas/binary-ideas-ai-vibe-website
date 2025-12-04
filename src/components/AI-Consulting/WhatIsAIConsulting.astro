@@ -1,0 +1,75 @@
+---
+const introParagraphs = [
+  "Imagine having an experienced AI strategist in your corner who has no products to sell you, no incentive to push a specific solution, and whose only job is to help you make the right decision for YOUR business.",
+  "Our AI Consulting service provides strategic guidance on whether AI makes sense for your business, which specific solutions will give you the best ROI, how to implement without disrupting your current operations, and how to avoid the expensive mistakes that sink most AI projects.",
+  "We're not selling you software—we're selling you clarity, strategy, and confidence that you're making the right AI decisions for your specific situation."
+];
+
+const deliverables = [
+  "Honest assessment of whether AI can actually help your business (and we'll tell you if it can't)",
+  "Custom AI roadmap prioritized by ROI, not by what's trendy or impressive",
+  "Vendor-agnostic recommendations—we help you choose the right solution, not sell you ours",
+  "Implementation strategy that fits your budget, timeline, and team capabilities",
+  "Ongoing strategic guidance so you don't waste money on wrong turns"
+];
+---
+
+<section class="relative mx-auto mt-16 w-full max-w-[1280px] px-6 sm:px-8 md:mt-24 lg:mt-32 lg:px-12 xl:px-16">
+  <div class="relative flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:justify-start lg:gap-16">
+    <div class="relative w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] lg:max-w-[404px] lg:flex-shrink-0 self-start">
+      <div class="overflow-hidden rounded-3xl border border-[#fffefe1a] bg-[#fffefe0d] backdrop-blur-sm">
+        <img
+          src="/img/what-are-AI-agents.png"
+          alt="AI consulting expert helping business leaders"
+          loading="lazy"
+          class="h-full w-full object-cover object-top"
+        />
+      </div>
+    </div>
+
+    <div class="relative flex w-full flex-col items-center text-center lg:flex-1 lg:w-full lg:max-w-none lg:items-start lg:text-left">
+      <div
+        class="pointer-events-none absolute -top-20 hidden h-[268px] w-[420px] rounded-full bg-[radial-gradient(circle_at_30%_30%,rgba(173,70,255,0.4)_0%,rgba(15,10,33,0)_70%)] blur-[80px] lg:-top-[124px] lg:left-24 lg:block"
+        aria-hidden="true"
+      />
+
+      <h2 class="relative flex flex-wrap justify-center gap-2 [font-family:'Segoe_UI_Symbol-Regular',Helvetica] font-semibold text-3xl leading-snug text-white sm:text-4xl md:text-[44px] md:leading-[54px] lg:justify-start lg:text-[52px] lg:leading-[62px]">
+        <span>What Is</span>
+        <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">
+          AI Consulting?
+        </span>
+      </h2>
+
+      <div class="mt-6 flex w-full flex-col gap-4 text-[#d0d5db] sm:gap-6">
+        {introParagraphs.map((paragraph) => (
+          <p class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-relaxed sm:text-lg">
+            {paragraph}
+          </p>
+        ))}
+      </div>
+
+      <div class="mt-8 w-full rounded-[28px] border border-[#ffffff1a] bg-[#050915]/80 p-6 shadow-[0_25px_70px_rgba(5,6,14,0.45)]">
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-[#9db5ff] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          What You Get
+        </p>
+        <ul class="space-y-3 text-left">
+          {deliverables.map((item) => (
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] text-white text-sm font-semibold">
+                ✓
+              </span>
+              <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-relaxed text-[#e3e9fd] sm:text-lg">
+                {item}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <p class="mt-6 text-base leading-relaxed text-[#d0d5db] sm:text-lg [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        You shouldn't bet your business on advice from people who profit from you buying their specific solution. Our consulting gives you unbiased strategic guidance from Northern Virginia AI experts who succeed when YOU succeed.
+      </p>
+    </div>
+  </div>
+</section>
+

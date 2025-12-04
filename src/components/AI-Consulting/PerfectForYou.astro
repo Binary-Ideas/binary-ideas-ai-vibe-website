@@ -1,0 +1,131 @@
+---
+const cards = [
+  {
+    icon: "confused",
+    title: "You're Confused About Where to Start",
+    situation:
+      "You know AI could help, but you're overwhelmed by options. ChatGPT? Custom agents? Voice AI? Marketing automation? You don't know which solution fits your specific needs or where to start.",
+    help:
+      "We analyze your workflows, identify your highest-cost problems, and show you exactly which AI solutions will give you the fastest ROI. You get a clear, prioritized roadmap instead of drowning in options."
+  },
+  {
+    icon: "budget",
+    title: "You Can't Afford to Waste Money on Wrong Solutions",
+    situation:
+      "You have $30,000-$80,000 to invest in AI, but you only get one shot. If you choose wrong, you've blown your budget and your credibility with leadership. You need to get this right the first time.",
+    help:
+      "We provide strategic guidance that ensures your investment goes to solutions with proven ROI for businesses like yours. You get realistic cost projections, implementation timelines, and risk assessments before you spend a dime."
+  },
+  {
+    icon: "workflows",
+    title: "You Have Complex, Unique Workflows",
+    situation:
+      "Every AI vendor says \"our solution handles complexity,\" but when you dig deeper, it's built for generic use cases. Your business has unique processes, compliance requirements, or industry-specific workflows that don't fit cookie-cutter solutions.",
+    help:
+      "We assess whether off-the-shelf solutions can be adapted to your needs or if you need custom-built AI. We help you avoid overpaying for enterprise software when simpler solutions would work—or investing in cheap tools that can't handle your complexity."
+  },
+  {
+    icon: "speed",
+    title: "You Need to Move Fast But Can't Afford Mistakes",
+    situation:
+      "Your competitors are already automating. You're losing ground daily. But rushing into the wrong solution would be worse than waiting. You need speed AND accuracy.",
+    help:
+      "We accelerate your decision-making by cutting through vendor noise and giving you direct answers based on our experience with 100+ Northern Virginia businesses. What took you 3 months to research, we can assess in 2 weeks."
+  },
+  {
+    icon: "support",
+    title: "You Want Implementation Support, Not Just Advice",
+    situation:
+      "You don't just need strategy—you need someone to help you execute. You want a partner who'll be there through implementation, troubleshooting, and optimization, not a consultant who hands you a report and disappears.",
+    help:
+      "Our consulting includes implementation support. We help you select vendors, negotiate contracts, oversee deployment, train your team, and optimize performance. We're with you from strategy through execution."
+  }
+];
+
+const iconMarkup: Record<string, string> = {
+  confused: `
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" stroke-linecap="round"></circle>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5h.01"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9.5 9.25a2.5 2.5 0 0 1 5 0c0 1.2-.8 1.9-1.5 2.3-.8.5-1.2 1-.9 2.45"></path>
+    </svg>
+  `,
+  budget: `
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 9c0-1.5 1.4-2.5 3-2.5s3 1 3 2.5-1.2 2.5-3 2.5-3 1-3 2.5 1.3 2.5 3 2.5 3-1 3-2.5"></path>
+    </svg>
+  `,
+  workflows: `
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" aria-hidden="true">
+      <circle cx="8" cy="7" r="2.3"></circle>
+      <circle cx="16" cy="12" r="2.3"></circle>
+      <circle cx="8" cy="17" r="2.3"></circle>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9.9 8.2 14.1 10"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9.9 15.8 14.1 14"></path>
+    </svg>
+  `,
+  speed: `
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13 3 6 13h5l-1 8 7-10h-5l1-8Z"></path>
+    </svg>
+  `,
+  support: `
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5.5 10 9 7.5h4l2 2.5h3.5"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M7 11.5v3.5c0 .7.5 1.3 1.2 1.4l1.6.3"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 16 13 17.8c.6.4 1.4.3 1.9-.2l2.6-2.4"></path>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 13.5 10.5 12"></path>
+    </svg>
+  `
+};
+
+---
+
+<section class="relative w-full px-4 py-20 sm:px-8 lg:px-20">
+  <div class="mx-auto flex max-w-6xl flex-col gap-8">
+    <div class="text-center">
+      <h2 class="text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-[50px] md:leading-[58px] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+        AI Consulting is <span class="text-transparent bg-clip-text bg-[linear-gradient(90deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]">Perfect For You If...</span>
+      </h2>
+    </div>
+
+    <div class="flex flex-col gap-6">
+      {cards.map((card) => (
+        <article class="rounded-[28px] border border-[#ffffff10] bg-[#050915]/85 p-6 shadow-[0_25px_60px_rgba(5,6,14,0.45)] [font-family:'Segoe_UI_Symbol-Regular',Helvetica]">
+          <div class="flex items-center gap-4">
+            <span
+              class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,#2b7fff_0%,#ac46ff_50%,#f6329a_100%)]"
+              aria-hidden="true"
+              set:html={iconMarkup[card.icon] ?? iconMarkup.confused}
+            >
+            </span>
+            </span>
+            <h3 class="text-xl font-semibold text-white sm:text-2xl">{card.title}</h3>
+          </div>
+
+          <div class="mt-6 grid gap-4 lg:grid-cols-2">
+            <div class="rounded-2xl border border-[#ffffff14] bg-[#070f1f] p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#7ac8ff]">
+                Your Situation
+              </p>
+              <p class="mt-3 text-base leading-relaxed text-[#d3d9e8]">
+                {card.situation}
+              </p>
+            </div>
+
+            <div class="rounded-2xl border border-[#ffffff20] bg-[#07142a] p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#7ff4e8]">
+                How We Help
+              </p>
+              <p class="mt-3 text-base leading-relaxed text-[#d3f3ed]">
+                {card.help}
+              </p>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
