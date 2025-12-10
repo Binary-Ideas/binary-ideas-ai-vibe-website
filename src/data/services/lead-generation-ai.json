@@ -347,6 +347,378 @@
   },
   "serviceArea": {
     "introText": "We proudly serve businesses across Northern Virginia with Lead Generation AI and local expertise. Choose a city to see tailored details."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#service",
+        "serviceType": "Lead Generation AI Services",
+        "name": "Lead Generation AI - Intelligent Lead Qualification & Scoring",
+        "description": "AI-powered lead generation system that automatically captures, qualifies, and routes high-intent prospects. Stop wasting $3,000-$7,000 monthly on unqualified leads. Reduce cost per qualified lead by 60-80% and increase sales productivity 2.5-3.5X.",
+        "provider": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "category": "AI Lead Generation",
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Small and Medium B2B and B2C Businesses"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Fairfax", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Arlington", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Alexandria", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Burke", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Woodbridge", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Fairfax Station", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Manassas", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Fredericksburg", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Springfield", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Reston", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Tysons", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Herndon", "containedInPlace": { "@type": "State", "name": "Virginia" } }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "description": "Free lead quality audit to identify where you're losing money on unqualified prospects",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Lead Generation AI Features",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Automated Lead Capture",
+                "description": "Monitor every form, chat, phone call, and ad click across all your marketing channels. Never miss a potential customer."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Intelligent Lead Scoring",
+                "description": "Advanced AI analyzes prospect behavior, engagement, and fit to score every lead from 0-100. Prioritize the prospects most likely to buy."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Smart Lead Routing",
+                "description": "Automatically route high-intent leads to the right sales rep in real-time. Low-quality leads go to nurture sequences instead of wasting sales time."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Real-Time Qualification",
+                "description": "AI asks the right qualifying questions instantly, gathering budget, timeline, authority, and needs data before leads reach your sales team."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Multi-Channel Attribution",
+                "description": "Track which marketing channels drive quality leads versus just clicks. Make data-driven decisions about where to invest your marketing budget."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "CRM Integration",
+                "description": "Seamlessly integrates with Salesforce, HubSpot, Pipedrive, and other major CRM platforms. All lead data and scoring automatically syncs."
+              }
+            }
+          ]
+        },
+        "serviceOutput": [
+          { "@type": "QuantitativeValue", "name": "Cost Per Qualified Lead Reduction", "minValue": "60", "maxValue": "80", "unitText": "PERCENT" },
+          { "@type": "QuantitativeValue", "name": "Sales Productivity Increase", "minValue": "2.5", "maxValue": "3.5", "unitText": "X" },
+          { "@type": "MonetaryAmount", "name": "Additional Monthly Revenue", "minValue": "5000", "maxValue": "20000", "currency": "USD" },
+          { "@type": "QuantitativeValue", "name": "First Year ROI", "minValue": "400", "maxValue": "800", "unitText": "PERCENT" }
+        ]
+      },
+      {
+        "@type": "Product",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#product",
+        "name": "Lead Generation AI - Smart Lead Qualification System",
+        "description": "AI-powered system that captures, scores, and routes high-quality leads automatically. Reduce wasted ad spend by 60-80% and increase sales productivity 2.5-3.5X with intelligent lead qualification.",
+        "brand": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization" },
+        "category": "Marketing Automation Software",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+          "description": "Custom pricing based on lead volume and business requirements"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "ratingCount": "40"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#webpage",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "name": "Lead Generation AI - Stop Wasting Money on Unqualified Leads | Binary Ideas AI",
+        "description": "AI-powered lead qualification for Northern Virginia businesses. Reduce cost per qualified lead by 60-80%, increase sales productivity 2.5-3.5X, and generate $5,000-$20,000+ additional monthly revenue.",
+        "isPartOf": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website" },
+        "about": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#service" },
+        "breadcrumb": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Lead Generation AI", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How quickly will we see improvements in lead quality with Lead Generation AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most clients begin seeing better-qualified leads within the first week of implementation. Significant improvements—50-70% reduction in cost per qualified lead—typically occur within 2-4 weeks as the AI learns your audience and refines its qualification criteria. The AI gets smarter with every lead, so performance continues improving over time. By month 3, most clients report their sales team is 2-3X more productive and close rates have improved 40-60% on AI-qualified leads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if we already use a CRM or marketing automation platform?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our Lead Generation AI integrates seamlessly with most major platforms including Salesforce, HubSpot, Pipedrive, ActiveCampaign, Mailchimp, and others commonly used by Northern Virginia businesses. We handle all integration work during setup—no disruption to your current workflow, no data migration headaches, no learning curve for your team."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the AI determine if a lead is qualified or not?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "During setup, we work with you to define your ideal customer profile: budget range, timeline, decision authority, specific needs, company size (for B2B), and other criteria that matter to YOUR business. The AI then uses these criteria plus behavioral signals (engagement, content downloads, website activity, email opens, pages viewed) to score every lead from 0-100. You have full control over the qualification criteria and can adjust them anytime based on what's actually converting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens to leads that don't qualify immediately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They're not thrown away. Leads that don't qualify now but show some potential get added to automated nurturing sequences—periodic emails, content offers, educational resources—that keep them engaged until they ARE ready. When their behavior and engagement improve (opening emails, downloading resources, revisiting pricing page), the AI automatically re-scores them and routes them to sales when they're qualified. Nothing falls through the cracks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of ROI can we expect from Lead Generation AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most clients see 400-800% ROI in the first year from three main sources: (1) 60-80% reduction in cost per qualified lead, (2) 2.5-3.5X increase in sales team productivity, and (3) higher close rates from faster response to hot prospects. The average client generates $5,000-$20,000 in additional monthly revenue while spending LESS on marketing. Specific results depend on your industry, average deal size, and current lead quality—but we track everything and show you exactly where the ROI is coming from."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if our lead volume is low—under 50 leads per month?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lead Generation AI still provides tremendous value even with lower volume. When you only get 50 leads per month, you can't afford to waste time on the 30-35 that aren't qualified. The AI ensures your team focuses exclusively on the 15-20 that are actually worth pursuing—dramatically improving conversion rates and sales efficiency even if total volume is modest. Plus, better data on which channels drive quality helps you increase volume strategically over time."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#howto",
+        "name": "How to Implement Lead Generation AI",
+        "description": "Four simple steps to transform your lead quality and sales productivity",
+        "totalTime": "P21D",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "0" },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Free 30-Minute Lead Quality Audit",
+            "text": "We analyze your current lead sources, cost per lead, conversion rates, and sales process to show you exactly where you're losing money on unqualified prospects. No sales pitch—just honest data on where you stand and what's possible.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step1"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "We Build & Install Your Custom AI Qualifier",
+            "text": "We define your ideal customer profile together (budget, timeline, needs, authority), then train the AI to recognize those signals in incoming leads. We integrate with your existing CRM, marketing tools, and lead sources—Google Ads, Facebook, website forms, landing pages—no rebuild needed.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step2"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Watch Lead Quality Soar & Costs Plummet",
+            "text": "Your AI starts qualifying every lead instantly—asking the right questions, scoring based on buying signals, routing hot prospects to sales in real-time, and filtering out time-wasters automatically. Your team only talks to ready-to-buy prospects.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step3"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Continuous Optimization & Support",
+            "text": "We monitor performance, analyze conversion data, and continuously refine your qualification criteria and scoring algorithms. As your business evolves, your Lead Generation AI evolves with you—getting smarter and more accurate every week.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step4"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#casestudies",
+        "name": "Lead Generation AI Case Studies",
+        "description": "Real results from Northern Virginia businesses using Lead Generation AI",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Review",
+              "itemReviewed": { "@type": "Service", "name": "Lead Generation AI for B2B Software" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": {
+                "@type": "Organization",
+                "name": "B2B Software Company in Arlington",
+                "address": { "@type": "PostalAddress", "addressLocality": "Arlington", "addressRegion": "VA" }
+              },
+              "description": "Arlington B2B software company reduced cost per qualified lead from $280 to $85 (70% savings), increased close rate from 18% to 47%, and added $680,000 in annual revenue with the same team size.",
+              "reviewBody": "One Arlington B2B software company reduced cost per qualified lead from $280 to $85 (70% savings), increased close rate from 18% to 47%, and added $680,000 in annual revenue with the same team size."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Review",
+              "itemReviewed": { "@type": "Service", "name": "Lead Generation AI for Real Estate" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": {
+                "@type": "RealEstateAgent",
+                "name": "Real Estate Team in Fairfax",
+                "address": { "@type": "PostalAddress", "addressLocality": "Fairfax", "addressRegion": "VA" }
+              },
+              "description": "Fairfax real estate team cut cost per qualified buyer from $650 to $180, responded to hot leads in 8 minutes instead of 2 days, closed 11 more homes in 6 months = $264,000 additional GCI with same agent headcount.",
+              "reviewBody": "Fairfax real estate team cut cost per qualified buyer from $650 to $180, responded to hot leads in 8 minutes instead of 2 days, closed 11 more homes in 6 months = $264,000 additional GCI with same agent headcount."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Review",
+              "itemReviewed": { "@type": "Service", "name": "Lead Generation AI for HVAC Services" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": {
+                "@type": "LocalBusiness",
+                "name": "HVAC Company in Manassas",
+                "address": { "@type": "PostalAddress", "addressLocality": "Manassas", "addressRegion": "VA" }
+              },
+              "description": "Manassas HVAC company freed up 18 hours/week of sales time previously wasted on unqualified leads, increased qualified leads by 140%, and grew revenue 35% with same team size. Emergency calls now routed in 90 seconds instead of 20 minutes.",
+              "reviewBody": "Manassas HVAC company freed up 18 hours/week of sales time previously wasted on unqualified leads, increased qualified leads by 140%, and grew revenue 35% with same team size. Emergency calls now routed in 90 seconds instead of 20 minutes."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Review",
+              "itemReviewed": { "@type": "Service", "name": "Lead Generation AI for E-commerce" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Organization", "name": "Online Retailer", "address": { "@type": "PostalAddress", "addressRegion": "VA" } },
+              "description": "Online retailer increased conversion rate on abandoned carts by 58%, identified high-value prospects ($500+ cart value) for VIP treatment, recovered $12,000/month in previously lost revenue, and reduced ad spend by 40% by focusing on high-intent traffic.",
+              "reviewBody": "Online retailer increased conversion rate on abandoned carts by 58%, identified high-value prospects ($500+ cart value) for VIP treatment, recovered $12,000/month in previously lost revenue, and reduced ad spend by 40% by focusing on high-intent traffic."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#benefits",
+        "name": "Lead Generation AI Benefits",
+        "description": "Key benefits of implementing Lead Generation AI",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Reduce Cost Per Qualified Lead by 60-80%",
+            "description": "Stop wasting money on tire-kickers. AI identifies high-intent prospects instantly, ensuring you only pay for leads that actually convert."
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Increase Sales Productivity 2.5-3.5X",
+            "description": "Free your sales team from wasting 15-20 hours weekly on unqualified leads. They'll focus exclusively on prospects ready to buy."
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Generate $5,000-$20,000+ Additional Monthly Revenue",
+            "description": "Better lead quality, faster response times, and higher close rates translate directly into measurable revenue growth."
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Track ROI by Marketing Channel",
+            "description": "Finally know which channels drive quality leads versus just clicks. Make data-driven decisions about where to invest your marketing budget."
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "name": "Binary Ideas AI",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
+        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Custom Lead Generation AI that helps businesses stop wasting $3,000-$7,000 monthly on unqualified leads.",
+        "telephone": "+1-703-690-9726",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lorton",
+          "addressRegion": "VA",
+          "addressCountry": "US"
+        },
+        "areaServed": { "@type": "State", "name": "Virginia" },
+        "sameAs": [
+          "https://www.facebook.com/binaryideasai",
+          "https://www.linkedin.com/company/binaryideasai"
+        ]
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#freeconsultation",
+        "name": "Free Lead Quality Audit",
+        "description": "Free 30-minute audit analyzing your current lead sources, cost per lead, conversion rates, and sales process. Identify exactly where you're losing money on unqualified prospects.",
+        "price": "0",
+        "priceCurrency": "USD",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2024-01-01",
+        "seller": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization" },
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Lead Quality Analysis",
+          "description": "Comprehensive analysis of your lead generation process and identification of waste"
+        }
+      }
+    ]
   }
 }
 

@@ -343,6 +343,429 @@
   },
   "serviceArea": {
     "introText": "We proudly serve businesses across Northern Virginia with Social Media AI and local market expertise. Choose a city to see tailored details."
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#service",
+        "serviceType": "Social Media AI Management Services",
+        "name": "Social Media AI - Automated Content Creation & Management",
+        "description": "AI-powered social media management that creates, schedules, and posts content automatically across all platforms. Stop losing $5,000-$15,000 monthly from inactive profiles. Save 15+ hours per week and increase engagement by 50-150%.",
+        "provider": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "category": "Social Media Marketing Automation",
+        "audience": {
+          "@type": "BusinessAudience",
+          "audienceType": "Small and Medium Businesses"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Fairfax", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Arlington", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Alexandria", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Burke", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Woodbridge", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Fairfax Station", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Manassas", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Fredericksburg", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Springfield", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Reston", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Tysons", "containedInPlace": { "@type": "State", "name": "Virginia" } },
+          { "@type": "City", "name": "Herndon", "containedInPlace": { "@type": "State", "name": "Virginia" } }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "description": "Free social media audit analyzing your current social presence and identifying lost opportunities",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Social Media AI Features",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Multi-Platform Content Creation",
+                "description": "AI creates platform-specific content for Facebook, Instagram, LinkedIn, Twitter, TikTok, and YouTube automatically."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Brand Voice Training",
+                "description": "AI learns your unique brand voice, tone, and messaging style to create content that sounds authentically like you."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Automated Posting & Scheduling",
+                "description": "Content is scheduled and posted at optimal times based on when your audience is most engaged."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Engagement Management",
+                "description": "AI responds to comments, messages, and inquiries instantly while escalating important conversations to you."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Performance Analytics",
+                "description": "Comprehensive dashboards track engagement, reach, leads, conversions, and ROI across all platforms."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Content Variety & Optimization",
+                "description": "Creates text posts, images, videos, stories, carousels, polls, and more—all optimized for each platform's algorithm."
+              }
+            }
+          ]
+        },
+        "serviceOutput": [
+          { "@type": "QuantitativeValue", "name": "Time Saved Weekly", "minValue": "15", "unitText": "HOUR" },
+          { "@type": "QuantitativeValue", "name": "Engagement Increase", "minValue": "50", "maxValue": "150", "unitText": "PERCENT" },
+          { "@type": "MonetaryAmount", "name": "Revenue Recovery", "minValue": "5000", "maxValue": "15000", "currency": "USD" },
+          { "@type": "Duration", "name": "Implementation Time", "duration": "P10D" }
+        ]
+      },
+      {
+        "@type": "Product",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#product",
+        "name": "Social Media AI - Automated Social Media Management",
+        "description": "AI-powered social media automation that creates, schedules, and posts content across all platforms. Save 15+ hours weekly, increase engagement by 50-150%, and never go dark again.",
+        "brand": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "category": "Social Media Management Software",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+          "description": "Month-to-month pricing with no long-term contracts",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1",
+              "unitCode": "MON"
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "ratingCount": "35"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#webpage",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "name": "Social Media AI - Stop Losing Customers to Inactive Profiles | Binary Ideas AI",
+        "description": "AI-powered social media automation for Northern Virginia businesses. Save 15+ hours per week, increase engagement by 50-150%, and stop losing $5,000-$15,000 monthly to inactive social profiles.",
+        "isPartOf": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+        },
+        "about": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Social Media AI", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which social media platforms does Social Media AI support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our Social Media AI supports all major platforms including Facebook, Instagram, LinkedIn, Twitter, TikTok, and YouTube. We optimize content specifically for each platform's algorithm, audience, and format requirements while maintaining consistent brand messaging across all channels. For most Northern VA businesses, we focus heavily on Facebook (for local visibility), Instagram (for visual engagement), and LinkedIn (for B2B connections), with additional platforms added based on where your specific audience spends time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can we review content before it's posted?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. You have three options based on your comfort level: (1) Full Autopilot: AI creates and posts automatically—you just review performance weekly. (2) Approval Workflow: You review and approve content batches before they go live. (3) Hybrid: AI posts routine content automatically, but flags certain post types for your approval. Most clients start with approval workflows and transition to autopilot once they trust the AI's content quality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the AI maintain our brand voice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We train the AI on YOUR specific brand voice through a comprehensive onboarding process: We analyze your existing social media content, blog posts, website copy, and customer communications. You complete a brand voice questionnaire defining your tone, style, and messaging preferences. We provide sample posts for your review and feedback before launch. The AI continuously learns from your edits and feedback to improve over time. Within 2-3 weeks, the AI produces content that accurately reflects your brand voice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of content can the AI create?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The AI creates virtually every type of social media content: Text posts (updates, announcements, thought leadership, tips), Photo posts (before-and-after showcases, product highlights, team introductions), Video scripts (short-form video, reels, stories, TikToks), Stories (daily story content for Instagram and Facebook), Carousels (multi-image educational and promotional content), Polls & Questions (interactive engagement content), Event promotions (grand openings, sales, special events), and User-generated content (amplifying customer reviews and testimonials). All content is adapted to each platform's best practices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we measure success with Social Media AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide comprehensive analytics dashboards that track the metrics that matter for YOUR business: Engagement metrics (likes, comments, shares, saves, story interactions), Reach metrics (impressions, profile visits, follower growth), Lead metrics (click-throughs, DM inquiries, form submissions), Conversion metrics (actual customers generated from social media), Time savings (hours saved on content creation), and ROI (revenue generated vs. cost of service). You get weekly dashboard access and monthly detailed reports showing exactly what's working."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the AI handle negative comments or complaints?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with intelligent escalation: Positive comments get appreciated responses that maintain engagement. Simple questions get immediate, accurate answers. Qualified leads get responses and immediate alerts to you for follow-up. Negative comments get flagged instantly and notify you for personal handling. Spam/trolls get identified and hidden while flagging you to review. You set the escalation rules during setup, and the AI learns from how you handle edge cases over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does Social Media AI implementation take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "From decision to launch: Day 1-2: Onboarding call, brand voice training, platform connections. Day 3-5: AI training on your content, approval of initial content samples. Day 6-7: Final adjustments, scheduling setup, launch preparation. Day 8+: Live and posting automatically. Most clients are fully live within 7-10 business days. During implementation, we handle all technical setup—you just provide brand information and approval."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if we want to pause or cancel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No long-term contracts or cancellation fees. You can pause or cancel anytime: Pause: Keep your account active but stop posting (useful for seasonal businesses or temporary situations). Cancel: Full cancellation with no penalties—you own all content created during your service period. Month-to-month flexibility means you're never locked in. We earn your business every month by delivering results, not by trapping you in contracts."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#howto",
+        "name": "How to Get Started with Social Media AI",
+        "description": "Four simple steps to automate your social media and reclaim 15+ hours per week",
+        "totalTime": "P10D",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "0"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Free 30-Minute Social Media Audit",
+            "text": "We analyze your current social media presence (or lack thereof), identify where you're losing customers due to inactive profiles, and show you exactly what AI-powered social media can do for YOUR business. No sales pitch—just honest feedback.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step1"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "We Train Your AI on Your Brand Voice",
+            "text": "We analyze your existing content, website, and communications to understand your brand voice. Then we train the AI to create content that sounds exactly like YOU—not generic robot posts. You review samples, provide feedback, and we fine-tune until it's perfect.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step2"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "We Connect & Launch Your AI",
+            "text": "We connect to all your social media accounts, set up your content calendar, configure engagement rules, and launch. From day one, your AI starts creating content, scheduling posts, monitoring comments, and engaging with your audience—all automatically.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step3"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Watch Engagement Soar (While We Monitor)",
+            "text": "Your AI creates and posts content 3-7X per week across all your platforms. It engages with comments and messages automatically, tracks performance analytics, and continuously optimizes for better results. You review performance dashboards weekly or let it run completely on autopilot.",
+            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step4"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#usecases",
+        "name": "Social Media AI Use Cases",
+        "description": "Industry-specific applications of Social Media AI with measurable results",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Service",
+              "name": "Social Media AI for Real Estate Agents",
+              "description": "AI automatically creates posts for new listings with professional property descriptions, generates market update content, schedules open house announcements, shares testimonials, and maintains your personal brand presence.",
+              "serviceType": "Real Estate Social Media Automation",
+              "provider": {
+                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+              },
+              "serviceOutput": [
+                { "@type": "QuantitativeValue", "name": "Listing Visibility Increase", "minValue": "3", "maxValue": "5", "unitText": "X" },
+                { "@type": "QuantitativeValue", "name": "Additional Qualified Leads Monthly", "minValue": "5", "maxValue": "10", "unitText": "leads" }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Service",
+              "name": "Social Media AI for Contractors & Home Services",
+              "description": "AI creates before-and-after project showcases, shares customer testimonials, posts seasonal home maintenance tips, highlights your expertise with educational content, and maintains active engagement with your local community.",
+              "serviceType": "Contractor Social Media Automation",
+              "provider": {
+                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+              },
+              "serviceOutput": [
+                { "@type": "QuantitativeValue", "name": "Close Rate Increase", "minValue": "20", "maxValue": "40", "unitText": "PERCENT" },
+                { "@type": "QuantitativeValue", "name": "Additional Monthly Leads", "minValue": "8", "maxValue": "12", "unitText": "leads" }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Service",
+              "name": "Social Media AI for Healthcare Practices",
+              "description": "AI creates patient education content, shares health tips, promotes new services, highlights staff expertise, manages appointment reminders, responds to inquiry messages instantly, and maintains HIPAA-compliant engagement.",
+              "serviceType": "Healthcare Social Media Automation",
+              "provider": {
+                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+              },
+              "serviceOutput": {
+                "@type": "Text",
+                "value": "Calendar fills with new patients who discovered you through social media, existing patients engage more and refer friends, your practice appears modern and tech-savvy, and you establish thought leadership in your specialty."
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Service",
+              "name": "Social Media AI for Restaurants & Hospitality",
+              "description": "AI creates daily food showcases, promotes specials and events, shares customer reviews, highlights behind-the-scenes content, responds to reservation inquiries instantly, manages takeout/delivery promotions, and optimizes content for maximum local reach.",
+              "serviceType": "Restaurant Social Media Automation",
+              "provider": {
+                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+              },
+              "serviceOutput": [
+                { "@type": "QuantitativeValue", "name": "Additional Weekly Covers", "minValue": "20", "maxValue": "50", "unitText": "covers" },
+                { "@type": "QuantitativeValue", "name": "Event Promotion Reach Increase", "minValue": "5", "maxValue": "10", "unitText": "X" },
+                { "@type": "MonetaryAmount", "name": "Monthly Revenue Recovery", "value": "12000", "currency": "USD" }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#benefits",
+        "name": "Social Media AI Benefits",
+        "description": "Key benefits of implementing Social Media AI",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Save 15+ Hours Per Week",
+            "description": "Eliminate time wasted on content creation, scheduling, posting, and engagement management. Your AI handles it all automatically."
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Increase Engagement by 50-150%",
+            "description": "Consistent posting at optimal times with platform-optimized content drives dramatically higher engagement rates."
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Never Go Dark Again",
+            "description": "Your social media stays active 24/7/365—even when you're busy serving customers, on vacation, or just living your life."
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Recover $5,000-$15,000 Monthly",
+            "description": "Stop losing qualified leads who check your inactive social media and assume you're out of business."
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "name": "Binary Ideas AI",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
+        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Social Media AI that helps businesses stop losing $5,000-$15,000 monthly from inactive social profiles.",
+        "telephone": "+1-703-690-9726",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lorton",
+          "addressRegion": "VA",
+          "addressCountry": "US"
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Virginia"
+        },
+        "sameAs": [
+          "https://www.facebook.com/binaryideasai",
+          "https://www.linkedin.com/company/binaryideasai",
+          "https://www.instagram.com/binaryideasai"
+        ]
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#freeconsultation",
+        "name": "Free Social Media Audit",
+        "description": "Free 30-minute audit analyzing your current social media presence, identifying where you're losing customers, and showing what AI-powered social media can do for your business.",
+        "price": "0",
+        "priceCurrency": "USD",
+        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2024-01-01",
+        "seller": {
+          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+        },
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Social Media Analysis Consultation",
+          "description": "Comprehensive analysis of your social media presence and lost opportunity identification"
+        }
+      }
+    ]
   }
 }
 

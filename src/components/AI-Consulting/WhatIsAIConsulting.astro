@@ -55,8 +55,18 @@ const deliverables = [
         <ul class="space-y-3 text-left">
           {deliverables.map((item) => (
             <li class="flex items-start gap-3">
-              <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] text-white text-sm font-semibold">
-                ✓
+              <span class="mt-1 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[linear-gradient(90deg,#3785ff_0%,#b020f5_100%)] text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  class="h-4 w-4"
+                  aria-hidden="true"
+                >
+                  <path d="M5 10.5 8 13.5 15 6.5" />
+                </svg>
               </span>
               <span class="[font-family:'Segoe_UI_Symbol-Regular',Helvetica] text-base leading-relaxed text-[#e3e9fd] sm:text-lg">
                 {item}
