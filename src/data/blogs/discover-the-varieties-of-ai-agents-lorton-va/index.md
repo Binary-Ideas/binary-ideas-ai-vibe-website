@@ -125,3 +125,528 @@ We've done AI for dog groomers, electricians, yoga teachers. If people call or a
 
 **Q5: How long to set up?**
 Some agents go live same week. Others take 1–2 weeks. Depends on what you need.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#article",
+      "headline": "Discover the Varieties of AI Agents Lorton VA Available",
+      "alternativeHeadline": "AI Agents Lorton VA – Discover the Different Types of AI Automations for Local Businesses",
+      "description": "Explore 7 varieties of AI agents helping Lorton VA businesses automate tasks, save time, and grow. From chatbots to voice agents—with real local success stories.",
+      "image": "https://binaryideas.ai/path-to-featured-image.jpg",
+      "datePublished": "2025-07-23",
+      "dateModified": "2025-07-23",
+      "author": {
+        "@id": "https://binaryideas.ai/#robert-san-diego"
+      },
+      "publisher": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/"
+      },
+      "articleSection": "AI Agents",
+      "keywords": "AI agents, Lorton VA, Automation, Small business, Productivity, AI varieties, types of AI",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "AI Agents"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business Automation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Artificial Intelligence"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Place",
+          "name": "Lorton, VA"
+        },
+        {
+          "@type": "Place",
+          "name": "Lorton Station Rd"
+        },
+        {
+          "@type": "Place",
+          "name": "Pohick Rd"
+        },
+        {
+          "@type": "Place",
+          "name": "Silverbrook Rd"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will these AI Agents replace my team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nah. They just help. Think of 'em like extra hands, not a replacement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need tech skills to use AI Agents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nope. We set it all up for you. You don't even have to log in if you don't want to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Starts low — like one Starbucks coffee a day. Real talk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I have a weird type of business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We've done AI for dog groomers, electricians, yoga teachers. If people call or ask questions, AI can help."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long to set up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some agents go live same week. Others take 1–2 weeks. Depends on what you need."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#agent-varieties",
+      "name": "7 Varieties of AI Agents for Lorton VA Businesses",
+      "description": "Complete list of AI agent types available for local business automation",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Chatbot Agent",
+            "alternateName": "The Friendly Front Desk",
+            "description": "Handles questions on your site 24/7 — pricing, hours, directions. Never sleeps receptionist that can answer FAQs specific to your business.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Lead Generation Agent",
+            "alternateName": "The Silent Salesperson",
+            "description": "Grabs leads from your site, Facebook, or SMS — then warms them up. Talks like a real person and filters out tire-kickers.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Email Marketing Agent",
+            "alternateName": "The Follow-Up King",
+            "description": "Writes and sends emails automatically — reminders, promos, newsletters. Segments your audience so people get messages that match what they need.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Voice Agent",
+            "alternateName": "The AI Phone Guy",
+            "description": "Answers calls, sets appointments, and handles simple questions without sounding robotic. Your AI can talk now.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Training AI Agent",
+            "alternateName": "Your Digital Trainer",
+            "description": "Learns your internal processes and trains your new staff. Like cloning your best employee into a video + chat combo.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Social Media Agent",
+            "alternateName": "The Content Assistant",
+            "description": "Creates content, schedules posts, and replies to comments and DMs. Understands tone so you don't sound like a bot.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Scheduling Agent",
+            "alternateName": "Your Appointment Setter",
+            "description": "Books appointments through your website or socials — even sends reminders. Works awesome for salons, clinics, or service pros.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud-based"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#howto",
+      "name": "How to Get Started with AI Agents",
+      "description": "4-step process to implement AI agents in your Lorton business",
+      "totalTime": "PT1W",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Quick Call",
+          "text": "15-minute consultation where we ask what's stressing you out",
+          "url": "https://binaryideas.ai/schedule"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Pick Your Agent(s)",
+          "text": "Just start with one or two AI agents that fit your needs"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "We Install & Train It",
+          "text": "No tech skills needed. We handle all the setup and training."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "We Monitor & Optimize",
+          "text": "You chill. We tweak stuff and make sure it's working perfectly."
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://binaryideas.ai/#localbusiness",
+      "name": "Binary Ideas AI Automation Agency",
+      "image": "https://binaryideas.ai/logo.png",
+      "telephone": "(703) 690-9726",
+      "email": "info@binaryideasai.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9525 4th Place",
+        "addressLocality": "Lorton",
+        "addressRegion": "VA",
+        "postalCode": "22079",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "38.7041",
+        "longitude": "-77.2283"
+      },
+      "url": "https://binaryideas.ai",
+      "priceRange": "$",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lorton",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Virginia"
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Lorton Station"
+        },
+        {
+          "@type": "Place",
+          "name": "Silverbrook"
+        },
+        {
+          "@type": "Place",
+          "name": "Pohick"
+        },
+        {
+          "@type": "Place",
+          "name": "Gunston Plaza"
+        },
+        {
+          "@type": "Place",
+          "name": "Furnace Rd"
+        },
+        {
+          "@type": "Place",
+          "name": "Northern Virginia"
+        }
+      ],
+      "description": "Binary Ideas AI sets up smart, easy-to-use AI automations for Lorton VA businesses. 7 varieties of AI agents available. Local, real people, no tech talk.",
+      "slogan": "Transforming businesses with intelligent automation",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Agent Implementation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Chatbot Agent Setup",
+              "description": "24/7 front desk automation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lead Generation Agent",
+              "description": "Automated lead capture and qualification"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Email Marketing Agent",
+              "description": "Automated email campaigns and follow-ups"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Voice Agent Setup",
+              "description": "AI phone answering and appointment booking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Training AI Agent",
+              "description": "Automated staff training system"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media Agent",
+              "description": "Automated content creation and posting"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Scheduling Agent",
+              "description": "Automated appointment booking and reminders"
+            }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Organization",
+            "name": "Dental Clinic near Silverbrook Rd"
+          },
+          "reviewBody": "Cut down missed appointments by 60% using chatbot agent",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Organization",
+            "name": "HVAC Client in Lorton"
+          },
+          "reviewBody": "Saw 4x more leads in 30 days. Like having a free sales guy.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Organization",
+            "name": "Auto Repair Shop by Furnace Rd"
+          },
+          "reviewBody": "Saved 18 hours a week just from not answering common phone questions",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Organization",
+            "name": "Smoothie Bar in Gunston Plaza"
+          },
+          "reviewBody": "Their Instagram blew up with 3 AI reels a week",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "4"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://binaryideas.ai/#organization",
+      "name": "Binary Ideas AI",
+      "url": "https://binaryideas.ai",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://binaryideas.ai/logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "Northern Virginia's Premier AI Automation Agency specializing in 7 varieties of AI agents for local businesses",
+      "sameAs": [
+        "https://www.facebook.com/binaryideasai",
+        "https://www.linkedin.com/company/binary-ideas-ai",
+        "https://twitter.com/binaryideasai",
+        "https://www.instagram.com/binaryideasai"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-703-690-9726",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": ["English"]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://binaryideas.ai/#robert-san-diego",
+      "name": "Robert San Diego",
+      "jobTitle": "AI Strategist & Automation Partner",
+      "description": "Robert San Diego is an AI technology expert and Computer Information Systems graduate from Strayer University (Cum Laude). He helps businesses leverage artificial intelligence to transform operations and gain competitive advantage, translating complex AI concepts into practical strategies anyone can use.",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Strayer University"
+      },
+      "worksFor": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "url": "https://binaryideas.ai/about-robert-san-diego",
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "AI Agents",
+        "Business Automation",
+        "Chatbot Development",
+        "Voice AI",
+        "Lead Generation",
+        "Email Marketing Automation"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://binaryideas.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blogs",
+          "item": "https://binaryideas.ai/blogs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Discover the Varieties of AI Agents Lorton VA",
+          "item": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/#service",
+      "serviceType": "AI Agent Implementation",
+      "provider": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Lorton",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Virginia"
+          }
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://binaryideas.ai/discover-the-varieties-of-ai-agents-lorton-va/",
+        "priceCurrency": "USD",
+        "price": "0",
+        "name": "Free 15-Minute Consultation",
+        "description": "Free session to discover which AI agents fit your business needs"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9525 4th Place",
+            "addressLocality": "Lorton",
+            "addressRegion": "VA",
+            "postalCode": "22079"
+          }
+        }
+      }
+    }
+  ]
+}
+</script>

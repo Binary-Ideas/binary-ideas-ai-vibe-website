@@ -176,3 +176,136 @@ All while you focus on what you do best.
 Visit us at: 9525 4th Place, Lorton, VA 22079
 
 Let’s talk about how to set up the right **AI agent** for your business.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://binaryideas.ai/#website",
+      "url": "https://binaryideas.ai/",
+      "name": "Binary Ideas AI Automation Agency",
+      "publisher": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://binaryideas.ai/#organization",
+      "name": "Binary Ideas AI Automation Agency",
+      "url": "https://binaryideas.ai/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://binaryideas.ai/#logo",
+        "url": "https://binaryideas.ai/logo.png",
+        "contentUrl": "https://binaryideas.ai/logo.png",
+        "caption": "Binary Ideas AI Automation Agency"
+      },
+      "sameAs": [
+        "https://www.facebook.com/binaryideasai",
+        "https://www.linkedin.com/company/binary-ideas-ai"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://binaryideas.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://binaryideas.ai/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Agents Lorton VA: What Are the Different Types of AI Agents?",
+          "item": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#webpage",
+      "url": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/",
+      "name": "AI Agents Lorton VA: What Are the Different Types of AI Agents?",
+      "isPartOf": {
+        "@id": "https://binaryideas.ai/#website"
+      },
+      "about": [
+        { "@type": "Thing", "name": "AI agents" },
+        { "@type": "Thing", "name": "AI automation" }
+      ],
+      "breadcrumb": {
+        "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#breadcrumbs"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#primaryimage",
+        "url": "https://binaryideas.ai/images/ai-agents-lorton-va-types.jpg",
+        "contentUrl": "https://binaryideas.ai/images/ai-agents-lorton-va-types.jpg"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#blogposting",
+      "mainEntityOfPage": {
+        "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#webpage"
+      },
+      "headline": "AI Agents Lorton VA: What Are the Different Types of AI Agents?",
+      "description": "A practical breakdown of different AI agent types used by businesses—like booking agents and email marketing agents—and what each one does.",
+      "image": {
+        "@id": "https://binaryideas.ai/ai-agents-lorton-va-what-are-the-different-types/#primaryimage"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://binaryideas.ai/#organization",
+        "name": "Binary Ideas AI Automation Agency"
+      },
+      "publisher": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "datePublished": "2025-06-25",
+      "dateModified": "2025-06-25",
+      "inLanguage": "en-US",
+      "articleSection": [
+        "AI Agents",
+        "AI Automation",
+        "Local Business Automation"
+      ],
+      "keywords": [
+        "AI agents",
+        "types of AI agents",
+        "AI agents Lorton VA",
+        "booking agent",
+        "email marketing agent",
+        "workflow automation",
+        "chatbot AI",
+        "voice AI"
+      ],
+      "about": [
+        { "@type": "Thing", "name": "Artificial intelligence" },
+        { "@type": "Thing", "name": "Intelligent agent" },
+        { "@type": "Thing", "name": "Business automation" }
+      ],
+      "mentions": [
+        { "@type": "Thing", "name": "Booking Agent" },
+        { "@type": "Thing", "name": "Email Marketing Agent" }
+      ],
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Lorton, VA"
+      }
+    }
+  ]
+}
+</script>

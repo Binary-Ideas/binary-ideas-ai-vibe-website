@@ -461,7 +461,7 @@ excerpt: "Learn ten advanced chatbot data protection strategies tailored to Lort
         },
         {
           "@type": "ListItem",
-          "position": 5",
+          "position": 5,
           "item": {
             "@type": "Article",
             "name": "10-Step Checklist for Chatbot Data Privacy Compliance – Lorton VA Business Guide",
