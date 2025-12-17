@@ -344,14 +344,14 @@
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#service",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#service",
         "serviceType": "Voice AI Agent Services",
         "name": "Voice AI Agents - 24/7 Phone Answering System",
         "description": "Intelligent AI phone system that handles customer calls with natural, human-like conversations 24/7. Stop losing $3,000-$7,000 monthly to missed calls. Reduce staffing costs by 60% and never miss another customer call.",
         "provider": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/",
+        "url": "https://binaryideas.ai/services/voice-ai-agents/",
         "category": "AI Phone System",
         "audience": {
           "@type": "BusinessAudience",
@@ -461,7 +461,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/"
+          "url": "https://binaryideas.ai/services/voice-ai-agents/"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -535,18 +535,18 @@
       },
       {
         "@type": "Product",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#product",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#product",
         "name": "Voice AI Agent - Intelligent Phone System",
         "description": "24/7 AI-powered phone answering system that handles customer calls with natural, human-like conversations. Reduces staffing costs by 60% while capturing every call opportunity.",
         "brand": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "category": "Business Phone System",
         "offers": {
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/",
+          "url": "https://binaryideas.ai/services/voice-ai-agents/",
           "description": "Custom pricing based on call volume and business requirements"
         },
         "aggregateRating": {
@@ -558,47 +558,47 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#webpage",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#webpage",
+        "url": "https://binaryideas.ai/services/voice-ai-agents/",
         "name": "Voice AI Agents - Stop Losing $3,000-$7,000 Monthly to Missed Calls | Binary Ideas AI",
         "description": "24/7 AI phone answering system for Northern Virginia businesses. Reduce staffing costs by 60%, never miss a call, and capture every opportunity. Natural, human-like conversations.",
         "isPartOf": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+          "@id": "https://binaryideas.ai/#website"
         },
         "about": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#service"
+          "@id": "https://binaryideas.ai/services/voice-ai-agents/#service"
         },
         "breadcrumb": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#breadcrumb"
+          "@id": "https://binaryideas.ai/services/voice-ai-agents/#breadcrumb"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#breadcrumb",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://binary-ideas-ai-vibe-website.netlify.app/"
+            "item": "https://binaryideas.ai/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Services",
-            "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/"
+            "item": "https://binaryideas.ai/services/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Voice AI Agents",
-            "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/"
+            "item": "https://binaryideas.ai/services/voice-ai-agents/"
           }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#faq",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -644,7 +644,7 @@
       },
       {
         "@type": "HowTo",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#howto",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#howto",
         "name": "How to Implement Voice AI Agents for Your Business",
         "description": "Four simple steps to implement a Voice AI Agent that captures every call 24/7",
         "totalTime": "P28D",
@@ -659,34 +659,34 @@
             "position": 1,
             "name": "Free 30-Minute Call Analysis",
             "text": "We analyze your current call volume, identify exactly where you're losing money from missed calls, and show you the ROI. No sales pitch, no pressure—just a clear picture of what's happening and what's possible.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#step1"
+            "url": "https://binaryideas.ai/services/voice-ai-agents/#step1"
           },
           {
             "@type": "HowToStep",
             "position": 2,
             "name": "Custom Voice AI Design (Not Cookie-Cutter)",
             "text": "We learn your business inside and out—your services, pricing, policies, FAQs, and personality. Then we train your AI to sound like YOUR business and handle YOUR specific call scenarios. No generic scripts. No robotic responses.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#step2"
+            "url": "https://binaryideas.ai/services/voice-ai-agents/#step2"
           },
           {
             "@type": "HowToStep",
             "position": 3,
             "name": "We Handle All Technical Setup",
             "text": "We integrate with your existing phone system, CRM, and calendar. We test everything. We ensure it sounds completely human. You don't need any technical knowledge—you just keep running your business.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#step3"
+            "url": "https://binaryideas.ai/services/voice-ai-agents/#step3"
           },
           {
             "@type": "HowToStep",
             "position": 4,
             "name": "Watch It Capture Every Call (While We Monitor)",
             "text": "Your Voice AI starts answering 24/7. It schedules appointments, answers questions, qualifies leads, and routes urgent calls to you—all while you sleep, serve customers, or actually enjoy your weekend.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#step4"
+            "url": "https://binaryideas.ai/services/voice-ai-agents/#step4"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#usecases",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#usecases",
         "name": "Voice AI Agent Use Cases",
         "description": "Industry-specific applications of Voice AI Agents with measurable results",
         "itemListElement": [
@@ -699,7 +699,7 @@
               "description": "Perfect for Northern Virginia medical practices, our Voice AI Agents can handle appointment scheduling, insurance verification, and patient inquiries while maintaining HIPAA compliance.",
               "serviceType": "Healthcare AI Phone System",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 {
@@ -727,7 +727,7 @@
               "description": "Manage table reservations, special requests, and customer inquiries efficiently. Your AI agent can check availability, take reservations, and even handle cancellations or modifications.",
               "serviceType": "Restaurant AI Phone System",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 {
@@ -754,7 +754,7 @@
               "description": "Handle product questions, order status inquiries, and general customer service requests with intelligent responses that resolve issues quickly and professionally.",
               "serviceType": "Customer Service AI Phone System",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 {
@@ -786,7 +786,7 @@
               "description": "Qualify potential customers by asking the right questions, gathering contact information, and determining their level of interest before transferring to your sales team.",
               "serviceType": "Sales AI Phone System",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 {
@@ -815,7 +815,7 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#benefits",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#benefits",
         "name": "Voice AI Agent Benefits",
         "description": "Key benefits of implementing Voice AI Agents for your business",
         "itemListElement": [
@@ -847,10 +847,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "@id": "https://binaryideas.ai/#organization",
         "name": "Binary Ideas AI",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
-        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "url": "https://binaryideas.ai",
+        "logo": "https://binaryideas.ai/logo.png",
         "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Custom Voice AI Agents that stop businesses from losing $3,000-$7,000 monthly to missed calls.",
         "telephone": "+1-703-123-4567",
         "address": {
@@ -870,16 +870,16 @@
       },
       {
         "@type": "Offer",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/#freeconsultation",
+        "@id": "https://binaryideas.ai/services/voice-ai-agents/#freeconsultation",
         "name": "Free 30-Minute Call Analysis",
         "description": "Free audit showing your monthly call loss, the dollar value of those missed opportunities, and exactly which hours/days you're bleeding the most revenue.",
         "price": "0",
         "priceCurrency": "USD",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/voice-ai-agents/",
+        "url": "https://binaryideas.ai/services/voice-ai-agents/",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
         "seller": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "itemOffered": {
           "@type": "Service",

@@ -353,14 +353,14 @@
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#service",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#service",
         "serviceType": "Lead Generation AI Services",
         "name": "Lead Generation AI - Intelligent Lead Qualification & Scoring",
         "description": "AI-powered lead generation system that automatically captures, qualifies, and routes high-intent prospects. Stop wasting $3,000-$7,000 monthly on unqualified leads. Reduce cost per qualified lead by 60-80% and increase sales productivity 2.5-3.5X.",
         "provider": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "url": "https://binaryideas.ai/services/lead-generation-ai/",
         "category": "AI Lead Generation",
         "audience": {
           "@type": "BusinessAudience",
@@ -386,7 +386,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/"
+          "url": "https://binaryideas.ai/services/lead-generation-ai/"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -451,16 +451,16 @@
       },
       {
         "@type": "Product",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#product",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#product",
         "name": "Lead Generation AI - Smart Lead Qualification System",
         "description": "AI-powered system that captures, scores, and routes high-quality leads automatically. Reduce wasted ad spend by 60-80% and increase sales productivity 2.5-3.5X with intelligent lead qualification.",
-        "brand": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization" },
+        "brand": { "@id": "https://binaryideas.ai/#organization" },
         "category": "Marketing Automation Software",
         "offers": {
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+          "url": "https://binaryideas.ai/services/lead-generation-ai/",
           "description": "Custom pricing based on lead volume and business requirements"
         },
         "aggregateRating": {
@@ -472,26 +472,26 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#webpage",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#webpage",
+        "url": "https://binaryideas.ai/services/lead-generation-ai/",
         "name": "Lead Generation AI - Stop Wasting Money on Unqualified Leads | Binary Ideas AI",
         "description": "AI-powered lead qualification for Northern Virginia businesses. Reduce cost per qualified lead by 60-80%, increase sales productivity 2.5-3.5X, and generate $5,000-$20,000+ additional monthly revenue.",
-        "isPartOf": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website" },
-        "about": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#service" },
-        "breadcrumb": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#breadcrumb" }
+        "isPartOf": { "@id": "https://binaryideas.ai/#website" },
+        "about": { "@id": "https://binaryideas.ai/services/lead-generation-ai/#service" },
+        "breadcrumb": { "@id": "https://binaryideas.ai/services/lead-generation-ai/#breadcrumb" }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#breadcrumb",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
-          { "@type": "ListItem", "position": 3, "name": "Lead Generation AI", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binaryideas.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binaryideas.ai/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Lead Generation AI", "item": "https://binaryideas.ai/services/lead-generation-ai/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#faq",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -545,7 +545,7 @@
       },
       {
         "@type": "HowTo",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#howto",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#howto",
         "name": "How to Implement Lead Generation AI",
         "description": "Four simple steps to transform your lead quality and sales productivity",
         "totalTime": "P21D",
@@ -556,34 +556,34 @@
             "position": 1,
             "name": "Free 30-Minute Lead Quality Audit",
             "text": "We analyze your current lead sources, cost per lead, conversion rates, and sales process to show you exactly where you're losing money on unqualified prospects. No sales pitch—just honest data on where you stand and what's possible.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step1"
+            "url": "https://binaryideas.ai/services/lead-generation-ai/#step1"
           },
           {
             "@type": "HowToStep",
             "position": 2,
             "name": "We Build & Install Your Custom AI Qualifier",
             "text": "We define your ideal customer profile together (budget, timeline, needs, authority), then train the AI to recognize those signals in incoming leads. We integrate with your existing CRM, marketing tools, and lead sources—Google Ads, Facebook, website forms, landing pages—no rebuild needed.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step2"
+            "url": "https://binaryideas.ai/services/lead-generation-ai/#step2"
           },
           {
             "@type": "HowToStep",
             "position": 3,
             "name": "Watch Lead Quality Soar & Costs Plummet",
             "text": "Your AI starts qualifying every lead instantly—asking the right questions, scoring based on buying signals, routing hot prospects to sales in real-time, and filtering out time-wasters automatically. Your team only talks to ready-to-buy prospects.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step3"
+            "url": "https://binaryideas.ai/services/lead-generation-ai/#step3"
           },
           {
             "@type": "HowToStep",
             "position": 4,
             "name": "Continuous Optimization & Support",
             "text": "We monitor performance, analyze conversion data, and continuously refine your qualification criteria and scoring algorithms. As your business evolves, your Lead Generation AI evolves with you—getting smarter and more accurate every week.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#step4"
+            "url": "https://binaryideas.ai/services/lead-generation-ai/#step4"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#casestudies",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#casestudies",
         "name": "Lead Generation AI Case Studies",
         "description": "Real results from Northern Virginia businesses using Lead Generation AI",
         "itemListElement": [
@@ -651,7 +651,7 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#benefits",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#benefits",
         "name": "Lead Generation AI Benefits",
         "description": "Key benefits of implementing Lead Generation AI",
         "itemListElement": [
@@ -683,10 +683,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "@id": "https://binaryideas.ai/#organization",
         "name": "Binary Ideas AI",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
-        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "url": "https://binaryideas.ai",
+        "logo": "https://binaryideas.ai/logo.png",
         "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Custom Lead Generation AI that helps businesses stop wasting $3,000-$7,000 monthly on unqualified leads.",
         "telephone": "+1-703-690-9726",
         "address": {
@@ -703,15 +703,15 @@
       },
       {
         "@type": "Offer",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/#freeconsultation",
+        "@id": "https://binaryideas.ai/services/lead-generation-ai/#freeconsultation",
         "name": "Free Lead Quality Audit",
         "description": "Free 30-minute audit analyzing your current lead sources, cost per lead, conversion rates, and sales process. Identify exactly where you're losing money on unqualified prospects.",
         "price": "0",
         "priceCurrency": "USD",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/lead-generation-ai/",
+        "url": "https://binaryideas.ai/services/lead-generation-ai/",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
-        "seller": { "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization" },
+        "seller": { "@id": "https://binaryideas.ai/#organization" },
         "itemOffered": {
           "@type": "Service",
           "name": "Lead Quality Analysis",

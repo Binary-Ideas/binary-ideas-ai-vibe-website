@@ -352,14 +352,14 @@
     "@graph": [
       {
         "@type": "ProfessionalService",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#service",
+        "@id": "https://binaryideas.ai/services/training-agents/#service",
         "serviceType": "Custom AI Development and Training Services",
         "name": "Training Agents - Custom AI Built for Your Business",
         "description": "Custom AI development services for businesses with unique workflows. We build and train specialized AI agents for your specific industry, processes, and business rules. Reduce operational costs by 40-70% and save $50,000-$200,000 annually.",
         "provider": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/",
+        "url": "https://binaryideas.ai/services/training-agents/",
         "category": "Custom AI Development",
         "audience": {
           "@type": "BusinessAudience",
@@ -385,7 +385,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/"
+          "url": "https://binaryideas.ai/services/training-agents/"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -440,22 +440,22 @@
           { "@type": "QuantitativeValue", "name": "Efficiency Multiplier", "minValue": "3", "maxValue": "5", "unitText": "X" },
           { "@type": "Duration", "name": "Development Time", "duration": "P8W" }
         ],
-        "termsOfService": "https://binary-ideas-ai-vibe-website.netlify.app/terms"
+        "termsOfService": "https://binaryideas.ai/terms"
       },
       {
         "@type": "Product",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#product",
+        "@id": "https://binaryideas.ai/services/training-agents/#product",
         "name": "Custom Training Agents - Bespoke AI Development",
         "description": "Fully custom AI agents built and trained specifically for your unique business workflows, industry requirements, and operational processes. Unlike off-the-shelf solutions, these adapt to your business—not the other way around.",
         "brand": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "category": "Enterprise AI Software Development",
         "offers": {
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "availability": "https://schema.org/PreOrder",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/",
+          "url": "https://binaryideas.ai/services/training-agents/",
           "description": "Custom pricing based on workflow complexity and business requirements"
         },
         "aggregateRating": {
@@ -467,32 +467,32 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#webpage",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/",
+        "@id": "https://binaryideas.ai/services/training-agents/#webpage",
+        "url": "https://binaryideas.ai/services/training-agents/",
         "name": "Custom Training Agents - AI Built for Your Unique Business | Binary Ideas AI",
         "description": "Custom AI development for Northern Virginia businesses with unique workflows. Reduce operational costs 40-70%, save $50,000-$200,000 annually, and automate complex processes generic software can't handle.",
         "isPartOf": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+          "@id": "https://binaryideas.ai/#website"
         },
         "about": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#service"
+          "@id": "https://binaryideas.ai/services/training-agents/#service"
         },
         "breadcrumb": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#breadcrumb"
+          "@id": "https://binaryideas.ai/services/training-agents/#breadcrumb"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#breadcrumb",
+        "@id": "https://binaryideas.ai/services/training-agents/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
-          { "@type": "ListItem", "position": 3, "name": "Training Agents", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binaryideas.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binaryideas.ai/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Training Agents", "item": "https://binaryideas.ai/services/training-agents/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#faq",
+        "@id": "https://binaryideas.ai/services/training-agents/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -562,7 +562,7 @@
       },
       {
         "@type": "HowTo",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#howto",
+        "@id": "https://binaryideas.ai/services/training-agents/#howto",
         "name": "How to Implement Custom Training Agents",
         "description": "Three-step process to build and deploy custom AI for your unique business workflows",
         "totalTime": "P8W",
@@ -577,27 +577,27 @@
             "position": 1,
             "name": "Free 30-Minute Workflow Audit",
             "text": "We analyze your current manual processes, identify automation opportunities, and show you exactly where money is being wasted on work that AI could handle. We'll assess complexity, estimate ROI, and determine if custom AI makes sense for your specific situation—no sales pressure, just honest analysis.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#step1"
+            "url": "https://binaryideas.ai/services/training-agents/#step1"
           },
           {
             "@type": "HowToStep",
             "position": 2,
             "name": "We Build Your Custom AI Agent",
             "text": "We map your workflows in detail, define your business rules and requirements, then build AI models specifically trained for your industry and workflows. We integrate seamlessly with your existing systems (no rebuild needed), test thoroughly with real scenarios, and launch with your team's feedback built in.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#step2"
+            "url": "https://binaryideas.ai/services/training-agents/#step2"
           },
           {
             "@type": "HowToStep",
             "position": 3,
             "name": "Watch Efficiency Soar & Costs Plummet",
             "text": "Your custom AI starts handling routine work automatically—making decisions based on your business logic, coordinating across multiple systems, and learning from every interaction. Your team focuses on strategic work while AI handles repetitive tasks, and you track the impact with detailed performance analytics.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#step3"
+            "url": "https://binaryideas.ai/services/training-agents/#step3"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#usecases",
+        "@id": "https://binaryideas.ai/services/training-agents/#usecases",
         "name": "Custom Training Agent Use Cases",
         "description": "Industry-specific applications of custom AI agents with measurable ROI",
         "itemListElement": [
@@ -610,7 +610,7 @@
               "description": "Custom AI agents that handle specialized processes, compliance requirements, and industry-specific workflows that off-the-shelf solutions can't address. Medical billing codes, legal document processing, construction sequencing, manufacturing quality control, and more.",
               "serviceType": "Custom Industry AI Development",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Task Processing Time Reduction", "minValue": "60", "maxValue": "80", "unitText": "PERCENT" },
@@ -628,7 +628,7 @@
               "description": "Automate intricate multi-step processes that involve decision-making, data analysis, and coordination between multiple systems. AI learns your decision logic and applies it consistently for 'it depends' scenarios requiring judgment.",
               "serviceType": "Complex Process Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Workflow Speed Increase", "minValue": "70", "maxValue": "90", "unitText": "PERCENT" },
@@ -646,7 +646,7 @@
               "description": "AI agents that process, analyze, and extract insights from large volumes of data specific to your business. Automatically identify patterns, flag anomalies, generate reports, and provide intelligence for faster decision-making.",
               "serviceType": "Custom Data Analysis Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Analysis Speed Multiplier", "minValue": "5", "maxValue": "10", "unitText": "X" },
@@ -664,7 +664,7 @@
               "description": "AI agents that work seamlessly with your existing software ecosystem, creating custom integrations that connect disparate systems and automate data flow between different business applications. No more manual copying, no more sync errors, no more data silos.",
               "serviceType": "Custom Integration Development",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Weekly Time Saved on Data Entry", "minValue": "15", "maxValue": "30", "unitText": "HOUR" },
@@ -677,7 +677,7 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#benefits",
+        "@id": "https://binaryideas.ai/services/training-agents/#benefits",
         "name": "Custom Training Agent Benefits",
         "description": "Key advantages of custom AI development over off-the-shelf solutions",
         "itemListElement": [
@@ -709,10 +709,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "@id": "https://binaryideas.ai/#organization",
         "name": "Binary Ideas AI",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
-        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "url": "https://binaryideas.ai",
+        "logo": "https://binaryideas.ai/logo.png",
         "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Custom Training Agents that help businesses stop wasting $50,000-$200,000 annually on manual processes and ill-fitting generic software.",
         "telephone": "+1-703-690-9726",
         "address": {
@@ -741,16 +741,16 @@
       },
       {
         "@type": "Offer",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/#freeconsultation",
+        "@id": "https://binaryideas.ai/services/training-agents/#freeconsultation",
         "name": "Free AI Workflow Audit",
         "description": "Free 30-minute workflow analysis identifying where manual processes are costing you money and how custom AI can eliminate expensive, repetitive work. No pressure, no pitch—just honest analysis.",
         "price": "0",
         "priceCurrency": "USD",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/training-agents/",
+        "url": "https://binaryideas.ai/services/training-agents/",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
         "seller": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "itemOffered": {
           "@type": "Service",

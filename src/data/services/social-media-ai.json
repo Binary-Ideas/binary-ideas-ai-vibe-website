@@ -349,14 +349,14 @@
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#service",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#service",
         "serviceType": "Social Media AI Management Services",
         "name": "Social Media AI - Automated Content Creation & Management",
         "description": "AI-powered social media management that creates, schedules, and posts content automatically across all platforms. Stop losing $5,000-$15,000 monthly from inactive profiles. Save 15+ hours per week and increase engagement by 50-150%.",
         "provider": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "url": "https://binaryideas.ai/services/social-media-ai/",
         "category": "Social Media Marketing Automation",
         "audience": {
           "@type": "BusinessAudience",
@@ -382,7 +382,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/"
+          "url": "https://binaryideas.ai/services/social-media-ai/"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -447,18 +447,18 @@
       },
       {
         "@type": "Product",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#product",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#product",
         "name": "Social Media AI - Automated Social Media Management",
         "description": "AI-powered social media automation that creates, schedules, and posts content across all platforms. Save 15+ hours weekly, increase engagement by 50-150%, and never go dark again.",
         "brand": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "category": "Social Media Management Software",
         "offers": {
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+          "url": "https://binaryideas.ai/services/social-media-ai/",
           "description": "Month-to-month pricing with no long-term contracts",
           "priceSpecification": {
             "@type": "UnitPriceSpecification",
@@ -478,32 +478,32 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#webpage",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#webpage",
+        "url": "https://binaryideas.ai/services/social-media-ai/",
         "name": "Social Media AI - Stop Losing Customers to Inactive Profiles | Binary Ideas AI",
         "description": "AI-powered social media automation for Northern Virginia businesses. Save 15+ hours per week, increase engagement by 50-150%, and stop losing $5,000-$15,000 monthly to inactive social profiles.",
         "isPartOf": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+          "@id": "https://binaryideas.ai/#website"
         },
         "about": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#service"
+          "@id": "https://binaryideas.ai/services/social-media-ai/#service"
         },
         "breadcrumb": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#breadcrumb"
+          "@id": "https://binaryideas.ai/services/social-media-ai/#breadcrumb"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#breadcrumb",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
-          { "@type": "ListItem", "position": 3, "name": "Social Media AI", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binaryideas.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binaryideas.ai/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Social Media AI", "item": "https://binaryideas.ai/services/social-media-ai/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#faq",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -573,7 +573,7 @@
       },
       {
         "@type": "HowTo",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#howto",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#howto",
         "name": "How to Get Started with Social Media AI",
         "description": "Four simple steps to automate your social media and reclaim 15+ hours per week",
         "totalTime": "P10D",
@@ -588,34 +588,34 @@
             "position": 1,
             "name": "Free 30-Minute Social Media Audit",
             "text": "We analyze your current social media presence (or lack thereof), identify where you're losing customers due to inactive profiles, and show you exactly what AI-powered social media can do for YOUR business. No sales pitch—just honest feedback.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step1"
+            "url": "https://binaryideas.ai/services/social-media-ai/#step1"
           },
           {
             "@type": "HowToStep",
             "position": 2,
             "name": "We Train Your AI on Your Brand Voice",
             "text": "We analyze your existing content, website, and communications to understand your brand voice. Then we train the AI to create content that sounds exactly like YOU—not generic robot posts. You review samples, provide feedback, and we fine-tune until it's perfect.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step2"
+            "url": "https://binaryideas.ai/services/social-media-ai/#step2"
           },
           {
             "@type": "HowToStep",
             "position": 3,
             "name": "We Connect & Launch Your AI",
             "text": "We connect to all your social media accounts, set up your content calendar, configure engagement rules, and launch. From day one, your AI starts creating content, scheduling posts, monitoring comments, and engaging with your audience—all automatically.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step3"
+            "url": "https://binaryideas.ai/services/social-media-ai/#step3"
           },
           {
             "@type": "HowToStep",
             "position": 4,
             "name": "Watch Engagement Soar (While We Monitor)",
             "text": "Your AI creates and posts content 3-7X per week across all your platforms. It engages with comments and messages automatically, tracks performance analytics, and continuously optimizes for better results. You review performance dashboards weekly or let it run completely on autopilot.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#step4"
+            "url": "https://binaryideas.ai/services/social-media-ai/#step4"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#usecases",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#usecases",
         "name": "Social Media AI Use Cases",
         "description": "Industry-specific applications of Social Media AI with measurable results",
         "itemListElement": [
@@ -628,7 +628,7 @@
               "description": "AI automatically creates posts for new listings with professional property descriptions, generates market update content, schedules open house announcements, shares testimonials, and maintains your personal brand presence.",
               "serviceType": "Real Estate Social Media Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Listing Visibility Increase", "minValue": "3", "maxValue": "5", "unitText": "X" },
@@ -645,7 +645,7 @@
               "description": "AI creates before-and-after project showcases, shares customer testimonials, posts seasonal home maintenance tips, highlights your expertise with educational content, and maintains active engagement with your local community.",
               "serviceType": "Contractor Social Media Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Close Rate Increase", "minValue": "20", "maxValue": "40", "unitText": "PERCENT" },
@@ -662,7 +662,7 @@
               "description": "AI creates patient education content, shares health tips, promotes new services, highlights staff expertise, manages appointment reminders, responds to inquiry messages instantly, and maintains HIPAA-compliant engagement.",
               "serviceType": "Healthcare Social Media Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": {
                 "@type": "Text",
@@ -679,7 +679,7 @@
               "description": "AI creates daily food showcases, promotes specials and events, shares customer reviews, highlights behind-the-scenes content, responds to reservation inquiries instantly, manages takeout/delivery promotions, and optimizes content for maximum local reach.",
               "serviceType": "Restaurant Social Media Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 { "@type": "QuantitativeValue", "name": "Additional Weekly Covers", "minValue": "20", "maxValue": "50", "unitText": "covers" },
@@ -692,7 +692,7 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#benefits",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#benefits",
         "name": "Social Media AI Benefits",
         "description": "Key benefits of implementing Social Media AI",
         "itemListElement": [
@@ -724,10 +724,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "@id": "https://binaryideas.ai/#organization",
         "name": "Binary Ideas AI",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
-        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "url": "https://binaryideas.ai",
+        "logo": "https://binaryideas.ai/logo.png",
         "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Social Media AI that helps businesses stop losing $5,000-$15,000 monthly from inactive social profiles.",
         "telephone": "+1-703-690-9726",
         "address": {
@@ -748,16 +748,16 @@
       },
       {
         "@type": "Offer",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/#freeconsultation",
+        "@id": "https://binaryideas.ai/services/social-media-ai/#freeconsultation",
         "name": "Free Social Media Audit",
         "description": "Free 30-minute audit analyzing your current social media presence, identifying where you're losing customers, and showing what AI-powered social media can do for your business.",
         "price": "0",
         "priceCurrency": "USD",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/social-media-ai/",
+        "url": "https://binaryideas.ai/services/social-media-ai/",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
         "seller": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "itemOffered": {
           "@type": "Service",

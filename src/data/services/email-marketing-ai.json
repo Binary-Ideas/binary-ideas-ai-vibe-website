@@ -344,14 +344,14 @@
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#service",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#service",
         "serviceType": "AI-Powered Email Marketing Automation",
         "name": "Email Marketing AI - Automated Personalization & Optimization",
         "description": "AI-powered email marketing that personalizes every message, optimizes send times, and continuously tests what works. Stop losing $5,000-$8,000 monthly to ineffective campaigns. Achieve 40% higher open rates, save 10+ hours weekly, and get 3-5X better ROI.",
         "provider": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/",
+        "url": "https://binaryideas.ai/services/email-marketing-ai/",
         "category": "Email Marketing Automation",
         "audience": {
           "@type": "BusinessAudience",
@@ -377,7 +377,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/"
+          "url": "https://binaryideas.ai/services/email-marketing-ai/"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -478,18 +478,18 @@
       },
       {
         "@type": "Product",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#product",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#product",
         "name": "Email Marketing AI - Automated Campaign Optimization",
         "description": "AI-powered email marketing automation that personalizes content, optimizes send times, and continuously improves performance. Achieve 40% higher open rates, 3-5X better ROI, and save 10+ hours weekly.",
         "brand": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "category": "Marketing Automation Software",
         "offers": {
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/",
+          "url": "https://binaryideas.ai/services/email-marketing-ai/",
           "description": "Monthly pricing based on list size and campaign volume"
         },
         "aggregateRating": {
@@ -501,32 +501,32 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#webpage",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#webpage",
+        "url": "https://binaryideas.ai/services/email-marketing-ai/",
         "name": "Email Marketing AI - Stop Sending Emails Into a Black Hole | Binary Ideas AI",
         "description": "AI-powered email marketing for Northern Virginia businesses. Achieve 40% higher open rates, 3-5X better ROI, save 10+ hours weekly, and generate $5,000-$8,000 additional monthly revenue.",
         "isPartOf": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#website"
+          "@id": "https://binaryideas.ai/#website"
         },
         "about": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#service"
+          "@id": "https://binaryideas.ai/services/email-marketing-ai/#service"
         },
         "breadcrumb": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#breadcrumb"
+          "@id": "https://binaryideas.ai/services/email-marketing-ai/#breadcrumb"
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#breadcrumb",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binary-ideas-ai-vibe-website.netlify.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/" },
-          { "@type": "ListItem", "position": 3, "name": "Email Marketing AI", "item": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://binaryideas.ai/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://binaryideas.ai/services/" },
+          { "@type": "ListItem", "position": 3, "name": "Email Marketing AI", "item": "https://binaryideas.ai/services/email-marketing-ai/" }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#faq",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -580,7 +580,7 @@
       },
       {
         "@type": "HowTo",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#howto",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#howto",
         "name": "How to Get Started with Email Marketing AI",
         "description": "Three simple steps to automate and optimize your email marketing campaigns",
         "totalTime": "P4W",
@@ -595,27 +595,27 @@
             "position": 1,
             "name": "Book a 15-Minute Email Marketing Audit",
             "text": "We analyze your current email campaigns, open rates, and subscriber behavior. We show you exactly where you're losing money and which improvements will have the biggest impact on your Northern Virginia business. No sales pitch—just honest advice on whether Email Marketing AI is right for you and what results you can realistically expect.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#step1"
+            "url": "https://binaryideas.ai/services/email-marketing-ai/#step1"
           },
           {
             "@type": "HowToStep",
             "position": 2,
             "name": "We Train Your AI on Your Brand Voice",
             "text": "We connect the AI to your email platform (Mailchimp, Constant Contact, HubSpot, etc.) and train it to write emails that sound like YOU—whether that's friendly and casual, professional and authoritative, or anything in between. We handle everything: segmentation logic, personalization rules, send-time optimization, A/B test setup, and integration with your CRM.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#step2"
+            "url": "https://binaryideas.ai/services/email-marketing-ai/#step2"
           },
           {
             "@type": "HowToStep",
             "position": 3,
             "name": "Watch Your Open Rates and Revenue Climb",
             "text": "Your Email Marketing AI launches campaigns at the perfect time for each subscriber, personalizes content based on their interests and behavior, and continuously tests different approaches to improve performance. All automatically. While you focus on serving customers. You'll get weekly reports showing open rates, click-through rates, conversions, and ROI.",
-            "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#step3"
+            "url": "https://binaryideas.ai/services/email-marketing-ai/#step3"
           }
         ]
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#usecases",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#usecases",
         "name": "Email Marketing AI Use Cases",
         "description": "Campaign types optimized by Email Marketing AI with measurable results",
         "itemListElement": [
@@ -628,7 +628,7 @@
               "description": "AI creates personalized newsletter content based on each subscriber's interests, sending at optimal times for maximum engagement. Perfect for businesses who want to keep subscribers engaged without spending hours writing content every week.",
               "serviceType": "Newsletter Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": [
                 {
@@ -650,7 +650,7 @@
               "description": "Automate lead nurturing sequences that adapt based on subscriber behavior. AI adjusts the sequence based on opens, clicks, and engagement—speeding up for hot leads and slowing down for prospects who need more time.",
               "serviceType": "Lead Nurturing Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": {
                 "@type": "Text",
@@ -667,7 +667,7 @@
               "description": "Build excitement and drive sales for new product launches with AI-optimized email sequences. AI sends launch emails at each subscriber's optimal time, personalizes content based on their interests, and follows up automatically with non-openers.",
               "serviceType": "Product Launch Campaign Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": {
                 "@type": "Text",
@@ -684,7 +684,7 @@
               "description": "Win back inactive subscribers with personalized campaigns that identify the right message and timing to reactivate dormant customers. AI creates personalized re-engagement campaigns based on each subscriber's past behavior and interests.",
               "serviceType": "Re-Engagement Campaign Automation",
               "provider": {
-                "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+                "@id": "https://binaryideas.ai/#organization"
               },
               "serviceOutput": {
                 "@type": "QuantitativeValue",
@@ -699,7 +699,7 @@
       },
       {
         "@type": "ItemList",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#benefits",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#benefits",
         "name": "Email Marketing AI Benefits",
         "description": "Key benefits of implementing AI-powered email marketing",
         "itemListElement": [
@@ -731,10 +731,10 @@
       },
       {
         "@type": "Organization",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization",
+        "@id": "https://binaryideas.ai/#organization",
         "name": "Binary Ideas AI",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app",
-        "logo": "https://binary-ideas-ai-vibe-website.netlify.app/logo.png",
+        "url": "https://binaryideas.ai",
+        "logo": "https://binaryideas.ai/logo.png",
         "description": "Northern Virginia's Premier AI Automation Agency based in Lorton. Email Marketing AI that helps businesses achieve 40% higher open rates and generate $5,000-$8,000 additional monthly revenue.",
         "telephone": "+1-703-690-9726",
         "address": {
@@ -754,16 +754,16 @@
       },
       {
         "@type": "Offer",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#freeconsultation",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#freeconsultation",
         "name": "Free Email Marketing Audit",
         "description": "Free 15-minute audit analyzing your current email campaigns, open rates, and subscriber behavior. No sales pitch—just honest advice on whether Email Marketing AI is right for you.",
         "price": "0",
         "priceCurrency": "USD",
-        "url": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/",
+        "url": "https://binaryideas.ai/services/email-marketing-ai/",
         "availability": "https://schema.org/InStock",
         "validFrom": "2024-01-01",
         "seller": {
-          "@id": "https://binary-ideas-ai-vibe-website.netlify.app/#organization"
+          "@id": "https://binaryideas.ai/#organization"
         },
         "itemOffered": {
           "@type": "Service",
@@ -773,7 +773,7 @@
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "https://binary-ideas-ai-vibe-website.netlify.app/services/email-marketing-ai/#software",
+        "@id": "https://binaryideas.ai/services/email-marketing-ai/#software",
         "name": "Email Marketing AI Platform",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Cloud-based",
@@ -795,7 +795,7 @@
           "Performance analytics and insights",
           "Mobile-responsive templates"
         ],
-        "screenshot": "https://binary-ideas-ai-vibe-website.netlify.app/images/email-marketing-dashboard.jpg"
+        "screenshot": "https://binaryideas.ai/images/email-marketing-dashboard.jpg"
       }
     ]
   }
