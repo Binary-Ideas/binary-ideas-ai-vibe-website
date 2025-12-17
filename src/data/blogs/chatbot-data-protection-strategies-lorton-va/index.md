@@ -407,7 +407,7 @@ excerpt: "Learn ten advanced chatbot data protection strategies tailored to Lort
         },
         {
           "@type": "ListItem",
-          "position": 3",
+          "position": 3,
           "name": "Advanced Chatbot Data Protection Strategies",
           "item": "https://binaryideas.ai/chatbot-data-protection-strategies-lorton-va/"
         }
