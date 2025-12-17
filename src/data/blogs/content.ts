@@ -17,6 +17,7 @@ export interface BlogPostFrontmatter {
   categories?: string[];
   excerpt?: string;
   tags?: string[];
+  schema?: Record<string, unknown> | string;
 }
 
 export interface BlogPostContent {
@@ -28,6 +29,7 @@ export interface BlogPostContent {
   slugSegments: string[];
   Page: (props: Record<string, unknown>) => any;
   frontmatter: BlogPostFrontmatter;
+  schema?: Record<string, unknown> | string;
 }
 
 const markdownModules = import.meta.glob<{ default: BlogPostContent['Page']; frontmatter: BlogPostFrontmatter }>(
@@ -85,7 +87,8 @@ export const blogPostsContent: BlogPostContent[] = Object.entries(markdownModule
       tags: normalizedFrontmatter.tags ?? [],
       slugSegments,
       Page: module.default,
-      frontmatter: normalizedFrontmatter
+      frontmatter: normalizedFrontmatter,
+      schema: normalizedFrontmatter.schema
     };
   })
   .sort((a, b) => toTimestamp(b.meta.publishDate) - toTimestamp(a.meta.publishDate));
