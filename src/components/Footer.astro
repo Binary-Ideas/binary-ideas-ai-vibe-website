@@ -4,8 +4,10 @@ interface Props {
   subText?: string;
 }
 
+const currentYear = new Date().getFullYear();
+
 const {
-  mainText = "Binary Ideas AI - Northern Virginia's Premier AI Automation Agency",
+  mainText = `© ${currentYear} Binary Ideas AI - Northern Virginia's Premier AI Automation Agency`,
   subText = "Transforming businesses with intelligent automation"
 } = Astro.props;
 ---
