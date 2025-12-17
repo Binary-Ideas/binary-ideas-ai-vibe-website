@@ -52,6 +52,13 @@ if (!blogEntry && !pageEntry) {
 const meta = pageEntry?.meta ?? { title: '', description: '' };
 const pageTitle = pageEntry?.pageTitle ?? '';
 const Page = pageEntry?.Page;
+const schema = pageEntry?.frontmatter?.schema;
+const schemaJson =
+  typeof schema === 'string'
+    ? schema
+    : schema
+      ? JSON.stringify(schema)
+      : '';
 ---
 
 {blogEntry ? (
@@ -60,6 +67,9 @@ const Page = pageEntry?.Page;
   <BaseLayout title={meta.title} description={meta.description}>
     <div class="bg-white w-full min-h-screen flex flex-col relative overflow-x-hidden">
       <Header />
+      {schemaJson ? (
+        <script type="application/ld+json">{schemaJson}</script>
+      ) : null}
 
       <main class="z-[1] w-full flex-1 relative bg-[#0a0a0f] pt-[97px]">
         <div class="absolute inset-0 pointer-events-none opacity-50 overflow-hidden">

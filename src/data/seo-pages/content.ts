@@ -9,6 +9,7 @@ export interface SeoPageFrontmatter {
   meta: SeoPageMeta;
   pageTitle: string;
   pageCategories?: string[];
+  schema?: Record<string, unknown> | string;
 }
 
 type MarkdownPageComponent = (props: Record<string, unknown>) => any;
@@ -25,6 +26,7 @@ export interface SeoPageContent {
   slugSegments: string[];
   Page: MarkdownPageComponent;
   frontmatter: SeoPageFrontmatter;
+  schema?: Record<string, unknown> | string;
 }
 
 const markdownModules = import.meta.glob<MarkdownPageModule>('./**/*.md', {
@@ -75,7 +77,8 @@ export const seoPagesContent: SeoPageContent[] = Object.entries(markdownModules)
       pageCategories: normalizedFrontmatter.pageCategories,
       slugSegments,
       Page: module.default,
-      frontmatter: normalizedFrontmatter
+      frontmatter: normalizedFrontmatter,
+      schema: normalizedFrontmatter.schema
     };
   }
 );
