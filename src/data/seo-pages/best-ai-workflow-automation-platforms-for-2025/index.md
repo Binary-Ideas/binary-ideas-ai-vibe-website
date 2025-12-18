@@ -99,3 +99,183 @@ Visit <a class="text-[#2b7fff] underline hover:text-[#8dc5ff] transition-colors"
 ## Don't let inefficient processes hold your business back—discover how AI automation can transform your operations and boost productivity!
 
 Book a Complimentary AI Consultation
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://binaryideas.ai/#organization",
+      "name": "Binary Ideas",
+      "alternateName": "Binary Ideas AI Automation Agency",
+      "url": "https://binaryideas.ai",
+      "logo": "https://binaryideas.ai/logo.png",
+      "description": "AI Automation Agency specializing in AI-powered workflow platforms including chatbots, voice receptionists, lead nurturing, outbound calling, and business process automation.",
+      "sameAs": [
+        "https://binaryideas.ai"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "url": "https://binaryideas.ai"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://binaryideas.ai/#service",
+      "name": "AI Workflow Automation Platforms",
+      "description": "Custom AI-powered workflow automation solutions including AI chatbots, 24/7 voice receptionists, lead nurturing automation, outbound AI calling, and business process automation.",
+      "provider": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "serviceType": "AI Automation Services",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Workflow Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Chatbots",
+              "description": "AI chatbots that answer questions instantly across channels, capture leads, and keep messaging consistent."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Voice Receptionists",
+              "description": "24/7 AI voice receptionists that catch every call, book appointments, answer FAQs, and deliver professional always-on experience."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lead Nurturing Automation",
+              "description": "Automated lead nurturing via SMS, email, or calls to keep prospects engaged until they convert."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Outbound AI Calling",
+              "description": "Proactive AI calling to reach prospects, confirm appointments, upsell, or reactivate dormant leads."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Process Automation",
+              "description": "Automation solutions that eliminate repetitive admin tasks, automate scheduling, reminders, and status updates."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025/#webpage",
+      "url": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025",
+      "name": "Best AI Workflow Automation Platforms for 2025",
+      "description": "Discover how Binary Ideas designs AI-powered workflow platforms—chatbots, voice receptionists, lead nurturing, outbound calling, and business process automation—to eliminate bottlenecks and scale faster.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://binaryideas.ai/#website"
+      },
+      "about": {
+        "@id": "https://binaryideas.ai/#service"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025/og-image.jpg"
+      },
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-01-01",
+      "breadcrumb": {
+        "@id": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://binaryideas.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Best AI Workflow Automation Platforms for 2025",
+          "item": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://binaryideas.ai/best-ai-workflow-automation-platforms-for-2025/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An automated process that uses AI to handle customer follow-ups, booking, data entry, and more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 30% rule for AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a task consumes ~30% of your time and is repeatable, automate it—Binary Ideas helps you do exactly that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 7 stages of AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data collection, preparation, model building, training, evaluation, deployment, monitoring. We translate this into solutions that simply work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Example of an AI workflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A system that answers inquiries, schedules jobs, sends reminders, and follows up for reviews—all automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are workflow tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The building blocks of automation—chatbots, CRMs, schedulers—connected into one seamless Binary Ideas system."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://binaryideas.ai/#website",
+      "url": "https://binaryideas.ai",
+      "name": "Binary Ideas",
+      "description": "AI Automation Agency",
+      "publisher": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>

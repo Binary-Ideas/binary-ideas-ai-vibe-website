@@ -152,3 +152,166 @@ At <span class="text-[#2b7fff] font-semibold">Binary Ideas AI Automation Agency<
 ## Don't let inefficient processes hold your business back—discover how AI automation can transform your operations and boost productivity!
 
 Book a Complimentary AI Consultation
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://binaryideas.com/#organization",
+      "name": "Binary Ideas AI Automation Agency",
+      "url": "https://binaryideas.com",
+      "logo": "https://binaryideas.com/logo.png",
+      "description": "AI Automation Agency specializing in lead generation, chatbots, voice agents, and automated workflows for businesses.",
+      "sameAs": [
+        "https://www.facebook.com/binaryideas",
+        "https://www.linkedin.com/company/binaryideas",
+        "https://twitter.com/binaryideas"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://binaryideas.com/lead-generation#service",
+      "name": "AI-Powered Lead Generation Services",
+      "description": "Turn prospects into clients faster with AI-powered lead generation. Capture, qualify, and convert prospects using chatbots, voice agents, smart CRMs, and automated follow-up workflows.",
+      "provider": {
+        "@id": "https://binaryideas.com/#organization"
+      },
+      "serviceType": "Lead Generation",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Lead Generation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Chatbots",
+              "description": "AI chatbots for websites and social media to engage visitors 24/7"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Voice Agents",
+              "description": "AI voice agents that call back missed leads instantly"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Smart CRM Integration",
+              "description": "Smart CRM integration that tracks and scores every lead"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Automated Follow-Up Campaigns",
+              "description": "Automated follow-up campaigns via SMS, email, and social media"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Predictive Analytics",
+              "description": "Predictive analytics to identify which leads are most likely to convert"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://binaryideas.com/lead-generation#webpage",
+      "url": "https://binaryideas.com/lead-generation",
+      "name": "Turn Prospects into Clients Faster with Lead Generation Using AI",
+      "description": "See how Binary Ideas uses AI-powered lead generation to capture, qualify, and convert prospects—covering chatbots, voice agents, smart CRMs, and automated follow-up workflows.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://binaryideas.com/#website"
+      },
+      "about": {
+        "@id": "https://binaryideas.com/lead-generation#service"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://binaryideas.com/images/lead-generation.jpg"
+      },
+      "breadcrumb": {
+        "@id": "https://binaryideas.com/lead-generation#breadcrumb"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://binaryideas.com/#website",
+      "url": "https://binaryideas.com",
+      "name": "Binary Ideas AI Automation Agency",
+      "description": "AI Automation Agency providing lead generation, chatbots, and automated workflows",
+      "publisher": {
+        "@id": "https://binaryideas.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://binaryideas.com/lead-generation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://binaryideas.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Lead Generation",
+          "item": "https://binaryideas.com/lead-generation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://binaryideas.com/lead-generation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you use AI to generate leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AI can capture, qualify, and nurture leads automatically through chatbots, voice agents, smart CRMs, and predictive data models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to use AI to generate construction leads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI voice agents and chatbots can qualify inquiries, ask about project size and budget, and connect hot leads directly to your team. Predictive tools can also identify homeowners likely to need services soon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can lead generation be automated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. From capturing contact info to booking appointments, lead generation using AI is almost entirely automatable. Businesses only step in when a lead is ready to convert."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

@@ -88,3 +88,75 @@ Binary Ideas AI Automation Agency helps providers launch quickly, optimize conti
 
 Book a Complimentary AI Consultation
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Automation in Healthcare: How It's Saving Lives and Transforming Patient Care",
+  "description": "Explore how Binary Ideas deploys AI automation across diagnostics, triage, robotics, admin workflows, and virtual care to reduce burnout, cut costs, and improve patient outcomes.",
+  "author": {
+    "@type": "Organization",
+    "name": "Binary Ideas",
+    "url": "https://binaryideas.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Binary Ideas",
+    "url": "https://binaryideas.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://binaryideas.com/logo.png"
+    }
+  },
+  "datePublished": "2024-01-01",
+  "dateModified": "2024-01-01",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://binaryideas.com/ai-automation-in-healthcare"
+  },
+  "articleSection": "Healthcare Technology",
+  "keywords": [
+    "AI automation in healthcare",
+    "healthcare AI",
+    "medical AI automation",
+    "AI diagnostics",
+    "healthcare automation",
+    "AI in medicine",
+    "healthcare technology",
+    "medical robotics",
+    "predictive analytics healthcare",
+    "virtual healthcare assistants"
+  ],
+  "about": {
+    "@type": "Service",
+    "serviceType": "AI Automation Services for Healthcare",
+    "provider": {
+      "@type": "Organization",
+      "name": "Binary Ideas",
+      "description": "AI Automation Agency specializing in healthcare solutions"
+    },
+    "areaServed": "Worldwide",
+    "description": "AI automation solutions for healthcare including diagnostics, triage, robotics, administrative workflows, and virtual care to reduce costs, improve patient outcomes, and reduce staff burnout.",
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates"
+      }
+    }
+  },
+  "mentions": [
+    {
+      "@type": "Organization",
+      "name": "Mayo Clinic"
+    },
+    {
+      "@type": "Organization",
+      "name": "Mount Sinai Hospital"
+    },
+    {
+      "@type": "Organization",
+      "name": "WHO"
+    }
+  ]
+}
+</script>

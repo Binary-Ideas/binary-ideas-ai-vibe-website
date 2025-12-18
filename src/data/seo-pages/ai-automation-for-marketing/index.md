@@ -129,3 +129,179 @@ Visit <a class="text-[#2b7fff] underline hover:text-[#8dc5ff] transition-colors"
 Book a Complimentary AI Consultation
 
 © 2025 Binary Ideas AI Automation Agency. All Rights Reserved.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://binaryideas.ai/#organization",
+      "name": "Binary Ideas AI Automation Agency",
+      "url": "https://binaryideas.ai",
+      "logo": "https://binaryideas.ai/logo.png",
+      "description": "AI Automation Agency specializing in AI-powered marketing automation, email systems, chatbots, and predictive analytics",
+      "sameAs": [
+        "https://binaryideas.ai"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "url": "https://binaryideas.ai"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://binaryideas.ai/ai-automation-for-marketing/#service",
+      "name": "AI Automation for Marketing",
+      "description": "AI-powered marketing automation services including email marketing, ad campaigns, chatbots, behavior-based customer journeys, and predictive analytics dashboards",
+      "provider": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "areaServed": "Worldwide",
+      "serviceType": "Marketing Automation",
+      "offers": {
+        "@type": "Offer",
+        "description": "Customized AI automation systems for marketing campaigns"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Marketing Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Powered Email Marketing Systems"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Behavior-Based Customer Journeys"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Automated Ad Campaigns"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Chatbots and Virtual Assistants"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Predictive Analytics & Reporting Dashboards"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://binaryideas.ai/ai-automation-for-marketing/#article",
+      "headline": "Boost Your Campaigns with AI Automation for Marketing",
+      "description": "Discover how Binary Ideas AI Automation Agency deploys AI-powered email, ads, chatbots, behavior journeys, and predictive dashboards to deliver 300% higher conversions with lower costs.",
+      "author": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "publisher": {
+        "@id": "https://binaryideas.ai/#organization"
+      },
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://binaryideas.ai/ai-automation-for-marketing"
+      },
+      "image": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnXhSpT8pQTsem6ObnGFB-LfmaHVcHE837n5kpjEpo7HTKERoqTIhrhfzhRgMRbIlYvJFFJB0-IeW1HsGtScYKzoAIPUWIvpOyC9sZhc7S4Grv6KBuTI1rFBOe_17AHR_2fSBa1A?key=NO8wwQmB6tXAQqBv-crxdarM"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://binaryideas.ai/ai-automation-for-marketing/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of businesses can benefit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any business running digital campaigns—e-commerce, real estate, healthcare, SaaS, and more. We tailor every build to your model."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI automation expensive to implement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not with Binary Ideas. Our packages are affordable, scalable, and designed to deliver fast ROI through improved efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will AI replace human marketers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. AI supports human creativity by handling repetitive tasks and serving up insights. Your team focuses on strategy and storytelling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit https://binaryideas.ai to schedule a free consultation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://binaryideas.ai/ai-automation-for-marketing",
+      "url": "https://binaryideas.ai/ai-automation-for-marketing",
+      "name": "Boost Your Campaigns with AI Automation for Marketing - Binary Ideas | AI Automation Agency",
+      "description": "Discover how Binary Ideas AI Automation Agency deploys AI-powered email, ads, chatbots, behavior journeys, and predictive dashboards to deliver 300% higher conversions with lower costs.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://binaryideas.ai/#website"
+      },
+      "about": {
+        "@id": "https://binaryideas.ai/ai-automation-for-marketing/#service"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnXhSpT8pQTsem6ObnGFB-LfmaHVcHE837n5kpjEpo7HTKERoqTIhrhfzhRgMRbIlYvJFFJB0-IeW1HsGtScYKzoAIPUWIvpOyC9sZhc7S4Grv6KBuTI1rFBOe_17AHR_2fSBa1A?key=NO8wwQmB6tXAQqBv-crxdarM"
+      },
+      "breadcrumb": {
+        "@id": "https://binaryideas.ai/ai-automation-for-marketing/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://binaryideas.ai/ai-automation-for-marketing/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://binaryideas.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AI Automation for Marketing",
+          "item": "https://binaryideas.ai/ai-automation-for-marketing"
+        }
+      ]
+    }
+  ]
+}
+</script>
