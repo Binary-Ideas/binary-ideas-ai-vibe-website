@@ -86,7 +86,10 @@ const hasContent = cards.length === 3;
                 {card.label}
               </span>
             </div>
-            <p class="text-base leading-relaxed text-[#d0d5db]">{card.text}</p>
+            <p
+              class="text-base leading-relaxed text-[#d0d5db]"
+              set:html={card.text}
+            ></p>
           </article>
         ))}
       </div>
